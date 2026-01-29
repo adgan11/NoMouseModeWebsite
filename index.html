@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>No Mouse Mode - Control Your Mac Without a Mouse | Keyboard Cursor Control for macOS</title>
+    <meta name="title" content="No Mouse Mode - Control Your Mac Without a Mouse | Keyboard Cursor Control for macOS">
+    <meta name="description" content="No Mouse Mode is a macOS app that lets you control your cursor with keyboard keys. Move, click, scroll, and drag using WASD keys. Perfect for when your mouse breaks, for accessibility, or for keyboard-first workflows. $6.99 one-time purchase.">
+    <meta name="keywords" content="mac app, macOS app, keyboard cursor control, mouse alternative, no mouse, control mac without mouse, keyboard mouse, WASD cursor, accessibility mac app, mouse keys mac, cursor control keyboard, mac productivity app, trackpad alternative, broken mouse solution, keyboard navigation mac">
+    <meta name="author" content="No Mouse Mode">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nomousemode.vercel.app/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nomousemode.vercel.app/">
+    <meta property="og:title" content="No Mouse Mode - Control Your Mac Without a Mouse">
+    <meta property="og:description" content="Navigate your entire Mac using just your keyboard. Move the cursor, click, scroll, and drag — all without lifting your hands from the keys. macOS app for $6.99.">
+    <meta property="og:image" content="https://nomousemode.vercel.app/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="No Mouse Mode">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://nomousemode.vercel.app/">
+    <meta name="twitter:title" content="No Mouse Mode - Control Your Mac Without a Mouse">
+    <meta name="twitter:description" content="Navigate your entire Mac using just your keyboard. Move the cursor, click, scroll, and drag — all without lifting your hands from the keys.">
+    <meta name="twitter:image" content="https://nomousemode.vercel.app/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <!-- Additional SEO -->
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Context">
+    <meta name="theme-color" content="#8B5CF6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="application-name" content="No Mouse Mode">
+
+    <!-- Structured Data for Search Engines and LLMs -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "No Mouse Mode",
+        "operatingSystem": "macOS 13.0+",
+        "applicationCategory": "UtilitiesApplication",
+        "applicationSubCategory": "Accessibility",
+        "description": "No Mouse Mode is a macOS utility app that allows you to control your mouse cursor using keyboard keys. Navigate, click, scroll, and drag without ever touching your mouse or trackpad. Uses WASD keys for cursor movement, Space for click, and arrow keys for scrolling.",
+        "url": "https://nomousemode.vercel.app/",
+        "downloadUrl": "https://shabgagan.gumroad.com/l/no-mouse-mode",
+        "screenshot": "https://nomousemode.vercel.app/settings-panel.png",
+        "softwareVersion": "1.0",
+        "datePublished": "2024-01-01",
+        "offers": {
+            "@type": "Offer",
+            "price": "6.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-12-31"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "ratingCount": "1"
+        },
+        "featureList": [
+            "WASD keyboard cursor movement",
+            "Space bar for left click",
+            "Return key for right click",
+            "Arrow keys for smooth scrolling",
+            "Shift key for speed boost",
+            "Global hotkey Cmd+Shift+M to toggle",
+            "Fully customizable key bindings",
+            "Menu bar integration",
+            "Adjustable cursor speed",
+            "Mouse acceleration support",
+            "Drag and drop support",
+            "Works across all macOS spaces"
+        ],
+        "softwareRequirements": "macOS 13.0 (Ventura) or later",
+        "creator": {
+            "@type": "Organization",
+            "name": "No Mouse Mode",
+            "url": "https://nomousemode.vercel.app/"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How do I control my Mac cursor without a mouse?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "With No Mouse Mode, you can control your Mac cursor using keyboard keys. Use WASD to move the cursor, Space to click, Return for right-click, and arrow keys to scroll. Toggle it on/off with Cmd+Shift+M."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What keys does No Mouse Mode use?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "By default: W (up), A (left), S (down), D (right) for cursor movement, Space for left click, Return for right click, Arrow keys for scrolling, and Shift for speed boost. All keys are fully customizable."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does No Mouse Mode work with macOS Sonoma?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, No Mouse Mode works with macOS 13.0 (Ventura) and later, including macOS Sonoma and Sequoia."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is No Mouse Mode a one-time purchase or subscription?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No Mouse Mode is a one-time purchase of $6.99. You get the app forever with free updates included."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I customize the keyboard shortcuts in No Mouse Mode?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, No Mouse Mode is fully customizable. You can remap any key for cursor movement, clicking, scrolling, and speed boost. You can also adjust cursor speed, scroll speed, and enable or disable acceleration."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "No Mouse Mode - Keyboard Cursor Control for Mac",
+        "description": "Control your Mac cursor with keyboard keys. A macOS app for mouse-free navigation using WASD keys.",
+        "url": "https://nomousemode.vercel.app/",
+        "inLanguage": "en-US",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "No Mouse Mode",
+            "url": "https://nomousemode.vercel.app/"
+        },
+        "about": {
+            "@type": "Thing",
+            "name": "Keyboard cursor control for macOS"
+        },
+        "mentions": [
+            {"@type": "Thing", "name": "macOS"},
+            {"@type": "Thing", "name": "keyboard navigation"},
+            {"@type": "Thing", "name": "accessibility"},
+            {"@type": "Thing", "name": "cursor control"},
+            {"@type": "Thing", "name": "mouse alternative"}
+        ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="icon.png" alt="No Mouse Mode - Mac app for keyboard cursor control" class="logo-icon">
+                <span>No Mouse Mode</span>
+            </div>
+            <div class="nav-links">
+                <a href="#demo">Demo</a>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#faq">FAQ</a>
+                <a href="#pricing" class="btn-nav">Get It Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">For macOS</div>
+            <h1>Control Your Mac<br><span class="gradient-text">Without a Mouse</span></h1>
+            <p class="hero-subtitle">Navigate your entire Mac using just your keyboard. Move the cursor, click, scroll, and drag — all without lifting your hands from the keys.</p>
+            <div class="hero-cta">
+                <a href="#pricing" class="btn-primary">
+                    <span>Download Now</span>
+                    <span class="price-tag">$6.99</span>
+                </a>
+                <span class="platform-info">Requires macOS 13.0 or later</span>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="app-window">
+                <div class="window-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
+                </div>
+                <div class="keyboard-demo" id="keyboardDemo">
+                    <div class="demo-cursor" id="demoCursor"></div>
+                    <div class="key-row">
+                        <div class="key" data-key="w">W</div>
+                    </div>
+                    <div class="key-row">
+                        <div class="key" data-key="a">A</div>
+                        <div class="key" data-key="s">S</div>
+                        <div class="key" data-key="d">D</div>
+                    </div>
+                    <div class="key-row spacebar-row">
+                        <div class="key spacebar" data-key="space">Space to Click</div>
+                    </div>
+                    <p class="demo-hint">Press W A S D to try it!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-demo" id="demo">
+        <div class="section-header">
+            <h2>See It In Action</h2>
+            <p>Watch how No Mouse Mode transforms your workflow</p>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YssWFpcJ9UU?si=htqzouKn0Hvpfn_p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="section-header">
+            <h2>Everything You Need</h2>
+            <p>Powerful features that make mouse-free navigation a breeze</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+                <h3>Cursor Movement</h3>
+                <p>Use WASD keys to move your cursor in any direction with smooth, precise control.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                </div>
+                <h3>Click Actions</h3>
+                <p>Space for left click, Return for right click. Hold to drag and drop with ease.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M5 12l7-7 7 7"/>
+                    </svg>
+                </div>
+                <h3>Smooth Scrolling</h3>
+                <p>Arrow keys let you scroll through pages naturally, just like a trackpad.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                    </svg>
+                </div>
+                <h3>Speed Boost</h3>
+                <p>Hold Shift while moving for a speed boost. Fully customizable multiplier.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2"/>
+                        <path d="M7 11V7a5 5 0 0110 0v4"/>
+                    </svg>
+                </div>
+                <h3>Global Hotkey</h3>
+                <p>Toggle on/off instantly with Cmd+Shift+M from anywhere in your system.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"/>
+                        <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/>
+                    </svg>
+                </div>
+                <h3>Fully Customizable</h3>
+                <p>Remap any key, adjust speeds, enable acceleration — make it yours.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-header">
+            <h2>How It Works</h2>
+            <p>Get started in seconds</p>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Download & Install</h3>
+                    <p>Download the app and drag it to your Applications folder.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Grant Permissions</h3>
+                    <p>Allow Accessibility and Input Monitoring in System Settings.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Press Cmd+Shift+M</h3>
+                    <p>Activate No Mouse Mode and start navigating with your keyboard!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase">
+        <div class="showcase-content">
+            <div class="showcase-text">
+                <h2>Lives in Your Menu Bar</h2>
+                <p>No Mouse Mode runs quietly in your menu bar. A subtle indicator shows when it's active, and you can access settings with a single click.</p>
+                <ul class="showcase-list">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Minimal resource usage
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Works on all spaces
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Native macOS experience
+                    </li>
+                </ul>
+            </div>
+            <div class="showcase-visual">
+                <div class="menubar-mockup">
+                    <div class="menubar-items">
+                        <span class="menubar-icon active">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.64 21.97C13.14 22.21 12.57 22.35 12 22.35s-1.14-.14-1.64-.38L5.93 19.75c-.73-.35-1.3-.92-1.65-1.65L2.03 13.64C1.79 13.14 1.65 12.57 1.65 12s.14-1.14.38-1.64L4.28 5.93c.35-.73.92-1.3 1.65-1.65L10.36 2.03C10.86 1.79 11.43 1.65 12 1.65s1.14.14 1.64.38l4.43 2.25c.73.35 1.3.92 1.65 1.65l2.25 4.43c.24.5.38 1.07.38 1.64s-.14 1.14-.38 1.64l-2.25 4.43c-.35.73-.92 1.3-1.65 1.65l-4.43 2.25z"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="menubar-dropdown">
+                        <div class="dropdown-item">
+                            <span class="checkmark">✓</span> Enabled
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="dropdown-item">Settings...</div>
+                        <div class="dropdown-item">Quit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="settings-showcase">
+        <div class="showcase-content">
+            <div class="showcase-visual">
+                <img src="settings-panel.png" alt="No Mouse Mode settings panel showing customizable key bindings for cursor movement, click actions, scroll speed, and acceleration options on macOS" class="settings-image">
+            </div>
+            <div class="showcase-text">
+                <h2>Fully Customizable</h2>
+                <p>Tailor every aspect of No Mouse Mode to fit your workflow. Remap keys, adjust speeds, and configure the perfect setup for you.</p>
+                <ul class="showcase-list">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Custom key bindings for all actions
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Adjustable cursor and scroll speeds
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Speed boost with Shift key
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Optional acceleration for precision
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Everything you need to know about No Mouse Mode</p>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>How do I control my Mac cursor without a mouse?</h3>
+                <p>With No Mouse Mode, press Cmd+Shift+M to activate keyboard cursor control. Use WASD keys to move the cursor, Space to left-click, Return to right-click, and arrow keys to scroll. It's that simple.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What keys does No Mouse Mode use?</h3>
+                <p>By default: W/A/S/D for cursor movement (up/left/down/right), Space for left-click, Return for right-click, Arrow keys for scrolling, and Shift for speed boost. All keys are fully customizable in settings.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Does it work with macOS Sonoma and Sequoia?</h3>
+                <p>Yes! No Mouse Mode works with macOS 13.0 (Ventura) and all later versions including Sonoma and Sequoia. It runs natively on both Intel and Apple Silicon Macs.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is this a subscription or one-time purchase?</h3>
+                <p>No Mouse Mode is a one-time purchase of $6.99. No subscriptions, no recurring fees. You own it forever and get free updates included.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I customize the keyboard shortcuts?</h3>
+                <p>Absolutely! Every key binding is customizable. You can remap cursor movement, click actions, scrolling, and speed boost to any keys you prefer. Adjust cursor speed, scroll speed, and acceleration too.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What's the difference from macOS Mouse Keys?</h3>
+                <p>No Mouse Mode uses intuitive WASD controls (like gaming), offers smooth scrolling with arrow keys, includes a speed boost feature, and provides full customization — features not available in the built-in macOS Mouse Keys.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="pricing-card">
+            <div class="pricing-header">
+                <img src="icon.png" alt="No Mouse Mode app icon - macOS keyboard cursor control utility" class="pricing-icon">
+                <h2>No Mouse Mode</h2>
+                <p class="pricing-subtitle">One-time purchase. Yours forever.</p>
+            </div>
+            <div class="pricing-amount">
+                <span class="currency">$</span>
+                <span class="price">6</span>
+                <span class="cents">.99</span>
+            </div>
+            <ul class="pricing-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Full keyboard cursor control
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Click, scroll & drag support
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Customizable key bindings
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Speed boost & acceleration
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Free updates forever
+                </li>
+            </ul>
+            <a href="https://shabgagan.gumroad.com/l/no-mouse-mode?wanted=true" class="btn-purchase">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                </svg>
+                Download for macOS
+            </a>
+            <p class="pricing-note">Requires macOS 13.0 (Ventura) or later</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="icon.png" alt="No Mouse Mode logo" class="footer-icon">
+                <span>No Mouse Mode</span>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Support</a>
+                <a href="mailto:support@example.com">Contact</a>
+            </div>
+            <p class="footer-copyright">&copy; 2026 No Mouse Mode. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
