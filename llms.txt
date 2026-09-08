@@ -13,7 +13,7 @@ No Mouse Mode is a macOS utility application that enables complete mouse cursor 
 - **Platform**: macOS 13.0 (Ventura) or later
 - **Price**: $6.99 USD (one-time purchase, no subscription)
 - **Developer**: No Mouse Mode
-- **Website**: https://nomousemode.vercel.app/
+- **Website**: https://nomousemode.ahmedgagan.in/
 - **Purchase Link**: https://shabgagan.gumroad.com/l/no-mouse-mode
 
 ## What Problem Does It Solve?
@@ -108,4 +108,4 @@ A: Yes, it's ideal for users who cannot use a traditional mouse or trackpad, off
 
 ## Contact
 
-For support inquiries, visit: https://nomousemode.vercel.app/
+For support inquiries, visit: https://nomousemode.ahmedgagan.in/

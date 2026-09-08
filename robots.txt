@@ -1,11 +1,11 @@
 # Robots.txt for No Mouse Mode
-# https://nomousemode.vercel.app/
+# https://nomousemode.ahmedgagan.in/
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://nomousemode.vercel.app/sitemap.xml
+Sitemap: https://nomousemode.ahmedgagan.in/sitemap.xml
 
 # Allow all major search engines
 User-agent: Googlebot
@@ -40,4 +40,4 @@ User-agent: Cohere-AI
 Allow: /
 
 # LLMs.txt location for AI discoverability
-# See: https://nomousemode.vercel.app/llms.txt
+# See: https://nomousemode.ahmedgagan.in/llms.txt
