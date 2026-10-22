@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | No Mouse Mode for Mac</title>
+    <meta name="description" content="Your No Mouse Mode license key and download.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://nomousemode.com/thanks">
+    <meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" type="image/png" href="/icon.png">
+    <link rel="apple-touch-icon" href="/icon.png">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="/" aria-label="No Mouse Mode home"><img src="/icon.png" alt="" width="28" height="28"><span>No Mouse Mode</span></a>
+        <nav class="nav-links" aria-label="Sections">
+          <a href="/#demo">Demo</a><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="/support">Support</a><a href="/privacy">Privacy</a>
+        </nav>
+        <a class="btn btn-dark btn-sm" href="/download">Download</a>
+      </div>
+    </header>
+
+    <main class="doc" id="main">
+        <h1 id="ty-title">Thank you!</h1>
+        <p class="doc-lead" id="ty-sub">Your license key is below. It's also in the email from Dodo Payments.</p>
+
+        <div id="ty-ok">
+            <h2>Your license key</h2>
+            <div class="ty-keys" id="ty-keys" aria-live="polite">
+                <p class="ty-key"><code>Looking up your key…</code></p>
+            </div>
+            <p class="ty-note" id="ty-note">Keep it somewhere safe. <span id="ty-macs"></span></p>
+
+            <h2>Three steps</h2>
+            <ol class="ty-steps">
+                <li><strong>Download No Mouse Mode.</strong><br><a class="btn btn-accent" href="/download">Download for Mac (.dmg)</a></li>
+                <li><strong>Drag it to Applications and open it.</strong> Open the downloaded file, drag No Mouse Mode into your Applications folder, then open it from there. A short setup asks for the Accessibility permission.</li>
+                <li><strong>Paste your key.</strong> When the setup asks for your license, paste the key above and click <strong>Activate</strong>. Already past setup? Open the menu bar icon, choose <strong>Settings…</strong> → <strong>License</strong>.</li>
+            </ol>
+            <p class="ty-note">Needs macOS 14 Sonoma or later, on Apple silicon or Intel.</p>
+        </div>
+
+        <h2>Need help?</h2>
+        <p>Reply to your purchase email or write to <a href="mailto:adgan.business@gmail.com?subject=No%20Mouse%20Mode%20order">adgan.business@gmail.com</a>. The <a href="/support">support page</a> answers the common questions, and the <a href="/terms">terms</a> cover your license and refunds.</p>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <a class="brand" href="/"><img src="/icon.png" alt="" width="22" height="22"><span>No Mouse Mode</span></a>
+        <nav class="footer-links" aria-label="Footer"><a href="/support">Support</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="mailto:adgan.business@gmail.com">Contact</a></nav>
+        <p class="copyright">© 2026 Ahmed Gagan. Mac is a trademark of Apple Inc.</p>
+      </div>
+    </footer>
+
+    <script>
+    // Dodo sends the buyer here with ?payment_id=…&status=…&email=… and, when the key is ready,
+    // &license_key=… (comma-separated if there are several). If the key isn't in the address yet it
+    // can still be on its way, so ask nmm-order for it for about 30 seconds before pointing to email.
+    (function () {
+      var ORDER_URL = 'https://sulnpqfikkcpstixqepy.functions.supabase.co/nmm-order';
+      var q = new URLSearchParams(location.search);
+      var status = (q.get('status') || '').toLowerCase();
+      var payment = q.get('payment_id') || '';
+      var email = q.get('email') || '';
+      var box = document.getElementById('ty-keys');
+
+      function splitKeys(s) {
+        return String(s || '').split(',').map(function (k) { return k.trim(); }).filter(Boolean);
+      }
+      function message(text) {
+        box.innerHTML = '';
+        var p = document.createElement('p'); p.className = 'ty-key';
+        var c = document.createElement('code'); c.textContent = text;
+        p.appendChild(c); box.appendChild(p);
+      }
+      function showKeys(keys) {
+        box.innerHTML = '';
+        keys.forEach(function (k) {
+          var p = document.createElement('p'); p.className = 'ty-key';
+          var c = document.createElement('code'); c.textContent = k;
+          var b = document.createElement('button'); b.type = 'button'; b.className = 'btn btn-ghost btn-sm'; b.textContent = 'Copy';
+          b.addEventListener('click', function () {
+            (navigator.clipboard ? navigator.clipboard.writeText(k) : Promise.reject()).then(function () {
+              b.textContent = 'Copied';
+              setTimeout(function () { b.textContent = 'Copy'; }, 1600);
+            }, function () {
+              var r = document.createRange(); r.selectNodeContents(c);
+              var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+            });
+          });
+          p.appendChild(c); p.appendChild(b); box.appendChild(p);
+        });
+        if (keys.length > 1) {
+          document.getElementById('ty-sub').textContent = 'Your license keys are below. They\'re also in the email from Dodo Payments.';
+        }
+      }
+      function showMacs(devices) {
+        var n = parseInt(devices, 10);
+        if (n > 0) document.getElementById('ty-macs').textContent = 'It works on ' + (n === 1 ? '1 Mac' : 'up to ' + n + ' Macs') + '.';
+      }
+      function emailNote() {
+        message('Your key is in the email from Dodo Payments' + (email ? ' to ' + email : '') + '. It can take a minute; check spam too.');
+      }
+
+      if (status && status !== 'succeeded') {
+        document.getElementById('ty-title').textContent = status === 'processing' ? 'Your payment is still processing' : "Your payment didn't go through";
+        document.getElementById('ty-sub').textContent = status === 'processing'
+          ? 'Your key will arrive by email from Dodo Payments as soon as the payment completes.'
+          : 'Nothing was charged. You can try again from the pricing page, or reply to the Dodo Payments email if you think this is wrong.';
+        document.getElementById('ty-ok').hidden = true;
+        var again = document.createElement('p');
+        var a = document.createElement('a'); a.className = 'btn btn-accent'; a.href = '/#pricing'; a.textContent = 'Back to pricing';
+        again.appendChild(a); document.getElementById('ty-sub').after(again);
+        return;
+      }
+
+      var keys = splitKeys(q.get('license_key'));
+      if (keys.length) showKeys(keys);
+      if (!/^pay_[A-Za-z0-9]+$/.test(payment)) { if (!keys.length) emailNote(); return; }
+
+      var tries = 0;
+      function retry() {
+        if (tries < 10) setTimeout(lookup, 3000); else emailNote();
+      }
+      function lookup() {
+        tries += 1;
+        fetch(ORDER_URL + '?payment_id=' + encodeURIComponent(payment), { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.json() : {}; })
+          .then(function (d) {
+            d = d || {};
+            if (d.status && d.status !== 'succeeded' && !keys.length) return retry();
+            if (d.devices) showMacs(d.devices);
+            if (!email && d.email) email = d.email;
+            if (keys.length) return;
+            var found = splitKeys(d.license_key);
+            if (found.length) { keys = found; showKeys(found); } else retry();
+          })
+          .catch(function () { if (!keys.length) retry(); });
+      }
+      lookup();
+    })();
+    </script>
+</body>
+</html>

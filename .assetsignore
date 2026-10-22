@@ -1,13 +1,14 @@
-wrangler.jsonc
-wrangler.toml
-package.json
-package-lock.json
-node_modules
+# Never published with the site.
 .git
 .gitignore
-.DS_Store
 .assetsignore
 .wrangler
-.ai-seo-system
-ai-seo-system
+.DS_Store
+node_modules
+package.json
+package-lock.json
+wrangler.jsonc
 README.md
+ai-seo-system
+settings-panel.png
+script.js

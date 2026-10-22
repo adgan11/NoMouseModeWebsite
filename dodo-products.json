@@ -1,0 +1,39 @@
+{
+  "mode": "live",
+  "download_entitlement": "ent_0NqHso52yKj8r2sE1g30F",
+  "tiers": {
+    "1": {
+      "product_id": "pdt_0NqHsoAUh1t6Cgc6XKhMU",
+      "entitlement_id": "ent_0NqHsnrL5RVJhawAV62gC",
+      "price": 1999
+    },
+    "3": {
+      "product_id": "pdt_0NqHsoDxzasDxaqmGmMfx",
+      "entitlement_id": "ent_0NqHsnu22g1X88xNMCH3x",
+      "price": 4999
+    },
+    "5": {
+      "product_id": "pdt_0NqHsoJCqaEiejfrEWTFr",
+      "entitlement_id": "ent_0NqHsnyAva1SVwzm7B4KK",
+      "price": 7999
+    },
+    "20": {
+      "product_id": "pdt_0NqHsoNLhEThqZCsZivHM",
+      "entitlement_id": "ent_0NqHso23tBjDaDDH9ifwj",
+      "price": 29999
+    }
+  },
+  "modes": {
+    "live": {
+      "ent_1": "ent_0NqHsnrL5RVJhawAV62gC",
+      "ent_3": "ent_0NqHsnu22g1X88xNMCH3x",
+      "ent_5": "ent_0NqHsnyAva1SVwzm7B4KK",
+      "ent_20": "ent_0NqHso23tBjDaDDH9ifwj",
+      "ent_download": "ent_0NqHso52yKj8r2sE1g30F",
+      "pdt_1": "pdt_0NqHsoAUh1t6Cgc6XKhMU",
+      "pdt_3": "pdt_0NqHsoDxzasDxaqmGmMfx",
+      "pdt_5": "pdt_0NqHsoJCqaEiejfrEWTFr",
+      "pdt_20": "pdt_0NqHsoNLhEThqZCsZivHM"
+    }
+  }
+}

@@ -10,6 +10,9 @@
     "html_handling": "auto-trailing-slash"
   },
   "routes": [
+    { "pattern": "nomousemode.com", "custom_domain": true },
+    { "pattern": "www.nomousemode.com", "custom_domain": true },
+    // The old address keeps working; every page names nomousemode.com as canonical.
     { "pattern": "nomousemode.ahmedgagan.in", "custom_domain": true }
   ]
 }

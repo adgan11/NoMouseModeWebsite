@@ -1,0 +1,9 @@
+# Checkout (Dodo Payments, live mode). Product ids: dodo-products.json; scripts/dodo-setup.sh writes both.
+/buy     https://checkout.dodopayments.com/buy/pdt_0NqHsoAUh1t6Cgc6XKhMU?quantity=1&redirect_url=https%3A%2F%2Fnomousemode.com%2Fthanks 302
+/buy/1   https://checkout.dodopayments.com/buy/pdt_0NqHsoAUh1t6Cgc6XKhMU?quantity=1&redirect_url=https%3A%2F%2Fnomousemode.com%2Fthanks 302
+/buy/3   https://checkout.dodopayments.com/buy/pdt_0NqHsoDxzasDxaqmGmMfx?quantity=1&redirect_url=https%3A%2F%2Fnomousemode.com%2Fthanks 302
+/buy/5   https://checkout.dodopayments.com/buy/pdt_0NqHsoJCqaEiejfrEWTFr?quantity=1&redirect_url=https%3A%2F%2Fnomousemode.com%2Fthanks 302
+/buy/20  https://checkout.dodopayments.com/buy/pdt_0NqHsoNLhEThqZCsZivHM?quantity=1&redirect_url=https%3A%2F%2Fnomousemode.com%2Fthanks 302
+
+# Always the newest app (scripts/release.sh rewrites this line on each release)
+/download /downloads/NoMouseMode-2.0.0.dmg 302

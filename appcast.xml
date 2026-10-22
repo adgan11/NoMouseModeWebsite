@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>NoMouseMode</title>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Wed, 21 Oct 2026 15:29:25 +0530</pubDate>
+            <link>https://nomousemode.com</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>No Mouse Mode 2.0.0</h2>
+<ul>
+<li>Click labels, anywhere: press ⇧⌘Space in any app (No Mouse Mode on or off) and type the letters on any button, link, tab, menu, menu bar item or Dock icon. Hold ⇧ to right-click, ⌘ to ⌘-click, ⌥ to double-click or ⌃ to just move there. Tab keeps the labels open for several clicks. Labels for a window stay the same each time.</li>
+<li>Type to click: press ⇧⌘/ (or / while it&#x27;s on), type part of a button&#x27;s or text&#x27;s name, press Return.</li>
+<li>Scroll areas: press ⇧⌘J (or J) to number every scrollable pane, then scroll, page with Space, or jump to the top or bottom with T and B.</li>
+<li>Labels in every app (optional): reads on-screen text with Apple&#x27;s on-device text recognition for apps that don&#x27;t describe their buttons. Needs Screen Recording; nothing is saved or sent.</li>
+<li>Middle click (M) and the back and forward buttons ([ and ]).</li>
+<li>Saved spots: ⇧1–9 saves where the pointer is, 1–9 jumps back. ` jumps back to where the pointer was before its last jump. Tab jumps to the next display.</li>
+<li>Turns itself off in apps you choose (Settings → Apps, or from the menu bar), and when you click into a text box so you can type.</li>
+<li>Easy to learn: a guided setup with a hands-on try, a Practice window with nine lessons, H shows every key, and key tips on the labels and grid.</li>
+<li>Jump grid: press E and pick a cell with Q W E / A S D / Z X C to land anywhere on screen in two or three key presses.</li>
+<li>Smoother movement that keeps pace with your display (120 Hz on ProMotion), starts gently so a tap nudges, and reaches full speed in a fraction of a second. Hold Q to move exactly one point per tap.</li>
+<li>Smooth scrolling, now sideways too (← →). Shift scrolls faster instead of sideways.</li>
+<li>Hold to use: optionally hold Right Command or Right Option to use No Mouse Mode only while the key is down.</li>
+<li>Every key and shortcut can be changed, with one button to put them all back. Label colors: yellow, black or white.</li>
+<li>Open at login, redesigned Settings, a new black-and-white look, and automatic updates.</li>
+<li>License keys: activate in Settings → License; licenses for 1, 3, 5 or 20 Macs. Version 1 customers keep No Mouse Mode working on the Mac they already use, with no key needed.</li>
+</ul>
+]]></description>
+            <enclosure url="https://nomousemode.com/downloads/NoMouseMode-2.0.0.dmg" length="2964708" type="application/octet-stream" sparkle:edSignature="AaS05Uv5fyUOyJTxJBs/7MyxXW1X7ElMaLMm0iI1mrlLEtJzUd0XBzqeInH2Df69iKvNzzD7JVC+p4PEPu/lBQ=="/>
+        </item>
+    </channel>
+</rss>

@@ -1,11 +1,11 @@
 # Robots.txt for No Mouse Mode
-# https://nomousemode.ahmedgagan.in/
+# https://nomousemode.com/
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://nomousemode.ahmedgagan.in/sitemap.xml
+Sitemap: https://nomousemode.com/sitemap.xml
 
 # Allow all major search engines
 User-agent: Googlebot
@@ -40,4 +40,4 @@ User-agent: Cohere-AI
 Allow: /
 
 # LLMs.txt location for AI discoverability
-# See: https://nomousemode.ahmedgagan.in/llms.txt
+# See: https://nomousemode.com/llms.txt

@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-    <url>
-        <loc>https://nomousemode.ahmedgagan.in/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <!-- Section anchors for better indexing -->
-    <url>
-        <loc>https://nomousemode.ahmedgagan.in/#demo</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://nomousemode.ahmedgagan.in/#features</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://nomousemode.ahmedgagan.in/#how-it-works</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://nomousemode.ahmedgagan.in/#pricing</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://nomousemode.com/</loc><lastmod>2026-10-22</lastmod><priority>1.0</priority></url>
+  <url><loc>https://nomousemode.com/support</loc><lastmod>2026-10-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://nomousemode.com/privacy</loc><lastmod>2026-10-22</lastmod><priority>0.4</priority></url>
+  <url><loc>https://nomousemode.com/terms</loc><lastmod>2026-10-22</lastmod><priority>0.3</priority></url>
 </urlset>

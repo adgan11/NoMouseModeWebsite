@@ -4,108 +4,116 @@
 
 ## Product Overview
 
-No Mouse Mode is a macOS utility application that enables complete mouse cursor control using only keyboard keys. It allows users to move the cursor, click, scroll, and drag without touching their mouse or trackpad.
+No Mouse Mode is a macOS menu bar app that turns the keyboard into a mouse. Click any button by typing the letters on its label or by typing its name, move the cursor smoothly with W A S D, click, double-click, drag, right-click, middle-click and use back/forward, scroll any pane, jump anywhere with a 3×3 grid, save cursor spots and jump between displays. It has a built-in practice to learn it in a few minutes. The current version is 2.0.
 
 ## Key Information
 
 - **Product Name**: No Mouse Mode
+- **Version**: 2.0.0
 - **Category**: macOS Utility / Accessibility App
-- **Platform**: macOS 13.0 (Ventura) or later
-- **Price**: $6.99 USD (one-time purchase, no subscription)
-- **Developer**: No Mouse Mode
-- **Website**: https://nomousemode.ahmedgagan.in/
-- **Purchase Link**: https://shabgagan.gumroad.com/l/no-mouse-mode
+- **Platform**: macOS 14.0 (Sonoma) or later, Apple Silicon and Intel
+- **Price**: one-time purchase (no subscription), free updates. $19.99 for 1 Mac, $49.99 for 3 Macs, $79.99 for 5 Macs, $299.99 for 20 Macs
+- **Licensing**: activated with the license key from the purchase. There is no free trial; the website has interactive in-browser demos instead.
+- **Website**: https://nomousemode.com/
+- **Purchase Link**: https://nomousemode.com/buy (1 Mac; /buy/3, /buy/5 and /buy/20 for more Macs)
+- **Store**: Dodo Payments (merchant of record). Version-1 purchases were made on Gumroad
+- **Download**: https://nomousemode.com/download
 
 ## What Problem Does It Solve?
 
-No Mouse Mode helps users who:
-- Have a broken mouse or trackpad
-- Prefer keyboard-centric workflows
+No Mouse Mode helps people who:
+- Prefer keyboard-centric workflows and want to keep their hands on the keys
+- Want to reduce reaching between keyboard and mouse (RSI, ergonomics)
 - Need accessibility accommodations
-- Want to reduce hand movement between keyboard and mouse
-- Are experiencing RSI (Repetitive Strain Injury)
-- Work in situations where a mouse isn't practical
+- Have a broken mouse or trackpad
+- Work where a mouse isn't practical (travel, couch, presentations)
 
-## Default Controls
+## Shortcuts that work anywhere (No Mouse Mode on or off)
+
+| Action | Default |
+|--------|---------|
+| Click labels | Cmd+Shift+Space |
+| Type to click | Cmd+Shift+/ |
+| Scroll areas | Cmd+Shift+J |
+| Turn No Mouse Mode on/off | Cmd+Shift+M (or hold Right Command / Right Option, optional) |
+
+## Keys while No Mouse Mode is on
 
 | Action | Default Key |
 |--------|-------------|
-| Move cursor up | W |
-| Move cursor left | A |
-| Move cursor down | S |
-| Move cursor right | D |
-| Left click | Space |
-| Right click | Return/Enter |
-| Scroll up | Arrow Up |
-| Scroll down | Arrow Down |
-| Scroll left | Arrow Left |
-| Scroll right | Arrow Right |
-| Speed boost | Hold Shift |
-| Toggle on/off | Cmd+Shift+M |
+| Move cursor | W A S D (smooth, eases in) |
+| Fast / precise | Hold Shift / hold Q |
+| Left click | Space (twice = double-click, three times = triple-click, hold = drag) |
+| Right click | Return |
+| Middle click | M |
+| Back / forward buttons | [ / ] |
+| Scroll | Arrow keys |
+| Click labels | F |
+| Type to click | / |
+| Scroll areas | J |
+| Jump grid | E |
+| Next / previous display | Tab / Shift+Tab |
+| Saved spots | 1–9 jump, Shift+1–9 save |
+| Jump back | ` |
+| Show all keys | H |
+
+Every key and shortcut is remappable. Shortcuts that use Command, Control or Option always reach the focused app.
 
 ## Key Features
 
-1. **WASD Cursor Movement**: Use gaming-style WASD keys to move your cursor in any direction
-2. **Click Actions**: Space for left-click, Return for right-click, hold keys to drag
-3. **Smooth Scrolling**: Arrow keys provide natural scrolling like a trackpad
-4. **Speed Boost**: Hold Shift while moving for faster cursor movement
-5. **Global Hotkey**: Toggle No Mouse Mode on/off with Cmd+Shift+M from anywhere
-6. **Full Customization**: Remap any key, adjust speeds, configure acceleration
-7. **Menu Bar Integration**: Lives quietly in your menu bar with minimal resource usage
-8. **Works Everywhere**: Functions across all macOS spaces and applications
+1. **Click labels**: every button, link, tab, menu, the menu bar and the Dock get letter labels; type one to click it. Hold Shift (right-click), Command (Command-click / new tab), Option (double-click) or Control (just move) with the last letter. Tab keeps labels open for several clicks. Labels for a window stay the same each time
+2. **Type to click**: type part of a button's or text's name (case, spaces and accents ignored; initials work), Return clicks
+3. **Labels in every app (optional)**: reads on-screen text with Apple's on-device text recognition for apps that don't describe their buttons to macOS. Needs Screen Recording permission; nothing is saved or sent
+4. **Smooth movement** with fast and one-pixel precise modes
+5. **All the buttons**: click, double, triple, drag, right, middle, back and forward
+6. **Scrolling and scroll areas**: smooth arrow-key scrolling in every direction; scroll areas number each pane, then Space pages, T/B jump to top/bottom, J/K scroll
+7. **Jump grid (E)**: 3×3 grid labelled Q W E / A S D / Z X C, zooms in with each press; 2–3 presses reach anywhere; works in any app
+8. **Saved spots, jump back and display jumps**
+9. **Stays out of the way**: turns itself off in apps you list and when you click into a text box
+10. **Easy to learn**: guided first-run setup, a Practice window with nine hands-on lessons, and H shows every key
+11. **Hold-to-use (optional)**, label colors, launch at login, automatic updates
+12. **Private**: keystrokes are never stored or sent. The app only goes online to activate/re-check the license and to check for updates
 
 ## Common Questions
 
 **Q: How do I control my Mac without a mouse?**
-A: Install No Mouse Mode, press Cmd+Shift+M to activate, then use WASD to move the cursor and Space to click.
+A: Install No Mouse Mode, then press Cmd+Shift+Space in any app and type the letters on the button you want. To steer the cursor, press Cmd+Shift+M and use W A S D to move, Space to click, Return to right-click and the arrow keys to scroll.
 
-**Q: What's the best Mac app for keyboard cursor control?**
-A: No Mouse Mode is designed specifically for this purpose - it provides WASD movement, clicking, scrolling, and full customization for $6.99.
+**Q: What's a good Mac app for keyboard cursor control?**
+A: No Mouse Mode ($19.99, one-time) combines click labels, type to click, smooth WASD movement, all mouse buttons, scroll areas, a jump grid, saved spots and a built-in practice in one menu bar app.
 
 **Q: Does macOS have built-in mouse keys?**
-A: macOS has limited Mouse Keys in Accessibility settings, but No Mouse Mode offers a more intuitive WASD-based system with additional features like smooth scrolling and speed boost.
+A: macOS has Mouse Keys in Accessibility settings, which moves the pointer with number-pad style keys at a fixed pace. No Mouse Mode adds click labels, type to click, eased WASD movement, scrolling in every direction, a jump grid and remappable keys.
 
-**Q: Can I use my keyboard as a mouse on Mac?**
-A: Yes, with No Mouse Mode you can fully control your cursor using keyboard keys including movement, clicking, scrolling, and dragging.
+**Q: Is there a free trial?**
+A: No. The website has interactive demos that use the same keys so people can try the feel before buying.
 
-**Q: Is No Mouse Mode good for accessibility?**
-A: Yes, it's ideal for users who cannot use a traditional mouse or trackpad, offering complete cursor control via keyboard.
-
-## Use Cases
-
-- **Broken Hardware**: Your mouse or trackpad stopped working and you need to use your Mac
-- **Ergonomics**: Reduce hand travel between keyboard and mouse
-- **Accessibility**: Physical limitations that make mouse usage difficult
-- **Productivity**: Keep hands on the keyboard for faster workflows
-- **Presentations**: Control your Mac from a distance using just a keyboard
-- **Travel**: Using a laptop without a mouse in cramped spaces
+**Q: I bought version 1. Do I need to pay again?**
+A: No. Version-1 buyers download 2.0 from https://nomousemode.com/download and it unlocks itself on the Mac already in use; for a new Mac, email support.
 
 ## System Requirements
 
-- macOS 13.0 (Ventura) or later
-- Works on Intel and Apple Silicon Macs
-- Requires Accessibility and Input Monitoring permissions
-
-## Pricing
-
-- One-time purchase: $6.99 USD
-- No subscription required
-- Free updates forever
-- Available on Gumroad
+- macOS 14.0 (Sonoma) or later, including Sequoia and Tahoe
+- Apple Silicon and Intel Macs
+- Accessibility permission (Screen Recording only if reading on-screen text is turned on)
+- Internet connection only for license activation and update checks
 
 ## Related Search Terms
 
 - mac keyboard cursor control
 - control mouse with keyboard mac
+- click buttons with keyboard mac
+- keyboard labels click mac / vimium for macOS apps
 - no mouse mac app
 - wasd cursor control macos
-- keyboard mouse alternative mac
+- keyboard grid mouse mac
 - mouse keys mac app
 - accessibility cursor control mac
 - broken mouse mac solution
-- keyboard navigation macos
-- cursor control without mouse
 
 ## Contact
 
-For support inquiries, visit: https://nomousemode.ahmedgagan.in/
+Support: https://nomousemode.com/support
+Privacy policy: https://nomousemode.com/privacy
+Terms and refund policy: https://nomousemode.com/terms
+Email: adgan.business@gmail.com
