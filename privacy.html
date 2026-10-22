@@ -45,7 +45,7 @@
         <p>Your settings, such as key bindings, speeds, saved spots and your list of apps where it switches off, and your license details are saved on your Mac. Deleting the app and its preferences removes them.</p>
 
         <h2>When the app goes online</h2>
-        <p><strong>License activation and checks.</strong> When you enter your license key, and occasionally afterwards to confirm it's still valid, the app sends the key and an anonymous ID for your Mac to our licensing server. The Mac ID is a scrambled (hashed) value made from your Mac's hardware ID; it can't be turned back into the hardware ID and contains nothing personal. Our server checks the key with Dodo Payments, the store that issued it (or Gumroad, for version-1 purchases), and keeps a record of which Macs a key is active on: a scrambled copy of the key, the anonymous Mac ID and the purchase email the store returns. We use this only to enforce the license, let you move it to another Mac and help you with support. If you choose <strong>Deactivate</strong>, that Mac's record is removed.</p>
+        <p><strong>License activation and checks.</strong> When you enter your license key, and occasionally afterwards to confirm it's still valid, the app sends the key and an anonymous ID for your Mac to our licensing server (hosted on Supabase). The Mac ID is a scrambled (hashed) value made from your Mac's hardware ID; it can't be turned back into the hardware ID and contains nothing personal. Our server checks the key with Dodo Payments, the store that issued it (or Gumroad, for version-1 purchases), and keeps a record of which Macs a key is active on: a scrambled copy of the key, the anonymous Mac ID and the purchase email the store returns. We use this only to enforce the license, let you move it to another Mac and help you with support. If you choose <strong>Deactivate</strong>, that Mac's record is removed.</p>
         <p><strong>Update checks.</strong> The app uses Sparkle to check for new versions. It downloads an update feed from nomousemode.com, and like any web request this includes your IP address and the app and macOS version. Updates are downloaded from the same site.</p>
         <p>Nothing else is sent. If you're offline, the app keeps working with the license it already activated.</p>
 
@@ -54,9 +54,10 @@
         <p>Version-1 purchases were made on Gumroad, which holds those order details under <a href="https://gumroad.com/privacy" rel="noopener">its own privacy policy</a>.</p>
 
         <h2>This website</h2>
-        <p>This site uses no cookies, analytics or ad trackers of its own, and the fonts come from your own device. A few third parties are involved in serving it:</p>
+        <p>This site uses no cookies, analytics or ad trackers of its own, and its fonts are served from this site itself, not from a third-party font service. A few third parties are involved in serving it:</p>
         <ul>
             <li><strong>Cloudflare</strong> hosts the site and, like any web host, processes standard request information (such as your IP address and browser type) to deliver pages and protect against abuse.</li>
+            <li><strong>Supabase</strong> hosts our licensing server. After checkout, the thank-you page asks it for your license key using the payment ID from Dodo Payments, so it can show you the key right away. Like any web request, this includes your IP address. We use it only to show you your key.</li>
         </ul>
         <p>The interactive demos on the home page, including the labels you can put on the page itself, run entirely in your browser. The keys you press while trying them are not sent anywhere.</p>
 

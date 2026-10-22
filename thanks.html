@@ -26,28 +26,66 @@
       </div>
     </header>
 
-    <main class="doc" id="main">
-        <h1 id="ty-title">Thank you!</h1>
-        <p class="doc-lead" id="ty-sub">Your license key is below. It's also in the email from Dodo Payments.</p>
-
-        <div id="ty-ok">
-            <h2>Your license key</h2>
-            <div class="ty-keys" id="ty-keys" aria-live="polite">
-                <p class="ty-key"><code>Looking up your key…</code></p>
-            </div>
-            <p class="ty-note" id="ty-note">Keep it somewhere safe. <span id="ty-macs"></span></p>
-
-            <h2>Three steps</h2>
-            <ol class="ty-steps">
-                <li><strong>Download No Mouse Mode.</strong><br><a class="btn btn-accent" href="/download">Download for Mac (.dmg)</a></li>
-                <li><strong>Drag it to Applications and open it.</strong> Open the downloaded file, drag No Mouse Mode into your Applications folder, then open it from there. A short setup asks for the Accessibility permission.</li>
-                <li><strong>Paste your key.</strong> When the setup asks for your license, paste the key above and click <strong>Activate</strong>. Already past setup? Open the menu bar icon, choose <strong>Settings…</strong> → <strong>License</strong>.</li>
-            </ol>
-            <p class="ty-note">Needs macOS 14 Sonoma or later, on Apple silicon or Intel.</p>
+    <main class="ty" id="main">
+      <section class="ty-hero">
+        <div class="ty-badge" aria-hidden="true">
+          <img src="/icon.png" alt="" width="112" height="112">
+          <span class="ty-check"><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
         </div>
+        <p class="ty-eyebrow" id="ty-eyebrow">Order complete</p>
+        <h1 class="display ty-title" id="ty-title">You're all set.</h1>
+        <p class="ty-lede" id="ty-sub">Thank you for buying No Mouse Mode. Your license key is below, and it's also in the email from Dodo Payments.</p>
+      </section>
 
-        <h2>Need help?</h2>
-        <p>Reply to your purchase email or write to <a href="mailto:adgan.business@gmail.com?subject=No%20Mouse%20Mode%20order">adgan.business@gmail.com</a>. The <a href="/support">support page</a> answers the common questions, and the <a href="/terms">terms</a> cover your license and refunds.</p>
+      <section class="ty-keycard" id="ty-ok" aria-labelledby="ty-key-title">
+        <div class="ty-keyhead">
+          <h2 id="ty-key-title">Your license key</h2>
+          <span class="ty-pill" id="ty-macs" hidden></span>
+        </div>
+        <div class="ty-keys" id="ty-keys" aria-live="polite">
+          <div class="ty-key is-loading"><span class="ty-shimmer"></span><span class="ty-status">Getting your key…</span></div>
+        </div>
+        <p class="ty-keynote" id="ty-note">Keep it somewhere safe. <span id="ty-mail"></span></p>
+      </section>
+
+      <section class="ty-steps" id="ty-steps" aria-label="Get started in three steps">
+        <article class="ty-step">
+          <span class="ty-num">1</span>
+          <div class="ty-art ty-art-dl" aria-hidden="true"><img src="/icon.png" alt=""><svg viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Download</h3>
+          <p>The app for macOS 14 Sonoma or later, on Apple silicon and Intel.</p>
+          <a class="btn btn-accent ty-dl" href="/download"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M10 3v9m0 0-3.5-3.5M10 12l3.5-3.5M4 15.5h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Download for Mac</a>
+        </article>
+        <article class="ty-step">
+          <span class="ty-num">2</span>
+          <div class="ty-art ty-art-drag" aria-hidden="true">
+            <span class="ty-mini-app"><img src="/icon.png" alt=""></span>
+            <svg class="ty-arrow" viewBox="0 0 40 12"><path d="M2 6h33m0 0-5-4m5 4-5 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="ty-mini-folder"><img src="/img/icons/folder.svg" alt=""><small>Applications</small></span>
+          </div>
+          <h3>Install</h3>
+          <p>Open the download, drag No Mouse Mode into Applications, then open it from there.</p>
+        </article>
+        <article class="ty-step">
+          <span class="ty-num">3</span>
+          <div class="ty-art ty-art-key" aria-hidden="true">
+            <span class="ty-field"><span class="ty-field-key" id="ty-field-key">XXXX-XXXX-XXXX</span><span class="ty-caret"></span></span>
+            <span class="ty-mini-btn">Activate</span>
+          </div>
+          <h3>Activate</h3>
+          <p>A short setup walks you through one permission, then asks for your key. Paste it and click <strong>Activate</strong>.</p>
+        </article>
+      </section>
+
+      <section class="ty-next">
+        <div>
+          <h2>Then try it</h2>
+          <p>Press <kbd>⇧⌘Space</kbd> in any app and type the letters on a button. The built-in Practice teaches the rest in two minutes.</p>
+        </div>
+        <div class="ty-help">
+          <p>Questions? Reply to your purchase email or write to <a href="mailto:adgan.business@gmail.com?subject=No%20Mouse%20Mode%20order">adgan.business@gmail.com</a>. See also <a href="/support">Support</a> and <a href="/terms">Terms</a>.</p>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -69,54 +107,66 @@
       var payment = q.get('payment_id') || '';
       var email = q.get('email') || '';
       var box = document.getElementById('ty-keys');
+      var $ = function (id) { return document.getElementById(id); };
 
       function splitKeys(s) {
         return String(s || '').split(',').map(function (k) { return k.trim(); }).filter(Boolean);
       }
-      function message(text) {
+      function note(text, loading) {
         box.innerHTML = '';
-        var p = document.createElement('p'); p.className = 'ty-key';
-        var c = document.createElement('code'); c.textContent = text;
-        p.appendChild(c); box.appendChild(p);
+        var row = document.createElement('div'); row.className = 'ty-key' + (loading ? ' is-loading' : ' is-note');
+        if (loading) { var sh = document.createElement('span'); sh.className = 'ty-shimmer'; row.appendChild(sh); }
+        var t = document.createElement('span'); t.className = 'ty-status'; t.textContent = text;
+        row.appendChild(t); box.appendChild(row);
+      }
+      function copy(text, button, code) {
+        (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function () {
+          button.classList.add('is-done'); button.querySelector('span').textContent = 'Copied';
+          setTimeout(function () { button.classList.remove('is-done'); button.querySelector('span').textContent = 'Copy'; }, 1800);
+        }, function () {
+          var r = document.createRange(); r.selectNodeContents(code);
+          var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        });
       }
       function showKeys(keys) {
         box.innerHTML = '';
         keys.forEach(function (k) {
-          var p = document.createElement('p'); p.className = 'ty-key';
+          var row = document.createElement('div'); row.className = 'ty-key is-ready';
           var c = document.createElement('code'); c.textContent = k;
-          var b = document.createElement('button'); b.type = 'button'; b.className = 'btn btn-ghost btn-sm'; b.textContent = 'Copy';
-          b.addEventListener('click', function () {
-            (navigator.clipboard ? navigator.clipboard.writeText(k) : Promise.reject()).then(function () {
-              b.textContent = 'Copied';
-              setTimeout(function () { b.textContent = 'Copy'; }, 1600);
-            }, function () {
-              var r = document.createRange(); r.selectNodeContents(c);
-              var s = getSelection(); s.removeAllRanges(); s.addRange(r);
-            });
-          });
-          p.appendChild(c); p.appendChild(b); box.appendChild(p);
+          var b = document.createElement('button'); b.type = 'button'; b.className = 'ty-copy';
+          b.setAttribute('aria-label', 'Copy license key');
+          b.innerHTML = '<svg viewBox="0 0 20 20" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 7V5.2A2.2 2.2 0 0 0 10.8 3H5.2A2.2 2.2 0 0 0 3 5.2v5.6A2.2 2.2 0 0 0 5.2 13H7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Copy</span>';
+          b.addEventListener('click', function () { copy(k, b, c); });
+          c.addEventListener('click', function () { copy(k, b, c); });
+          row.appendChild(c); row.appendChild(b); box.appendChild(row);
         });
+        $('ty-field-key').textContent = keys[0].length > 18 ? keys[0].slice(0, 16) + '…' : keys[0];
         if (keys.length > 1) {
-          document.getElementById('ty-sub').textContent = 'Your license keys are below. They\'re also in the email from Dodo Payments.';
+          $('ty-key-title').textContent = 'Your license keys';
+          $('ty-sub').textContent = 'Thank you for buying No Mouse Mode. Your license keys are below, and they\'re also in the email from Dodo Payments.';
         }
+        if (email) $('ty-mail').textContent = 'A copy went to ' + email + '.';
       }
       function showMacs(devices) {
         var n = parseInt(devices, 10);
-        if (n > 0) document.getElementById('ty-macs').textContent = 'It works on ' + (n === 1 ? '1 Mac' : 'up to ' + n + ' Macs') + '.';
+        if (n > 0) { var pill = $('ty-macs'); pill.textContent = n === 1 ? 'Works on 1 Mac' : 'Works on up to ' + n + ' Macs'; pill.hidden = false; }
       }
       function emailNote() {
-        message('Your key is in the email from Dodo Payments' + (email ? ' to ' + email : '') + '. It can take a minute; check spam too.');
+        note('Your key is on its way in the email from Dodo Payments' + (email ? ' to ' + email : '') + '. It can take a minute, so check spam too.', false);
       }
 
       if (status && status !== 'succeeded') {
-        document.getElementById('ty-title').textContent = status === 'processing' ? 'Your payment is still processing' : "Your payment didn't go through";
-        document.getElementById('ty-sub').textContent = status === 'processing'
-          ? 'Your key will arrive by email from Dodo Payments as soon as the payment completes.'
-          : 'Nothing was charged. You can try again from the pricing page, or reply to the Dodo Payments email if you think this is wrong.';
-        document.getElementById('ty-ok').hidden = true;
-        var again = document.createElement('p');
-        var a = document.createElement('a'); a.className = 'btn btn-accent'; a.href = '/#pricing'; a.textContent = 'Back to pricing';
-        again.appendChild(a); document.getElementById('ty-sub').after(again);
+        var processing = status === 'processing';
+        document.body.classList.add('ty-not-ok');
+        $('ty-eyebrow').textContent = processing ? 'Almost there' : 'Payment not finished';
+        $('ty-title').textContent = processing ? 'Your payment is processing.' : "Your payment didn't go through.";
+        $('ty-sub').textContent = processing
+          ? 'Your license key will arrive by email from Dodo Payments the moment it completes.'
+          : 'Nothing was charged. You can try again, or reply to the Dodo Payments email if you think this is wrong.';
+        $('ty-ok').hidden = true; $('ty-steps').hidden = true;
+        var again = document.createElement('p'); again.className = 'ty-again';
+        var a = document.createElement('a'); a.className = 'btn btn-accent btn-lg'; a.href = '/#pricing'; a.textContent = processing ? 'Back to No Mouse Mode' : 'Try again';
+        again.appendChild(a); $('ty-sub').after(again);
         return;
       }
 
@@ -136,7 +186,7 @@
             d = d || {};
             if (d.status && d.status !== 'succeeded' && !keys.length) return retry();
             if (d.devices) showMacs(d.devices);
-            if (!email && d.email) email = d.email;
+            if (!email && d.email) { email = d.email; if (keys.length) $('ty-mail').textContent = 'A copy went to ' + email + '.'; }
             if (keys.length) return;
             var found = splitKeys(d.license_key);
             if (found.length) { keys = found; showKeys(found); } else retry();

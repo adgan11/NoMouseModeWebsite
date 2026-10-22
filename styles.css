@@ -810,9 +810,72 @@ kbd {
 .mac .keycast { top: auto; bottom: 16px; right: auto; left: 16px; }
 
 /* ================================================================== THANK-YOU PAGE */
-.ty-keys { margin: 8px 0 6px; }
-.ty-key { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; background: var(--card); border-radius: 16px; padding: 14px 18px; margin: 0 0 10px; }
-.ty-key code { font-family: var(--mono); font-size: clamp(14px, 2.6vw, 18px); color: var(--text); word-break: break-all; flex: 1 1 240px; }
-.doc .ty-note { font-size: 15px; color: var(--faint); }
-.ty-steps li { margin-bottom: 18px; }
-.ty-steps .btn { margin-top: 10px; }
+
+/* ================================================================== THANK YOU */
+.ty { max-width: 980px; margin: 0 auto; padding: 72px 24px 96px; }
+.ty-hero { text-align: center; max-width: 640px; margin: 0 auto; }
+.ty-badge { position: relative; width: 112px; height: 112px; margin: 0 auto 26px; animation: ty-rise 0.7s cubic-bezier(.2, .9, .2, 1) both; }
+.ty-badge img { width: 112px; height: 112px; border-radius: 26px; filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.28)); }
+.ty-check { position: absolute; right: -8px; bottom: -6px; width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; color: #fff; background: #34c759; box-shadow: 0 0 0 4px var(--bg), 0 6px 14px rgba(52, 199, 89, 0.45); animation: ty-pop 0.5s 0.45s cubic-bezier(.2, 1.4, .4, 1) both; }
+.ty-check svg { width: 22px; height: 22px; }
+.ty-not-ok .ty-check { background: #ff9f0a; box-shadow: 0 0 0 4px var(--bg), 0 6px 14px rgba(255, 159, 10, 0.4); }
+.ty-eyebrow { font-size: 14px; font-weight: 600; color: var(--muted); margin: 0 0 8px; }
+.ty-title { font-size: clamp(44px, 7vw, 72px); margin: 0 0 16px; }
+.ty-lede { font-size: 20px; line-height: 1.5; color: var(--muted); margin: 0; }
+.ty-again { margin-top: 28px; }
+.ty-keycard { max-width: 680px; margin: 44px auto 0; padding: 26px 28px 22px; border-radius: 26px; background: var(--card); box-shadow: var(--shadow); animation: ty-rise 0.7s 0.15s cubic-bezier(.2, .9, .2, 1) both; }
+.ty-keyhead { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.ty-keyhead h2 { margin: 0; font-size: 17px; font-weight: 600; }
+.ty-pill { font-size: 13px; font-weight: 600; padding: 5px 11px; border-radius: 999px; color: var(--accent-ink); background: var(--accent); }
+.ty-key { display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 12px 12px 12px 20px; margin: 0 0 10px; border-radius: 16px; background: var(--card-alt); box-shadow: inset 0 0 0 1px var(--line); }
+.ty-key code { flex: 1; min-width: 0; font: 600 clamp(15px, 2.5vw, 21px)/1.3 var(--mono); letter-spacing: 0.02em; color: var(--text); word-break: break-all; cursor: copy; }
+.ty-key.is-ready { animation: ty-fade 0.4s ease both; }
+.ty-copy { flex: none; display: inline-flex; align-items: center; gap: 7px; height: 40px; padding: 0 16px; border: 0; border-radius: 12px; font: 600 14px/1 var(--body); color: var(--accent-ink); background: var(--accent); cursor: pointer; transition: transform 0.12s, background 0.2s; }
+.ty-copy svg { width: 17px; height: 17px; }
+.ty-copy:active { transform: scale(0.96); }
+.ty-copy.is-done { background: #34c759; color: #fff; }
+.ty-key.is-loading, .ty-key.is-note { position: relative; overflow: hidden; }
+.ty-status { color: var(--muted); font-size: 15px; position: relative; }
+.ty-shimmer { position: absolute; inset: 0; background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--text) 7%, transparent), transparent); transform: translateX(-100%); animation: ty-shimmer 1.3s infinite; }
+.ty-keynote { margin: 4px 2px 0; font-size: 14px; color: var(--faint); }
+.ty-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 56px 0 0; }
+.ty-step { position: relative; padding: 24px 22px 22px; border-radius: 22px; background: var(--card); animation: ty-rise 0.7s cubic-bezier(.2, .9, .2, 1) both; }
+.ty-step:nth-child(2) { animation-delay: 0.08s; } .ty-step:nth-child(3) { animation-delay: 0.16s; }
+.ty-step:first-child { animation-delay: 0.3s; }
+.ty-num { position: absolute; top: 18px; left: 20px; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-size: 13px; font-weight: 700; color: var(--accent-ink); background: var(--accent); }
+.ty-step h3 { margin: 16px 0 6px; font-size: 19px; }
+.ty-step p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.5; }
+.ty-dl { margin-top: 16px; width: 100%; }
+.ty-art { height: 112px; margin: 18px 0 0; border-radius: 16px; display: flex; align-items: center; justify-content: center; gap: 12px; background: var(--card-alt); box-shadow: inset 0 0 0 1px var(--line); color: var(--muted); }
+.ty-art-dl img { width: 58px; height: 58px; border-radius: 14px; filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.25)); }
+.ty-art-dl svg { width: 28px; height: 28px; animation: ty-bob 1.8s ease-in-out infinite; }
+.ty-mini-app img { width: 44px; height: 44px; border-radius: 11px; display: block; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25)); animation: ty-slide 2.4s ease-in-out infinite; }
+.ty-arrow { width: 38px; height: 12px; }
+.ty-mini-folder { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.ty-mini-folder img { width: 50px; height: 50px; }
+.ty-mini-folder small { font-size: 10.5px; color: var(--muted); }
+.ty-art-key { flex-direction: column; gap: 10px; }
+.ty-field { display: inline-flex; align-items: center; width: 82%; height: 30px; padding: 0 10px; border-radius: 8px; background: var(--bg); box-shadow: inset 0 0 0 1px var(--kbd-line); font: 600 12px/1 var(--mono); color: var(--text); overflow: hidden; white-space: nowrap; }
+.ty-caret { width: 1.5px; height: 15px; margin-left: 2px; background: var(--text); animation: caret 1s steps(1) infinite; }
+.ty-mini-btn { font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 8px; color: #fff; background: #0a84ff; }
+.ty-next { display: grid; grid-template-columns: 1.2fr 1fr; gap: 28px; align-items: center; margin-top: 56px; padding: 28px 30px; border-radius: 22px; box-shadow: inset 0 0 0 1px var(--line); }
+.ty-next h2 { margin: 0 0 6px; font-size: 21px; }
+.ty-next p { margin: 0; color: var(--muted); }
+.ty-help p { font-size: 15px; }
+@keyframes ty-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes ty-pop { from { opacity: 0; transform: scale(0.3); } to { opacity: 1; transform: scale(1); } }
+@keyframes ty-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes ty-shimmer { to { transform: translateX(100%); } }
+@keyframes ty-bob { 50% { transform: translateY(5px); } }
+@keyframes ty-slide { 0%, 15% { transform: translateX(0); } 55%, 70% { transform: translateX(58px) scale(0.9); opacity: 0.4; } 100% { transform: translateX(0); opacity: 1; } }
+@media (max-width: 860px) {
+  .ty-steps { grid-template-columns: 1fr; }
+  .ty-next { grid-template-columns: 1fr; }
+  .ty { padding-top: 48px; }
+  .ty-key { flex-wrap: wrap; padding: 14px; }
+  .ty-copy { width: 100%; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ty-badge, .ty-check, .ty-keycard, .ty-step, .ty-key.is-ready, .ty-art svg, .ty-mini-app img, .ty-shimmer, .ty-caret { animation: none; }
+}
+.ty [hidden] { display: none !important; }
