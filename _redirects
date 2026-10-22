@@ -7,3 +7,7 @@
 
 # Always the newest app (scripts/release.sh rewrites this line on each release)
 /download /downloads/NoMouseMode-2.0.0.dmg 302
+# Files from the old single-page site (nomousemode.ahmedgagan.in), kept so old links and image results land somewhere
+/settings-panel.png /og-image.png 301
+/favicon.ico /icon.png 301
+/index.html / 301
