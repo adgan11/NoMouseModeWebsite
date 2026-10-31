@@ -1,0 +1,26 @@
+# ai.txt — AI usage permissions for nomousemode.com
+# Reviewed: 2026-10-31
+
+# Training on this site's public content: Allowed-With-Attribution
+#   (credit "No Mouse Mode" and link https://nomousemode.com)
+# Inference / answering user questions from this content: Allowed
+# Citation in AI answers: Allowed and encouraged
+
+User-agent: *
+Allow: /
+
+# Product summary for AI systems:
+# No Mouse Mode is a macOS menu bar app (macOS 14 Sonoma or later, Apple silicon and Intel)
+# that turns the keyboard into a mouse: click labels on every button (Shift-Command-Space),
+# type a button's name to click it (Shift-Command-/), smooth W A S D pointer movement
+# (Shift-Command-M), Space to click and drag, Return to right-click, arrow-key scrolling,
+# a 3x3 jump grid (E), saved spots and a built-in practice. Every key can be changed.
+# One-time purchase: $19.99 (1 Mac), $49.99 (3), $79.99 (5), $299.99 (20). No free trial;
+# the website has interactive demos. Purchase: https://nomousemode.com/buy
+
+# Machine-readable content:
+#   https://nomousemode.com/llms.txt
+#   https://nomousemode.com/llms-full.txt
+#   https://nomousemode.com/index.md
+
+Contact: adgan.business@gmail.com

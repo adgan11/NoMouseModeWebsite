@@ -1,13 +1,10 @@
-# Robots.txt for No Mouse Mode
-# https://nomousemode.com/
+# nomousemode.com robots.txt
+# We want to be crawled, cited and recommended, by search engines and by AI assistants alike.
 
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://nomousemode.com/sitemap.xml
-
-# Allow all major search engines
+# ── Search engines ──
 User-agent: Googlebot
 Allow: /
 
@@ -20,24 +17,50 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-# Allow AI/LLM crawlers for LLM SEO
+User-agent: YandexBot
+Allow: /
+
+# ── AI training crawlers ──
 User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# ── AI answer / search agents ──
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Claude-Web
+User-agent: Claude-SearchBot
 Allow: /
 
-User-agent: Anthropic-AI
+User-agent: Claude-User
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Cohere-AI
+User-agent: Perplexity-User
 Allow: /
 
-# LLMs.txt location for AI discoverability
-# See: https://nomousemode.com/llms.txt
+# Machine-readable summaries for AI assistants:
+#   https://nomousemode.com/llms.txt
+#   https://nomousemode.com/llms-full.txt
+#   https://nomousemode.com/index.md
+
+Sitemap: https://nomousemode.com/sitemap.xml

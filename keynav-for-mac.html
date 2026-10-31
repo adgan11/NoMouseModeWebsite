@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>keynav for Mac (2026): Why It Won&#x27;t Run, and Grid Alternatives</title>
+  <meta name="description" content="keynav only works on X11, so it can&#x27;t run on macOS. The closest Mac equivalents are keyboard grids: No Mouse Mode&#x27;s jump grid, warpd, Voice Control and Mouse Keys.">
+  <meta name="author" content="Ahmed Gagan">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://nomousemode.com/keynav-for-mac">
+  <link rel="alternate" type="text/markdown" href="https://nomousemode.com/keynav-for-mac.md" title="keynav for Mac (2026): Why It Won&#x27;t Run, and Grid Alternatives (Markdown)">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="No Mouse Mode">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="keynav for Mac (2026): Why It Won&#x27;t Run, and Grid Alternatives">
+  <meta property="og:description" content="keynav is X11-only and doesn&#x27;t run on macOS. Here are the closest ways to jump the pointer anywhere in a few keystrokes on a Mac, compared honestly.">
+  <meta property="og:url" content="https://nomousemode.com/keynav-for-mac">
+  <meta property="og:image" content="https://nomousemode.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="No Mouse Mode: your keyboard is the mouse">
+  <meta property="article:published_time" content="2026-10-31">
+  <meta property="article:modified_time" content="2026-10-31">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@ahmedgagan11">
+  <meta name="twitter:title" content="keynav for Mac (2026): Why It Won&#x27;t Run, and Grid Alternatives">
+  <meta name="twitter:description" content="keynav is X11-only and doesn&#x27;t run on macOS. Here are the closest ways to jump the pointer anywhere in a few keystrokes on a Mac, compared honestly.">
+  <meta name="twitter:image" content="https://nomousemode.com/og-image.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=20261031">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://nomousemode.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "keynav for Mac",
+      "item": "https://nomousemode.com/keynav-for-mac"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://nomousemode.com/keynav-for-mac#article",
+  "headline": "keynav for Mac: why keynav can't run on macOS and the closest keyboard-grid alternatives",
+  "description": "keynav only works on X11, so it can't run on macOS. The closest Mac equivalents are keyboard grids: No Mouse Mode's jump grid, warpd, Voice Control and Mouse Keys.",
+  "image": "https://nomousemode.com/og-image.png",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "name": "Ahmed Gagan",
+    "url": "https://x.com/ahmedgagan11"
+  },
+  "publisher": {
+    "@id": "https://nomousemode.com/#org"
+  },
+  "mainEntityOfPage": "https://nomousemode.com/keynav-for-mac",
+  "about": {
+    "@id": "https://nomousemode.com/#app"
+  },
+  "mentions": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "keynav",
+      "url": "https://github.com/jordansissel/keynav"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "warpd",
+      "url": "https://github.com/rvaiya/warpd"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Scoot",
+      "url": "https://github.com/mjrusso/scoot"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Mouseless",
+      "url": "https://mouseless.click"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I install keynav on macOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. keynav's README says \"This project (keynav) only works on X11\", and its FAQ says it is totally dependent on X11. macOS doesn't use X11 for its own apps, so there's nothing for keynav to control. There's no Wayland version either."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the closest thing to keynav on a Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A keyboard grid. No Mouse Mode's jump grid (press E) splits the screen into a 3×3 grid on Q W E / A S D / Z X C and zooms in with each press. warpd has a grid mode with four quadrants. Voice Control has a numbered grid you control by voice. Scoot and Mouseless also have grid modes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a free keynav alternative for macOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Voice Control and Mouse Keys are built into macOS and free. warpd (MIT) and Scoot (BSD-3) are free and open source, though warpd hasn't been updated since 2023 and Scoot's README only states macOS 11 and 12. No Mouse Mode is paid: $19.99 one time for 1 Mac as of October 2026."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I click and right-click from the grid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In No Mouse Mode, yes: after narrowing down, press Space to click or Return to right-click. Delete goes back a level, Tab moves the grid to your next display and Esc closes it. You can still fine-tune with W A S D afterwards. In warpd's grid mode, m, , and . are left, middle and right click."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the jump grid work in every app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The grid doesn't need to know where an app's buttons are; it just moves the pointer to a spot on screen. That's why it works in games, design canvases and remote desktops where click labels can't see anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it work with several displays?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The grid appears on the display the pointer is on, and Tab moves it to the next one. Outside the grid, Tab and Shift+Tab jump the pointer between displays."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="No Mouse Mode home"><img src="/icon-sm.png" alt="" width="28" height="28"><span>No Mouse Mode</span></a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="/#demo">Demo</a><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="/how-to-use-mac-without-mouse">Guides</a><a href="/support">Support</a>
+    </nav>
+    <a class="btn btn-dark btn-sm" href="/buy/1">Buy — $19.99</a>
+  </div>
+</header>
+
+<main id="main" class="article">
+  <div class="wrap-article">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a><span class="sep">›</span><span>keynav for Mac</span>
+    </nav>
+
+    <header class="article-head">
+      <h1 class="display">keynav for Mac: why it won't run, and the closest grid alternatives</h1>
+      <p class="article-dek"><strong>keynav doesn't run on macOS: its own README says it only works on X11.</strong> If what you miss is narrowing the screen down to a spot in a few keystrokes, Mac apps can do that with a keyboard grid. Here are your options.</p>
+      <p class="article-meta">Updated October 2026 · 6 min read · by <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a>, maker of No Mouse Mode</p>
+    </header>
+
+    <div class="article-body">
+<div class="verdict">
+  <span class="verdict-label">Short answer</span>
+  <p><strong>keynav can't run on a Mac.</strong> Its README says it "only works on X11", and macOS apps don't use X11. The closest thing on macOS is a keyboard grid that narrows the screen down to the spot you want. <a href="/">No Mouse Mode</a>'s jump grid does it with a 3×3 grid on <kbd>Q</kbd> <kbd>W</kbd> <kbd>E</kbd> / <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Z</kbd> <kbd>X</kbd> <kbd>C</kbd>, two or three presses to anywhere. Free options exist too: warpd's grid mode (not updated since 2023), Voice Control's "Show grid" and Mouse Keys, each with trade-offs below.</p>
+</div>
+    </div>
+    <div class="article-demo-wrap">
+      <p class="article-demo-label">Try it right here: this is a working model of No Mouse Mode, not a video. Click it, then use the keys.</p>
+<section class="demo-section article-demo" id="demo" aria-labelledby="demo-title">
+      <h2 class="sr-only" id="demo-title">Interactive demo</h2>
+      <div class="demo-layout">
+        <div class="demo-main">
+        <div class="mac" id="hero-stage" aria-label="A pretend Mac desktop. Click it, then use W A S D to move, Space to click, F for click labels, / to type to click and E for the jump grid.">
+          <div class="mac-menubar">
+            <svg class="mb-apple" viewBox="0 0 17 20" aria-hidden="true"><path d="M13.6 10.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8C3.6 5.1 2 6.1 1.2 7.6c-1.7 2.9-.4 7.3 1.2 9.7.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.4-3.9zM11.2 3.4c.7-.8 1.1-1.9 1-3-.9 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3z"/></svg>
+            <b class="mb-app">Finder</b>
+            <span class="mb-item" data-click data-menu="File">File</span>
+            <span class="mb-item" data-click data-menu="Edit">Edit</span>
+            <span class="mb-item" data-click data-menu="View">View</span>
+            <span class="mb-item hide-sm" data-click data-menu="Go">Go</span>
+            <span class="mb-item hide-sm" data-click data-menu="Window">Window</span>
+            <span class="mb-spacer"></span>
+            <span class="mb-status" aria-hidden="true">
+              <svg viewBox="0 0 26 13"><rect x=".5" y=".5" width="22" height="12" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2.2" y="2.2" width="15" height="8.6" rx="1.8"/><path d="M24 4.5v4c.9-.3 1.5-1 1.5-2s-.6-1.7-1.5-2z" opacity=".45"/></svg>
+              <svg viewBox="0 0 18 13"><path d="M9 12.4 6.6 9.8a3.4 3.4 0 0 1 4.8 0zM4.3 7.5a6.6 6.6 0 0 1 9.4 0l1.6-1.7a9 9 0 0 0-12.6 0zM1.6 4.6a10.4 10.4 0 0 1 14.8 0L18 3A12.7 12.7 0 0 0 0 3z"/></svg>
+              <svg viewBox="0 0 14 14"><circle cx="5.8" cy="5.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m9.2 9.2 3.8 3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <svg viewBox="0 0 16 14"><rect x=".8" y=".8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12.4" cy="3.5" r="1.6"/><rect x=".8" y="7.8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="3.6" cy="10.5" r="1.6"/></svg>
+            </span>
+            <span class="mb-nmm" title="No Mouse Mode"><img src="/icon-sm.png" alt="" width="14" height="14"></span>
+            <span class="mb-clock">Tue 22 Oct&nbsp;&nbsp;9:41</span>
+          </div>
+
+          <div class="desk">
+            <div class="desk-icon" data-drag data-click data-file="report" style="left:62%;top:9%">
+              <img class="ico-img" src="/img/icons/pdf.svg" alt="" draggable="false"><span class="ico-label">Report.pdf</span>
+            </div>
+            <div class="desk-icon" data-drop data-click data-folder="projects" style="left:80%;top:9%">
+              <img class="ico-img" src="/img/icons/folder.svg" alt="" draggable="false"><span class="ico-label">Projects</span>
+            </div>
+            <div class="desk-icon" data-click data-app="notes" style="left:80%;top:37%">
+              <img class="ico-img" src="/img/icons/notes.svg" alt="" draggable="false"><span class="ico-label">Notes</span>
+            </div>
+            <div class="desk-icon" data-click data-file="photo" style="left:62%;top:37%">
+              <img class="ico-img" src="/img/icons/photo.svg" alt="" draggable="false"><span class="ico-label">Sunset.png</span>
+            </div>
+            <button class="grid-target" type="button" data-click data-target style="left:16%;top:80%" aria-label="Target"><span></span></button>
+
+            <article class="win win-guide" data-win="guide" style="left:3%;top:6%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Field Guide</span></header>
+              <div class="win-body guide-body" data-scrollbox="guide">
+                <p class="kicker">Field guide</p>
+                <h3>Working without a mouse</h3>
+                <p>Point at this window, then hold <kbd>↓</kbd> to scroll. The photos below scroll sideways with <kbd>←</kbd> and <kbd>→</kbd>.</p>
+                <div class="strip" data-scrollbox="strip">
+                  <div class="photo p1">Coast</div><div class="photo p2">Dunes</div><div class="photo p3">Forest</div>
+                  <div class="photo p4">Lake</div><div class="photo p5">Canyon</div><div class="photo p6">Glacier</div>
+                </div>
+                <p>Hold <kbd>Shift</kbd> to cross the screen fast. Hold <kbd>Q</kbd> to move one pixel per tap.</p>
+                <p>Tap <kbd>Space</kbd> twice to double-click. Hold it and move to drag, let go to drop.</p>
+                <p><kbd>E</kbd> splits the screen into nine cells named after the keys under your left hand. Press one and the pointer jumps there.</p>
+                <p><kbd>F</kbd> puts a little letter on every button in the front window. Type it and that button is clicked.</p>
+                <p><kbd>/</kbd> lets you type a button’s name instead. <kbd>H</kbd> shows every key.</p>
+                <p class="guide-end">You reached the end. Nice scrolling.</p>
+              </div>
+            </article>
+
+            <article class="win win-notes" data-win="notes" hidden style="left:47%;top:34%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Notes</span></header>
+              <div class="notes-toolbar">
+                <span class="tb-btn" data-click data-action="new">New</span>
+                <span class="tb-btn" data-click data-action="bold"><b>B</b></span>
+                <span class="tb-btn" data-click data-action="list">List</span>
+                <span class="tb-btn" data-click data-action="share">Share</span>
+                <span class="tb-btn tb-primary" data-click data-action="save">Save</span>
+              </div>
+              <div class="win-body notes-body">
+                <p class="notes-title">Groceries</p>
+                <p>Oats, coffee, lemons. Click <b>Save</b> without touching the trackpad: press <kbd>F</kbd> and type its letters.</p>
+              </div>
+            </article>
+
+            <div class="ctx-menu" hidden data-ctx>
+              <span class="ctx-item" data-click data-ctx-item="folder">New Folder</span>
+              <span class="ctx-item" data-click data-ctx-item="info">Get Info</span>
+              <span class="ctx-sep"></span>
+              <span class="ctx-item" data-click data-ctx-item="wallpaper">Change Wallpaper…</span>
+            </div>
+
+            <div class="dock" data-dock>
+              <span class="dock-app running" data-click data-dock-app="Finder" title="Finder"><img src="/img/icons/finder.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Safari" title="Safari"><img src="/img/icons/safari.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Mail" title="Mail"><img src="/img/icons/mail.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Messages" title="Messages"><img src="/img/icons/messages.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Photos" title="Photos"><img src="/img/icons/photos.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Notes" title="Notes"><img src="/img/icons/notes.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Music" title="Music"><img src="/img/icons/music.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Calendar" title="Calendar"><img src="/img/icons/calendar.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="System Settings" title="System Settings"><img src="/img/icons/settings.svg" alt="" draggable="false"></span>
+              <span class="dock-sep"></span>
+              <span class="dock-app" data-click data-dock-app="Trash" title="Trash"><img src="/img/icons/trash.svg" alt="" draggable="false"></span>
+            </div>
+          </div>
+
+          <div class="nm-on-badge" aria-hidden="true">No Mouse ON</div>
+          <div class="toast" role="status" aria-live="polite"></div>
+          <div class="cover" data-cover>
+            <button class="btn btn-accent cover-btn" type="button">Try it yourself</button>
+            <p>Then use your keyboard. <kbd>Esc</kbd> lets go.</p>
+          </div>
+        </div>
+      <div class="keypad" data-nm-keypad="hero-stage" aria-label="On-screen keys">
+          <div class="kp-group kp-letters">
+            <button type="button" data-key="KeyQ">Q</button><button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyE">E</button><button type="button" data-key="KeyF">F</button>
+            <button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button><button type="button" data-key="ShiftLeft" data-latch>⇧</button>
+          </div>
+          <div class="kp-group kp-arrows">
+            <button type="button" data-key="ArrowUp" class="kp-up">↑</button>
+            <button type="button" data-key="ArrowLeft">←</button><button type="button" data-key="ArrowDown">↓</button><button type="button" data-key="ArrowRight">→</button>
+          </div>
+          <div class="kp-group kp-actions">
+            <button type="button" data-key="Escape">esc</button><button type="button" data-key="Backspace">⌫</button>
+            <button type="button" data-key="Space" class="kp-space">space</button><button type="button" data-key="Enter">return</button>
+            <button type="button" data-key="KeyH">H</button><button type="button" data-key="Slash" data-char="/">/</button>
+          </div>
+        </div>
+        </div>
+
+        <aside class="challenges" aria-label="Challenges">
+          <div class="ch-head"><h3>Challenges</h3><span class="ch-count"><b data-ch-count>0</b> of 8</span></div>
+          <ol class="ch-list">
+            <li data-ch="move">Move the pointer with <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></li>
+            <li data-ch="open">Double-click <b>Notes</b>: <kbd>Space</kbd> twice</li>
+            <li data-ch="drag">Drag <b>Report.pdf</b> into <b>Projects</b>: hold <kbd>Space</kbd> and move</li>
+            <li data-ch="scroll">Scroll the Field Guide down <kbd>↓</kbd> and sideways <kbd>→</kbd></li>
+            <li data-ch="grid">Press <kbd>E</kbd>, jump onto the <b>target</b>, then <kbd>Space</kbd></li>
+            <li data-ch="hint">Press <kbd>F</kbd> and click <b>Save</b> in Notes by its letters</li>
+            <li data-ch="search">Press <kbd>/</kbd>, type <b>music</b>, press <kbd>Return</kbd></li>
+            <li data-ch="menu">Right-click the desktop with <kbd>Return</kbd>, pick <b>New Folder</b></li>
+          </ol>
+          <p class="ch-tip">Hold <kbd>Shift</kbd> for fast, <kbd>Q</kbd> for precise. Lost? Press <kbd>H</kbd>.</p>
+          <button class="link-btn" type="button" data-reset>Reset demo</button>
+          <div class="ch-done" hidden>
+            <p><b>You've got it.</b> That's the whole app — on your real Mac it works in every app.</p>
+            <a class="btn btn-accent btn-sm" href="#pricing">Get No Mouse Mode</a>
+          </div>
+        </aside>
+      </div>
+
+    </section>
+    </div>
+    <div class="article-body after-demo">
+<h2>What keynav is, and why it stays on Linux</h2>
+<p><a href="https://github.com/jordansissel/keynav">keynav</a>'s tagline is "retire your mouse": it controls the mouse with the keyboard. It's free and open source, with about 653 stars on GitHub, and its last commit was in August 2022.</p>
+<p>The reason you can't brew-install it on a Mac is spelled out in its README: "This project (keynav) only works on X11." The FAQ goes further: keynav is totally dependent on X11, and for macOS it suggests AppleScript instead. It doesn't support Wayland either. X11 is the window system that many Linux desktops use; macOS draws its windows with its own system, so a port isn't a weekend job, it's a rewrite.</p>
+<p>The good news is that the idea travels. Mac apps can't reuse keynav's code, but they can do the same kind of thing through macOS's own accessibility and pointer controls.</p>
+
+<h2>The idea you're probably after: narrow down, don't steer</h2>
+<p>Most "keyboard mouse" tools make you steer the pointer like a tiny car with arrow keys. Grid tools take a different route. You see the screen split into cells, press the key for the cell your target is in, the grid shrinks into that cell, and you press again. A few keystrokes later the pointer is on the spot. It's fast, it's the same number of keys whether the target is near or far, and it never needs to know what's on screen.</p>
+<p>That last point matters on a Mac. Click-label tools (like <a href="vimium-for-mac">Vimium-style labels for the whole Mac</a>) depend on apps describing their buttons to macOS. A grid doesn't care, so it works in games, design canvases, remote desktops and anything else.</p>
+
+<h2>Keyboard grids on macOS, compared</h2>
+<p>Checked against each tool's own docs in October 2026:</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th></th><th class="hero-col">No Mouse Mode jump grid</th><th>warpd grid mode</th><th>Voice Control grid</th><th>Mouse Keys</th></tr>
+  <tr><td>How you narrow down</td><td class="hero-col">3×3 grid, zooms in with each press</td><td>Pick quadrants repeatedly with <kbd>u</kbd> <kbd>i</kbd> <kbd>j</kbd> <kbd>k</kbd></td><td>Say a grid number; it refines</td><td>No grid: steer with keys</td></tr>
+  <tr><td>Keys</td><td class="hero-col"><kbd>Q</kbd> <kbd>W</kbd> <kbd>E</kbd> / <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Z</kbd> <kbd>X</kbd> <kbd>C</kbd></td><td><kbd>u</kbd> <kbd>i</kbd> <kbd>j</kbd> <kbd>k</kbd></td><td>Your voice</td><td>7 8 9 U O J K L</td></tr>
+  <tr><td>Open it</td><td class="hero-col"><kbd>E</kbd> while No Mouse Mode is on</td><td><kbd>⌥⌘G</kbd> (A-M-g)</td><td>"Show grid"</td><td>Accessibility setting</td></tr>
+  <tr><td>Click</td><td class="hero-col"><kbd>Space</kbd> click, <kbd>Return</kbd> right-click</td><td><kbd>m</kbd> left, <kbd>,</kbd> middle, <kbd>.</kbd> right</td><td>By voice</td><td><kbd>I</kbd> click (no right-click key)</td></tr>
+  <tr><td>Works in any app</td><td class="hero-col"><span class="yes">Yes</span></td><td><span class="yes">Yes</span></td><td><span class="yes">Yes</span></td><td><span class="yes">Yes</span></td></tr>
+  <tr><td>Maintained</td><td class="hero-col">Yes (2.0.0)</td><td>Not updated since 2023</td><td>Built into macOS</td><td>Built into macOS</td></tr>
+  <tr><td>Price</td><td class="hero-col">$19.99 one time, 1 Mac</td><td>Free, MIT</td><td>Free</td><td>Free</td></tr>
+</table></div>
+
+<h2>No Mouse Mode's jump grid</h2>
+<p>Press <kbd>⇧⌘M</kbd> to turn <a href="/">No Mouse Mode</a> on, then <kbd>E</kbd>. The screen with the pointer splits into a 3×3 grid labelled <kbd>Q</kbd> <kbd>W</kbd> <kbd>E</kbd> / <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Z</kbd> <kbd>X</kbd> <kbd>C</kbd>, the same shape as those keys on your keyboard, so you don't read the labels so much as point with your fingers. Press a letter and the pointer jumps to the middle of that cell, then the grid zooms into it. Two or three presses reach anywhere.</p>
+<ul>
+  <li><kbd>Space</kbd> clicks there, <kbd>Return</kbd> right-clicks.</li>
+  <li><kbd>Delete</kbd> goes back a level if you picked the wrong cell.</li>
+  <li><kbd>Tab</kbd> moves the grid to your next display; <kbd>Esc</kbd> closes it.</li>
+  <li>Afterwards you can fine-tune with <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> (hold <kbd>Q</kbd> for one-pixel precision).</li>
+</ul>
+<p>The grid is one part of a bigger app. When a target is a real button, <kbd>⇧⌘Space</kbd> click labels are usually faster: type the letters on it and it's clicked. You also get type to click, scroll areas, saved spots (<kbd>Shift+1</kbd>–<kbd>9</kbd> to save, <kbd>1</kbd>–<kbd>9</kbd> to jump) and every key can be remapped. It needs macOS 14 Sonoma or later on Apple silicon or Intel.</p>
+
+<h2>The free options</h2>
+<h3>warpd: the closest in spirit, but quiet since 2023</h3>
+<p><a href="https://github.com/rvaiya/warpd">warpd</a> is "a modal keyboard-driven virtual pointer" for X11, Wayland (sway/wlroots) and macOS. Its grid mode (<kbd>⌥⌘G</kbd>, written A-M-g in its docs) lets you pick quadrants over and over with <kbd>u</kbd>/<kbd>i</kbd>/<kbd>j</kbd>/<kbd>k</kbd>, then <kbd>m</kbd>, <kbd>,</kbd> or <kbd>.</kbd> to click. If you used keynav on Linux and want something that feels like a Unix tool, it's the natural first try. The catch: its last commit was June 2023 and its last macOS release (v1.3.5) was November 2022, and it doesn't state a minimum macOS. Full details in <a href="warpd-for-mac">warpd for Mac</a>.</p>
+<h3>Voice Control's "Show grid"</h3>
+<p>Built into macOS (System Settings &gt; Accessibility &gt; Voice Control). Say "Show grid" for a numbered grid over the screen, or "Show window grid" for just the active window. Say a number to refine it, and "Hide grid" when you're done. It's the same narrowing idea, and free, but you speak rather than type, which isn't for every room.</p>
+<h3>Mouse Keys</h3>
+<p>Also built in (System Settings &gt; Accessibility &gt; Pointer Control &gt; Mouse Keys). It moves the pointer with <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>U</kbd> <kbd>O</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> (or the keypad) and clicks with <kbd>I</kbd>. There's no grid, so it's steering rather than narrowing, and Apple notes that while it's on you can't use the keyboard to enter text. It's fine for an emergency; see <a href="no-mouse-mode-vs-mouse-keys">No Mouse Mode vs Mouse Keys</a> for the long version.</p>
+<h3>Two more grid apps</h3>
+<ul>
+  <li><strong><a href="https://github.com/mjrusso/scoot">Scoot</a></strong> (free, BSD-3, v1.3 March 2026): a grid mode on <kbd>⇧⌘K</kbd> with equal cells across all screens, each with a key sequence. Its README says it runs on macOS 11 and 12; newer versions aren't stated.</li>
+  <li><strong><a href="https://mouseless.click">Mouseless</a></strong> (closed source, 14-day trial, prices not published on its site): tap Left Command to show a grid, type a cell's two characters, then Space clicks its center or a sub-grid key picks a sub-cell.</li>
+</ul>
+
+<h2>Which should you pick?</h2>
+<ul>
+  <li><strong>You only need to click now and then:</strong> start with Voice Control or Mouse Keys. They're free and already on your Mac.</li>
+  <li><strong>You want the Unix-tool feel and don't mind risk:</strong> try warpd, knowing it isn't being updated.</li>
+  <li><strong>You want a grid plus click labels, scrolling and remappable keys in one maintained app:</strong> <a href="/">No Mouse Mode</a>, $19.99 one time for 1 Mac as of October 2026 (<a href="/#pricing">pricing</a>). There's no free trial, but the live demo on this page uses the same keys.</li>
+</ul>
+<p>For the bigger picture, see <a href="move-mouse-with-keyboard-mac">how to move the mouse with the keyboard on a Mac</a> and <a href="best-keyboard-mouse-apps-for-mac">the best keyboard mouse apps for Mac</a>.</p>
+
+      <div class="cta-banner">
+        <img src="/icon-sm.png" alt="" width="56" height="56">
+        <h3>Reach any spot on your Mac in three keys.</h3>
+        <p>Press E for a 3×3 grid on Q W E / A S D / Z X C, narrow down, then Space to click, in any app.</p>
+        <a href="/buy/1" class="btn btn-accent btn-lg">Buy No Mouse Mode — $19.99</a>
+        <span class="cta-note">one-time purchase · free updates · macOS 14+ on Apple silicon and Intel</span>
+      </div>
+
+      <h2>FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Can I install keynav on macOS?</summary>
+          <div class="faq-a"><p>No. keynav's README says "This project (keynav) only works on X11", and its FAQ says it is totally dependent on X11. macOS doesn't use X11 for its own apps, so there's nothing for keynav to control. There's no Wayland version either.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What&#x27;s the closest thing to keynav on a Mac?</summary>
+          <div class="faq-a"><p>A keyboard grid. <a href="/">No Mouse Mode</a>'s jump grid (press <kbd>E</kbd>) splits the screen into a 3×3 grid on Q W E / A S D / Z X C and zooms in with each press. warpd has a grid mode with four quadrants. Voice Control has a numbered grid you control by voice. Scoot and Mouseless also have grid modes.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is there a free keynav alternative for macOS?</summary>
+          <div class="faq-a"><p>Yes. Voice Control and Mouse Keys are built into macOS and free. warpd (MIT) and Scoot (BSD-3) are free and open source, though warpd hasn't been updated since 2023 and Scoot's README only states macOS 11 and 12. No Mouse Mode is paid: $19.99 one time for 1 Mac as of October 2026.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I click and right-click from the grid?</summary>
+          <div class="faq-a"><p>In No Mouse Mode, yes: after narrowing down, press <kbd>Space</kbd> to click or <kbd>Return</kbd> to right-click. <kbd>Delete</kbd> goes back a level, <kbd>Tab</kbd> moves the grid to your next display and <kbd>Esc</kbd> closes it. You can still fine-tune with W A S D afterwards. In warpd's grid mode, <kbd>m</kbd>, <kbd>,</kbd> and <kbd>.</kbd> are left, middle and right click.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Does the jump grid work in every app?</summary>
+          <div class="faq-a"><p>Yes. The grid doesn't need to know where an app's buttons are; it just moves the pointer to a spot on screen. That's why it works in games, design canvases and remote desktops where click labels can't see anything.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Does it work with several displays?</summary>
+          <div class="faq-a"><p>Yes. The grid appears on the display the pointer is on, and <kbd>Tab</kbd> moves it to the next one. Outside the grid, <kbd>Tab</kbd> and <kbd>Shift+Tab</kbd> jump the pointer between displays.</p></div>
+        </details>
+      </div>
+
+      <div class="related">
+        <h2>Keep reading</h2>
+        <div class="related-grid">
+          <a class="related-card" href="/warpd-for-mac"><b>warpd for Mac</b><span>warpd on macOS: fixes, maintenance status and maintained alternatives.</span></a>
+          <a class="related-card" href="/move-mouse-with-keyboard-mac"><b>Move the mouse with the keyboard</b><span>Mouse Keys vs W A S D: exact keys and when each is enough.</span></a>
+          <a class="related-card" href="/no-mouse-mode-vs-mouse-keys"><b>No Mouse Mode vs Mouse Keys</b><span>How to use Mac Mouse Keys, its limits, and an alternative.</span></a>
+          <a class="related-card" href="/best-keyboard-mouse-apps-for-mac"><b>Best keyboard mouse apps for Mac</b><span>Twelve mouseless tools ranked by use case, with prices and status.</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/"><img src="/icon-sm.png" alt="" width="24" height="24"><span>No Mouse Mode</span></a>
+        <p>Your keyboard is the mouse. Click anything on your Mac by typing, glide the pointer with W A S D, scroll and jump anywhere.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#demo">Demo</a></li>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#keys">Keys</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/changelog">Changelog</a></li>
+          <li><a href="/download">Download</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Compare</h4>
+        <ul>
+          <li><a href="/no-mouse-mode-vs-homerow">vs Homerow</a></li>
+          <li><a href="/no-mouse-mode-vs-shortcat">vs Shortcat</a></li>
+          <li><a href="/no-mouse-mode-vs-mouse-keys">vs Mouse Keys</a></li>
+          <li><a href="/homerow-alternatives">Homerow alternatives</a></li>
+          <li><a href="/vimac-alternative">Vimac alternatives</a></li>
+          <li><a href="/best-keyboard-mouse-apps-for-mac">Best keyboard-mouse apps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Coming from</h4>
+        <ul>
+          <li><a href="/vimium-for-mac">Vimium</a></li>
+          <li><a href="/keynav-for-mac">keynav</a></li>
+          <li><a href="/warpd-for-mac">warpd</a></li>
+          <li><a href="/full-keyboard-access-mac">Full Keyboard Access</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="/how-to-use-mac-without-mouse">Use a Mac without a mouse</a></li>
+          <li><a href="/move-mouse-with-keyboard-mac">Move the pointer with keys</a></li>
+          <li><a href="/right-click-without-mouse-mac">Right-click without a mouse</a></li>
+          <li><a href="/mac-trackpad-not-working">Trackpad not working</a></li>
+          <li><a href="/keyboard-only-mac-rsi">Wrist pain and RSI</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="/support">Support</a></li>
+          <li><a href="mailto:adgan.business@gmail.com">Email support</a></li>
+          <li><a href="/privacy">Privacy policy</a></li>
+          <li><a href="/terms">Terms of use</a></li>
+          <li><a href="https://x.com/ahmedgagan11" rel="me">X / Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>&copy; 2026 No Mouse Mode &middot; made by <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a> &middot; Mac is a trademark of Apple Inc.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/engine.js?v=20261031" defer></script>
+<script src="/js/site.js?v=20261031" defer></script>
+</body>
+</html>

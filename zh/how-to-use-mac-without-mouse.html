@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>不用鼠标怎么用 Mac（2026）：所有方法一次讲清</title>
+  <meta name="description" content="用全键盘控制、鼠标键、语音控制，或 No Mouse Mode 这样的 App，不用鼠标也能用 Mac。每种方法的按键，以及什么情况下它就够用。">
+  <meta name="author" content="Ahmed Gagan">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://nomousemode.com/zh/how-to-use-mac-without-mouse">
+  <link rel="alternate" hreflang="en" href="https://nomousemode.com/how-to-use-mac-without-mouse">
+  <link rel="alternate" hreflang="ja" href="https://nomousemode.com/ja/how-to-use-mac-without-mouse">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nomousemode.com/zh/how-to-use-mac-without-mouse">
+  <link rel="alternate" hreflang="x-default" href="https://nomousemode.com/how-to-use-mac-without-mouse">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="No Mouse Mode">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="不用鼠标怎么用 Mac（2026）：所有方法一次讲清">
+  <meta property="og:description" content="只用键盘控制 Mac 的所有方法：macOS 内置设置、语音控制和 No Mouse Mode 全面对比，附 5 分钟设置教程。">
+  <meta property="og:url" content="https://nomousemode.com/zh/how-to-use-mac-without-mouse">
+  <meta property="og:image" content="https://nomousemode.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="No Mouse Mode: your keyboard is the mouse">
+  <meta property="article:published_time" content="2026-10-31">
+  <meta property="article:modified_time" content="2026-10-31">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@ahmedgagan11">
+  <meta name="twitter:title" content="不用鼠标怎么用 Mac（2026）：所有方法一次讲清">
+  <meta name="twitter:description" content="只用键盘控制 Mac 的所有方法：macOS 内置设置、语音控制和 No Mouse Mode 全面对比，附 5 分钟设置教程。">
+  <meta name="twitter:image" content="https://nomousemode.com/og-image.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=20261031">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://nomousemode.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "不用鼠标使用 Mac",
+      "item": "https://nomousemode.com/zh/how-to-use-mac-without-mouse"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://nomousemode.com/zh/how-to-use-mac-without-mouse#article",
+  "headline": "不用鼠标如何使用 Mac：所有内置方法与 App",
+  "description": "用全键盘控制、鼠标键、语音控制，或 No Mouse Mode 这样的 App，不用鼠标也能用 Mac。每种方法的按键，以及什么情况下它就够用。",
+  "image": "https://nomousemode.com/og-image.png",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "inLanguage": "zh-Hans",
+  "author": {
+    "@type": "Person",
+    "name": "Ahmed Gagan",
+    "url": "https://x.com/ahmedgagan11"
+  },
+  "publisher": {
+    "@id": "https://nomousemode.com/#org"
+  },
+  "mainEntityOfPage": "https://nomousemode.com/zh/how-to-use-mac-without-mouse",
+  "about": {
+    "@id": "https://nomousemode.com/#app"
+  },
+  "mentions": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Homerow",
+      "url": "https://www.homerow.app"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Shortcat",
+      "url": "https://shortcat.app"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Scoot",
+      "url": "https://github.com/mjrusso/scoot"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Mac 可以只用键盘操作吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。在“系统设置”→“辅助功能”→“运动”→“键盘”中打开全键盘控制，就能用 Tab 在控件之间移动，用 Space 按下控件。Control-F2 跳到菜单栏，Control-F3 跳到程序坞。遇到需要指针的操作，可以用鼠标键通过数字键移动指针，或者用 No Mouse Mode 这样的 App，输入标签就能点击按钮。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "在 Mac 上怎么用键盘控制鼠标？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "在“系统设置”→“辅助功能”→“指针控制”中打开鼠标键。之后用 7 8 9 U O J K L 移动指针，按 I 点击。开启期间无法输入文字。No Mouse Mode 则使用 W A S D，移动平滑，有快速模式和精确模式，按 Space 点击。详见如何用键盘移动鼠标。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mac 上不用鼠标怎么右键点按？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "如果触控板还能用，按住 Control 再点按即可。只用键盘的话，macOS 提供替代指针操作或语音控制。在 No Mouse Mode 中，按 Return 会在指针位置右键点按；输入标签最后一个字母时按住 Shift，就会右键点按那个按钮。完整方法见如何不用鼠标右键点按。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "触控板坏了，不用它怎么打开蓝牙？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apple 给出的方法：按 Command-Space，输入“蓝牙文件交换”，按 Return，再按一次 Return 即可打开蓝牙。更多解决办法见Mac 触控板失灵怎么办。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "有没有免费的方法在 Mac 上用键盘点击按钮？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "有。全键盘控制是内置的，免费；语音控制的“Show numbers”会给屏幕上的项目加上标签，让你用语音点击。也有免费的开源 App，比如 Scoot。Mac 上最好用的键盘鼠标 App 把它们和付费 App 做了对比。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "No Mouse Mode 有免费试用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "没有。一次性购买 $19.99，可用于 1 台 Mac，免费更新，无需订阅。官网上有使用相同按键的交互演示，购买前可以先体验一下手感。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "No Mouse Mode 支持哪些 macOS 版本？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "macOS 14 Sonoma 或更高版本，包括 Sequoia 和 Tahoe，支持 Apple 芯片和 Intel 芯片的 Mac。"
+      }
+    }
+  ],
+  "inLanguage": "zh-Hans"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "设置 Mac，让它不用鼠标也能用",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "打开全键盘控制",
+      "text": "打开“系统设置”→“辅助功能”→“运动”→“键盘”，开启全键盘控制，这样 Tab 可以在控件之间移动，Space 可以按下控件。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "记住菜单栏和程序坞的快捷键",
+      "text": "按 Control-F2 跳到菜单栏，按 Control-F3 跳到程序坞。如果没反应，请在“系统设置”→“键盘”→“键盘快捷键”→“键盘”中启用它们。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "添加一种能点击任何东西的方式",
+      "text": "安装 No Mouse Mode，在引导设置中授予辅助功能权限，再用许可证密钥激活。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "用标签点击",
+      "text": "按 Shift-Command-Space，然后输入任意按钮、链接、菜单、菜单栏项目或程序坞图标上的字母，即可点击它。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "需要时操控指针",
+      "text": "按 Shift-Command-M，用 W A S D 移动，Space 点击，Return 右键点按。按 E 打开跳转网格。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "练习",
+      "text": "从菜单栏图标打开练习窗口，完成九节简短的课程。随时按 H 查看所有按键。"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/zh/" aria-label="No Mouse Mode home"><img src="/icon-sm.png" alt="" width="28" height="28"><span>No Mouse Mode</span></a>
+    <nav class="nav-links" aria-label="页面导航">
+      <a href="/zh/#demo">演示</a><a href="/zh/#features">功能</a><a href="/zh/#pricing">价格</a><a href="/how-to-use-mac-without-mouse">指南</a><a href="/support">支持</a>
+    </nav>
+    <a class="btn btn-dark btn-sm" href="/buy/1">购买 — $19.99</a>
+  </div>
+</header>
+
+<main id="main" class="article">
+  <div class="wrap-article">
+    <nav class="crumbs" aria-label="面包屑导航">
+      <a href="/zh/">首页</a><span class="sep">›</span><span>不用鼠标使用 Mac</span>
+    </nav>
+
+    <header class="article-head">
+      <h1 class="display">不用鼠标或触控板，如何使用 Mac</h1>
+      <p class="article-dek">Mac 完全可以只用键盘操作。<strong>macOS 内置了全键盘控制、鼠标键和语音控制；而 No Mouse Mode 这样的 App 让你输入标签就能点击任意按钮。</strong>下面介绍所有方法、各自擅长什么，以及如何在五分钟内完成设置。</p>
+      <p class="article-meta">2026年10月更新 · 阅读约 9 分钟 · <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a></p>
+    </header>
+
+    <div class="article-body">
+<div class="verdict">
+  <span class="verdict-label">简短回答</span>
+  <p>先从内置功能开始：<strong>全键盘控制</strong>（Tab 在控件间移动，Space 按下），再加上 <strong>Control-F2</strong> 跳到菜单栏、<strong>Control-F3</strong> 跳到程序坞。日常工作的很多场景都能应付。它的短板在于需要指针的操作：网页、画布、右键点按、拖移。<strong>鼠标键</strong>可以免费补上这块，但开启期间无法打字。如果你想几下按键就点到任何按钮，还能平滑地操控指针，<a href="/zh/">No Mouse Mode</a> 这样的 App 两样都能做到。</p>
+</div>
+    </div>
+    <div class="article-demo-wrap">
+      <p class="article-demo-label">直接在这里上手操作：这不是视频，而是一个可以操作的 No Mouse Mode 模型。先点一下，再用键盘。</p>
+<section class="demo-section article-demo" id="demo" aria-labelledby="demo-title">
+      <h2 class="sr-only" id="demo-title">互动演示</h2>
+      <div class="demo-layout">
+        <div class="demo-main">
+        <div class="mac" id="hero-stage" aria-label="一个模拟的 Mac 桌面。点击它，然后用 W A S D 移动，Space 点击，F 显示点击标签，/ 输入即点击，E 打开跳转网格。">
+          <div class="mac-menubar">
+            <svg class="mb-apple" viewBox="0 0 17 20" aria-hidden="true"><path d="M13.6 10.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8C3.6 5.1 2 6.1 1.2 7.6c-1.7 2.9-.4 7.3 1.2 9.7.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.4-3.9zM11.2 3.4c.7-.8 1.1-1.9 1-3-.9 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3z"/></svg>
+            <b class="mb-app">Finder</b>
+            <span class="mb-item" data-click data-menu="File">File</span>
+            <span class="mb-item" data-click data-menu="Edit">Edit</span>
+            <span class="mb-item" data-click data-menu="View">View</span>
+            <span class="mb-item hide-sm" data-click data-menu="Go">Go</span>
+            <span class="mb-item hide-sm" data-click data-menu="Window">Window</span>
+            <span class="mb-spacer"></span>
+            <span class="mb-status" aria-hidden="true">
+              <svg viewBox="0 0 26 13"><rect x=".5" y=".5" width="22" height="12" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2.2" y="2.2" width="15" height="8.6" rx="1.8"/><path d="M24 4.5v4c.9-.3 1.5-1 1.5-2s-.6-1.7-1.5-2z" opacity=".45"/></svg>
+              <svg viewBox="0 0 18 13"><path d="M9 12.4 6.6 9.8a3.4 3.4 0 0 1 4.8 0zM4.3 7.5a6.6 6.6 0 0 1 9.4 0l1.6-1.7a9 9 0 0 0-12.6 0zM1.6 4.6a10.4 10.4 0 0 1 14.8 0L18 3A12.7 12.7 0 0 0 0 3z"/></svg>
+              <svg viewBox="0 0 14 14"><circle cx="5.8" cy="5.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m9.2 9.2 3.8 3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <svg viewBox="0 0 16 14"><rect x=".8" y=".8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12.4" cy="3.5" r="1.6"/><rect x=".8" y="7.8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="3.6" cy="10.5" r="1.6"/></svg>
+            </span>
+            <span class="mb-nmm" title="No Mouse Mode"><img src="/icon-sm.png" alt="" width="14" height="14"></span>
+            <span class="mb-clock">Tue 22 Oct&nbsp;&nbsp;9:41</span>
+          </div>
+
+          <div class="desk">
+            <div class="desk-icon" data-drag data-click data-file="report" style="left:62%;top:9%">
+              <img class="ico-img" src="/img/icons/pdf.svg" alt="" draggable="false"><span class="ico-label">Report.pdf</span>
+            </div>
+            <div class="desk-icon" data-drop data-click data-folder="projects" style="left:80%;top:9%">
+              <img class="ico-img" src="/img/icons/folder.svg" alt="" draggable="false"><span class="ico-label">Projects</span>
+            </div>
+            <div class="desk-icon" data-click data-app="notes" style="left:80%;top:37%">
+              <img class="ico-img" src="/img/icons/notes.svg" alt="" draggable="false"><span class="ico-label">Notes</span>
+            </div>
+            <div class="desk-icon" data-click data-file="photo" style="left:62%;top:37%">
+              <img class="ico-img" src="/img/icons/photo.svg" alt="" draggable="false"><span class="ico-label">Sunset.png</span>
+            </div>
+            <button class="grid-target" type="button" data-click data-target style="left:16%;top:80%" aria-label="Target"><span></span></button>
+
+            <article class="win win-guide" data-win="guide" style="left:3%;top:6%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Field Guide</span></header>
+              <div class="win-body guide-body" data-scrollbox="guide">
+                <p class="kicker">Field guide</p>
+                <h3>不用鼠标，照样干活</h3>
+                <p>把指针移到这个窗口上，按住 <kbd>↓</kbd> 即可滚动。下面的照片可以用 <kbd>←</kbd> 和 <kbd>→</kbd> 横向滚动。</p>
+                <div class="strip" data-scrollbox="strip">
+                  <div class="photo p1">Coast</div><div class="photo p2">Dunes</div><div class="photo p3">Forest</div>
+                  <div class="photo p4">Lake</div><div class="photo p5">Canyon</div><div class="photo p6">Glacier</div>
+                </div>
+                <p>按住 <kbd>Shift</kbd> 可快速穿过屏幕。按住 <kbd>Q</kbd>，每按一下只移动一个像素。</p>
+                <p>连按两下 <kbd>Space</kbd> 即为双击。按住它再移动就是拖移，松开即放下。</p>
+                <p><kbd>E</kbd> 会把屏幕分成九格，以左手下方的按键命名。按下其中一个，指针就会跳过去。</p>
+                <p><kbd>F</kbd> 会在最前面窗口的每个按钮上放一个小字母。输入它，那个按钮就被点击了。</p>
+                <p><kbd>/</kbd> 让你改为输入按钮的名称。<kbd>H</kbd> 显示所有按键。</p>
+                <p class="guide-end">到底了。滚得漂亮。</p>
+              </div>
+            </article>
+
+            <article class="win win-notes" data-win="notes" hidden style="left:47%;top:34%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Notes</span></header>
+              <div class="notes-toolbar">
+                <span class="tb-btn" data-click data-action="new">New</span>
+                <span class="tb-btn" data-click data-action="bold"><b>B</b></span>
+                <span class="tb-btn" data-click data-action="list">List</span>
+                <span class="tb-btn" data-click data-action="share">Share</span>
+                <span class="tb-btn tb-primary" data-click data-action="save">Save</span>
+              </div>
+              <div class="win-body notes-body">
+                <p class="notes-title">Groceries</p>
+                <p>燕麦、咖啡、柠檬。不碰触控板，点击 <b>Save</b>：按 <kbd>F</kbd>，再输入它上面的字母。</p>
+              </div>
+            </article>
+
+            <div class="ctx-menu" hidden data-ctx>
+              <span class="ctx-item" data-click data-ctx-item="folder">New Folder</span>
+              <span class="ctx-item" data-click data-ctx-item="info">Get Info</span>
+              <span class="ctx-sep"></span>
+              <span class="ctx-item" data-click data-ctx-item="wallpaper">Change Wallpaper…</span>
+            </div>
+
+            <div class="dock" data-dock>
+              <span class="dock-app running" data-click data-dock-app="Finder" title="Finder"><img src="/img/icons/finder.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Safari" title="Safari"><img src="/img/icons/safari.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Mail" title="Mail"><img src="/img/icons/mail.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Messages" title="Messages"><img src="/img/icons/messages.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Photos" title="Photos"><img src="/img/icons/photos.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Notes" title="Notes"><img src="/img/icons/notes.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Music" title="Music"><img src="/img/icons/music.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Calendar" title="Calendar"><img src="/img/icons/calendar.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="System Settings" title="System Settings"><img src="/img/icons/settings.svg" alt="" draggable="false"></span>
+              <span class="dock-sep"></span>
+              <span class="dock-app" data-click data-dock-app="Trash" title="Trash"><img src="/img/icons/trash.svg" alt="" draggable="false"></span>
+            </div>
+          </div>
+
+          <div class="nm-on-badge" aria-hidden="true">No Mouse ON</div>
+          <div class="toast" role="status" aria-live="polite"></div>
+          <div class="cover" data-cover>
+            <button class="btn btn-accent cover-btn" type="button">亲手试一试</button>
+            <p>然后就用键盘操作。按 <kbd>Esc</kbd> 退出。</p>
+          </div>
+        </div>
+      <div class="keypad" data-nm-keypad="hero-stage" aria-label="屏幕按键">
+          <div class="kp-group kp-letters">
+            <button type="button" data-key="KeyQ">Q</button><button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyE">E</button><button type="button" data-key="KeyF">F</button>
+            <button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button><button type="button" data-key="ShiftLeft" data-latch>⇧</button>
+          </div>
+          <div class="kp-group kp-arrows">
+            <button type="button" data-key="ArrowUp" class="kp-up">↑</button>
+            <button type="button" data-key="ArrowLeft">←</button><button type="button" data-key="ArrowDown">↓</button><button type="button" data-key="ArrowRight">→</button>
+          </div>
+          <div class="kp-group kp-actions">
+            <button type="button" data-key="Escape">esc</button><button type="button" data-key="Backspace">⌫</button>
+            <button type="button" data-key="Space" class="kp-space">space</button><button type="button" data-key="Enter">return</button>
+            <button type="button" data-key="KeyH">H</button><button type="button" data-key="Slash" data-char="/">/</button>
+          </div>
+        </div>
+        </div>
+
+        <aside class="challenges" aria-label="挑战">
+          <div class="ch-head"><h3>挑战</h3><span class="ch-count"><b data-ch-count>0</b> / 8</span></div>
+          <ol class="ch-list">
+            <li data-ch="move">用 <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 移动指针</li>
+            <li data-ch="open">双击 <b>Notes</b>：连按两下 <kbd>Space</kbd></li>
+            <li data-ch="drag">把 <b>Report.pdf</b> 拖进 <b>Projects</b>：按住 <kbd>Space</kbd> 并移动</li>
+            <li data-ch="scroll">把 Field Guide 向下 <kbd>↓</kbd> 和横向 <kbd>→</kbd> 滚动</li>
+            <li data-ch="grid">按 <kbd>E</kbd>，跳到<b>靶心</b>上，再按 <kbd>Space</kbd></li>
+            <li data-ch="hint">按 <kbd>F</kbd>，用字母点击 Notes 里的 <b>Save</b></li>
+            <li data-ch="search">按 <kbd>/</kbd>，输入 <b>music</b>，再按 <kbd>Return</kbd></li>
+            <li data-ch="menu">用 <kbd>Return</kbd> 右键点击桌面，选择 <b>New Folder</b></li>
+          </ol>
+          <p class="ch-tip">按住 <kbd>Shift</kbd> 加速，按住 <kbd>Q</kbd> 精细移动。不知道怎么办？按 <kbd>H</kbd>。</p>
+          <button class="link-btn" type="button" data-reset>重置演示</button>
+          <div class="ch-done" hidden>
+            <p><b>你学会了。</b>整个 App 就是这些——在你自己的 Mac 上，它在所有 App 里都能用。</p>
+            <a class="btn btn-accent btn-sm" href="#pricing">获取 No Mouse Mode</a>
+          </div>
+        </aside>
+      </div>
+
+    </section>
+    </div>
+    <div class="article-body after-demo">
+<h2>为什么要摆脱鼠标？</h2>
+<p>来到这里的原因各不相同。触控板或鼠标刚好坏了，你得先撑过今天；长时间工作后手腕疼；或者你本来就整天在代码编辑器里用键盘，伸手去摸触控板会打断思路。好消息是：macOS 在设计时就考虑到了键盘用户，它留下的空缺也很容易补上。</p>
+<p>如果你的触控板此刻就不能用了，直接看<a href="/mac-trackpad-not-working">Mac 触控板失灵怎么办</a>。如果是为了舒适，请看<a href="/keyboard-only-mac-rsi">手腕疼痛时只用键盘操作 Mac</a>。</p>
+
+<h2>内置功能：全键盘控制与键盘导航</h2>
+<p>全键盘控制会高亮显示当前获得焦点的项目，让你用键盘而不是指针四处移动。你可以更改高亮的颜色、对比度和大小，在内容繁杂的屏幕上很有帮助。</p>
+<ol class="steps">
+  <li>打开“系统设置”→<strong>“辅助功能”→“运动”→“键盘”</strong>。</li>
+  <li>打开<strong>全键盘控制</strong>。</li>
+</ol>
+<p>按键：</p>
+<ul>
+  <li><kbd>Tab</kbd> / <kbd>⇧Tab</kbd>：下一个或上一个元素。</li>
+  <li><kbd>Space</kbd>：选择或按下获得焦点的项目。</li>
+  <li>箭头键：在一组内移动。</li>
+  <li><kbd>⌃Tab</kbd> / <kbd>⌃⇧Tab</kbd>：下一个或上一个项目。</li>
+  <li><kbd>Tab</kbd>-<kbd>H</kbd>：打开“命令帮助”，列出其他所有操作。</li>
+  <li><kbd>⌃⌥⌘P</kbd>：直通模式，适用于需要自己使用这些按键的 App。</li>
+</ul>
+<p>在 macOS 14 Sonoma 上，“系统设置”→“键盘”中还有一个更轻量的设置，叫<strong>键盘导航</strong>。打开后，Tab 会移到每个控件；关闭时，Tab 只在文本框和列表之间移动。<kbd>⌃F7</kbd> 可以在两者之间切换。我们的<a href="/full-keyboard-access-mac">全键盘控制指南</a>讲得更深入。</p>
+<p class="note">缺点：Tab 是按顺序一个一个地访问控件。要到达工具栏上的第二十个按钮，就得按很多次；而且很多网页和自绘界面的 App 对它的支持也不好。</p>
+
+<h2>内置功能：焦点快捷键</h2>
+<p>这些快捷键可以直接跳到 Tab 不容易到达的屏幕区域。有些需要先在“系统设置”→“键盘”→“键盘快捷键”→“键盘”中打开。在某些键盘上还要加按 Fn（例如 Fn-Control-F2）。</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th>快捷键</th><th>焦点移到</th></tr>
+  <tr><td><kbd>⌃F2</kbd></td><td>菜单栏。用箭头键移动，Return 打开或选择，也可以直接输入项目名称。</td></tr>
+  <tr><td><kbd>⌃F3</kbd></td><td>程序坞</td></tr>
+  <tr><td><kbd>⌃F4</kbd></td><td>当前窗口或下一个窗口</td></tr>
+  <tr><td><kbd>⌃F5</kbd></td><td>窗口的工具栏</td></tr>
+  <tr><td><kbd>⌃F8</kbd></td><td>菜单栏右侧的状态菜单</td></tr>
+</table></div>
+
+<h2>内置功能：鼠标键</h2>
+<p>鼠标键会把键盘的一部分变成指针。在“系统设置”→<strong>“辅助功能”→“指针控制”→“鼠标键”</strong>中打开，或按 <kbd>⌥⌘F5</kbd> 打开“辅助功能快捷键”面板。然后：</p>
+<ul>
+  <li><strong>移动：</strong><kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>U</kbd> <kbd>O</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>（或数字小键盘）。</li>
+  <li><strong>点按：</strong><kbd>I</kbd>（小键盘 5）。</li>
+  <li><strong>按住：</strong><kbd>M</kbd>（小键盘 0）；<strong>松开：</strong><kbd>.</kbd></li>
+</ul>
+<p>它完全不需要任何指针设备，而且免费。最大的限制，用 Apple 的原话说：“鼠标键打开时，你无法使用键盘或数字小键盘输入文本。”所以你得不停地开关它。它有一个选项，可以连按五次 Option 键来开关。我们在 <a href="/no-mouse-mode-vs-mouse-keys">No Mouse Mode 与鼠标键对比</a>中做了正面比较，细节见<a href="/move-mouse-with-keyboard-mac">如何用键盘移动鼠标</a>。</p>
+
+<h2>内置功能：语音控制</h2>
+<p>如果你更愿意说而不是打字，请打开“系统设置”→“辅助功能”→<strong>“语音控制”</strong>。说“Show numbers”（或“Show names”），屏幕上的项目就会出现标签；说“Click”加上编号即可按下对应项目。“Show grid”会在屏幕上铺一层带编号的网格，“Show window grid”只覆盖最前面的窗口，说出网格编号就会放大。“Hide numbers”“Hide grid”和“Stop listening”用来收起它们。</p>
+<p>它功能强大又免费，但一整天的工作每次点击都靠说话，速度很慢，在共享办公室里也很尴尬。</p>
+
+<h2>那 Control-点按呢？</h2>
+<p>Apple 把右键点按称为“辅助点按或 Control-点按”：按住 <kbd>Control</kbd> 再点按。但这仍然需要一个能用的鼠标或触控板。只用键盘的方法，包括部分 Apple 键盘上的上下文菜单键，请看<a href="/right-click-without-mouse-mac">如何不用鼠标右键点按</a>。</p>
+
+<h2>No Mouse Mode：点击任何东西，需要时再操控指针</h2>
+<p><a href="/zh/">No Mouse Mode</a> 是一款菜单栏 App，专门补上上面这些空缺。它提供两种工作方式，可以混着用。</p>
+<h3>点击标签（<kbd>⇧⌘Space</kbd>）</h3>
+<p>每个按钮、链接、标签页、菜单，以及菜单栏和程序坞，都会获得一个简短的字母标签。输入这些字母就会点击它。输入最后一个字母时按住 <kbd>⇧</kbd> 是右键点按，按住 <kbd>⌘</kbd> 是 Command-点按（在浏览器中打开新标签页），按住 <kbd>⌥</kbd> 是连按两次，按住 <kbd>⌃</kbd> 则只是把指针移过去。按 Tab 可以让标签持续出现，连续点击好几次；同一个窗口的标签每次都一样，手指会慢慢记住。</p>
+<h3>输入即点击（<kbd>⇧⌘/</kbd>）</h3>
+<p>输入按钮上文字的一部分，然后按 Return。大小写、空格和重音符号都不影响，首字母也行：“nf”就能找到 New Folder。</p>
+<h3>滚动区域（<kbd>⇧⌘J</kbd>）</h3>
+<p>每个可滚动的面板都会获得一个编号。选中一个后，用 J/K 或箭头键滚动，Space 翻页，T 和 B 跳到顶部或底部。</p>
+<h3>W A S D 指针模式（<kbd>⇧⌘M</kbd>）</h3>
+<p>对于不是按钮的东西，比如照片中的某个位置或一个滑块，打开 No Mouse Mode。<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> 平滑地移动指针，起步时会缓缓加速；按住 Shift 快速移动，按住 Q 进行单像素的精确移动。<kbd>Space</kbd> 点按（按两次是连按两次，按住是拖移），<kbd>Return</kbd> 右键点按，<kbd>M</kbd> 中键点按，箭头键滚动。点进文本框时它会自动关闭，方便你打字。</p>
+<h3>跳转网格（<kbd>E</kbd>）</h3>
+<p>一个标着 Q W E / A S D / Z X C 的 3×3 网格覆盖整个屏幕，每按一次就放大一层，两三下按键就能到达任何位置。它在所有 App 中都能用，包括那些不向 macOS 描述自己按钮的 App。</p>
+<p class="note">坦白说的取舍：标签依赖 App 告诉 macOS 它们的按钮在哪里。大多数 App 都会这样做。对于不这样做的 App，你可以打开可选的屏幕文字识别（使用 Apple 的设备端文字识别，需要“录屏”权限；不会保存或发送任何内容），或者使用在任何地方都能用的网格和 W A S D。</p>
+
+<h2>所有方法对比</h2>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th></th><th>全键盘控制</th><th>鼠标键</th><th>语音控制</th><th class="hero-col">No Mouse Mode</th></tr>
+  <tr><td>价格</td><td>免费，内置</td><td>免费，内置</td><td>免费，内置</td><td class="hero-col">一次性 $19.99，1 台 Mac（截至 2026 年 10 月）</td></tr>
+  <tr><td>点击特定按钮</td><td>Tab 过去，再按 Space</td><td>把指针移过去</td><td>说出它的编号或名称</td><td class="hero-col">输入它的标签或名称</td></tr>
+  <tr><td>移动指针</td><td><span class="no">不能</span></td><td><span class="yes">能</span>，数字键</td><td>用语音操作网格</td><td class="hero-col"><span class="yes">能</span>，W A S D 加网格</td></tr>
+  <tr><td>右键点按</td><td>Control-点按需要指针</td><td>需要替代指针操作</td><td><span class="yes">能</span>，用语音</td><td class="hero-col"><span class="yes">能</span>，Return 或 ⇧ + 标签</td></tr>
+  <tr><td>滚动指定面板</td><td>不适用</td><td>不适用</td><td>不适用</td><td class="hero-col"><span class="yes">能</span>，滚动区域</td></tr>
+  <tr><td>开启时能否打字</td><td><span class="yes">能</span></td><td><span class="no">不能</span></td><td>听写</td><td class="hero-col">标签快捷键随时可用；指针模式在文本框中自动关闭</td></tr>
+  <tr><td>没有指针设备也能用</td><td><span class="yes">能</span></td><td><span class="yes">能</span></td><td><span class="yes">能</span></td><td class="hero-col"><span class="yes">能</span></td></tr>
+</table></div>
+<p>其他 App 也能做到其中一部分。<a href="/no-mouse-mode-vs-homerow">Homerow</a>（截至 2026 年 10 月一次性 $49.99）和 <a href="/no-mouse-mode-vs-shortcat">Shortcat</a> 专注于通过标签或搜索来点击。Vimac 是后来演变为 Homerow 的免费开源 App，自 2022 年起就没有更新（见 <a href="/vimac-alternative">Vimac 替代品</a>）。完整盘点见 <a href="/best-keyboard-mouse-apps-for-mac">Mac 上最好用的键盘鼠标 App</a> 和 <a href="/homerow-alternatives">Homerow 替代品</a>。</p>
+<p>从其他工具转过来？我们为 <a href="/vimium-for-mac">Vimium 用户</a>（浏览器的链接提示只能作用于网页，碰不到访达或程序坞）、<a href="/keynav-for-mac">keynav</a>（仅限 X11，不支持 macOS）和 <a href="/warpd-for-mac">warpd</a>（自 2023 年起未更新）都写了指南。</p>
+
+<h2>5 分钟设置一台不用鼠标的 Mac</h2>
+<ol class="steps">
+  <li><strong>打开全键盘控制</strong>：在“系统设置”→“辅助功能”→“运动”→“键盘”中设置。现在 Tab 和 Space 能到达大多数控件。</li>
+  <li><strong>记住 <kbd>⌃F2</kbd> 和 <kbd>⌃F3</kbd></strong>，分别对应菜单栏和程序坞。如果按了没反应，请在“系统设置”→“键盘”→“键盘快捷键”→“键盘”中打开它们。</li>
+  <li><strong>添加一种能点击任何东西的方式。</strong><a href="/download">下载 No Mouse Mode</a>，拖到“应用程序”文件夹并打开。引导设置会带你完成辅助功能权限授权和许可证密钥输入。</li>
+  <li><strong>用标签点击。</strong>按 <kbd>⇧⌘Space</kbd>，输入你想点击的东西上的字母。</li>
+  <li><strong>需要时操控指针。</strong>按 <kbd>⇧⌘M</kbd>，用 W A S D 移动，Space 点按，Return 右键点按，按 E 打开网格。</li>
+  <li><strong>练习。</strong>从菜单栏图标打开练习窗口，里面有九节简短的上手课程。忘了哪个键，随时按 H。</li>
+</ol>
+<p>卡在某一步？<a href="/support">支持页面</a>介绍了权限、许可证和所有按键。</p>
+
+<h2>让纯键盘操作坚持下去的小技巧</h2>
+<p>第一天最难熬。下面几个习惯会有帮助：</p>
+<ul>
+  <li><strong>先用标签点击，再考虑操控指针。</strong>大部分点击都落在按钮、链接和菜单上。用标签或输入即点击，两三下按键就能搞定；W A S D 和网格留给其他情况。</li>
+  <li><strong>让它自动关闭。</strong>No Mouse Mode 在你点进文本框时会自动关闭；你还可以列出始终保持关闭的 App，比如游戏，或自带按键体系的代码编辑器。</li>
+  <li><strong>试试按住使用。</strong>如果觉得开关又多了一件要记的事，可以把它设置为只在按住右 Command 或右 Option 时生效。</li>
+  <li><strong>保存常用位置。</strong>在经常点击的位置上按 <kbd>⇧</kbd> 加一个数字，之后只按这个数字就能跳回那里。</li>
+  <li><strong>保留内置功能。</strong>用 <kbd>⌃F2</kbd> 跳到菜单栏、用 <kbd>⌘Space</kbd> 打开聚焦搜索（Spotlight），这些和其他方法可以同时使用。</li>
+</ul>
+<p>关于隐私：No Mouse Mode 从不存储或发送你的按键记录。它只会在激活和重新验证许可证、以及检查更新时联网。</p>
+
+<h2>该用哪一种？</h2>
+<ul>
+  <li><strong>触控板坏了一天：</strong>全键盘控制加鼠标键就能免费撑过去。</li>
+  <li><strong>更喜欢说话：</strong>语音控制。</li>
+  <li><strong>整天只用键盘，在所有 App 里：</strong>内置功能，再加一个能按标签点击并操控指针的 App。这正是 <a href="/zh/">No Mouse Mode</a> 的用途。查看<a href="/zh/#pricing">价格</a>。</li>
+</ul>
+
+      <div class="cta-banner">
+        <img src="/icon-sm.png" alt="" width="56" height="56">
+        <h3>在 Mac 上输入几个字母，就能点击任何东西</h3>
+        <p>No Mouse Mode 会给每个按钮、链接、菜单和程序坞图标加上简短标签；需要时还能用 W A S D 操控指针。</p>
+        <a href="/buy/1" class="btn btn-accent btn-lg">购买 No Mouse Mode — $19.99</a>
+        <span class="cta-note">一次性购买 · 免费更新 · macOS 14+，Apple 芯片和 Intel</span>
+      </div>
+
+      <h2>常见问题</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Mac 可以只用键盘操作吗？</summary>
+          <div class="faq-a"><p>可以。在“系统设置”→“辅助功能”→“运动”→“键盘”中打开全键盘控制，就能用 Tab 在控件之间移动，用 Space 按下控件。Control-F2 跳到菜单栏，Control-F3 跳到程序坞。遇到需要指针的操作，可以用鼠标键通过数字键移动指针，或者用 <a href="/zh/">No Mouse Mode</a> 这样的 App，输入标签就能点击按钮。</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>在 Mac 上怎么用键盘控制鼠标？</summary>
+          <div class="faq-a"><p>在“系统设置”→“辅助功能”→“指针控制”中打开鼠标键。之后用 7 8 9 U O J K L 移动指针，按 I 点击。开启期间无法输入文字。<a href="/zh/">No Mouse Mode</a> 则使用 W A S D，移动平滑，有快速模式和精确模式，按 Space 点击。详见<a href="/move-mouse-with-keyboard-mac">如何用键盘移动鼠标</a>。</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Mac 上不用鼠标怎么右键点按？</summary>
+          <div class="faq-a"><p>如果触控板还能用，按住 Control 再点按即可。只用键盘的话，macOS 提供替代指针操作或语音控制。在 <a href="/zh/">No Mouse Mode</a> 中，按 Return 会在指针位置右键点按；输入标签最后一个字母时按住 Shift，就会右键点按那个按钮。完整方法见<a href="/right-click-without-mouse-mac">如何不用鼠标右键点按</a>。</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>触控板坏了，不用它怎么打开蓝牙？</summary>
+          <div class="faq-a"><p>Apple 给出的方法：按 Command-Space，输入“蓝牙文件交换”，按 Return，再按一次 Return 即可打开蓝牙。更多解决办法见<a href="/mac-trackpad-not-working">Mac 触控板失灵怎么办</a>。</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>有没有免费的方法在 Mac 上用键盘点击按钮？</summary>
+          <div class="faq-a"><p>有。全键盘控制是内置的，免费；语音控制的“Show numbers”会给屏幕上的项目加上标签，让你用语音点击。也有免费的开源 App，比如 Scoot。<a href="/best-keyboard-mouse-apps-for-mac">Mac 上最好用的键盘鼠标 App</a> 把它们和付费 App 做了对比。</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>No Mouse Mode 有免费试用吗？</summary>
+          <div class="faq-a"><p>没有。一次性购买 $19.99，可用于 1 台 Mac，免费更新，无需订阅。<a href="/zh/">官网</a>上有使用相同按键的交互演示，<a href="/zh/#pricing">购买</a>前可以先体验一下手感。</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>No Mouse Mode 支持哪些 macOS 版本？</summary>
+          <div class="faq-a"><p>macOS 14 Sonoma 或更高版本，包括 Sequoia 和 Tahoe，支持 Apple 芯片和 Intel 芯片的 Mac。</p></div>
+        </details>
+      </div>
+
+      <div class="related">
+        <h2>延伸阅读（英文）</h2>
+        <div class="related-grid">
+          <a class="related-card" href="/move-mouse-with-keyboard-mac"><b>Move the mouse with the keyboard</b><span>Mouse Keys vs W A S D: exact keys and when each is enough.</span></a>
+          <a class="related-card" href="/right-click-without-mouse-mac"><b>Right-click without a mouse</b><span>Control-click, the Contextual Menu key, Voice Control and keyboard-only ways.</span></a>
+          <a class="related-card" href="/full-keyboard-access-mac"><b>Full Keyboard Access on Mac</b><span>Turn it on, learn the Tab, Space and Control-F keys, and know its limits.</span></a>
+          <a class="related-card" href="/best-keyboard-mouse-apps-for-mac"><b>Best keyboard mouse apps for Mac</b><span>Twelve mouseless tools ranked by use case, with prices and status.</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/zh/"><img src="/icon-sm.png" alt="" width="24" height="24"><span>No Mouse Mode</span></a>
+        <p>键盘就是鼠标。在 Mac 上打字即可点击任何按钮，用 W A S D 移动指针，滚动、跳转随心所欲。大部分指南文章为英文。</p>
+      </div>
+      <div>
+        <h4>产品</h4>
+        <ul>
+          <li><a href="/zh/#demo">演示</a></li>
+          <li><a href="/zh/#features">功能</a></li>
+          <li><a href="/zh/#keys">按键</a></li>
+          <li><a href="/zh/#pricing">价格</a></li>
+          <li><a href="/zh/#faq">常见问题</a></li>
+          <li><a href="/changelog">更新日志</a></li>
+          <li><a href="/download">下载</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>对比</h4>
+        <ul>
+          <li><a href="/no-mouse-mode-vs-homerow">vs Homerow</a></li>
+          <li><a href="/no-mouse-mode-vs-shortcat">vs Shortcat</a></li>
+          <li><a href="/no-mouse-mode-vs-mouse-keys">vs Mouse Keys</a></li>
+          <li><a href="/homerow-alternatives">Homerow 替代品</a></li>
+          <li><a href="/vimac-alternative">Vimac 替代品</a></li>
+          <li><a href="/best-keyboard-mouse-apps-for-mac">最佳键盘鼠标应用</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>迁移</h4>
+        <ul>
+          <li><a href="/vimium-for-mac">Vimium</a></li>
+          <li><a href="/keynav-for-mac">keynav</a></li>
+          <li><a href="/warpd-for-mac">warpd</a></li>
+          <li><a href="/full-keyboard-access-mac">Full Keyboard Access</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>使用方法</h4>
+        <ul>
+          <li><a href="/zh/how-to-use-mac-without-mouse">不用鼠标使用 Mac</a></li>
+          <li><a href="/move-mouse-with-keyboard-mac">用键盘移动指针</a></li>
+          <li><a href="/right-click-without-mouse-mac">不用鼠标右键单击</a></li>
+          <li><a href="/mac-trackpad-not-working">触控板失灵</a></li>
+          <li><a href="/keyboard-only-mac-rsi">手腕疼痛与 RSI</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助</h4>
+        <ul>
+          <li><a href="/support">支持</a></li>
+          <li><a href="mailto:adgan.business@gmail.com">邮件支持</a></li>
+          <li><a href="/privacy">隐私政策</a></li>
+          <li><a href="/terms">使用条款</a></li>
+          <li><a href="https://x.com/ahmedgagan11" rel="me">X / Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>&copy; 2026 No Mouse Mode &middot; 开发者 <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a> &middot; Mac 是 Apple Inc. 的商标。</p>
+      <nav class="lang-switch" aria-label="Language"><a href="/how-to-use-mac-without-mouse" hreflang="en" lang="en">English</a> &middot; <a href="/ja/how-to-use-mac-without-mouse" hreflang="ja" lang="ja">日本語</a> &middot; <a href="/zh/how-to-use-mac-without-mouse" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/engine.js?v=20261031" defer></script>
+<script src="/js/site.js?v=20261031" defer></script>
+</body>
+</html>

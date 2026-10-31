@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>No Mouse Mode — 不用鼠标，也能点击 Mac 上的一切</title>
+  <meta name="description" content="No Mouse Mode 把 Mac 键盘变成鼠标：输入两个字母或按钮名称即可点击任意按钮，用 W A S D 平滑移动指针，还能滚动、拖移，并一键跳到任意位置。内置练习。一次性购买，$19.99。">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://nomousemode.com/zh/">
+  <link rel="alternate" hreflang="en" href="https://nomousemode.com/">
+  <link rel="alternate" hreflang="ja" href="https://nomousemode.com/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nomousemode.com/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://nomousemode.com/">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="No Mouse Mode">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:url" content="https://nomousemode.com/zh/">
+  <meta property="og:title" content="No Mouse Mode — 键盘就是你的鼠标">
+  <meta property="og:description" content="在 Mac 上输入两个字母，就能点击任何东西。不碰触控板，也能移动、拖移和滚动。直接在本页试试看。">
+  <meta property="og:image" content="https://nomousemode.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="No Mouse Mode：键盘就是你的鼠标">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@ahmedgagan11">
+  <meta name="twitter:title" content="No Mouse Mode — 键盘就是你的鼠标">
+  <meta name="twitter:description" content="在 Mac 上输入两个字母，就能点击任何东西。不用触控板，也能移动、拖移和滚动。">
+  <meta name="twitter:image" content="https://nomousemode.com/og-image.png">
+
+  <link rel="preload" href="/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=20261031">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://nomousemode.com/zh/#webpage",
+    "url": "https://nomousemode.com/zh/",
+    "name": "No Mouse Mode — 不用鼠标，也能点击 Mac 上的一切",
+    "description": "No Mouse Mode 把 Mac 键盘变成鼠标：输入两个字母或按钮名称即可点击任意按钮，用 W A S D 平滑移动指针，还能滚动、拖移，并一键跳到任意位置。内置练习。一次性购买，$19.99。",
+    "inLanguage": "zh-Hans",
+    "isPartOf": { "@id": "https://nomousemode.com/#website" },
+    "about": { "@id": "https://nomousemode.com/#app" }
+  }
+  </script>
+  <script type="application/ld+json" id="faq-schema">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "zh-Hans",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "它和其他键盘鼠标类 App 有什么不同？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "大多数同类 App 只做一件事：要么是标签，要么是网格，要么是方向键移动。No Mouse Mode 在一个小巧的 App 里全部搞定——点击标签、输入即点击、W A S D 平滑移动、跳转网格、滚动区域、保存位置和屏幕跳转——还内置练习，当天就能熟练上手。一次性购买 $19.99，不是订阅。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "标签在所有 App 里都能用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "只要 App 会向 macOS 描述自己的按钮，标签就能用：访达、Safari 浏览器、Chrome、邮件、备忘录、系统设置，以及大多数 Mac App 和网站。有些 App 不会这样做（某些游戏、设计画布、远程桌面）。遇到这种情况，可以在“设置”→“Clicking”中打开 Also read text on the screen（同时读取屏幕上的文字）；此外，跳转网格和 W A S D 在任何地方都能用。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "读取屏幕内容安全吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "安全。除非你主动打开，否则它是关闭的；它使用的是在你 Mac 本机运行的 Apple 文字识别，看到的任何内容都不会被保存或发送到任何地方。macOS 把这项权限称为“录屏与系统录音”（较早版本称为“屏幕录制”），因此第一次使用时会请求该权限。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "开启 No Mouse Mode 后还能正常打字吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "随处可用的快捷键（⇧⌘Space、⇧⌘/、⇧⌘J）根本不需要开启它。开启后，它只占用自己用到的按键，任何带 ⌘、⌃ 或 ⌥ 的快捷键都会直接交给你的 App，点进文本框它就会自动关闭，让你正常打字。你还可以列出让它保持关闭的 App。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "要多久才能学会？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "几分钟而已。设置向导最后有一段简短的动手体验，“练习”窗口里有九节完成后自动打勾的课程，忘了哪个键时按 H 就能看到全部按键。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "支持多台显示器吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "支持。指针可以在屏幕间滑动，Tab 跳到下一台显示器的中央，网格在你当前所在的屏幕上工作，标签会出现在窗口所在的地方。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "可以更改按键吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "每个按键和每个快捷键都可以，在“设置”→“Keys”和“General”中更改。一个按钮就能全部恢复默认。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "它能在哪些 Mac 上运行？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "macOS 14 Sonoma、15 Sequoia 和 26 Tahoe，搭载 Apple 芯片或 Intel 芯片的 Mac 均可。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "可以在几台 Mac 上使用？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "标准授权适用于 1 台 Mac，售价 $19.99。需要更多？另有 3 台 Mac（$49.99）、5 台 Mac（$79.99）和 20 台 Mac（$299.99）授权，一个密钥全部通用。随时可以在“设置”→“License”→“Deactivate”中把授权转移到另一台 Mac。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "我买过第 1 版，需要再付费吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不需要。第 2 版对你免费，在你已经使用它的那台 Mac 上无需许可证密钥。从 nomousemode.com/download 下载后，它会在你已经使用的那台 Mac 上自动解锁。要在另一台 Mac 上设置？给我们发邮件。"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/zh/" aria-label="No Mouse Mode 首页">
+        <img src="/icon-sm.png" alt="" width="28" height="28">
+        <span>No Mouse Mode</span>
+      </a>
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="#demo">演示</a>
+        <a href="#features">功能</a>
+        <a href="#learn">上手</a>
+        <a href="#keys">按键</a>
+        <a href="#pricing">价格</a>
+        <a href="#faq">常见问题</a>
+        <a href="/how-to-use-mac-without-mouse">指南</a>
+      </nav>
+      <a class="btn btn-dark btn-sm" href="#pricing">购买 — $19.99</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============================================================ HERO -->
+    <section class="hero">
+      <a class="pill" href="#labels"><span class="pill-tag">新</span> 第 2 版：点击标签、输入即点击、滚动区域</a>
+      <h1 class="display hero-title">键盘，<br>就是你的鼠标。</h1>
+      <p class="lede hero-lede">输入按钮上的两个字母，或者直接输入它的名称，就能点击任意按钮。用指尖下的按键移动指针、拖移、滚动，甚至在屏幕间跳转。双手始终不离键盘。</p>
+      <div class="hero-cta">
+        <a class="btn btn-accent btn-lg" href="#pricing">
+          <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M10 3v9m0 0-3.5-3.5M10 12l3.5-3.5M4 15.5h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          购买 — $19.99
+        </a>
+        <a class="btn btn-ghost btn-lg" href="#demo">试用演示</a>
+      </div>
+      <p class="try-page">现在就在本页试试：按 <button type="button" class="try-key" data-page-labels>F</button>，每个链接都会出现标签；或者按 <button type="button" class="try-key" data-page-search>/</button>，输入链接的名称。</p>
+      <p class="fine">一次性购买，支持 1 台 Mac，另有 3 台、5 台和 20 台 Mac 授权。需要 macOS 14 Sonoma 或更高版本，支持 Apple 芯片和 Intel 芯片。</p>
+    </section>
+
+    <!-- ============================================================ HERO DEMO -->
+    <section class="demo-section" id="demo" aria-labelledby="demo-title">
+      <h2 class="sr-only" id="demo-title">互动演示</h2>
+      <div class="demo-layout">
+        <div class="demo-main">
+        <div class="mac" id="hero-stage" aria-label="一个模拟的 Mac 桌面。点击它，然后用 W A S D 移动，Space 点击，F 显示点击标签，/ 输入即点击，E 打开跳转网格。">
+          <div class="mac-menubar">
+            <svg class="mb-apple" viewBox="0 0 17 20" aria-hidden="true"><path d="M13.6 10.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8C3.6 5.1 2 6.1 1.2 7.6c-1.7 2.9-.4 7.3 1.2 9.7.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.4-3.9zM11.2 3.4c.7-.8 1.1-1.9 1-3-.9 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3z"/></svg>
+            <b class="mb-app">Finder</b>
+            <span class="mb-item" data-click data-menu="File">File</span>
+            <span class="mb-item" data-click data-menu="Edit">Edit</span>
+            <span class="mb-item" data-click data-menu="View">View</span>
+            <span class="mb-item hide-sm" data-click data-menu="Go">Go</span>
+            <span class="mb-item hide-sm" data-click data-menu="Window">Window</span>
+            <span class="mb-spacer"></span>
+            <span class="mb-status" aria-hidden="true">
+              <svg viewBox="0 0 26 13"><rect x=".5" y=".5" width="22" height="12" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2.2" y="2.2" width="15" height="8.6" rx="1.8"/><path d="M24 4.5v4c.9-.3 1.5-1 1.5-2s-.6-1.7-1.5-2z" opacity=".45"/></svg>
+              <svg viewBox="0 0 18 13"><path d="M9 12.4 6.6 9.8a3.4 3.4 0 0 1 4.8 0zM4.3 7.5a6.6 6.6 0 0 1 9.4 0l1.6-1.7a9 9 0 0 0-12.6 0zM1.6 4.6a10.4 10.4 0 0 1 14.8 0L18 3A12.7 12.7 0 0 0 0 3z"/></svg>
+              <svg viewBox="0 0 14 14"><circle cx="5.8" cy="5.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m9.2 9.2 3.8 3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <svg viewBox="0 0 16 14"><rect x=".8" y=".8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12.4" cy="3.5" r="1.6"/><rect x=".8" y="7.8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="3.6" cy="10.5" r="1.6"/></svg>
+            </span>
+            <span class="mb-nmm" title="No Mouse Mode"><img src="/icon-sm.png" alt="" width="14" height="14"></span>
+            <span class="mb-clock">Tue 22 Oct&nbsp;&nbsp;9:41</span>
+          </div>
+
+          <div class="desk">
+            <div class="desk-icon" data-drag data-click data-file="report" style="left:62%;top:9%">
+              <img class="ico-img" src="/img/icons/pdf.svg" alt="" draggable="false"><span class="ico-label">Report.pdf</span>
+            </div>
+            <div class="desk-icon" data-drop data-click data-folder="projects" style="left:80%;top:9%">
+              <img class="ico-img" src="/img/icons/folder.svg" alt="" draggable="false"><span class="ico-label">Projects</span>
+            </div>
+            <div class="desk-icon" data-click data-app="notes" style="left:80%;top:37%">
+              <img class="ico-img" src="/img/icons/notes.svg" alt="" draggable="false"><span class="ico-label">Notes</span>
+            </div>
+            <div class="desk-icon" data-click data-file="photo" style="left:62%;top:37%">
+              <img class="ico-img" src="/img/icons/photo.svg" alt="" draggable="false"><span class="ico-label">Sunset.png</span>
+            </div>
+            <button class="grid-target" type="button" data-click data-target style="left:16%;top:80%" aria-label="Target"><span></span></button>
+
+            <article class="win win-guide" data-win="guide" style="left:3%;top:6%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Field Guide</span></header>
+              <div class="win-body guide-body" data-scrollbox="guide">
+                <p class="kicker">Field guide</p>
+                <h3>不用鼠标，照样干活</h3>
+                <p>把指针移到这个窗口上，按住 <kbd>↓</kbd> 即可滚动。下面的照片可以用 <kbd>←</kbd> 和 <kbd>→</kbd> 横向滚动。</p>
+                <div class="strip" data-scrollbox="strip">
+                  <div class="photo p1">Coast</div><div class="photo p2">Dunes</div><div class="photo p3">Forest</div>
+                  <div class="photo p4">Lake</div><div class="photo p5">Canyon</div><div class="photo p6">Glacier</div>
+                </div>
+                <p>按住 <kbd>Shift</kbd> 可快速穿过屏幕。按住 <kbd>Q</kbd>，每按一下只移动一个像素。</p>
+                <p>连按两下 <kbd>Space</kbd> 即为双击。按住它再移动就是拖移，松开即放下。</p>
+                <p><kbd>E</kbd> 会把屏幕分成九格，以左手下方的按键命名。按下其中一个，指针就会跳过去。</p>
+                <p><kbd>F</kbd> 会在最前面窗口的每个按钮上放一个小字母。输入它，那个按钮就被点击了。</p>
+                <p><kbd>/</kbd> 让你改为输入按钮的名称。<kbd>H</kbd> 显示所有按键。</p>
+                <p class="guide-end">到底了。滚得漂亮。</p>
+              </div>
+            </article>
+
+            <article class="win win-notes" data-win="notes" hidden style="left:47%;top:34%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Notes</span></header>
+              <div class="notes-toolbar">
+                <span class="tb-btn" data-click data-action="new">New</span>
+                <span class="tb-btn" data-click data-action="bold"><b>B</b></span>
+                <span class="tb-btn" data-click data-action="list">List</span>
+                <span class="tb-btn" data-click data-action="share">Share</span>
+                <span class="tb-btn tb-primary" data-click data-action="save">Save</span>
+              </div>
+              <div class="win-body notes-body">
+                <p class="notes-title">Groceries</p>
+                <p>燕麦、咖啡、柠檬。不碰触控板，点击 <b>Save</b>：按 <kbd>F</kbd>，再输入它上面的字母。</p>
+              </div>
+            </article>
+
+            <div class="ctx-menu" hidden data-ctx>
+              <span class="ctx-item" data-click data-ctx-item="folder">New Folder</span>
+              <span class="ctx-item" data-click data-ctx-item="info">Get Info</span>
+              <span class="ctx-sep"></span>
+              <span class="ctx-item" data-click data-ctx-item="wallpaper">Change Wallpaper…</span>
+            </div>
+
+            <div class="dock" data-dock>
+              <span class="dock-app running" data-click data-dock-app="Finder" title="Finder"><img src="/img/icons/finder.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Safari" title="Safari"><img src="/img/icons/safari.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Mail" title="Mail"><img src="/img/icons/mail.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Messages" title="Messages"><img src="/img/icons/messages.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Photos" title="Photos"><img src="/img/icons/photos.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Notes" title="Notes"><img src="/img/icons/notes.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Music" title="Music"><img src="/img/icons/music.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Calendar" title="Calendar"><img src="/img/icons/calendar.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="System Settings" title="System Settings"><img src="/img/icons/settings.svg" alt="" draggable="false"></span>
+              <span class="dock-sep"></span>
+              <span class="dock-app" data-click data-dock-app="Trash" title="Trash"><img src="/img/icons/trash.svg" alt="" draggable="false"></span>
+            </div>
+          </div>
+
+          <div class="nm-on-badge" aria-hidden="true">No Mouse ON</div>
+          <div class="toast" role="status" aria-live="polite"></div>
+          <div class="cover" data-cover>
+            <button class="btn btn-accent cover-btn" type="button">亲手试一试</button>
+            <p>然后就用键盘操作。按 <kbd>Esc</kbd> 退出。</p>
+          </div>
+        </div>
+      <div class="keypad" data-nm-keypad="hero-stage" aria-label="屏幕按键">
+          <div class="kp-group kp-letters">
+            <button type="button" data-key="KeyQ">Q</button><button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyE">E</button><button type="button" data-key="KeyF">F</button>
+            <button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button><button type="button" data-key="ShiftLeft" data-latch>⇧</button>
+          </div>
+          <div class="kp-group kp-arrows">
+            <button type="button" data-key="ArrowUp" class="kp-up">↑</button>
+            <button type="button" data-key="ArrowLeft">←</button><button type="button" data-key="ArrowDown">↓</button><button type="button" data-key="ArrowRight">→</button>
+          </div>
+          <div class="kp-group kp-actions">
+            <button type="button" data-key="Escape">esc</button><button type="button" data-key="Backspace">⌫</button>
+            <button type="button" data-key="Space" class="kp-space">space</button><button type="button" data-key="Enter">return</button>
+            <button type="button" data-key="KeyH">H</button><button type="button" data-key="Slash" data-char="/">/</button>
+          </div>
+        </div>
+        </div>
+
+        <aside class="challenges" aria-label="挑战">
+          <div class="ch-head"><h3>挑战</h3><span class="ch-count"><b data-ch-count>0</b> / 8</span></div>
+          <ol class="ch-list">
+            <li data-ch="move">用 <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 移动指针</li>
+            <li data-ch="open">双击 <b>Notes</b>：连按两下 <kbd>Space</kbd></li>
+            <li data-ch="drag">把 <b>Report.pdf</b> 拖进 <b>Projects</b>：按住 <kbd>Space</kbd> 并移动</li>
+            <li data-ch="scroll">把 Field Guide 向下 <kbd>↓</kbd> 和横向 <kbd>→</kbd> 滚动</li>
+            <li data-ch="grid">按 <kbd>E</kbd>，跳到<b>靶心</b>上，再按 <kbd>Space</kbd></li>
+            <li data-ch="hint">按 <kbd>F</kbd>，用字母点击 Notes 里的 <b>Save</b></li>
+            <li data-ch="search">按 <kbd>/</kbd>，输入 <b>music</b>，再按 <kbd>Return</kbd></li>
+            <li data-ch="menu">用 <kbd>Return</kbd> 右键点击桌面，选择 <b>New Folder</b></li>
+          </ol>
+          <p class="ch-tip">按住 <kbd>Shift</kbd> 加速，按住 <kbd>Q</kbd> 精细移动。不知道怎么办？按 <kbd>H</kbd>。</p>
+          <button class="link-btn" type="button" data-reset>重置演示</button>
+          <div class="ch-done" hidden>
+            <p><b>你学会了。</b>整个 App 就是这些——在你自己的 Mac 上，它在所有 App 里都能用。</p>
+            <a class="btn btn-accent btn-sm" href="#pricing">获取 No Mouse Mode</a>
+          </div>
+        </aside>
+      </div>
+
+    </section>
+
+    <!-- ============================================================ TRUST -->
+    <ul class="trust" aria-label="安全与信任">
+      <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2.5 4 5v4.5c0 3.6 2.6 6.8 6 8 3.4-1.2 6-4.4 6-8V5l-6-2.5Z"/><path d="m7.5 10 1.8 1.8L12.8 8"/></svg>已通过 Apple 公证</li>
+      <li><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="5" y="9" width="10" height="8" rx="1.5"/><path d="M7 9V6.5a3 3 0 0 1 6 0V9"/></svg>使用 Developer ID 签名</li>
+      <li><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m5 5 10 10"/></svg>无需账户，不做追踪</li>
+      <li><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="4.5" r="1.5"/><path d="M5 7.5h10M10 7.5v4.5m0 0-2.5 5M10 12l2.5 5"/></svg>只需“辅助功能”权限</li>
+      <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M15.5 8A6 6 0 0 0 4.7 6.5M4.5 12a6 6 0 0 0 10.8 1.5"/><path d="M4.5 3.5v3h3M15.5 16.5v-3h-3"/></svg>自动更新</li>
+    </ul>
+
+    <!-- ============================================================ HOW IT WORKS -->
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <h2 class="display section-title" id="how-title">每伸手摸一次触控板，<br>就浪费一秒钟。</h2>
+        <p class="lede section-lede">伸手过去，找到指针，把它挪到位，再把手收回来，重新找到按键。一整天下来，积少成多。有了 No Mouse Mode，<b>双手始终留在键盘上</b>：在任意 App 中按 <kbd>⇧⌘Space</kbd>，输入按钮上的两个字母，搞定。想自己操控一会儿？按 <kbd>⇧⌘M</kbd>，指尖下的按键就变成了鼠标。</p>
+
+        <div class="race" id="race">
+          <div class="race-lane">
+            <div class="race-head"><h3>触控板</h3><p>手离开键盘，瞄准，点击，再回来。</p></div>
+            <div class="race-screen" data-race="pad">
+              <span class="race-btn">Send</span>
+              <span class="race-cursor"></span>
+              <span class="race-hand" aria-hidden="true">✋</span>
+            </div>
+            <p class="race-time"><b data-race-time="pad">0.0 s</b></p>
+          </div>
+          <div class="race-lane race-lane-nm">
+            <div class="race-head"><h3>No Mouse Mode</h3><p>手不用动：<kbd>⇧⌘Space</kbd>，再按按钮上的字母。</p></div>
+            <div class="race-screen" data-race="nm">
+              <span class="race-btn">Send</span>
+              <span class="race-cursor"></span>
+              <span class="race-keys" aria-hidden="true"></span>
+            </div>
+            <p class="race-time"><b data-race-time="nm">0.0 s</b></p>
+          </div>
+        </div>
+        <div class="race-controls">
+          <button class="btn btn-ghost" type="button" data-race-run>重播 <span aria-hidden="true">↻</span></button>
+          <p class="fine">这只是两种方式的示意，并非实验室测量结果。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ FEATURES -->
+    <section class="section section-alt" id="features" aria-labelledby="features-title">
+      <div class="wrap">
+        <h2 class="display section-title" id="features-title">鼠标能做的，它都能做。<br>而且不用你伸手。</h2>
+        <p class="lede section-lede">下面每张卡片都能直接操作。点击一张，然后使用下方显示的按键。</p>
+
+        <!-- LABELS -->
+        <div class="feature" id="labels">
+          <div class="feature-copy">
+            <p class="eyebrow">点击标签 · <kbd>⇧⌘Space</kbd></p>
+            <h3>输入两个字母，点击任何东西。</h3>
+            <p>在任意 App 中按 <kbd>⇧⌘Space</kbd>（即使 No Mouse Mode 处于关闭状态），每个按钮、链接、标签页和菜单都会出现一个小标签。输入它，就完成点击。同一个窗口的标签每次都一样，很快就会形成肌肉记忆。</p>
+            <p>输入最后一个字母时按住一个键，可以换一种点击方式：<kbd>⇧</kbd> 右键点击，<kbd>⌘</kbd> 在新标签页中打开，<kbd>⌥</kbd> 双击，<kbd>⌃</kbd> 只把指针移过去。按 <kbd>Tab</kbd> 可以让标签反复出现，一次接一次地点击。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini mini-mail" id="demo-hints" aria-label="点击标签演示：按 F，然后输入题目所要求按钮上的标签。">
+              <div class="mail-toolbar">
+                <span class="mb-btn" data-click data-name="Compose">Compose</span>
+                <span class="mb-btn" data-click data-name="Reply">Reply</span>
+                <span class="mb-btn" data-click data-name="Forward">Forward</span>
+                <span class="mb-btn" data-click data-name="Archive">Archive</span>
+                <span class="mb-btn" data-click data-name="Flag">Flag</span>
+                <span class="mb-btn" data-click data-name="Delete">Delete</span>
+              </div>
+              <div class="mail-body">
+                <ul class="mail-side">
+                  <li data-click data-name="Inbox">Inbox</li><li data-click data-name="Drafts">Drafts</li><li data-click data-name="Sent">Sent</li><li data-click data-name="Junk">Junk</li>
+                </ul>
+                <div class="mail-list">
+                  <div class="mail-row" data-click data-name="the email from Mia"><b>Mia</b> Trip photos</div>
+                  <div class="mail-row" data-click data-name="the email from Sam"><b>Sam</b> Lunch Friday?</div>
+                  <div class="mail-row" data-click data-name="the email from Apple"><b>Apple</b> Your receipt</div>
+                </div>
+              </div>
+              <div class="mini-cover"><span>点击后按 <kbd>F</kbd>（在你的 Mac 上：<kbd>⇧⌘Space</kbd>）</span></div>
+            </div>
+            <div class="card-foot">
+              <div class="keys" data-nm-keypad="demo-hints"><button type="button" data-key="KeyF" class="accent">F</button><button type="button" data-key="Tab" class="wide">Tab</button><button type="button" data-key="ShiftLeft" data-latch class="wide">⇧ Shift</button><button type="button" data-key="Escape">esc</button></div>
+              <p class="card-note"><span data-hint-task>Click <b>Archive</b></span> · 已完成 <span data-hint-score>0</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TYPE TO CLICK -->
+        <div class="feature feature-flip" id="search">
+          <div class="feature-copy">
+            <p class="eyebrow">输入即点击 · <kbd>⇧⌘/</kbd></p>
+            <h3>或者，直接输入它的名称。</h3>
+            <p>知道按钮上写的是什么？按 <kbd>⇧⌘/</kbd>，输入其中几个字母，再按 <kbd>Return</kbd>。不区分大小写，空格和重音符号也无所谓，首字母同样管用：<b>nf</b> 就能找到 <b>New Folder</b>。</p>
+            <p><kbd>Tab</kbd> 在匹配结果间逐个切换。<kbd>⇧↩</kbd> 右键点击，<kbd>⌘↩</kbd> 在新标签页中打开，<kbd>⌥↩</kbd> 双击。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini mini-settings" id="demo-search" aria-label="输入即点击演示：按斜杠，输入题目要求的设置名称，再按 Return。">
+              <div class="set-side">
+                <span class="set-search">Search</span>
+                <span class="set-item" data-click data-name="Wi-Fi"><i style="background:#0a84ff"></i>Wi‑Fi</span>
+                <span class="set-item" data-click data-name="Bluetooth"><i style="background:#0a84ff"></i>Bluetooth</span>
+                <span class="set-item" data-click data-name="Network"><i style="background:#0a84ff"></i>Network</span>
+                <span class="set-item" data-click data-name="Notifications"><i style="background:#ff3b30"></i>Notifications</span>
+                <span class="set-item" data-click data-name="Sound"><i style="background:#ff2d55"></i>Sound</span>
+                <span class="set-item" data-click data-name="Focus"><i style="background:#5e5ce6"></i>Focus</span>
+                <span class="set-item" data-click data-name="Screen Time"><i style="background:#5e5ce6"></i>Screen Time</span>
+                <span class="set-item" data-click data-name="General"><i style="background:#8e8e93"></i>General</span>
+                <span class="set-item" data-click data-name="Appearance"><i style="background:#1d1d1f"></i>Appearance</span>
+                <span class="set-item" data-click data-name="Accessibility"><i style="background:#0a84ff"></i>Accessibility</span>
+                <span class="set-item" data-click data-name="Desktop &amp; Dock"><i style="background:#1d1d1f"></i>Desktop &amp; Dock</span>
+                <span class="set-item" data-click data-name="Displays"><i style="background:#0a84ff"></i>Displays</span>
+                <span class="set-item" data-click data-name="Battery"><i style="background:#34c759"></i>Battery</span>
+                <span class="set-item" data-click data-name="Keyboard"><i style="background:#8e8e93"></i>Keyboard</span>
+                <span class="set-item" data-click data-name="Trackpad"><i style="background:#8e8e93"></i>Trackpad</span>
+              </div>
+              <div class="set-pane"><h4 data-pane-title>General</h4><p class="doc-line"></p><p class="doc-line short"></p><p class="doc-line"></p></div>
+              <div class="mini-cover"><span>点击后按 <kbd>/</kbd> 并输入</span></div>
+            </div>
+            <div class="card-foot">
+              <div class="keys" data-nm-keypad="demo-search"><button type="button" data-key="Slash" data-char="/" class="accent">/</button><button type="button" data-key="Enter" class="wide">Return</button><button type="button" data-key="Tab" class="wide">Tab</button><button type="button" data-key="Escape">esc</button></div>
+              <p class="card-note">打开 <b data-search-task>Bluetooth</b> · 已完成 <span data-search-score>0</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- MOVE -->
+        <div class="feature" id="move">
+          <div class="feature-copy">
+            <p class="eyebrow">移动</p>
+            <h3>第一下就很顺滑。</h3>
+            <p><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 让指针随显示器刷新同步滑动，在 ProMotion 屏幕上每秒可达 120 次。轻点一下，指针挪动几个像素；按住不放，转眼就到全速。</p>
+            <p>按住 <kbd>Shift</kbd>，穿过屏幕的速度快三倍。按住 <kbd>Q</kbd>，每按一下正好移动一个像素，专治各种精细操作。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini" id="demo-move" aria-label="移动演示：用 W A S D 收集圆点。">
+              <div class="move-dots"></div>
+              <div class="hud"><span class="hud-mode" data-move-mode>Normal</span><span class="hud-speed"><b data-move-speed>0</b> px/s</span></div>
+              <div class="mini-cover"><span>点击后用 <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 收集圆点</span></div>
+            </div>
+            <div class="card-foot">
+              <div class="keys" data-nm-keypad="demo-move">
+                <button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button>
+                <button type="button" data-key="ShiftLeft" data-latch class="wide">⇧ Shift</button><button type="button" data-key="KeyQ">Q</button>
+              </div>
+              <p class="card-note">圆点 <b data-move-count>0</b> / 6</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CLICK -->
+        <div class="feature feature-flip" id="click">
+          <div class="feature-copy">
+            <p class="eyebrow">点击</p>
+            <h3>双击、三击、拖移。</h3>
+            <p><kbd>Space</kbd> 就是鼠标左键。连按两下是 App 真正能识别的双击，连按三下可以选中整个段落。按住、移动、松开：这就是拖移。</p>
+            <p><kbd>Return</kbd> 是右键点击，上下文菜单一键即达。<a href="#buttons">侧键也有。</a></p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini mini-paper" id="demo-click" aria-label="点击演示：双击一个单词，三击一个段落，把文件拖进文件夹。">
+              <p class="paper-text" data-paragraph><span data-select>Double-click</span> <span data-select>any</span> <span data-select>word</span> <span data-select>to</span> <span data-select>select</span> <span data-select>it.</span> <span data-select>Triple-click</span> <span data-select>to</span> <span data-select>select</span> <span data-select>this</span> <span data-select>whole</span> <span data-select>paragraph.</span></p>
+              <div class="paper-files">
+                <span class="file-chip" data-drag data-click>Invoice.pdf</span>
+                <span class="file-chip" data-drag data-click>Photo.jpg</span>
+                <span class="folder-drop" data-drop data-click><span class="ico ico-folder sm"></span>Archive <b data-drop-count>0</b></span>
+              </div>
+              <div class="mini-cover"><span>点击后用 <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 移动，再按 <kbd>Space</kbd></span></div>
+            </div>
+            <div class="card-foot">
+              <div class="keys" data-nm-keypad="demo-click">
+                <button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button>
+                <button type="button" data-key="Space" class="wide">Space</button><button type="button" data-key="Enter" class="wide">Return</button>
+              </div>
+              <p class="card-note" data-click-note>Waiting for a click</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="feature" id="buttons">
+          <div class="feature-copy">
+            <p class="eyebrow">鼠标按键</p>
+            <h3>中键、后退、前进，一个不少。</h3>
+            <p><kbd>M</kbd> 是鼠标中键：在新标签页中打开链接，或在大多数浏览器里关闭标签页。<kbd>[</kbd> 和 <kbd>]</kbd> 相当于鼠标侧键，在 Safari 浏览器、Chrome、访达以及其他支持侧键的地方都能后退和前进。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini mini-browser" id="demo-browser" aria-label="浏览器演示：把指针移到链接上按 M，或用方括号键后退和前进。">
+              <div class="b-chrome">
+                <span class="lights"><i></i><i></i><i></i></span>
+                <span class="b-nav"><span data-browser-back>‹</span><span data-browser-fwd>›</span></span>
+                <span class="b-url" data-browser-url>example.com/</span>
+              </div>
+              <div class="b-tabs" data-browser-tabs><span class="b-tab">Home</span></div>
+              <div class="b-page" data-browser-page></div>
+              <div class="mini-cover"><span>点击后指向一个链接，再按 <kbd>M</kbd> · <kbd>[</kbd> · <kbd>]</kbd></span></div>
+            </div>
+            <div class="card-foot">
+              <div class="keys" data-nm-keypad="demo-browser">
+                <button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button>
+                <button type="button" data-key="Space" class="wide">Space</button><button type="button" data-key="KeyM">M</button><button type="button" data-key="BracketLeft">[</button><button type="button" data-key="BracketRight">]</button>
+              </div>
+              <p class="card-note" data-browser-note>Click a link, then go back with [</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SCROLL -->
+        <div class="feature feature-flip" id="scroll">
+          <div class="feature-copy">
+            <p class="eyebrow">滚动 · <kbd>⇧⌘J</kbd></p>
+            <h3>顺滑滚动。任何面板，任意距离。</h3>
+            <p>方向键会滚动指针下方的内容，像在触控板上轻扫一样顺滑，横向也可以。按住 <kbd>Shift</kbd> 飞速滚动。</p>
+            <p>按 <kbd>⇧⌘J</kbd>（或在开启状态下按 <kbd>J</kbd>），每个可滚动的面板都会出现一个数字。选好一个后，<kbd>Space</kbd> 向下翻页，<kbd>T</kbd> 跳到顶部，<kbd>B</kbd> 跳到底部。习惯 vim 的话，<kbd>J</kbd> <kbd>K</kbd> 也能用。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini mini-doc mini-split" id="demo-scroll" aria-label="滚动演示：按住方向键，或按 J 并选择一个面板。">
+              <div class="doc-side">
+                <p class="side-title">Chapters</p>
+                <span>1. Getting started</span><span>2. Moving around</span><span>3. Clicking</span><span>4. Labels</span><span>5. Type to click</span><span>6. Scrolling</span><span>7. The grid</span><span>8. Spots</span><span>9. Screens</span><span>10. Shortcuts</span><span>11. Settings</span><span>12. Practice</span><span>13. Privacy</span><span>14. Updates</span><span>15. The end</span>
+              </div>
+              <div class="doc-scroll">
+                <h4>一个很长的页面</h4>
+                <p>把指针放在这个页面上并按住 <kbd>↓</kbd>，或者按 <kbd>J</kbd>，选一个面板，再按 <kbd>B</kbd>。</p>
+                <div class="h-strip"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span></div>
+                <p>指针放在上面这一行时，可以用 <kbd>←</kbd> 和 <kbd>→</kbd> 横向滚动。</p>
+                <p class="doc-line"></p><p class="doc-line short"></p><p class="doc-line"></p><p class="doc-line"></p><p class="doc-line short"></p>
+                <p class="doc-line"></p><p class="doc-line"></p><p class="doc-line short"></p><p class="doc-line"></p><p class="doc-line"></p>
+                <p class="doc-line"></p><p class="doc-line short"></p><p class="doc-line"></p><p class="doc-line"></p><p class="doc-line short"></p>
+                <p class="doc-end">到底了。全程没碰触控板。</p>
+              </div>
+              <div class="mini-cover"><span>点击后按住 <kbd>↓</kbd> 或按 <kbd>J</kbd></span></div>
+            </div>
+            <div class="card-foot">
+              <div class="keys" data-nm-keypad="demo-scroll">
+                <button type="button" data-key="ArrowUp">↑</button><button type="button" data-key="ArrowDown">↓</button><button type="button" data-key="ArrowLeft">←</button><button type="button" data-key="ArrowRight">→</button>
+                <button type="button" data-key="KeyJ" class="accent">J</button><button type="button" data-key="Space" class="wide">Space</button><button type="button" data-key="KeyT">T</button><button type="button" data-key="KeyB">B</button><button type="button" data-key="Tab">⇥</button>
+              </div>
+              <p class="card-note" data-scroll-note>Page <b>0%</b> · List <b>0%</b></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- GRID -->
+        <div class="feature" id="grid">
+          <div class="feature-copy">
+            <p class="eyebrow">跳转网格 · <kbd>E</kbd></p>
+            <h3>三个键，直达屏幕任意位置。</h3>
+            <p>按 <kbd>E</kbd>，屏幕会分成九格，以左手下方的按键命名：<kbd>Q</kbd><kbd>W</kbd><kbd>E</kbd> / <kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / <kbd>Z</kbd><kbd>X</kbd><kbd>C</kbd>。按下其中一个，指针就跳过去，网格随之放大。按两三下，就能落到任何目标上。</p>
+            <p><kbd>Space</kbd> 在那里点击，<kbd>Delete</kbd> 退回上一步，<kbd>Tab</kbd> 切换到下一台显示器。只要看得见的地方它都能用，连标签无能为力的 App 也不例外：游戏、画布、远程桌面。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini mini-desk" id="demo-grid" aria-label="跳转网格演示：按 E，然后逐格选择，直到命中靶心。">
+              <button class="grid-target small" type="button" data-click data-target aria-label="Target"><span></span></button>
+              <div class="mini-cover"><span>点击后按 <kbd>E</kbd>，然后瞄准靶心</span></div>
+            </div>
+            <div class="card-foot">
+              <div class="keys keys-grid" data-nm-keypad="demo-grid">
+                <button type="button" data-key="KeyE" class="accent">E</button>
+                <span class="keys-3x3">
+                  <button type="button" data-key="KeyQ">Q</button><button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyE">E</button>
+                  <button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button>
+                  <button type="button" data-key="KeyZ">Z</button><button type="button" data-key="KeyX">X</button><button type="button" data-key="KeyC">C</button>
+                </span>
+                <button type="button" data-key="Space" class="wide">Space</button><button type="button" data-key="Backspace">⌫</button>
+              </div>
+              <p class="card-note" data-grid-note>Hit the target</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SPOTS + SCREENS -->
+        <div class="feature feature-flip" id="spots">
+          <div class="feature-copy">
+            <p class="eyebrow">位置与屏幕</p>
+            <h3>存下一个位置，一键回到这里。</h3>
+            <p>总是反复点击同一个地方？把指针指向它，按一次 <kbd>⇧1</kbd>。之后只要按 <kbd>1</kbd>，指针就会回到那里。最多九个位置，重启后依然保留。</p>
+            <p><kbd>Tab</kbd> 跳到下一台显示器的中央，<kbd>`</kbd> 让指针回到上一次跳转之前的位置。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="mini mini-screens" id="demo-spots" aria-label="位置与屏幕演示：Tab 在两块屏幕间跳转，Shift 加数字保存位置，按数字跳回。">
+              <div class="screen-a" data-screen><span class="screen-name">Built-in Display</span><button class="star" type="button" data-star aria-label="Star">★</button></div>
+              <div class="screen-b" data-screen><span class="screen-name">Studio Display</span></div>
+              <div class="mini-cover"><span>点击后按 <kbd>Tab</kbd></span></div>
+            </div>
+            <div class="card-foot">
+              <ol class="spot-steps">
+                <li data-spot-step="tab">按 <kbd>Tab</kbd> 到另一块屏幕</li>
+                <li data-spot-step="save">回到星标上，按 <kbd>⇧1</kbd> 保存</li>
+                <li data-spot-step="jump">移开后，按 <kbd>1</kbd> 跳回</li>
+                <li data-spot-step="back">按 <kbd>`</kbd> 返回原处</li>
+              </ol>
+              <div class="keys" data-nm-keypad="demo-spots">
+                <button type="button" data-key="Tab" class="wide">Tab</button><button type="button" data-key="ShiftLeft" data-latch class="wide">⇧</button><button type="button" data-key="Digit1">1</button><button type="button" data-key="Backquote">`</button>
+                <button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HOLD -->
+        <div class="feature" id="hold">
+          <div class="feature-copy">
+            <p class="eyebrow">按住使用</p>
+            <h3>按住就开，松手就关。</h3>
+            <p>不想来回切换？在设置里选择右侧 Command 或右侧 Option。按住它，用平常的按键操控，松手后键盘就恢复成键盘。左侧的同名键照常用于快捷键。</p>
+            <p>也可以简单点：<kbd>⇧⌘M</kbd> 开启或关闭。这个快捷键同样可以更改。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="hold-demo" id="demo-hold">
+              <div class="hold-screen">
+                <span class="hold-badge" data-hold-badge>No Mouse OFF</span>
+                <span class="hold-dot" data-hold-dot></span>
+                <p class="hold-typed" data-hold-typed aria-live="polite"></p>
+              </div>
+              <div class="hold-keys">
+                <button type="button" class="hold-key" data-hold-key aria-label="按住右侧 Command 键">
+                  <span>⌘</span><small>right command</small>
+                </button>
+                <div class="hold-letters">
+                  <button type="button" data-hold-letter="w">W</button><button type="button" data-hold-letter="a">A</button><button type="button" data-hold-letter="s">S</button><button type="button" data-hold-letter="d">D</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-foot"><p class="card-note">用鼠标按住 ⌘ 键，再点 W A S D——然后松开 ⌘ 再试一次。</p></div>
+          </div>
+        </div>
+
+        <!-- SHORTCUTS -->
+        <div class="feature feature-flip" id="shortcuts">
+          <div class="feature-copy">
+            <p class="eyebrow">和谐共处</p>
+            <h3>你的快捷键照常可用。</h3>
+            <p>任何带 <kbd>⌘</kbd>、<kbd>⌃</kbd> 或 <kbd>⌥</kbd> 的组合键都会直接交给你的 App，即使 No Mouse Mode 处于开启状态。<kbd>S</kbd> 移动指针，<kbd>⌘S</kbd> 照样保存。点进文本框，它会自动关闭，你可以直接打字。把“终端”或你的游戏等 App 加入列表，它就不会去打扰它们。</p>
+          </div>
+          <div class="card demo-card">
+            <div class="pass-demo" id="demo-pass">
+              <div class="pass-doc">
+                <div class="pass-title"><span class="lights"><i></i><i></i><i></i></span><span data-pass-name>Untitled — Edited</span></div>
+                <div class="pass-page"><span class="pass-cursor" data-pass-cursor></span><span class="pass-saved" data-pass-saved>Saved</span></div>
+              </div>
+              <div class="pass-buttons">
+                <button type="button" class="pass-key" data-pass="s">只按 <kbd>S</kbd></button>
+                <button type="button" class="pass-key" data-pass="cmd-s"><kbd>⌘</kbd>+<kbd>S</kbd></button>
+              </div>
+            </div>
+            <div class="card-foot"><p class="card-note" data-pass-note>Press each and watch what happens.</p></div>
+          </div>
+        </div>
+
+        <!-- EVERYTHING ELSE -->
+        <h3 class="subhead">还有更多</h3>
+        <div class="tiles">
+          <div class="tile"><h4>所有 App 都有标签</h4><p>有些 App 从不告诉 macOS 它们的按钮在哪里。打开“读取屏幕上的文字”后，点击标签和输入即点击照样能找到这些按钮，用的是在你 Mac 本机运行的 Apple 文字识别。</p></div>
+          <div class="tile"><h4>不碍事</h4><p>把“终端”、代码编辑器或游戏加进列表，它们在前台时它会自动关闭，离开后再自动开启。</p></div>
+          <div class="tile"><h4>打字时自动关闭</h4><p>点进搜索框或消息框，No Mouse Mode 会自动让开，接下来按的键就是正常打字。</p></div>
+          <div class="tile"><h4>每个键都由你定</h4><p>左撇子、Dvorak、Colemak，或者只是讲究：每个按键和快捷键都能更改，一个按钮就能全部恢复默认。</p></div>
+          <div class="tile"><h4>标签随你喜好</h4><p>经典黄色、黑色或白色，无论浅色还是深色 App 都一样醒目。</p></div>
+          <div class="tile"><h4>多显示器</h4><p>指针可在屏幕间滑动，按 <kbd>Tab</kbd> 在屏幕间跳转，标签会出现在你正在工作的地方。</p></div>
+          <div class="tile"><h4>登录时打开</h4><p>安静地在菜单栏启动，按下快捷键即可使用。</p></div>
+          <div class="tile"><h4>自动更新</h4><p>新版本会在空闲时自动安装，绝不打断你手上的工作。</p></div>
+          <div class="tile"><h4>轻巧省电</h4><p>闲置时不占用 CPU。一个通用 App，同时支持 Apple 芯片和 Intel 芯片，适用于 macOS 14 及更高版本。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ LEARN -->
+    <section class="section" id="learn" aria-labelledby="learn-title">
+      <div class="wrap">
+        <div class="learn">
+          <div class="learn-copy">
+            <p class="eyebrow">内置练习</p>
+            <h2 class="display section-title" id="learn-title">两分钟就能学会。</h2>
+            <p class="lede">不用读说明书。第一次打开时，简短的设置向导会带你完成唯一需要的权限，并让你在窗口里用自己的键盘把每项功能实际操作一遍。</p>
+            <ul class="learn-list">
+              <li><b>九节动手课程</b>，完成后自动打勾</li>
+              <li>随时<b>按 <kbd>H</kbd></b>，在屏幕底部查看所有按键</li>
+              <li>标签和网格上的<b>按键提示</b>会告诉你每个键的作用，直到你不再需要它们</li>
+            </ul>
+          </div>
+          <div class="practice-mock" id="practice-mock" aria-hidden="true">
+            <div class="pm-bar"><span class="lights"><i></i><i></i><i></i></span><span>Practice No Mouse Mode</span></div>
+            <div class="pm-body">
+              <ul class="pm-side">
+                <li data-lesson="Turn it on" data-text="Press <kbd>⇧⌘M</kbd>. A small badge appears in the corner.">Turn it on</li>
+                <li data-lesson="Move" data-text="Touch the three dots with <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>.">Move</li>
+                <li data-lesson="Click" data-text="<kbd>Space</kbd> clicks, twice double-clicks, <kbd>Return</kbd> right-clicks.">Click</li>
+                <li data-lesson="Drag" data-text="Hold <kbd>Space</kbd>, move onto the folder, let go.">Drag</li>
+                <li data-lesson="Scroll" data-text="Hold <kbd>↓</kbd>, or <kbd>J</kbd> then <kbd>B</kbd>.">Scroll</li>
+                <li data-lesson="Jump grid" data-text="<kbd>E</kbd>, the box with the target, again, <kbd>Space</kbd>.">Jump grid</li>
+                <li data-lesson="Click labels" data-text="<kbd>F</kbd>, then the letters on Archive.">Click labels</li>
+                <li data-lesson="Type to click" data-text="<kbd>/</kbd>, type send, <kbd>Return</kbd>.">Type to click</li>
+                <li data-lesson="Saved spots" data-text="<kbd>⇧1</kbd> on the star, move away, <kbd>1</kbd>.">Saved spots</li>
+              </ul>
+              <div class="pm-main">
+                <h4 data-lesson-title>Turn it on</h4>
+                <p data-lesson-text>Press <kbd>⇧⌘M</kbd>. A small badge appears in the corner.</p>
+                <div class="pm-stage"><span class="pm-dot"></span><span class="pm-dot"></span><span class="pm-dot"></span><span class="pm-cursor"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ KEYS -->
+    <section class="section" id="keys" aria-labelledby="keys-title">
+      <div class="wrap">
+        <h2 class="display section-title" id="keys-title">一只手，<br>就能全部搞定。</h2>
+        <p class="lede section-lede">以下是默认设置。将指针悬停在某个键上或轻点它，即可查看它的作用；也可以点击键盘，自己按按看。</p>
+        <div class="kbd-wrap">
+          <div class="kbd" id="kbd" tabindex="0" aria-label="键盘布局图。按下某个键或将指针悬停其上，即可查看它的作用。"></div>
+          <div class="kbd-info" aria-live="polite"><b data-kbd-title>Pick a key</b><span data-kbd-text>Highlighted keys are the ones No Mouse Mode uses while it's on.</span></div>
+          <ul class="kbd-legend">
+            <li><i class="lg-move"></i>移动</li><li><i class="lg-click"></i>点击</li><li><i class="lg-scroll"></i>滚动</li><li><i class="lg-jump"></i>跳转</li><li><i class="lg-toggle"></i>帮助与按住</li>
+          </ul>
+        </div>
+        <div class="anywhere">
+          <h3>随时随地可用，即使处于关闭状态</h3>
+          <div class="anywhere-grid">
+            <div><kbd>⇧⌘Space</kbd><span>点击标签</span></div>
+            <div><kbd>⇧⌘/</kbd><span>输入即点击</span></div>
+            <div><kbd>⇧⌘J</kbd><span>滚动区域</span></div>
+            <div><kbd>⇧⌘M</kbd><span>开启或关闭 No Mouse Mode</span></div>
+          </div>
+          <p class="fine">每个按键和快捷键都可以在设置中更改。带 ⌘、⌃ 或 ⌥ 的快捷键始终会交给你的 App。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ PRIVACY -->
+    <section class="section section-alt" id="privacy" aria-labelledby="privacy-title">
+      <div class="wrap narrow center">
+        <h2 class="display section-title" id="privacy-title">你的按键记录，只留在你的 Mac 上。</h2>
+        <p class="lede">No Mouse Mode 只需要一项权限——“辅助功能”，因为只要有 App 替你移动指针，macOS 就会要求这项权限。它只响应自己用到的按键，不保存任何内容，也不发送任何内容。读取屏幕文字是可选功能，完全在你的 Mac 本机进行，且绝不保存。它只会为两件事联网：验证你的许可证密钥，以及检查更新。</p>
+        <a class="text-link" href="/privacy">阅读隐私政策 ›</a>
+      </div>
+    </section>
+
+    <!-- ============================================================ PRICING -->
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <h2 class="display section-title center" id="pricing-title">一次付费，永久拥有。</h2>
+        <div class="price-card">
+          <img src="/apple-touch-icon.png" alt="No Mouse Mode App 图标" width="72" height="72">
+          <h3>No Mouse Mode</h3>
+          <p class="price-badge">终身授权 · 1 台 Mac</p>
+          <p class="price"><span class="cur">$</span>19<span class="cents">.99</span></p>
+          <p class="price-sub">一次性购买 · 免费更新</p>
+          <ul class="price-list">
+            <li>全部功能：点击标签、输入即点击、平滑移动、滚动区域、跳转网格、保存位置</li>
+            <li>内置练习和引导式设置</li>
+            <li>随时可以转移到新的 Mac</li>
+            <li>macOS 14 Sonoma 或更高版本，支持 Apple 芯片和 Intel 芯片</li>
+            <li>买过第 1 版？第 2 版对你免费</li>
+          </ul>
+          <a class="btn btn-accent btn-lg btn-block" href="/buy/1">购买 No Mouse Mode — $19.99</a>
+          <p class="fine">由我们的记录商户 Dodo Payments 提供安全结账服务：他们负责处理付款、税费和收据。结账后会立即显示你的许可证密钥，同时也会通过电子邮件发送给你。所有销售均为最终交易，详见<a href="/terms#refunds">条款</a>。</p>
+        </div>
+        <p class="tier-lede">需要在多台 Mac 上使用？同样是终身授权，一个密钥全部搞定。</p>
+        <div class="tier-strip">
+          <a href="/buy/3"><span class="tier-name">3 台 Mac</span><span class="tier-price"><b>$49.99</b></span><span class="tier-per">一个密钥，最多 3 台 Mac</span></a>
+          <a href="/buy/5"><span class="tier-name">5 台 Mac</span><span class="tier-price"><b>$79.99</b></span><span class="tier-per">一个密钥，最多 5 台 Mac</span></a>
+          <a href="/buy/20"><span class="tier-name">20 台 Mac</span><span class="tier-price"><b>$299.99</b></span><span class="tier-per">一个密钥，最多 20 台 Mac——适合团队</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ FAQ -->
+    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <h2 class="display section-title" id="faq-title">常见问题</h2>
+        <div class="faq">
+          <details><summary>它和其他键盘鼠标类 App 有什么不同？</summary><p>大多数同类 App 只做一件事：要么是标签，要么是网格，要么是方向键移动。No Mouse Mode 在一个小巧的 App 里全部搞定——点击标签、输入即点击、W A S D 平滑移动、跳转网格、滚动区域、保存位置和屏幕跳转——还内置练习，当天就能熟练上手。一次性购买 $19.99，不是订阅。</p></details>
+          <details><summary>标签在所有 App 里都能用吗？</summary><p>只要 App 会向 macOS 描述自己的按钮，标签就能用：访达、Safari 浏览器、Chrome、邮件、备忘录、系统设置，以及大多数 Mac App 和网站。有些 App 不会这样做（某些游戏、设计画布、远程桌面）。遇到这种情况，可以在“设置”→“Clicking”中打开 <b>Also read text on the screen</b>（同时读取屏幕上的文字）；此外，跳转网格和 W A S D 在任何地方都能用。</p></details>
+          <details><summary>读取屏幕内容安全吗？</summary><p>安全。除非你主动打开，否则它是关闭的；它使用的是在你 Mac 本机运行的 Apple 文字识别，看到的任何内容都不会被保存或发送到任何地方。macOS 把这项权限称为“录屏与系统录音”（较早版本称为“屏幕录制”），因此第一次使用时会请求该权限。</p></details>
+          <details><summary>开启 No Mouse Mode 后还能正常打字吗？</summary><p>随处可用的快捷键（<kbd>⇧⌘Space</kbd>、<kbd>⇧⌘/</kbd>、<kbd>⇧⌘J</kbd>）根本不需要开启它。开启后，它只占用自己用到的按键，任何带 ⌘、⌃ 或 ⌥ 的快捷键都会直接交给你的 App，点进文本框它就会自动关闭，让你正常打字。你还可以列出让它保持关闭的 App。</p></details>
+          <details><summary>要多久才能学会？</summary><p>几分钟而已。设置向导最后有一段简短的动手体验，“练习”窗口里有九节完成后自动打勾的课程，忘了哪个键时按 <kbd>H</kbd> 就能看到全部按键。</p></details>
+          <details><summary>支持多台显示器吗？</summary><p>支持。指针可以在屏幕间滑动，<kbd>Tab</kbd> 跳到下一台显示器的中央，网格在你当前所在的屏幕上工作，标签会出现在窗口所在的地方。</p></details>
+          <details><summary>可以更改按键吗？</summary><p>每个按键和每个快捷键都可以，在“设置”→“Keys”和“General”中更改。一个按钮就能全部恢复默认。</p></details>
+          <details><summary>它能在哪些 Mac 上运行？</summary><p>macOS 14 Sonoma、15 Sequoia 和 26 Tahoe，搭载 Apple 芯片或 Intel 芯片的 Mac 均可。</p></details>
+          <details><summary>可以在几台 Mac 上使用？</summary><p>标准授权适用于 1 台 Mac，售价 $19.99。需要更多？另有 3 台 Mac（$49.99）、5 台 Mac（$79.99）和 20 台 Mac（$299.99）授权，一个密钥全部通用。随时可以在“设置”→“License”→“Deactivate”中把授权转移到另一台 Mac。</p></details>
+          <details><summary>我买过第 1 版，需要再付费吗？</summary><p>不需要。第 2 版对你免费，在你已经使用它的那台 Mac 上无需许可证密钥。从 <a href="/download">nomousemode.com/download</a> 下载后，它会在你已经使用的那台 Mac 上自动解锁。要在另一台 Mac 上设置？<a href="mailto:adgan.business@gmail.com?subject=No%20Mouse%20Mode%20license">给我们发邮件</a>。</p></details>
+        </div>
+        <p class="faq-more">更多帮助请访问<a href="/support">支持页面</a>。</p>
+      </div>
+    </section>
+
+    <!-- ============================================================ FINAL CTA -->
+    <section class="section final">
+      <div class="wrap center">
+        <h2 class="display section-title">别再碰触控板了。</h2>
+        <a class="btn btn-accent btn-lg" href="/buy/1">购买 — $19.99</a>
+        <p class="fine">或者再<a href="#demo">试一次演示</a>。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/zh/"><img src="/icon-sm.png" alt="" width="24" height="24"><span>No Mouse Mode</span></a>
+        <p>键盘就是鼠标。在 Mac 上打字即可点击任何按钮，用 W A S D 移动指针，滚动、跳转随心所欲。大部分指南文章为英文。</p>
+      </div>
+      <div>
+        <h4>产品</h4>
+        <ul>
+          <li><a href="/zh/#demo">演示</a></li>
+          <li><a href="/zh/#features">功能</a></li>
+          <li><a href="/zh/#keys">按键</a></li>
+          <li><a href="/zh/#pricing">价格</a></li>
+          <li><a href="/zh/#faq">常见问题</a></li>
+          <li><a href="/changelog">更新日志</a></li>
+          <li><a href="/download">下载</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>对比</h4>
+        <ul>
+          <li><a href="/no-mouse-mode-vs-homerow">vs Homerow</a></li>
+          <li><a href="/no-mouse-mode-vs-shortcat">vs Shortcat</a></li>
+          <li><a href="/no-mouse-mode-vs-mouse-keys">vs Mouse Keys</a></li>
+          <li><a href="/homerow-alternatives">Homerow 替代品</a></li>
+          <li><a href="/vimac-alternative">Vimac 替代品</a></li>
+          <li><a href="/best-keyboard-mouse-apps-for-mac">最佳键盘鼠标应用</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>迁移</h4>
+        <ul>
+          <li><a href="/vimium-for-mac">Vimium</a></li>
+          <li><a href="/keynav-for-mac">keynav</a></li>
+          <li><a href="/warpd-for-mac">warpd</a></li>
+          <li><a href="/full-keyboard-access-mac">Full Keyboard Access</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>使用方法</h4>
+        <ul>
+          <li><a href="/zh/how-to-use-mac-without-mouse">不用鼠标使用 Mac</a></li>
+          <li><a href="/move-mouse-with-keyboard-mac">用键盘移动指针</a></li>
+          <li><a href="/right-click-without-mouse-mac">不用鼠标右键单击</a></li>
+          <li><a href="/mac-trackpad-not-working">触控板失灵</a></li>
+          <li><a href="/keyboard-only-mac-rsi">手腕疼痛与 RSI</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助</h4>
+        <ul>
+          <li><a href="/support">支持</a></li>
+          <li><a href="mailto:adgan.business@gmail.com">邮件支持</a></li>
+          <li><a href="/privacy">隐私政策</a></li>
+          <li><a href="/terms">使用条款</a></li>
+          <li><a href="https://x.com/ahmedgagan11" rel="me">X / Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>&copy; 2026 No Mouse Mode &middot; 开发者 <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a> &middot; Mac 是 Apple Inc. 的商标。</p>
+      <nav class="lang-switch" aria-label="Language"><a href="/" hreflang="en" lang="en">English</a> &middot; <a href="/ja/" hreflang="ja" lang="ja">日本語</a> &middot; <a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></nav>
+    </div>
+  </div>
+</footer>
+
+  <script src="/js/engine.js?v=20261031" defer></script>
+  <script src="/js/site.js?v=20261031" defer></script>
+</body>
+</html>

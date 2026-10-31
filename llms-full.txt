@@ -1,0 +1,2230 @@
+# No Mouse Mode — full text for AI assistants
+
+The complete public text of nomousemode.com in one file: the product page, the support page and every guide.
+Short version: https://nomousemode.com/llms.txt
+
+## Product page
+
+Source: https://nomousemode.com/  
+Mac menu bar app · macOS 14 Sonoma or later · Apple silicon and Intel · $19.99 one-time for 1 Mac · free updates
+
+No Mouse Mode lets you use your Mac without reaching for the mouse or trackpad. Click any button by typing the two letters on it, or just its name. Glide the pointer, drag, scroll and jump across screens with the keys under your fingers.
+
+### Click anything by typing
+
+- **Click labels (⇧⌘Space):** works in any app, even with No Mouse Mode off. Every button, link, tab, menu, menu bar item and Dock icon gets a small label; type it and it's clicked. Hold ⇧ with the last letter to right-click, ⌘ to ⌘-click (new tab), ⌥ to double-click, ⌃ to just move the pointer there. Tab keeps the labels coming back for several clicks. Labels for a window stay the same each time.
+- **Type to click (⇧⌘/):** type part of a button's or text's name (case, spaces and accents ignored; initials work) and press Return.
+- **Labels in every app (optional):** for apps that don't describe their buttons to macOS, No Mouse Mode can read on-screen text with Apple's on-device text recognition. Needs Screen Recording; nothing is saved or sent.
+
+### Steer the pointer (⇧⌘M turns No Mouse Mode on)
+
+| Action | Key |
+|---|---|
+| Move the pointer (smooth, eases in) | W A S D |
+| Fast / one-point precise | hold Shift / hold Q |
+| Click (twice: double-click, three times: triple-click, hold: drag) | Space |
+| Right-click | Return |
+| Middle click | M |
+| Back / forward buttons | [ / ] |
+| Scroll (up, down and sideways) | arrow keys |
+| Click labels | F |
+| Type to click | / |
+| Scroll areas | J |
+| Jump grid | E |
+| Next / previous display | Tab / Shift-Tab |
+| Saved spots | 1–9 jump, Shift-1–9 save |
+| Jump back | ` |
+| Show every key | H |
+
+Every key and shortcut can be changed in Settings. Shortcuts with ⌘, ⌃ or ⌥ always reach the app you're using, and clicking into a text box turns No Mouse Mode off so you can type. You can also list apps where it stays off, or hold Right Command or Right Option to use it only while the key is down.
+
+### Scroll areas and the jump grid
+
+- **Scroll areas (⇧⌘J):** numbers every scrollable pane on screen; pick one, then scroll with J/K or the arrows, page with Space, and jump to the top or bottom with T and B.
+- **Jump grid (E):** a 3×3 grid labelled Q W E / A S D / Z X C covers the screen and zooms in with each press, so two or three keys reach any point. Works in every app.
+
+### Learn it in two minutes
+
+A guided setup ends with a hands-on try, the Practice window has nine short lessons that tick themselves off, and H shows every key whenever you forget one.
+
+### Private
+
+Keystrokes are never stored or sent. The app only goes online to activate and re-check your license and to check for updates. It needs Accessibility permission (Screen Recording only if you turn on reading on-screen text).
+
+### Price
+
+- 1 Mac: $19.99 · 3 Macs: $49.99 · 5 Macs: $79.99 · 20 Macs: $299.99
+- One-time purchase, free updates, no subscription. No free trial: the website has interactive demos that use the same keys.
+- Checkout by Dodo Payments (merchant of record). All sales are final.
+- Bought version 1? Version 2 is free on the Mac you already use.
+
+Buy: https://nomousemode.com/buy · Download: https://nomousemode.com/download · Support: https://nomousemode.com/support · Changelog: https://nomousemode.com/changelog
+
+### Guides
+
+- How to use a Mac without a mouse: https://nomousemode.com/how-to-use-mac-without-mouse
+- All guides and comparisons: https://nomousemode.com/llms.txt
+
+## Support page (https://nomousemode.com/support)
+
+Support
+
+Most questions are answered below. If yours isn't, email [adgan.business@gmail.com](mailto:adgan.business@gmail.com?subject=No%20Mouse%20Mode%20support) and include your macOS version (Apple menu → About This Mac) and No Mouse Mode version (in Applications, right-click No Mouse Mode → Get Info).
+
+### Getting started
+
+### How do I set it up?
+
+Drag No Mouse Mode into your Applications folder and open it. A short setup walks you through the one macOS permission it needs, Accessibility (the page updates by itself once it's switched on), asks for your license key, shows you the two ways to use it, then lets you try it for real. You can open the full Practice (nine short lessons) from the menu bar icon any time.
+
+### Nothing happens when I press Cmd+Shift+M
+
+Check that No Mouse Mode is running: you should see its cursor icon in the menu bar. If it is, another app may be using the same shortcut. Open the menu bar icon, choose **Settings…** and record a different toggle shortcut. If the license isn't activated yet, the app asks for your key first.
+
+### It asks for Accessibility or Input Monitoring permission
+
+macOS requires these for any app that moves the cursor from the keyboard. Open **System Settings → Privacy & Security → Accessibility** and switch on No Mouse Mode, then do the same under **Input Monitoring** if it's listed. Then quit and reopen the app. [Here's exactly what the app does with these permissions.](https://nomousemode.com/privacy)
+
+### Permission is switched on but it still doesn't work
+
+Select No Mouse Mode in the Accessibility list, remove it with the **–** button, then add it back with **+** (it's in your Applications folder) and reopen the app. This resets a permission entry that macOS sometimes keeps from an older copy of the app.
+
+### "This app requires a newer version of macOS"
+
+Version 1.0 only ran on the newest macOS. Current versions run on macOS 14 (Sonoma) and newer. Download the latest version from [nomousemode.com/download](https://nomousemode.com/download) and replace the copy in your Applications folder.
+
+### Your license
+
+### Where do I enter my license key?
+
+The setup asks for it the first time you open the app. You can also open the menu bar icon, choose **Settings…** and go to **License**. Paste the key and click **Activate**. Activation needs an internet connection; after that the app works offline.
+
+### Where do I find my license key?
+
+It's shown on the page you land on after checkout, and it's in the email from Dodo Payments (check spam if it isn't in your inbox). Version 1 was sold on Gumroad; those purchases need no key on the Mac you already use. Can't find it? Email us with the address you used to buy.
+
+### Which license do I need?
+
+One license key works on as many Macs as you bought it for: **1 Mac** ($19.99), **3 Macs** ($49.99), **5 Macs** ($79.99) or **20 Macs** ($299.99). Each is a one-time purchase with free updates. Pick the number of Macs you use at the same time; you can always move a license from an old Mac to a new one with **Deactivate**, so a new Mac doesn't need a new license. See [pricing](https://nomousemode.com/#pricing).
+
+### How do I move my license to another Mac?
+
+On the old Mac, open **Settings… → License** and click **Deactivate**. Then activate the same key on the new Mac. If the old Mac is gone or broken, email us and we'll free up the license for you.
+
+### I bought No Mouse Mode before version 2.0
+
+Thank you! It keeps working on the Mac you already use it on, with no key needed, and the update is free. For a new Mac, email [adgan.business@gmail.com](mailto:adgan.business@gmail.com?subject=No%20Mouse%20Mode%201.x%20license) with the email address you bought with.
+
+### Using No Mouse Mode
+
+### What are the keys?
+
+| W A S D | Move the cursor. It speeds up the longer you hold. |
+|---|---|
+| Shift (hold) | Fast |
+| Q (hold) | Precision: slow and pixel-exact |
+| Space | Click. Tap twice to double-click, three times to triple-click. Hold and move to drag. |
+| Return | Right-click |
+| ↑ ↓ | Scroll up and down |
+| ← → | Scroll left and right |
+| M | Middle click |
+| [ ] | Back and forward (a mouse's side buttons) |
+| F | Click labels |
+| / | Type to click |
+| J | Scroll areas |
+| E | Jump grid |
+| Tab | Next display (Shift+Tab: previous) |
+| 1–9 | Jump to a saved spot. Shift and the number saves one. |
+| ` | Jump back to where the cursor was before its last jump |
+| H | Show every key |
+
+Turn it on and off with Cmd+Shift+M. These work anywhere, even while it's off: **Cmd+Shift+Space** click labels, **Cmd+Shift+/** type to click, **Cmd+Shift+J** scroll areas. Every key and shortcut can be changed in Settings.
+
+### How does the jump grid work?
+
+Press **E**. The screen with the cursor splits into a 3×3 grid labelled Q W E / A S D / Z X C, the same shape as those keys on your keyboard. Press a letter and the cursor jumps to the middle of that cell, then the grid zooms into it; two or three presses reach anywhere. Press **Space** to click there or **Return** to right-click, **Delete** to go back a level, **Tab** to move the grid to your next display, or **Esc** to close it. You can still fine-tune with W A S D afterwards.
+
+### How do click labels work?
+
+Press **Cmd+Shift+Space** (or **F** while No Mouse Mode is on) and every clickable thing in the front window (buttons, links, tabs, menus, checkboxes and fields), the menu bar and the Dock gets a short letter label. Type the letters and it's clicked. Hold a key while typing the last letter for a different click: **Shift** right-clicks, **Command** Command-clicks (a new tab in browsers), **Option** double-clicks and **Control** only moves the cursor there. **Tab** keeps the labels coming back after each click. **Esc** cancels.
+
+Labels work in Mac apps and on web pages that describe their buttons to macOS, which most do. If an app shows few or no labels, turn on **Also read text on the screen** in Settings → Clicking, or use the jump grid or W A S D, which work everywhere.
+
+### How does type to click work?
+
+Press **Cmd+Shift+/** (or **/** while it's on) and start typing what a button or a piece of text says. Case, spaces and accents don't matter, and first letters work too ("nf" finds New Folder). Matches are outlined; **Tab** moves between them and **Return** clicks. Shift+Return right-clicks, Command+Return Command-clicks and Option+Return double-clicks.
+
+### How do scroll areas work?
+
+Press **Cmd+Shift+J** (or **J** while it's on). Each scrollable part of the front window gets a number and the cursor moves into the first one. Pick another with its number or **Tab**. Then hold the arrow keys or **J**/**K** to scroll (Shift for faster), **Space** to page down, Shift+Space to page up, **T** for the top and **B** for the bottom. **Esc** when you're done.
+
+### Labels and type to click find nothing in one app
+
+Some apps (certain games, design canvases, remote desktops and older cross-platform apps) don't tell macOS where their buttons are. Turn on **Also read text on the screen** in Settings → Clicking and allow **Screen Recording** in System Settings → Privacy & Security when asked; you may need to quit and reopen No Mouse Mode afterwards. It reads the words on screen on your Mac and never saves or sends them. Buttons that are only icons still need the jump grid or W A S D.
+
+### Can I use it just while holding a key?
+
+Yes. In Settings, turn on hold-to-use and choose **Right Command** or **Right Option**. Hold that key, use the mouse keys, and let go to switch back. It's off by default, and Cmd+Shift+M still works either way.
+
+### I can't type while it's on
+
+That's expected for the keys it uses: while No Mouse Mode is on they control the mouse. When you click into a text box it switches itself off so you can type (you can turn that off in Settings → General). Press Cmd+Shift+M to switch it off yourself, use hold-to-use so it's only on while you hold a key, or use the anywhere shortcuts, which never need it on.
+
+### Can it stay off in certain apps?
+
+Yes. Add apps in **Settings → Apps**, or choose **Turn Off Automatically in …** from the menu bar icon while you're in the app. It switches itself off whenever one of them is in front and back on when you leave. Turning it on by hand still works.
+
+### I forgot a key
+
+Press **H** while No Mouse Mode is on to see every key at the bottom of the screen, or open **Keyboard Guide** or **Practice** from the menu bar icon.
+
+### Do keyboard shortcuts still work?
+
+Yes. Any shortcut using Command, Control or Option (like Cmd+S, Cmd+W or Ctrl+→) goes straight to your apps, even while No Mouse Mode is on.
+
+### How do I double-click, right-click or drag?
+
+Tap Space twice quickly to double-click (three times to triple-click). Press Return to right-click. To drag, hold Space, move with W A S D, then release Space.
+
+### The cursor is too slow or too fast
+
+Hold **Shift** for a burst of speed or **Q** for slow, precise movement. To change the normal speed, open **Settings…** from the menu bar icon and adjust the speed settings there.
+
+### Can I change the keys?
+
+Yes. Every key and every shortcut can be changed in Settings. Click a field, then press the key you want. **Restore Defaults** puts them all back.
+
+### Does it work with more than one display?
+
+Yes. The cursor moves across all your displays, Tab jumps to the middle of the next one, and the badge and grid appear on the display the cursor is on. Labels appear wherever the front window is. In the jump grid, Tab moves the grid to the next display.
+
+### Updates, login and removal
+
+### How do I update?
+
+Version 2.0 and later update themselves automatically. Updates are free. You can also check by hand: open the menu bar icon and choose **Check for Updates…**. If you're on version 1.x, download the latest version from [nomousemode.com/download](https://nomousemode.com/download), quit No Mouse Mode from its menu bar icon, and drag the new copy into your Applications folder, replacing the old one.
+
+### Can it start when I log in?
+
+Yes. Turn on **Open No Mouse Mode at login** in Settings → General.
+
+### How do I uninstall it?
+
+If you might use your license on another Mac later, first open **Settings… → License** and click **Deactivate**. Then choose **Quit** from the menu bar icon and drag No Mouse Mode from Applications to the Trash. You can also remove it from the Accessibility, Input Monitoring and Screen Recording lists in System Settings.
+
+### Still stuck?
+
+Email [adgan.business@gmail.com](mailto:adgan.business@gmail.com?subject=No%20Mouse%20Mode%20support) with a short description of what's happening, your macOS version and your No Mouse Mode version.
+
+## Guides & comparison pages (full text)
+
+### The best keyboard mouse apps for Mac in 2026
+
+Source: https://nomousemode.com/best-keyboard-mouse-apps-for-mac  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+There's no single best mouseless app, because they do different jobs. **Label apps click buttons, search apps click by name, grid and pointer apps reach anywhere, and macOS has free built-ins that are enough for many people.** Here's what each one is for.
+
+> **Short answer:** For one app that clicks by label or by name *and* moves the pointer, drags, scrolls panes and has a grid, we'd pick [No Mouse Mode](https://nomousemode.com/) (we make it, so weigh that). For label clicking alone, Homerow is the polished, maintained choice. For free, Scoot is open source and maintained, and Shortcat is a free-download beta. Mouseless suits people who also use Windows or Linux. If you only need a mouse now and then, the free macOS built-ins (Mouse Keys, Voice Control, Full Keyboard Access) may be all you need.
+
+#### How we picked (and our bias)
+
+This guide is written by the maker of [No Mouse Mode](https://nomousemode.com/), so it isn't neutral. To keep it useful anyway, every price, version and date below was checked on the app's official site, docs, changelog, GitHub repository or Homebrew listing on October 31, 2026. Where something wasn't published (a price, a minimum macOS), we say so instead of guessing. We sorted by use case rather than crowning one winner, because a label app and a grid app solve different problems.
+
+The four approaches you'll see:
+
+- **Labels:** letters appear on every button; type one to click it.
+- **Search to click:** type a button's name; the app finds and clicks it.
+- **Grid:** the screen splits into cells you pick by key, to reach any spot.
+- **Free pointer:** keys move the cursor like a mouse would.
+
+Labels and search depend on apps describing their buttons to macOS through accessibility. Most Mac apps and websites do, but some (games, design canvases, remote desktops) don't. Grids and free pointers work everywhere.
+
+#### The whole field at a glance
+
+| App | Price (as of Oct 2026) | Approach | Moves pointer | Grid | Maintained | macOS |
+|---|---|---|---|---|---|---|
+| No Mouse Mode | $19.99 one time (1 Mac); no trial | Labels, type to click, scroll areas | Yes, W A S D | Yes, 3×3 zooming | Yes, 2.0.0 | 14+ |
+| Homerow | $49.99 one time; free to try with a reminder every 50 activations | Labels, scroll, search | Not shown on its site | Not shown on its site | Yes, 1.5.3 (Mar 2026) | 13+ |
+| Shortcat | Free download; no price on its site | Search to click, labels | Not listed | Not listed | Last update Jul 2025 (v0.12.2 beta) | 13+ |
+| Wooshy | Free with "naps", or $3.88/mo / $46.28/yr | Search to click (incl. Dock, menu bar) | No mode documented | Not documented | Yes | 14.6+ (older builds for Ventura, Monterey) |
+| Scoot | Free, open source (BSD-3) | Labels, grid, freestyle | Yes | Yes | Yes, v1.3 (Mar 2026) | README: 11 and 12 |
+| Mouseless | Not published (lifetime or subscription); 14-day trial | Grid, free mode, labels (beta) | Yes | Yes | Yes, v1.1.0 (Oct 2026) | 12+ (Homebrew) |
+| warpd | Free, open source (MIT) | Hints, grid, normal mode | Yes | Yes | No, last commit Jun 2023 | Unknown |
+| Vimac | Free, open source (GPL-3.0) | Hints, scroll mode | Not listed | Not listed | No, last commit Dec 2022; now Homerow | Unknown |
+| Mouse Keys | Free, built in | Number keys move the pointer | Yes | No | Part of macOS | Built in |
+| Voice Control | Free, built in | Spoken numbers, names and grid | By voice | Yes, by voice | Part of macOS | Built in |
+| Full Keyboard Access | Free, built in | Tab focus between controls | No | No | Part of macOS | Built in |
+| Vimium | Free, open source (MIT) | Link hints in the browser only | No | No | Yes | Chrome, Edge, Firefox |
+
+"Not shown" or "not listed" means we didn't find the feature on the app's own site or docs. It doesn't prove the app lacks it.
+
+#### 1. No Mouse Mode: best all-in-one keyboard mouse
+
+[No Mouse Mode](https://nomousemode.com/) 2.0 tries to replace the whole mouse, not just the click. **Click labels** (`⇧⌘Space`) put letters on every button, link, tab and menu in the front window, plus the menu bar and the Dock. **Type to click** (`⇧⌘/`) finds a button by part of its name or its initials. **Scroll areas** (`⇧⌘J`) number each scrollable pane. Press `⇧⌘M` and your keys become the mouse: `W` `A` `S` `D` glide the cursor (Shift for fast, Q for one-pixel precise), `Space` clicks or drags, `Return` right-clicks, `M` middle-clicks, and `E` opens a 3×3 grid that reaches anywhere in two or three presses.
+
+For apps that don't describe their buttons to macOS, it can optionally read on-screen text with Apple's on-device text recognition (needs Screen Recording; nothing is saved or sent). A Practice window with nine lessons teaches the keys. The trade-offs: there's no free trial (the site has in-browser demos instead), it's $19.99 one time for 1 Mac ($49.99 for 3), and it needs macOS 14 Sonoma or later on Apple silicon or Intel. Its default label shortcut is the same `⇧⌘Space` that Shortcat uses and Homerow's demos show, but every shortcut can be changed.
+
+#### 2. Homerow: best for polished label clicking
+
+[Homerow](https://www.homerow.app) offers "keyboard shortcuts for every button in macOS": labels on buttons, links and UI elements, plus scrolling and search. It's the successor of Vimac and is actively maintained (1.5.3, March 2026). It's $49.99 one time and covers all your personal Macs, and it's free to try with a reminder every 50 activations. It needs macOS 13 or later. Its site doesn't show a free-pointer or grid mode. Compared in detail: [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) and [Homerow alternatives](https://nomousemode.com/homerow-alternatives).
+
+#### 3. Shortcat: best free search-to-click
+
+[Shortcat](https://shortcat.app) is "the universal command palette for your Mac". Press `⇧⌘Space`, type what you want to click, and it clicks it. After a short delay it also shows letter labels. It handles right, double and modifier clicks, window search, menu search and emoji. It's a free download (the site lists no price), needs macOS 13 or later, and is still a 0.x beta last updated in July 2025. See [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat).
+
+#### 4. Wooshy: best for searching the whole screen
+
+[Wooshy](https://wooshy.app) searches the whole macOS interface, including the Dock, the menu bar and the status bar, and clicks what you type. It's a free download that is "full-featured, but takes some random naps"; a subscription of $3.88 a month or $46.28 a year keeps it running all the time. There's no one-time option listed. It needs macOS 14.6 Sonoma, with older builds offered for Ventura and Monterey. It doesn't document a pointer-movement mode.
+
+#### 5. Scoot: best free and open source
+
+[Scoot](https://github.com/mjrusso/scoot) is a "keyboard-driven MacOS cursor actuator" with three modes: element labels (`⇧⌘J`), a grid across all screens (`⇧⌘K`) and freestyle movement using familiar text-editing shortcuts (`⇧⌘L`). It's free, BSD-3-Clause, and maintained (v1.3, March 2026). Its README says it runs on macOS 11 and 12 and doesn't mention newer versions, so check it on yours. Note that its `⇧⌘J` default is the same as No Mouse Mode's scroll areas shortcut.
+
+#### 6. Mouseless: best if you also use Windows or Linux
+
+[Mouseless](https://mouseless.click) promises "lightning-fast mouse control with the keyboard" on macOS, Windows and Linux. Tap Left Command for a grid and type a cell's two characters; tap Left Option for a free mode where I/J/K/L move the pointer. Label mode is in beta. It's closed source and actively maintained (v1.1.0, October 2026). Pricing is "lifetime or subscription", but the amounts aren't published on its site; there's a 14-day trial with no card or email, and each license works on 5 machines.
+
+#### 7. warpd: free, but not updated since 2023
+
+[warpd](https://github.com/rvaiya/warpd) is "a modal keyboard-driven virtual pointer" with hint, grid and normal (hjkl) modes. It's free (MIT), has about 3,660 GitHub stars and also runs on Linux, but its last commit was in June 2023 and the last macOS release was in November 2022. Installing it on a Mac means a prebuilt tarball or a source build. See [warpd for Mac](https://nomousemode.com/warpd-for-mac).
+
+#### 8. Vimac: don't start here today
+
+[Vimac](https://github.com/nchudleigh/vimac), the free open-source app that became Homerow, hasn't been updated since 2022. Its README now says "Vimac is now Homerow". If you liked its hint mode, read [Vimac alternatives](https://nomousemode.com/vimac-alternative).
+
+#### 9. The free macOS built-ins
+
+Before you buy anything, know what your Mac already has:
+
+- **Mouse Keys** (System Settings > Accessibility > Pointer Control) moves the pointer with 7 8 9 U O J K L or the keypad, and clicks with I or keypad 5. It works with no mouse or trackpad at all, which makes it a lifesaver when one breaks. The catch: while it's on you can't type text. More in [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys).
+- **Voice Control** (System Settings > Accessibility > Voice Control) lets you say "Show numbers" and "Click" plus a number, or "Show grid" to reach any spot. It's the closest built-in to labels, but you use your voice, not keys.
+- **Full Keyboard Access** (System Settings > Accessibility > Motor > Keyboard) highlights the focused control and moves through them with Tab. It works everywhere, but reaching a far-away button can take many presses. See [Full Keyboard Access on Mac](https://nomousemode.com/full-keyboard-access-mac).
+
+#### 10. Vimium: great, but only in the browser
+
+[Vimium](https://github.com/philc/vimium) is a free, actively maintained browser extension for Chrome, Edge and Firefox. Press `f` and every link in the page gets a hint. If you spend your day in a browser, install it. It can't reach Finder, System Settings, the menu bar, the Dock or other apps, which is where Mac-wide tools come in. More in [Vimium for Mac](https://nomousemode.com/vimium-for-mac).
+
+#### Which one should you choose?
+
+- **Your mouse or trackpad just died:** turn on Mouse Keys now; see [Mac trackpad not working](https://nomousemode.com/mac-trackpad-not-working).
+- **You want to click buttons faster and still use a trackpad sometimes:** Homerow, Shortcat or No Mouse Mode's labels.
+- **You want to drop the mouse entirely**, for comfort or [RSI](https://nomousemode.com/keyboard-only-mac-rsi): an app that also moves the pointer, drags and scrolls, such as No Mouse Mode, Scoot or Mouseless.
+- **You want free and open source:** Scoot.
+- **You switch between Mac, Windows and Linux:** Mouseless.
+- **You only live in a browser:** Vimium.
+
+New to all this? Start with the hub guide, [how to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse).
+
+**Labels, type to click, a pointer and a grid in one app** No Mouse Mode turns your keyboard into a full mouse for $19.99 one time, with free updates. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### What is the best Vimium-like app for Mac?
+
+Vimium itself only works inside web pages in Chrome, Edge and Firefox. For Vimium-style letter hints in every Mac app, look at [No Mouse Mode](https://nomousemode.com/), Homerow or Scoot. Vimac was the original free option, but it hasn't been updated since 2022 and its README says it is now Homerow. More in [Vimium for Mac](https://nomousemode.com/vimium-for-mac).
+
+##### Is there a free keyboard mouse app for Mac?
+
+Yes. Scoot is free and open source (BSD-3-Clause) with labels, a grid and a free-moving mode. Shortcat is a free download with no price on its site. warpd is free but not updated since 2023. macOS also has Mouse Keys, Full Keyboard Access and Voice Control built in at no cost.
+
+##### Does macOS have a built-in way to use the mouse with the keyboard?
+
+Yes, Mouse Keys. Turn it on in System Settings > Accessibility > Pointer Control > Mouse Keys, then move with 7 8 9 U O J K L (or the keypad) and click with I or keypad 5. While it's on you can't type text. See [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys).
+
+##### Which mouseless Mac apps have a grid?
+
+No Mouse Mode (a 3×3 grid that zooms in with each press), Scoot, Mouseless and warpd all have a grid mode. Voice Control has one too, but you use it by voice ("Show grid").
+
+##### Is Vimac still maintained?
+
+No. Vimac's last commit was on December 31, 2022, and its README says "Vimac is now Homerow". It still exists as free, open-source code, but if you're starting today, look at a maintained app. See [Vimac alternatives](https://nomousemode.com/vimac-alternative).
+
+##### Which keyboard mouse app works on Mac, Windows and Linux?
+
+Mouseless runs on macOS, Windows and Linux, and each license can be activated on 5 machines. warpd also runs on Linux (X11 and some Wayland setups) and macOS, but it hasn't been updated since 2023.
+
+##### Are you biased?
+
+Yes. This guide is written by the maker of No Mouse Mode. We stick to facts we checked on each app's official site, docs or repository in October 2026, and we say where a free or built-in option is enough.
+
+#### Related
+
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+- [Homerow alternatives](https://nomousemode.com/homerow-alternatives) — Seven ways to click without a mouse, compared.
+- [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat) — Search-to-click beta vs labels, pointer, grid and scroll areas.
+- [Vimium for Mac](https://nomousemode.com/vimium-for-mac) — Vimium stops at the browser tab. How to get link hints in every Mac app.
+
+---
+
+### Full Keyboard Access on Mac: how to turn it on, the keys, and its limits
+
+Source: https://nomousemode.com/full-keyboard-access-mac  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+Your Mac can already be driven from the keyboard. **Turn on Full Keyboard Access, then press Tab to move between controls and Space to press one.** Here's how to set it up, every key Apple documents for it, and where a label-based app gets you there faster.
+
+> **Short answer:** Open **System Settings → Accessibility → Motor → Keyboard** and switch on **Full Keyboard Access**. Then `Tab` moves a highlight to the next item, `Space` selects it, and `Tab`-`H` shows the full list of commands. If you only want Tab to stop on buttons too, press `Control-F7`. It's free and good for settings screens and dialogs. Where it struggles is busy windows: you press Tab over and over to reach one button. A label-based app such as [No Mouse Mode](https://nomousemode.com/) lets you jump straight to it instead.
+
+#### Two built-in settings with similar names
+
+Apple has two separate features here, and they're easy to mix up.
+
+|  | Keyboard navigation | Full Keyboard Access | No Mouse Mode |
+|---|---|---|---|
+| What it does | Lets Tab stop on every control, not just text boxes and lists | Highlights the focused item and lets you drive the Mac with the keyboard | Moves and clicks the real pointer; labels every clickable thing |
+| Where to turn it on | System Settings → Keyboard (Sonoma 14 guide), or Control-F7 | System Settings → Accessibility → Motor → Keyboard | Install the app; it asks for Accessibility permission |
+| How you reach a button | Tab, Tab, Tab… | Tab, arrows, Control-Tab | Type its label letters, or part of its name |
+| Menu bar and Dock | Control-F2 / Control-F3 | Control-F2 / Control-F3 | Labelled along with the window |
+| Price | Free, built in | Free, built in | $19.99 one-time for 1 Mac (as of October 2026), no trial |
+
+If you came here to "tab through buttons", Keyboard navigation (or `Control-F7`) may be all you need. If you want to use the Mac without touching the trackpad at all, Full Keyboard Access is the fuller option.
+
+#### How to turn on Full Keyboard Access
+
+1. Open **System Settings** (Apple menu → System Settings).
+2. Choose **Accessibility** in the sidebar.
+3. Under **Motor**, choose **Keyboard**.
+4. Switch on **Full Keyboard Access**.
+
+That's the path in Apple's current Mac User Guide ([Use Full Keyboard Access](https://support.apple.com/guide/mac-help/use-full-keyboard-access-mchlc06d1059/mac)). On the same screen you can change how the highlight looks: its color, contrast and size. A bigger, higher-contrast highlight makes it much easier to see where you are.
+
+No pointer at all right now? Our [trackpad not working](https://nomousemode.com/mac-trackpad-not-working) guide shows how to get into System Settings using only the keyboard.
+
+#### How to turn on Keyboard navigation (Tab to every button)
+
+Without this, Tab in most windows only jumps between text boxes and lists, and skips buttons and checkboxes. Two ways to change it:
+
+- **The shortcut:** press `Control-F7` (or `Fn-Control-F7` if your top row controls brightness and volume). It switches Tab between all controls and only text boxes and lists.
+- **The setting:** in Apple's macOS 14 Sonoma guide, it's System Settings → Keyboard → **Keyboard navigation**. Apple's newer guides no longer have a page for this switch, so if you can't find it, use the shortcut.
+
+With it on, `Tab` goes to the next control and `Shift-Tab` to the previous one.
+
+#### The keys, according to Apple
+
+### Full Keyboard Access
+
+| Press | To |
+|---|---|
+| Tab / Shift-Tab | Move to the next / previous element |
+| Space | Select the focused item |
+| Arrow keys | Move within a group |
+| Control-Tab / Control-Shift-Tab | Next / previous item |
+| Tab-H | Open Commands Help (every command in one list) |
+| Control-Option-Command-P | Turn Pass-Through Mode on or off |
+
+##### Focus shortcuts (work alongside either setting)
+
+From Apple's [Mac keyboard shortcuts](https://support.apple.com/en-us/102650) page. Add `Fn` if your function keys control the hardware. Some of these have to be switched on first in System Settings → Keyboard → Keyboard Shortcuts → Keyboard.
+
+| Press | Moves focus to |
+|---|---|
+| Control-F2 | The menu bar. Then arrows to move, Return to open or choose, or type an item's name |
+| Control-F3 | The Dock |
+| Control-F4 | The active window, or the next one |
+| Control-F5 | The window's toolbar |
+| Control-F7 | Switches Tab between all controls and only text boxes and lists |
+| Control-F8 | The status menus in the menu bar |
+
+#### Where Full Keyboard Access is great
+
+- **Dialogs and settings.** A save sheet or a settings pane has a handful of controls. Tab, Tab, Space, done.
+- **Forms.** Tab order on a form usually follows the fields from top to bottom, which is exactly what you want.
+- **When there's no pointer at all.** It needs no mouse or trackpad, which makes it a solid fallback when yours stops working.
+- **Accessibility needs.** The adjustable highlight and the built-in help make it a dependable everyday tool, and it costs nothing.
+
+#### Its limits
+
+##### You reach things in Tab order, not where your eyes are
+
+Focus moves through a window in the order the app defines. You see the button you want in the top-right corner, but Tab may visit a sidebar, a toolbar and a list before it gets there. In a busy window, that's a lot of presses for one click, and you have to watch the highlight the whole time.
+
+##### It moves focus, not the pointer
+
+Full Keyboard Access selects the focused item. It doesn't put the mouse pointer anywhere. So things that depend on the pointer, such as hovering to reveal a hidden button, dragging, or clicking a spot on a canvas, aren't what it's built for. For those, see [how to move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac), including Apple's own Mouse Keys.
+
+##### Apps vary
+
+How well Tab works depends on how each app is built. Some apps have a tidy order. Others skip controls or trap focus in one area. That's true of every keyboard tool that relies on what apps tell macOS, ours included.
+
+#### When a label-based app is faster
+
+Instead of walking through controls one by one, a label-based tool shows everything you can click at once. In [No Mouse Mode](https://nomousemode.com/), press `⇧⌘Space` and every button, link, tab and menu in the front window, plus the menu bar and the Dock, gets a short letter label. Type the label and it's clicked. Other apps use the same idea (see [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) and [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat); Homerow and Shortcat also show ⌘⇧Space in their docs and demos).
+
+A few things No Mouse Mode adds on top of labels:
+
+- **Type to click** (`⇧⌘/`): type part of a button's name, such as "nf" for New Folder, and press Return.
+- **Different clicks from a label:** hold Shift for a right-click, Command for a Command-click (a new tab in browsers), Option for a double-click.
+- **A real pointer when you need one:** `⇧⌘M` turns on `W` `A` `S` `D` movement, `Space` to click and hold to drag, and a jump grid (`E`) that reaches anywhere in two or three presses, in any app.
+
+The honest trade-off: labels, like Tab, depend on apps describing their buttons to macOS, which most do. For apps that don't, there's an optional setting that reads on-screen text with Apple's on-device text recognition (it needs Screen Recording permission, and nothing is saved or sent), and the grid and W A S D work everywhere. No Mouse Mode costs $19.99 one-time for 1 Mac (as of October 2026) and there's no free trial, but you can try the same keys in the demo on this page. It runs on macOS 14 Sonoma or later, on Apple silicon and Intel.
+
+#### Which should you use?
+
+- **Keyboard navigation (`Control-F7`)** if you mostly type and just want Tab to reach buttons in dialogs.
+- **Full Keyboard Access** if you want a free, complete way to run the Mac from the keyboard and don't mind stepping through controls.
+- **A label-based app** if you find yourself pressing Tab ten times to reach one button, or you want to click anywhere you can see. Our [guide to using a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) puts all the options side by side, and [the best keyboard mouse apps](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) compares the apps.
+
+**Skip the Tab, Tab, Tab** No Mouse Mode puts a short letter label on every button, link and menu, so any of them is one or two keystrokes away. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### How do I turn on Full Keyboard Access on a Mac?
+
+Open System Settings, go to Accessibility, then Motor, then Keyboard, and switch on Full Keyboard Access. That's the path in Apple's current Mac User Guide. Once it's on, the focused item gets a highlight and Tab moves it.
+
+##### What is the difference between Full Keyboard Access and Keyboard navigation?
+
+Keyboard navigation is the simpler setting: when it's on, Tab moves to every control (buttons, checkboxes, pop-up menus), not just text boxes and lists. On macOS 14 Sonoma it's a switch in System Settings → Keyboard, and Control-F7 toggles it. Full Keyboard Access is the bigger accessibility feature: it highlights the focused item, lets you customize that highlight, and adds more keys such as Control-Tab and Tab-H for its Commands Help.
+
+##### How do I tab through buttons on a Mac?
+
+Press Control-F7 (or Fn-Control-F7) to switch Tab between all controls and only text boxes and lists. With all controls on, Tab goes to the next button and Shift-Tab to the previous one. Space presses the focused button when Full Keyboard Access is on.
+
+##### How do I get to the menu bar or Dock without a mouse?
+
+Control-F2 (or Fn-Control-F2) puts focus on the menu bar; use the arrow keys to move, Return to open or choose, or type an item's name. Control-F3 focuses the Dock. Some of these shortcuts must first be turned on in System Settings → Keyboard → Keyboard Shortcuts → Keyboard.
+
+##### Why does Control-F7 or Control-F2 do nothing?
+
+On many Mac keyboards the top row controls brightness, volume and so on by default, so add Fn: Fn-Control-F7 or Fn-Control-F2. Apple also says some focus shortcuts have to be enabled first in System Settings → Keyboard → Keyboard Shortcuts → Keyboard.
+
+##### Is Full Keyboard Access free?
+
+Yes, it's built into macOS. So are Mouse Keys and Voice Control. If Tab is enough for what you do, you don't need anything else. [No Mouse Mode](https://nomousemode.com/) is a paid app ($19.99 one-time for 1 Mac, as of October 2026, with no free trial) for people who want to click things directly by label.
+
+##### Can I use Full Keyboard Access and No Mouse Mode together?
+
+We haven't documented testing them side by side, so we can't promise how they interact. They do different jobs: Full Keyboard Access moves a focus highlight, while No Mouse Mode moves and clicks the real pointer. No Mouse Mode passes any shortcut that uses Command, Control or Option to the focused app.
+
+#### Related
+
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+- [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) — How to use Mac Mouse Keys, its limits, and an alternative.
+- [Trackpad not working?](https://nomousemode.com/mac-trackpad-not-working) — Keyboard-only first aid, and how to keep working until it's fixed.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+
+---
+
+### Homerow alternatives for Mac: seven options, honestly compared
+
+Source: https://nomousemode.com/homerow-alternatives  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+Homerow is good, but it isn't the only way to click with the keyboard. **No Mouse Mode, Shortcat, Wooshy, Scoot and Mouseless take different approaches, and macOS has free tools built in.**
+
+> **Short answer:** If you want Homerow-style click labels plus a full keyboard mouse, [No Mouse Mode](https://nomousemode.com/) ($19.99 once for one Mac) is the closest match with the most extras. Shortcat and Wooshy are search-first: you type a button's name. Scoot is free and open source, with labels, a grid and a freestyle pointer. Mouseless is grid-first and runs on Mac, Windows and Linux. macOS's built-in tools cost nothing and are enough for light use, and Vimium covers web pages only.
+
+#### Why look past Homerow?
+
+[Homerow](https://www.homerow.app) is a solid, maintained app: it labels buttons so you can click by typing, and it has search and scrolling. As of October 2026 it's $49.99 once for all your personal Macs, needs macOS 13 or later, and is free to try with a reminder every 50 activations. (Our [Homerow vs No Mouse Mode comparison](https://nomousemode.com/no-mouse-mode-vs-homerow) goes deeper.)
+
+People look for alternatives for a few common reasons: they want to spend less on a single Mac, they want to move the pointer and drag without a mouse too, they want something free or open source, or they need the same tool on Windows or Linux. Each option below answers one of those.
+
+#### Homerow alternatives at a glance
+
+Prices and versions as of October 2026.
+
+| App | Price | Platform | Maintained? | Approach |
+|---|---|---|---|---|
+| **No Mouse Mode** | $19.99 once (1 Mac) | macOS 14+, Apple silicon and Intel | Yes, version 2.0.0 | Labels, type to click, WASD pointer, jump grid |
+| Shortcat | Free download (no price on site) | macOS 13+ | Last updated July 2025 (0.x beta) | Type to search, then labels |
+| Wooshy | Free with naps; $3.88/mo or $46.28/yr | macOS 14.6+ (older builds offered) | Yes | Type to search and click |
+| Scoot | Free, open source | macOS (README: 11 and 12) | Yes, v1.3 (March 2026) | Labels, grid, freestyle pointer |
+| Mouseless | Not published; 14-day trial | macOS, Windows, Linux | Yes, v1.1.0 (October 2026) | Grid and free movement; labels in beta |
+| macOS built-ins | Free | macOS | Part of macOS | Mouse Keys, Full Keyboard Access, Voice Control |
+| Vimium | Free, open source | Chrome, Edge, Firefox | Yes | Link hints inside web pages only |
+
+#### 1. No Mouse Mode: labels plus a full keyboard mouse
+
+[No Mouse Mode](https://nomousemode.com/) is a menu bar app that turns the keyboard into a mouse. Like Homerow, `⇧⌘Space` puts letter labels on every button, link, tab and menu, including the menu bar and the Dock. `⇧⌘/` lets you type part of a button's name instead, and `⇧⌘J` numbers each scrollable pane.
+
+Where it goes further is the pointer. Turn it on with `⇧⌘M` and W A S D move the cursor smoothly (Shift for fast, Q for one-pixel precise), Space clicks or drags, Return right-clicks, and the arrow keys scroll. `E` opens a 3×3 jump grid that reaches any spot in two or three presses, and you can save spots and jump between displays. An optional on-device text recognition mode adds labels in apps that don't describe their buttons to macOS. A Practice window with nine lessons helps you learn it.
+
+**Trade-offs:** no free trial (the site has interactive demos with the same keys instead), all sales are final, and it needs macOS 14 Sonoma or later. It's $19.99 for one Mac, $49.99 for three. For four or more Macs, Homerow's single license costs less.
+
+#### 2. Shortcat: a command palette for clicking
+
+[Shortcat](https://shortcat.app) calls itself "the universal command palette for your Mac". Press `⌘⇧Space`, type what you want to click ("ok" for an OK button), and it clicks. After two seconds (configurable) it also shows yellow labels with one- to three-letter shortcuts. It supports right-clicks, double-clicks and modifier clicks, plus window search, menu search and an emoji mode, and it works in Safari, Chrome, Firefox and most Electron apps.
+
+**Trade-offs:** it's still a 0.x beta, last updated in July 2025, with a beta expiry moved to 2030. Its site doesn't state a price; it's a free download. It has no pointer-movement mode on its feature list. More in [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat).
+
+#### 3. Wooshy: search the whole screen
+
+[Wooshy](https://wooshy.app)'s pitch is "Type. Return. Done." It searches the whole macOS interface, including the Dock, the menu bar and the status icons on the right, and clicks what you pick. It's a search-to-click tool; it doesn't document a pointer-movement mode.
+
+**Trade-offs:** the free version is "full-featured, but takes some random naps". To keep it running all the time you subscribe for $3.88 a month or $46.28 a year; there's no one-time option listed. It needs macOS 14.6, though older builds are offered for Ventura and Monterey.
+
+#### 4. Scoot: free, open source, three modes
+
+[Scoot](https://github.com/mjrusso/scoot) is a "keyboard-driven MacOS cursor actuator" that can move, click, drag and scroll. It has three modes: `⇧⌘J` shows labels on buttons and links in the focused window, `⇧⌘K` shows a grid of equal cells across your screens, and `⇧⌘L` lets you nudge the cursor with familiar text-editing shortcuts. All shortcuts can be changed, and it installs with `brew install --cask scoot`.
+
+**Trade-offs:** its README only says it runs on macOS 11 and 12, so check it on your version. It's free (BSD-3-Clause), has about 535 GitHub stars as of October 2026, and was updated in March 2026.
+
+#### 5. Mouseless: grid-first, on every desktop
+
+[Mouseless](https://mouseless.click) offers "lightning-fast mouse control with the keyboard" on macOS, Windows and Linux. Tap Left Command to show a grid, type a cell's two characters, then press Space to click its center or a sub-key for a finer spot. Tap Left Option for free mode, where I J K L move the pointer. Label mode, Homerow's main feature, is still in beta.
+
+**Trade-offs:** its site offers "lifetime or subscription" but doesn't publish prices. There's a 14-day trial with no card or email, each license works on 5 machines, and there's a 25% academic discount. It was updated in October 2026.
+
+#### 6. macOS built-ins: free and already installed
+
+Before buying anything, see whether Apple's tools are enough:
+
+- **Mouse Keys** (System Settings > Accessibility > Pointer Control) moves the pointer with keys like 7 8 9 U O J K L and clicks with I. Apple notes that while it's on, you can't use the keyboard to type text. See [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys).
+- **Full Keyboard Access** (Accessibility > Motor > Keyboard) lets you Tab through controls and press Space to select. Our [Full Keyboard Access guide](https://nomousemode.com/full-keyboard-access-mac) covers it.
+- **Voice Control** can label items: say "Show numbers", then "Click" and the number. It also has a numbered grid.
+
+These are free and dependable. They're slower than click labels for everyday use, but for occasional use or a [trackpad that has stopped working](https://nomousemode.com/mac-trackpad-not-working), they may be all you need.
+
+#### 7. Vimium: link hints, but only in the browser
+
+[Vimium](https://github.com/philc/vimium) is a free, open-source browser extension for Chrome, Edge and Firefox. Press `f` and every link on the page gets a hint; type it to follow the link (`F` opens it in a new tab). It's actively maintained and excellent at what it does.
+
+**Trade-offs:** it only works inside web pages. It can't reach Finder, System Settings, the menu bar, the Dock or other apps, and Safari isn't on its list. If you love Vimium and want the same idea everywhere, read [Vimium for the whole Mac](https://nomousemode.com/vimium-for-mac).
+
+#### How to choose
+
+- **You want to leave the mouse behind entirely:** [No Mouse Mode](https://nomousemode.com/), for labels, pointer movement, dragging and a grid in one app.
+- **You'd rather type names than letters:** Shortcat or Wooshy. No Mouse Mode's type to click does this too.
+- **You want free and open source:** Scoot.
+- **You switch between Mac, Windows and Linux:** Mouseless.
+- **You only need it now and then:** the macOS built-ins.
+- **You only care about the web:** Vimium.
+- **You're happy with labels and use many Macs:** Homerow itself is still a fine choice.
+
+For a broader look, see the [best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac), or start with [how to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse).
+
+**Labels, a jump grid and a keyboard mouse in one app** No Mouse Mode is $19.99 once for one Mac, with free updates and no subscription. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### What is the best Homerow alternative?
+
+It depends on what you want. For labels plus a full keyboard mouse (W A S D movement, every mouse button, a jump grid), try [No Mouse Mode](https://nomousemode.com/). For typing a button's name, look at Shortcat or Wooshy. For something free and open source, Scoot. For one tool across Mac, Windows and Linux, Mouseless.
+
+##### Is there a free alternative to Homerow?
+
+Yes. Scoot is free and open source (BSD-3-Clause). Shortcat is a free download, though its site doesn't state a price. Wooshy has a free version that "takes some random naps". macOS itself includes Mouse Keys, Full Keyboard Access and Voice Control at no cost.
+
+##### Is there a Homerow alternative for Windows or Linux?
+
+Mouseless runs on macOS, Windows and Linux, and each license can be activated on 5 machines. The other apps on this page are Mac only, apart from Vimium, which runs inside Chrome, Edge and Firefox on any system.
+
+##### Is Shortcat still maintained?
+
+Shortcat was last updated in July 2025 (v0.12.2), and it's still a 0.x beta. Version 0.12.1 moved its beta expiry to 2030, so it keeps working for now.
+
+##### What happened to Vimac?
+
+Vimac became Homerow. The free open-source Vimac hasn't been updated since 2022. See [Vimac alternatives](https://nomousemode.com/vimac-alternative) for what to use today.
+
+##### Does any alternative have a free trial?
+
+Homerow itself is free to try, with a reminder every 50 activations. Mouseless has a 14-day trial with no card or email. No Mouse Mode has no free trial; its website has interactive demos that use the same keys instead.
+
+#### Related
+
+- [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) — Price, trial and features of two Mac click-label apps.
+- [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat) — Search-to-click beta vs labels, pointer, grid and scroll areas.
+- [Vimac alternatives](https://nomousemode.com/vimac-alternative) — Vimac is now Homerow. What replaces it today.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+
+---
+
+### How to use a Mac without a mouse or trackpad
+
+Source: https://nomousemode.com/how-to-use-mac-without-mouse  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+You can run a Mac from the keyboard alone. **macOS has Full Keyboard Access, Mouse Keys and Voice Control built in, and an app like No Mouse Mode lets you click any button by typing its label.** Here's every method, what it's good at, and how to set one up in five minutes.
+
+> **Short answer:** Start with what's built in: **Full Keyboard Access** (Tab between controls, Space to press) plus **Control-F2** for the menu bar and **Control-F3** for the Dock. That covers a lot of everyday work. Where it falls short is anything that needs a pointer: a web page, a canvas, a right-click, a drag. **Mouse Keys** fills that gap for free but blocks typing while it's on. If you want to click any button in a couple of keystrokes and steer the pointer smoothly, an app like [No Mouse Mode](https://nomousemode.com/) does both.
+
+#### Why go mouse-free?
+
+People land here for different reasons. The trackpad or mouse just died and you need to get through the day. Your wrist hurts after long sessions. Or you already live on the keyboard in a code editor and reaching for the trackpad breaks your flow. The good news: macOS was built with keyboard users in mind, and the gaps it leaves are easy to fill.
+
+If your trackpad has stopped working right now, jump to [what to do when your Mac trackpad isn't working](https://nomousemode.com/mac-trackpad-not-working). If it's about comfort, see [using a Mac keyboard-only for wrist pain](https://nomousemode.com/keyboard-only-mac-rsi).
+
+#### Built in: Full Keyboard Access and keyboard navigation
+
+Full Keyboard Access highlights the item that has focus and lets you move around with the keyboard instead of a pointer. You can change the highlight's color, contrast and size, which helps a lot on a busy screen.
+
+1. Open System Settings → **Accessibility → Motor → Keyboard**.
+2. Switch on **Full Keyboard Access**.
+
+The keys:
+
+- `Tab` / `⇧Tab`: next or previous element.
+- `Space`: select or press the focused item.
+- Arrow keys: move within a group.
+- `⌃Tab` / `⌃⇧Tab`: next or previous item.
+- `Tab`-`H`: opens Commands Help, a list of everything else.
+- `⌃⌥⌘P`: Pass-Through Mode, for apps that need those keys themselves.
+
+On macOS 14 Sonoma there's also a lighter setting called **Keyboard navigation** in System Settings → Keyboard. With it on, Tab moves to every control; with it off, Tab only moves between text boxes and lists. `⌃F7` flips between the two. Our [Full Keyboard Access guide](https://nomousemode.com/full-keyboard-access-mac) goes deeper.
+
+The catch: Tab visits controls one at a time, in order. Reaching the twentieth button in a toolbar means a lot of presses, and many web pages and custom-drawn apps don't play nicely with it.
+
+#### Built in: the focus shortcuts
+
+These jump straight to parts of the screen that Tab can't easily reach. Some need switching on first in System Settings → Keyboard → Keyboard Shortcuts → Keyboard. On some keyboards you add Fn (for example Fn-Control-F2).
+
+| Shortcut | Moves focus to |
+|---|---|
+| ⌃F2 | The menu bar. Use the arrows to move, Return to open or choose, or type an item's name. |
+| ⌃F3 | The Dock |
+| ⌃F4 | The active window or the next one |
+| ⌃F5 | The window's toolbar |
+| ⌃F8 | The status menus on the right of the menu bar |
+
+#### Built in: Mouse Keys
+
+Mouse Keys turns part of your keyboard into a pointer. Turn it on in System Settings → **Accessibility → Pointer Control → Mouse Keys**, or press `⌥⌘F5` to open the Accessibility Shortcuts panel. Then:
+
+- **Move:** `7` `8` `9` `U` `O` `J` `K` `L` (or the numeric keypad).
+- **Click:** `I` (keypad 5).
+- **Press and hold:** `M` (keypad 0); **release:** `.`
+
+It works with no pointer device at all, and it's free. The big limit, in Apple's words: "When Mouse Keys is on, you can't use the keyboard or numeric keypad to enter text." So you toggle it constantly. One of its options lets you press Option five times to do that. We compare it head to head in [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys), and cover the details in [how to move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac).
+
+#### Built in: Voice Control
+
+If you'd rather talk than type, turn on System Settings → Accessibility → **Voice Control**. Say "Show numbers" (or "Show names") and on-screen items get labels; say "Click" and the number to press one. "Show grid" puts a numbered grid over the screen, "Show window grid" limits it to the front window, and saying a grid number zooms in. "Hide numbers", "Hide grid" and "Stop listening" put it away.
+
+It's powerful and free, but speaking every click is slow for a full workday and awkward in a shared office.
+
+#### What about Control-click?
+
+Apple calls a right-click a "secondary click or Control-click": hold `Control` while you click. That still needs a working mouse or trackpad. For keyboard-only ways, including the Contextual Menu key on some Apple keyboards, see [how to right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac).
+
+#### No Mouse Mode: click anything, steer when you need to
+
+[No Mouse Mode](https://nomousemode.com/) is a menu bar app that fills the gaps above. It gives you two ways to work, and you can mix them.
+
+##### Click labels (`⇧⌘Space`)
+
+Every button, link, tab, menu, the menu bar and the Dock get a short letter label. Type the letters and it's clicked. Hold `⇧` with the last letter to right-click, `⌘` to Command-click (a new tab in browsers), `⌥` to double-click, or `⌃` to just move the pointer there. Tab keeps labels coming back for several clicks in a row, and labels for a window stay the same each time, so your fingers learn them.
+
+##### Type to click (`⇧⌘/`)
+
+Type part of what a button says, and press Return. Case, spaces and accents don't matter, and initials work: "nf" finds New Folder.
+
+##### Scroll areas (`⇧⌘J`)
+
+Every scrollable pane gets a number. Pick one, then scroll with J/K or the arrows, page with Space, and jump to the top or bottom with T and B.
+
+##### W A S D pointer mode (`⇧⌘M`)
+
+For things that aren't buttons, like a spot in a photo or a slider, turn No Mouse Mode on. `W` `A` `S` `D` move the pointer smoothly and it eases in; hold Shift to go fast or Q for one-pixel precision. `Space` clicks (twice to double-click, hold to drag), `Return` right-clicks, `M` middle-clicks, and the arrow keys scroll. Click into a text box and it turns itself off so you can type.
+
+##### Jump grid (`E`)
+
+A 3×3 grid labelled Q W E / A S D / Z X C covers the screen and zooms in with each press, so two or three keys reach any point. It works in every app, even ones that don't describe their buttons to macOS.
+
+Honest trade-off: labels depend on apps telling macOS where their buttons are. Most do. For ones that don't, you can turn on optional on-screen text reading (Apple's on-device text recognition, needs Screen Recording; nothing is saved or sent), or use the grid and W A S D, which work everywhere.
+
+#### Every method compared
+
+|  | Full Keyboard Access | Mouse Keys | Voice Control | No Mouse Mode |
+|---|---|---|---|---|
+| Price | Free, built in | Free, built in | Free, built in | $19.99 one time, 1 Mac (as of October 2026) |
+| Click a specific button | Tab to it, then Space | Steer the pointer there | Say its number or name | Type its label or name |
+| Move the pointer | No | Yes, number keys | Grid by voice | Yes, W A S D plus grid |
+| Right-click | Control-click needs a pointer | Needs Alternate pointer actions | Yes, by voice | Yes, Return or ⇧ + label |
+| Scroll a chosen pane | n/a | n/a | n/a | Yes, scroll areas |
+| Type while it's on | Yes | No | Dictation | Label shortcuts work any time; pointer mode turns off in text boxes |
+| Works with no pointer device | Yes | Yes | Yes | Yes |
+
+Other apps do parts of this too. [Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) ($49.99 one time as of October 2026) and [Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat) focus on clicking by label or search. Vimac, the free open-source app that became Homerow, hasn't been updated since 2022 (see [Vimac alternatives](https://nomousemode.com/vimac-alternative)). The roundup is in [the best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) and [Homerow alternatives](https://nomousemode.com/homerow-alternatives).
+
+Coming from another tool? We've written guides for [Vimium users](https://nomousemode.com/vimium-for-mac) (browser link hints only reach the web page, not Finder or the Dock), [keynav](https://nomousemode.com/keynav-for-mac) (X11 only, no macOS) and [warpd](https://nomousemode.com/warpd-for-mac) (not updated since 2023).
+
+#### Set up a mouse-free Mac in 5 minutes
+
+1. **Turn on Full Keyboard Access** in System Settings → Accessibility → Motor → Keyboard. Tab and Space now reach most controls.
+2. **Learn `⌃F2` and `⌃F3`** for the menu bar and Dock. If they do nothing, switch them on in System Settings → Keyboard → Keyboard Shortcuts → Keyboard.
+3. **Add a way to click anything.** [Download No Mouse Mode](https://nomousemode.com/download), drag it to Applications and open it. The guided setup walks you through Accessibility permission and your license key.
+4. **Click by label.** Press `⇧⌘Space` and type the letters on whatever you want to click.
+5. **Steer when you need to.** Press `⇧⌘M`, move with W A S D, click with Space, right-click with Return, and press E for the grid.
+6. **Practise.** Open the Practice window from the menu bar icon for nine short hands-on lessons. Press H whenever you forget a key.
+
+Stuck on a step? The [support page](https://nomousemode.com/support) covers permissions, licenses and every key.
+
+#### Tips that make keyboard-only stick
+
+The first day is the hardest. A few habits help:
+
+- **Click by label first, steer second.** Most clicks are on buttons, links and menus. Labels or type to click get you there in two or three keys; save W A S D and the grid for everything else.
+- **Let it switch itself off.** No Mouse Mode turns itself off when you click into a text box, and you can list apps where it always stays off, such as a game or a code editor with its own keys.
+- **Try hold-to-use.** If a toggle feels like one more thing to remember, set it to work only while you hold Right Command or Right Option.
+- **Save your common spots.** Press `⇧` and a number over a spot you hit all the time, then the number alone jumps back there.
+- **Keep the built-ins.** `⌃F2` for the menu bar and `⌘Space` for Spotlight still work alongside everything else.
+
+On privacy: No Mouse Mode never stores or sends your keystrokes. It only goes online to activate and re-check your license and to check for updates.
+
+#### Which should you use?
+
+- **Trackpad broken for a day:** Full Keyboard Access and Mouse Keys will get you through, for free.
+- **You'd rather speak:** Voice Control.
+- **Keyboard-only all day, in every app:** built-ins plus an app that clicks by label and steers the pointer. That's the job [No Mouse Mode](https://nomousemode.com/) was built for. See [pricing](https://nomousemode.com/#pricing).
+
+**Click anything on your Mac by typing** No Mouse Mode puts a short label on every button, link, menu and Dock icon, and lets you steer the pointer with W A S D when you need it. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### Can you use a Mac with only a keyboard?
+
+Yes. Turn on Full Keyboard Access in System Settings → Accessibility → Motor → Keyboard to move between controls with Tab and press them with Space. Control-F2 reaches the menu bar and Control-F3 the Dock. For anything that needs a pointer, Mouse Keys moves it with the number keys, or an app like [No Mouse Mode](https://nomousemode.com/) lets you click buttons by typing their labels.
+
+##### How do I control the mouse with the keyboard on a Mac?
+
+Turn on Mouse Keys in System Settings → Accessibility → Pointer Control. Then 7 8 9 U O J K L move the pointer and I clicks. You can't type text while it's on. [No Mouse Mode](https://nomousemode.com/) uses W A S D instead, with smooth movement, a fast and a precise mode, and Space to click. See [how to move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac).
+
+##### How do I right-click without a mouse on a Mac?
+
+With a working trackpad, hold Control and click. Keyboard only, macOS offers Alternate pointer actions or Voice Control. In [No Mouse Mode](https://nomousemode.com/), Return right-clicks where the pointer is, and holding Shift while you type a label's last letter right-clicks that button. The full list is in [how to right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac).
+
+##### My trackpad stopped working. How do I turn on Bluetooth without it?
+
+Apple's tip: press Command-Space, type Bluetooth File Exchange, press Return, then press Return again to turn Bluetooth on. More fixes are in [what to do when your Mac trackpad isn't working](https://nomousemode.com/mac-trackpad-not-working).
+
+##### Is there a free way to click buttons by keyboard on a Mac?
+
+Yes. Full Keyboard Access is built in and free, and Voice Control's "Show numbers" labels on-screen items for you to click by voice. Free open-source apps exist too, such as Scoot. [The best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) compares them with paid ones.
+
+##### Does No Mouse Mode have a free trial?
+
+No. It's $19.99 one time for 1 Mac, with free updates and no subscription. The [website](https://nomousemode.com/) has interactive demos that use the same keys, so you can try how it feels before you [buy](https://nomousemode.com/#pricing).
+
+##### Which macOS versions does No Mouse Mode work on?
+
+macOS 14 Sonoma or later, including Sequoia and Tahoe, on Apple silicon and Intel Macs.
+
+#### Related
+
+- [Move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac) — Mouse Keys vs W A S D: exact keys and when each is enough.
+- [Right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac) — Control-click, the Contextual Menu key, Voice Control and keyboard-only ways.
+- [Full Keyboard Access on Mac](https://nomousemode.com/full-keyboard-access-mac) — Turn it on, learn the Tab, Space and Control-F keys, and know its limits.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+
+---
+
+### A keyboard-only Mac workflow: how to reach for the mouse less
+
+Source: https://nomousemode.com/keyboard-only-mac-rsi  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+If your wrist or hand hurts, **see a doctor or physiotherapist first**. If you've decided you want to use the mouse or trackpad less, here's how to do it on a Mac, with free built-ins, a few shortcuts and click labels, adopted gradually over one week.
+
+> **Short answer:** **This isn't medical advice.** If you have pain, numbness or tingling, see a doctor or physiotherapist. If you want to use the mouse or trackpad less, a Mac can do a lot from the keyboard: `⌘Space` to open apps, Full Keyboard Access and Voice Control built in, and the shortcuts in every app's menus. For clicking things you can see, a label app like [No Mouse Mode](https://nomousemode.com/) lets you press `⇧⌘Space` and type a button's letters. Change one habit at a time; the one-week plan below shows how.
+
+#### First: what this page is and isn't
+
+We make a keyboard app, not medical advice. We won't tell you what causes wrist pain, whether a keyboard is better for you than a mouse, or what will make it go away, because we don't know your situation and it isn't our field. A doctor or physiotherapist can look at how you work, including your keyboard, chair, desk and breaks, and tell you what to change.
+
+What we can do is explain, practically, how to run a Mac with less reaching for the pointer, if that's part of the plan you've settled on. Use as much or as little of it as you like.
+
+#### Where mouse and trackpad use comes from
+
+Notice what you reach for the pointer to do. For most people it's a short list:
+
+- opening and switching apps;
+- pressing buttons, links, tabs and menu items;
+- scrolling;
+- right-clicking for a menu;
+- dragging, selecting, and clicking a spot that isn't a button.
+
+Each one has a keyboard answer. You don't have to replace all of them on day one.
+
+#### Free things built into your Mac
+
+| Built-in | Good for | Turn on |
+|---|---|---|
+| **Spotlight** (⌘Space) | Opening apps and files by name | Already on |
+| **Full Keyboard Access** | Tabbing through buttons in dialogs and settings; Space to press | System Settings → Accessibility → Motor → Keyboard |
+| **Focus shortcuts** | Control-F2 menu bar, Control-F3 Dock, Control-F7 Tab to all controls | Some need switching on in System Settings → Keyboard → Keyboard Shortcuts → Keyboard |
+| **Voice Control** | "Show numbers", then "Click" and a number; "Show grid" for anywhere | System Settings → Accessibility → Voice Control |
+| **Mouse Keys** | Moving the pointer with 7 8 9 U O J K L, I to click | System Settings → Accessibility → Pointer Control → Mouse Keys, or ⌥⌘F5 |
+
+All of these are free and may be enough. Their trade-offs: Full Keyboard Access visits controls in Tab order, so a busy window can take many presses (see [our Full Keyboard Access guide](https://nomousemode.com/full-keyboard-access-mac)). Mouse Keys stops you typing text while it's on, and Apple's Mouse Keys page has no right-click key ([No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) covers this). Voice Control means speaking out loud, which suits some places better than others.
+
+#### Keyboard shortcuts: the easiest wins
+
+Mac apps show keyboard shortcuts next to their menu items. Open a menu with `Control-F2` (or `Fn-Control-F2`), look along the right-hand side, and pick the two or three you use most. Learning a shortcut for something you do twenty times a day is the cheapest change you can make, and it costs nothing to try.
+
+If you use a keyboard app, check that it doesn't get in the way of these. In No Mouse Mode, any shortcut with Command, Control or Option (like `⌘S`, `⌘W` or `Control-→`) goes straight to your app, even while No Mouse Mode is on.
+
+#### Clicking what you can see: No Mouse Mode
+
+Shortcuts don't cover the button in the middle of a web page or the file in a Finder window. That's the gap [No Mouse Mode](https://nomousemode.com/) fills. It's one of several apps that do this (see [the best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac)), so compare before you buy.
+
+##### Click labels
+
+Press `⇧⌘Space`. Every button, link, tab and menu in the front window, plus the menu bar and the Dock, gets a short letter label. Type it to click. Hold `Shift` with the last letter to right-click, `Command` for a Command-click (a new tab in browsers), or `Option` to double-click. `Tab` keeps the labels open for several clicks in a row. Labels for a window stay the same each time, so frequent clicks turn into muscle memory.
+
+##### Type to click
+
+Press `⇧⌘/` and type part of what a button says: case, spaces and accents don't matter, and first letters work ("nf" finds New Folder). `Return` clicks. Handy when you know the name but don't want to look for a label.
+
+##### Hold-to-use with Right Command
+
+If switching modes feels like one more thing to remember, turn on hold-to-use in Settings and choose **Right Command** (or Right Option). Hold it, use the mouse keys, let go and you're typing again. It's off by default; `⇧⌘M` works either way.
+
+##### Moving the pointer, scrolling and dragging
+
+While it's on, `W` `A` `S` `D` move the pointer smoothly (hold `Shift` for fast, `Q` for one-pixel precise), `Space` clicks and held down drags, `Return` right-clicks, and the arrow keys scroll. `⇧⌘J` numbers each scrollable pane so you can pick one and page through it. The jump grid (`E`) reaches anywhere on screen in two or three presses, in any app.
+
+##### Saved spots
+
+If you click the same place again and again, such as a send button or a toolbar in an app without labels, hold `Shift` and press `1`–`9` to save the pointer's position. Press the number to jump back there, and ``` to return to where you were before the jump.
+
+##### Practice
+
+The first-run setup walks you through it, and the Practice window (in the menu bar icon) has nine hands-on lessons. Press `H` any time it's on to see every key. Every key and shortcut can be changed in Settings.
+
+Honest limits: labels and type to click depend on apps describing their buttons to macOS, which most do. For apps that don't, an optional setting reads on-screen text with Apple's on-device text recognition (needs Screen Recording permission; nothing is saved or sent), and the grid and W A S D work everywhere. No Mouse Mode costs $19.99 one-time for 1 Mac (as of October 2026), with no free trial; the demo on this page uses the same keys. It runs on macOS 14 Sonoma or later, Apple silicon and Intel.
+
+#### A gradual one-week plan
+
+Going cold turkey tends to be frustrating. Keep the trackpad or mouse within reach all week and use it whenever you're stuck. The goal is to move one kind of task at a time. If anything is uncomfortable, stop and talk to your doctor or physio.
+
+1. **Day 1: Open apps from the keyboard.** Use `⌘Space` and type the app's name. Don't change anything else.
+2. **Day 2: Three shortcuts.** Pick the three menu commands you use most and learn their shortcuts from the menus.
+3. **Day 3: Click buttons without the pointer.** Try click labels (`⇧⌘Space`) or Full Keyboard Access in one app you use a lot. If you have No Mouse Mode, run through a few Practice lessons first.
+4. **Day 4: Scroll and right-click.** Use the arrow keys to scroll and `Return` (or Shift with a label) to right-click. Try scroll areas (`⇧⌘J`) on a long page.
+5. **Day 5: Type to click and hold-to-use.** Try `⇧⌘/` for buttons you know by name. Turn on hold-to-use with Right Command if toggling feels clumsy.
+6. **Day 6: Your awkward spots.** Save a spot (`Shift`+number) for anything you click often that has no label, and use the jump grid (`E`) for the rest.
+7. **Day 7: Review.** Note which tasks still send your hand to the trackpad. Keep what helped, drop what didn't, and change any key that feels awkward in Settings.
+
+#### Where to go next
+
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse): every option in one place.
+- [How to move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac): Mouse Keys and the app alternatives.
+- [How to right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac).
+- [Support](https://nomousemode.com/support): setup, permissions and every key.
+
+And once more, because it matters: if it hurts, get it looked at by a professional. A tool can change how you work; it can't diagnose why something hurts.
+
+**Click anything without reaching for the trackpad** No Mouse Mode labels every button, link and menu so you can click by typing, and moves the pointer with W A S D when you need it. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### Will using the keyboard instead of a mouse help my RSI?
+
+We can't tell you that, and this page isn't medical advice. Pain, numbness or tingling in your hands or wrists is something to take to a doctor or physiotherapist, who can look at your situation, including how you use the keyboard. This guide only covers the practical side: how to use a Mac with less mouse and trackpad if that's what you've decided to do.
+
+##### Can you use a Mac entirely without a mouse or trackpad?
+
+Yes, for most everyday work. macOS has Full Keyboard Access, Mouse Keys and Voice Control built in, and keyboard shortcuts cover a lot. Apps like [No Mouse Mode](https://nomousemode.com/) add click labels and keyboard pointer movement that work across apps. Some apps don't describe their buttons to macOS, so label-based tools fall back to a grid or moving the pointer in those.
+
+##### What's the quickest way to start a mouseless workflow on Mac?
+
+Pick one habit at a time. Start with opening apps from the keyboard and the shortcuts you already half-know, then add one way of clicking buttons (Full Keyboard Access, Voice Control or click labels). The one-week plan on this page breaks it into small daily steps.
+
+##### Is there a way to use No Mouse Mode only while holding a key?
+
+Yes. In Settings, turn on hold-to-use and pick Right Command or Right Option. Hold the key to use the mouse keys, let go to go back to typing. It's off by default, and ⇧⌘M still toggles it either way.
+
+##### Can I use voice instead of the keyboard?
+
+macOS Voice Control lets you click by speaking: say "Show numbers" and then "Click" with a number, or "Show grid" to click anywhere. Turn it on in System Settings → Accessibility → Voice Control. Whether voice, keyboard or a mix suits you best is a good question for your doctor or physio.
+
+##### How long does it take to get used to working without a mouse?
+
+It varies from person to person, and we haven't measured it. Going gradually helps: keep the trackpad within reach for the first days and only switch one task at a time. No Mouse Mode includes a Practice window with nine short lessons, and pressing H shows every key.
+
+##### How much does No Mouse Mode cost?
+
+$19.99 one-time for 1 Mac (as of October 2026), with free updates and no subscription. There's no free trial, but the demo on this page uses the same keys. It runs on macOS 14 Sonoma or later, on Apple silicon and Intel. See [pricing](https://nomousemode.com/#pricing).
+
+#### Related
+
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+- [Move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac) — Mouse Keys vs W A S D: exact keys and when each is enough.
+- [Full Keyboard Access on Mac](https://nomousemode.com/full-keyboard-access-mac) — Turn it on, learn the Tab, Space and Control-F keys, and know its limits.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+
+---
+
+### keynav for Mac: why it won't run, and the closest grid alternatives
+
+Source: https://nomousemode.com/keynav-for-mac  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+**keynav doesn't run on macOS: its own README says it only works on X11.** If what you miss is narrowing the screen down to a spot in a few keystrokes, Mac apps can do that with a keyboard grid. Here are your options.
+
+> **Short answer:** **keynav can't run on a Mac.** Its README says it "only works on X11", and macOS apps don't use X11. The closest thing on macOS is a keyboard grid that narrows the screen down to the spot you want. [No Mouse Mode](https://nomousemode.com/)'s jump grid does it with a 3×3 grid on `Q` `W` `E` / `A` `S` `D` / `Z` `X` `C`, two or three presses to anywhere. Free options exist too: warpd's grid mode (not updated since 2023), Voice Control's "Show grid" and Mouse Keys, each with trade-offs below.
+
+#### What keynav is, and why it stays on Linux
+
+[keynav](https://github.com/jordansissel/keynav)'s tagline is "retire your mouse": it controls the mouse with the keyboard. It's free and open source, with about 653 stars on GitHub, and its last commit was in August 2022.
+
+The reason you can't brew-install it on a Mac is spelled out in its README: "This project (keynav) only works on X11." The FAQ goes further: keynav is totally dependent on X11, and for macOS it suggests AppleScript instead. It doesn't support Wayland either. X11 is the window system that many Linux desktops use; macOS draws its windows with its own system, so a port isn't a weekend job, it's a rewrite.
+
+The good news is that the idea travels. Mac apps can't reuse keynav's code, but they can do the same kind of thing through macOS's own accessibility and pointer controls.
+
+#### The idea you're probably after: narrow down, don't steer
+
+Most "keyboard mouse" tools make you steer the pointer like a tiny car with arrow keys. Grid tools take a different route. You see the screen split into cells, press the key for the cell your target is in, the grid shrinks into that cell, and you press again. A few keystrokes later the pointer is on the spot. It's fast, it's the same number of keys whether the target is near or far, and it never needs to know what's on screen.
+
+That last point matters on a Mac. Click-label tools (like [Vimium-style labels for the whole Mac](https://nomousemode.com/vimium-for-mac)) depend on apps describing their buttons to macOS. A grid doesn't care, so it works in games, design canvases, remote desktops and anything else.
+
+#### Keyboard grids on macOS, compared
+
+Checked against each tool's own docs in October 2026:
+
+|  | No Mouse Mode jump grid | warpd grid mode | Voice Control grid | Mouse Keys |
+|---|---|---|---|---|
+| How you narrow down | 3×3 grid, zooms in with each press | Pick quadrants repeatedly with u i j k | Say a grid number; it refines | No grid: steer with keys |
+| Keys | Q W E / A S D / Z X C | u i j k | Your voice | 7 8 9 U O J K L |
+| Open it | E while No Mouse Mode is on | ⌥⌘G (A-M-g) | "Show grid" | Accessibility setting |
+| Click | Space click, Return right-click | m left, , middle, . right | By voice | I click (no right-click key) |
+| Works in any app | Yes | Yes | Yes | Yes |
+| Maintained | Yes (2.0.0) | Not updated since 2023 | Built into macOS | Built into macOS |
+| Price | $19.99 one time, 1 Mac | Free, MIT | Free | Free |
+
+#### No Mouse Mode's jump grid
+
+Press `⇧⌘M` to turn [No Mouse Mode](https://nomousemode.com/) on, then `E`. The screen with the pointer splits into a 3×3 grid labelled `Q` `W` `E` / `A` `S` `D` / `Z` `X` `C`, the same shape as those keys on your keyboard, so you don't read the labels so much as point with your fingers. Press a letter and the pointer jumps to the middle of that cell, then the grid zooms into it. Two or three presses reach anywhere.
+
+- `Space` clicks there, `Return` right-clicks.
+- `Delete` goes back a level if you picked the wrong cell.
+- `Tab` moves the grid to your next display; `Esc` closes it.
+- Afterwards you can fine-tune with `W` `A` `S` `D` (hold `Q` for one-pixel precision).
+
+The grid is one part of a bigger app. When a target is a real button, `⇧⌘Space` click labels are usually faster: type the letters on it and it's clicked. You also get type to click, scroll areas, saved spots (`Shift+1`–`9` to save, `1`–`9` to jump) and every key can be remapped. It needs macOS 14 Sonoma or later on Apple silicon or Intel.
+
+#### The free options
+
+##### warpd: the closest in spirit, but quiet since 2023
+
+[warpd](https://github.com/rvaiya/warpd) is "a modal keyboard-driven virtual pointer" for X11, Wayland (sway/wlroots) and macOS. Its grid mode (`⌥⌘G`, written A-M-g in its docs) lets you pick quadrants over and over with `u`/`i`/`j`/`k`, then `m`, `,` or `.` to click. If you used keynav on Linux and want something that feels like a Unix tool, it's the natural first try. The catch: its last commit was June 2023 and its last macOS release (v1.3.5) was November 2022, and it doesn't state a minimum macOS. Full details in [warpd for Mac](https://nomousemode.com/warpd-for-mac).
+
+##### Voice Control's "Show grid"
+
+Built into macOS (System Settings > Accessibility > Voice Control). Say "Show grid" for a numbered grid over the screen, or "Show window grid" for just the active window. Say a number to refine it, and "Hide grid" when you're done. It's the same narrowing idea, and free, but you speak rather than type, which isn't for every room.
+
+##### Mouse Keys
+
+Also built in (System Settings > Accessibility > Pointer Control > Mouse Keys). It moves the pointer with `7` `8` `9` `U` `O` `J` `K` `L` (or the keypad) and clicks with `I`. There's no grid, so it's steering rather than narrowing, and Apple notes that while it's on you can't use the keyboard to enter text. It's fine for an emergency; see [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) for the long version.
+
+##### Two more grid apps
+
+- **[Scoot](https://github.com/mjrusso/scoot)** (free, BSD-3, v1.3 March 2026): a grid mode on `⇧⌘K` with equal cells across all screens, each with a key sequence. Its README says it runs on macOS 11 and 12; newer versions aren't stated.
+- **[Mouseless](https://mouseless.click)** (closed source, 14-day trial, prices not published on its site): tap Left Command to show a grid, type a cell's two characters, then Space clicks its center or a sub-grid key picks a sub-cell.
+
+#### Which should you pick?
+
+- **You only need to click now and then:** start with Voice Control or Mouse Keys. They're free and already on your Mac.
+- **You want the Unix-tool feel and don't mind risk:** try warpd, knowing it isn't being updated.
+- **You want a grid plus click labels, scrolling and remappable keys in one maintained app:** [No Mouse Mode](https://nomousemode.com/), $19.99 one time for 1 Mac as of October 2026 ([pricing](https://nomousemode.com/#pricing)). There's no free trial, but the live demo on this page uses the same keys.
+
+For the bigger picture, see [how to move the mouse with the keyboard on a Mac](https://nomousemode.com/move-mouse-with-keyboard-mac) and [the best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac).
+
+**Reach any spot on your Mac in three keys.** Press E for a 3×3 grid on Q W E / A S D / Z X C, narrow down, then Space to click, in any app. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### Can I install keynav on macOS?
+
+No. keynav's README says "This project (keynav) only works on X11", and its FAQ says it is totally dependent on X11. macOS doesn't use X11 for its own apps, so there's nothing for keynav to control. There's no Wayland version either.
+
+##### What's the closest thing to keynav on a Mac?
+
+A keyboard grid. [No Mouse Mode](https://nomousemode.com/)'s jump grid (press `E`) splits the screen into a 3×3 grid on Q W E / A S D / Z X C and zooms in with each press. warpd has a grid mode with four quadrants. Voice Control has a numbered grid you control by voice. Scoot and Mouseless also have grid modes.
+
+##### Is there a free keynav alternative for macOS?
+
+Yes. Voice Control and Mouse Keys are built into macOS and free. warpd (MIT) and Scoot (BSD-3) are free and open source, though warpd hasn't been updated since 2023 and Scoot's README only states macOS 11 and 12. No Mouse Mode is paid: $19.99 one time for 1 Mac as of October 2026.
+
+##### Can I click and right-click from the grid?
+
+In No Mouse Mode, yes: after narrowing down, press `Space` to click or `Return` to right-click. `Delete` goes back a level, `Tab` moves the grid to your next display and `Esc` closes it. You can still fine-tune with W A S D afterwards. In warpd's grid mode, `m`, `,` and `.` are left, middle and right click.
+
+##### Does the jump grid work in every app?
+
+Yes. The grid doesn't need to know where an app's buttons are; it just moves the pointer to a spot on screen. That's why it works in games, design canvases and remote desktops where click labels can't see anything.
+
+##### Does it work with several displays?
+
+Yes. The grid appears on the display the pointer is on, and `Tab` moves it to the next one. Outside the grid, `Tab` and `Shift+Tab` jump the pointer between displays.
+
+#### Related
+
+- [warpd for Mac](https://nomousemode.com/warpd-for-mac) — warpd on macOS: fixes, maintenance status and maintained alternatives.
+- [Move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac) — Mouse Keys vs W A S D: exact keys and when each is enough.
+- [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) — How to use Mac Mouse Keys, its limits, and an alternative.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+
+---
+
+### Mac trackpad or mouse not working? What to do, using only the keyboard
+
+Source: https://nomousemode.com/mac-trackpad-not-working  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+A dead pointer feels like a locked door, but your keyboard can still do almost everything. **Start with Apple's quick fixes, then use the built-in keyboard tools to keep working** while you sort out the hardware.
+
+> **Short answer:** Don't panic: you can do this from the keyboard. If it's a Bluetooth mouse or trackpad, press `⌘Space`, type **Bluetooth File Exchange**, press `Return`, then `Return` again to turn Bluetooth on. Then switch the device off and on, restart if Bluetooth won't come on, or plug it in by cable for a minute. To keep working meanwhile, press `⌥⌘F5` and turn on Mouse Keys, which moves the pointer from the keyboard. If it's the MacBook's own trackpad and nothing helps, contact [Apple Support](https://support.apple.com/contact).
+
+#### First, a few keys that help right now
+
+Before you fix anything, it helps to know how to get around. These all work with no pointer at all:
+
+| Press | What it does |
+|---|---|
+| ⌘Space | Opens Spotlight search. Type an app's name and press Return to open it |
+| ⌘Tab | Switches between open apps |
+| ⌥⌘F5 | Opens the Accessibility Shortcuts panel, where you can turn on Mouse Keys |
+| Control-F2 | Puts focus on the menu bar (arrows to move, Return to choose) |
+| Control-F3 | Puts focus on the Dock |
+
+If a Control-F key does nothing, add `Fn` (for example `Fn-Control-F2`). Apple says some of these shortcuts must first be switched on in System Settings → Keyboard → Keyboard Shortcuts → Keyboard.
+
+#### Step 1: Apple's quick fixes for a Bluetooth mouse or trackpad
+
+These come from Apple's support article, [If your Bluetooth mouse, keyboard or trackpad isn't working](https://support.apple.com/en-us/102498). Go in order and stop when it works.
+
+1. **Turn Bluetooth on without a mouse.** Press `⌘Space`, type **Bluetooth File Exchange** and press `Return`. Press `Return` again to turn Bluetooth on.
+2. **Turn the device off and on.** The switch shows green when it's on.
+3. **Check Bluetooth in System Settings.** Make sure it's switched on.
+4. **Restart** if Bluetooth won't turn on.
+5. **Connect by cable for one minute**, then unplug it. This pairs the device and charges it at the same time. A flat battery is an easy thing to miss.
+6. **Think about interference.** Apple notes that wireless interference can cause drop-outs.
+
+#### Step 2: If it's the MacBook's built-in trackpad
+
+Apple's article above is about Bluetooth devices, so most of it doesn't apply to the trackpad built into a MacBook. A restart is still worth a try. If the trackpad is jumpy or clicking on its own, Mouse Keys has an option to **ignore the built-in trackpad** while it's on (more on that below), which can stop it getting in your way. Beyond that, a built-in trackpad that doesn't work is a job for [Apple Support](https://support.apple.com/contact).
+
+#### Step 3: Keep working with what's built in
+
+Your Mac has three free tools that work without any pointer device. You may need only one of them.
+
+##### Mouse Keys: move the pointer with the keyboard
+
+Press `⌥⌘F5` to open the Accessibility Shortcuts panel and turn on Mouse Keys, or go to System Settings → Accessibility → Pointer Control → Mouse Keys. Then:
+
+- `7` `8` `9` `U` `O` `J` `K` `L` move the pointer (or the numeric keypad, if you have one).
+- `I` clicks (keypad `5`). `M` presses and holds, `.` releases.
+
+Two catches: while Mouse Keys is on, **you can't type text** with those keys, and Apple's Mouse Keys page lists no right-click key. Its options (the info button next to Mouse Keys) include "Press the Option key five times to toggle Mouse Keys", "Ignore built-in trackpad when Mouse Keys is on", and the pointer's speed. Our [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) page goes deeper.
+
+##### Full Keyboard Access: Tab to buttons
+
+Turn it on in System Settings → Accessibility → Motor → Keyboard. Then `Tab` moves a highlight between items and `Space` selects. It's great for dialogs and settings screens. Full details in our [Full Keyboard Access guide](https://nomousemode.com/full-keyboard-access-mac).
+
+##### Voice Control: click by speaking
+
+Turn it on in System Settings → Accessibility → Voice Control. Say **"Show numbers"** to put a number on each item, then **"Click"** and the number. "Show grid" gives you a numbered grid for clicking anywhere, and "Hide numbers" or "Hide grid" removes them.
+
+#### Which built-in tool for which job?
+
+| You need to… | Built-in option | No Mouse Mode (if already set up) |
+|---|---|---|
+| Open an app | ⌘Space, type its name | Same, or click its label in the Dock |
+| Press a button | Full Keyboard Access: Tab until you reach it, then Space | ⇧⌘Space, type its label |
+| Click a spot that isn't a button | Mouse Keys, or Voice Control's grid | Jump grid (E) or W A S D |
+| Right-click | Alternate pointer actions, or Voice Control | Return |
+| Scroll | Arrow keys inside many apps' lists and pages | Arrow keys, or scroll areas (⇧⌘J) |
+| Drag | Mouse Keys: M to hold, move, . to release | Hold Space and move |
+| Type | Turn Mouse Keys off first | Turns itself off when you click into a text box |
+
+#### Keep working with No Mouse Mode
+
+If you'd rather not juggle three accessibility features, [No Mouse Mode](https://nomousemode.com/) turns the keyboard into a full mouse. Press `⇧⌘Space` to label every button, link and menu (plus the menu bar and the Dock) and type a label to click it. Or press `⇧⌘M` and glide the pointer with `W` `A` `S` `D`: `Space` clicks, `Return` right-clicks, hold `Space` to drag, and the arrow keys scroll. Shortcuts with Command, Control or Option still go straight to your apps.
+
+Be realistic about two things:
+
+- **You need to be able to install it.** Setup normally means dragging the app into Applications, then switching on the Accessibility permission in System Settings. We haven't documented doing that with the keyboard alone, so we don't promise it. The easy way round it: borrow any wired mouse for a few minutes, or better, set it up now while your pointer still works.
+- **It's paid, with no free trial.** $19.99 one-time for 1 Mac, as of October 2026 ([see pricing](https://nomousemode.com/#pricing)). You can try the same keys in the demo on this page first. It needs macOS 14 Sonoma or later, on Apple silicon or Intel. If you only need to get through a day or two, the free built-ins above may be plenty.
+
+Once it's set up, it doesn't need a mouse or trackpad at all, and it doesn't fix hardware either: it just means a broken trackpad doesn't stop your work. New to it? Open Practice from the menu bar icon for nine short lessons, or press `H` while it's on to see every key. Questions are answered on the [support page](https://nomousemode.com/support).
+
+#### When to call Apple
+
+Contact [Apple Support](https://support.apple.com/contact) if:
+
+- a Bluetooth mouse or trackpad still won't connect after the steps above, even after charging it by cable;
+- the built-in MacBook trackpad doesn't respond, or keeps clicking or moving on its own after a restart.
+
+Until then, your keyboard has you covered. For the full picture of working without a pointer, read our [guide to using a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse).
+
+**Be ready for the next time** Set up No Mouse Mode while your pointer works, and a dead trackpad or a flat mouse battery won't stop your day. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### How do I turn on Bluetooth on a Mac without a mouse?
+
+Apple's tip: press Command-Space bar, type "Bluetooth File Exchange", press Return, then press Return again to turn Bluetooth on. Your Bluetooth mouse or trackpad can then reconnect.
+
+##### My Bluetooth mouse or Magic Trackpad stopped working. What should I try first?
+
+Turn the device off and on again (the switch shows green when it's on). Check that Bluetooth is on in System Settings. If Bluetooth won't turn on, restart the Mac. If the device can use a cable, connect it for one minute and then unplug it: that pairs and charges it. Wireless interference can also cause drop-outs. These steps come from Apple's own [support article](https://support.apple.com/en-us/102498).
+
+##### How do I move the pointer with the keyboard on a Mac?
+
+Turn on Mouse Keys: press Option-Command-F5 to open the Accessibility Shortcuts panel, or go to System Settings → Accessibility → Pointer Control → Mouse Keys. Then 7 8 9 U O J K L move the pointer and I clicks. You can't type text while Mouse Keys is on. More in [how to move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac).
+
+##### How do I right-click without a mouse or trackpad?
+
+Built in, you can turn on Alternate pointer actions (System Settings → Accessibility → Pointer Control), or use Voice Control. Some Apple keyboards with a numeric keypad have a Contextual Menu key. In No Mouse Mode, Return right-clicks. See [how to right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac).
+
+##### My MacBook's built-in trackpad is jumpy or clicking by itself. Can I ignore it?
+
+Mouse Keys has an option called "Ignore built-in trackpad when Mouse Keys is on" (click the info button next to Mouse Keys). For a built-in trackpad that keeps misbehaving, contact [Apple Support](https://support.apple.com/contact), because it may need a repair.
+
+##### Can I install No Mouse Mode without a mouse?
+
+We haven't documented a keyboard-only install, so we don't promise one. Setup normally means dragging the app into Applications and switching on the Accessibility permission. The safest plan is to install it while your pointer works, or borrow any wired mouse for a few minutes. Once it's set up, it works with no mouse or trackpad at all.
+
+##### Does No Mouse Mode fix a broken trackpad?
+
+No. It doesn't repair hardware. It lets you move, click, scroll and drag from the keyboard, so you can keep working while you wait for a fix or a replacement.
+
+#### Related
+
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+- [Move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac) — Mouse Keys vs W A S D: exact keys and when each is enough.
+- [Full Keyboard Access on Mac](https://nomousemode.com/full-keyboard-access-mac) — Turn it on, learn the Tab, Space and Control-F keys, and know its limits.
+- [Right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac) — Control-click, the Contextual Menu key, Voice Control and keyboard-only ways.
+
+---
+
+### How to move the mouse with the keyboard on a Mac
+
+Source: https://nomousemode.com/move-mouse-with-keyboard-mac  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+**Turn on Mouse Keys and use 7 8 9 U O J K L to move the pointer and I to click**, or use an app like No Mouse Mode to steer it with W A S D. Here's how both work and when each one is enough.
+
+> **Short answer:** macOS has this built in: turn on **Mouse Keys** in System Settings → Accessibility → Pointer Control, then **7 8 9 U O J K L** move the pointer and **I** clicks. It's free and fine for a few clicks, but you can't type while it's on and it has no right-click key. If you move the pointer by keyboard every day, [No Mouse Mode](https://nomousemode.com/) steers it with **W A S D**, adds fast and one-pixel modes, a jump grid and saved spots, and gets out of the way when you type.
+
+#### Option 1: Mouse Keys (built in, free)
+
+##### Turn it on
+
+1. Open the Apple menu → System Settings → **Accessibility → Pointer Control**.
+2. Switch on **Mouse Keys**.
+3. Optional: click the info button next to it for more settings (below).
+
+Shortcut: `⌥⌘F5` (or triple-pressing Touch ID) opens the Accessibility Shortcuts panel, where you can turn Mouse Keys on or off.
+
+##### The keys
+
+| Action | Keyboard | Numeric keypad |
+|---|---|---|
+| Move (eight directions) | 7 8 9 U O J K L | 7 8 9 4 6 1 2 3 |
+| Click | I | 5 |
+| Press and hold (start a drag) | M | 0 |
+| Release | . | . |
+
+So 8 is up, K is down, U is left and O is right, with 7, 9, J and L for the diagonals. I sits in the middle as the click.
+
+##### Settings worth changing
+
+- **Press the Option key five times to toggle Mouse Keys.** Turn this on. You'll be switching it on and off a lot.
+- **Initial delay** and **Maximum speed**: how long before the pointer starts to speed up, and how fast it gets.
+- **Ignore built-in trackpad when Mouse Keys is on**: handy if a faulty trackpad is making the pointer jump.
+
+##### Its limits
+
+Apple is direct about the big one: "When Mouse Keys is on, you can't use the keyboard or numeric keypad to enter text." Every time you want to type a URL or a message, you toggle it off and back on.
+
+Apple's Mouse Keys page also lists no right-click key. For right, double-click and drag via keyboard shortcuts you turn on **Alternate pointer actions** in the same Pointer Control pane. And there's no way to jump across the screen or to another display: you steer the whole way.
+
+#### Option 2: No Mouse Mode's W A S D pointer
+
+[No Mouse Mode](https://nomousemode.com/) uses the keys gamers already know. Press `⇧⌘M` to turn it on (or hold Right Command or Right Option, if you turn on hold-to-use), then:
+
+| Action | Key |
+|---|---|
+| Move (smooth, eases in, speeds up as you hold) | W A S D |
+| Fast | hold Shift |
+| Precise, one pixel at a time | hold Q |
+| Click (twice: double, three times: triple, hold: drag) | Space |
+| Right-click / middle click | Return / M |
+| Back / forward buttons | [ / ] |
+| Scroll in every direction | arrow keys |
+| Jump grid | E |
+| Next / previous display | Tab / ⇧Tab |
+| Jump to a saved spot / save one | 1–9 / ⇧1–⇧9 |
+| Jump back | ` |
+| Show every key | H |
+
+Every key can be remapped in Settings, and shortcuts that use Command, Control or Option still reach the app you're in.
+
+##### Jump instead of steering
+
+Long trips are where steering gets tedious. Press `E` and a 3×3 grid labelled Q W E / A S D / Z X C (the same shape as those keys) covers the screen. Press a letter and the pointer jumps to that cell, then the grid zooms in. Two or three presses reach any point, then you fine-tune with W A S D. It works in any app.
+
+For places you visit all the time, like a toolbar button in your editor, press `⇧` and a number to save the spot, and the number alone to jump back to it. ``` returns the pointer to where it was before its last jump.
+
+##### Often you don't need the pointer at all
+
+If the target is a button, link, tab or menu, don't steer to it. Press `⇧⌘Space` and type its label, or `⇧⌘/` and type its name. These work even with No Mouse Mode off. Labels rely on apps describing their buttons to macOS, which most do. The grid and W A S D work everywhere.
+
+#### Side by side
+
+|  | Mouse Keys | No Mouse Mode |
+|---|---|---|
+| Price | Free, built in | $19.99 one time, 1 Mac (as of October 2026) |
+| Move keys | 7 8 9 U O J K L | W A S D |
+| Speed control | Initial delay and max speed settings | Eases in; hold Shift fast, Q precise |
+| Right-click key | No (needs Alternate pointer actions) | Yes, Return |
+| Scroll | No | Yes, arrow keys |
+| Jump across the screen | No | Grid, saved spots, jump back |
+| Multiple displays | Steer across | Tab / Shift-Tab |
+| Typing | Blocked while on | Turns itself off when you click a text box |
+| Click buttons by label | No | Yes |
+
+The full head-to-head is in [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys).
+
+#### When is Mouse Keys enough?
+
+- **Your trackpad broke and a new one arrives tomorrow.** Mouse Keys plus Full Keyboard Access will get you there. See [what to do when your trackpad isn't working](https://nomousemode.com/mac-trackpad-not-working).
+- **You click a few times a day** and mostly type in between. Toggling with Option five times is fine.
+- **You have a numeric keypad** and like using it as a joystick.
+
+#### When you'll want more
+
+- You move the pointer and type in the same minute, all day.
+- You right-click, scroll or drag often.
+- You have more than one display.
+- You're going keyboard-only for comfort. See [using a Mac keyboard-only for wrist pain](https://nomousemode.com/keyboard-only-mac-rsi).
+
+Used tools like warpd or keynav on Linux? [warpd for Mac](https://nomousemode.com/warpd-for-mac) and [keynav for Mac](https://nomousemode.com/keynav-for-mac) cover how they map over. For the bigger picture, start at [how to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse), or see [No Mouse Mode pricing](https://nomousemode.com/#pricing).
+
+**Steer your Mac's pointer with W A S D** No Mouse Mode moves the pointer smoothly with fast and pixel-precise modes, a jump grid, saved spots and display jumps. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### How do I turn on Mouse Keys on a Mac?
+
+Open System Settings → Accessibility → Pointer Control and switch on Mouse Keys. You can also press Option-Command-F5 to open the Accessibility Shortcuts panel, or turn on the option to press Option five times to toggle it.
+
+##### Which keys move the mouse in Mouse Keys?
+
+7, 8, 9, U, O, J, K and L move the pointer (or 7 8 9 4 6 1 2 3 on a numeric keypad). I clicks (keypad 5), M presses and holds (keypad 0), and the period releases.
+
+##### Why can't I type when Mouse Keys is on?
+
+That's how it works. Apple says that when Mouse Keys is on, you can't use the keyboard or numeric keypad to enter text. Turn it off to type, for example by pressing Option five times if you've enabled that option.
+
+##### How do I make Mouse Keys faster?
+
+Click the info button next to Mouse Keys in System Settings → Accessibility → Pointer Control and adjust Initial delay and Maximum speed.
+
+##### Can I move the mouse with W A S D on a Mac?
+
+Not with macOS alone. [No Mouse Mode](https://nomousemode.com/) does it: press Shift-Command-M, then W A S D move the pointer, Shift goes fast, Q goes one pixel at a time, and Space clicks. Every key can be remapped.
+
+##### How do I move the pointer to another display with the keyboard?
+
+In [No Mouse Mode](https://nomousemode.com/), press Tab for the next display and Shift-Tab for the previous one. Mouse Keys has no display jump, so you steer across.
+
+#### Related
+
+- [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) — How to use Mac Mouse Keys, its limits, and an alternative.
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+- [Right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac) — Control-click, the Contextual Menu key, Voice Control and keyboard-only ways.
+- [warpd for Mac](https://nomousemode.com/warpd-for-mac) — warpd on macOS: fixes, maintenance status and maintained alternatives.
+
+---
+
+### Homerow vs No Mouse Mode: which keyboard-clicking app fits you?
+
+Source: https://nomousemode.com/no-mouse-mode-vs-homerow  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+Both put letter labels on buttons so you can click with the keyboard. **Homerow focuses on labels, search and scrolling; No Mouse Mode adds a full keyboard mouse on top, for less money on one Mac.**
+
+> **Short answer:** Homerow is a polished, actively maintained app that labels buttons so you can click them by typing, with search and scrolling too. It costs $49.99 once for all your personal Macs and is free to try. [No Mouse Mode](https://nomousemode.com/) does click labels, type to click and scroll areas as well, then adds a full keyboard mouse: smooth W A S D movement, every mouse button, a jump grid, saved spots and display jumps. It's $19.99 for one Mac, with no trial but live demos on the site. If you only need labels across several Macs, Homerow is a fair pick. If you want to drop the mouse completely on one or two Macs, No Mouse Mode does more for less.
+
+#### What Homerow does well
+
+[Homerow](https://www.homerow.app) describes itself as "keyboard shortcuts for every button in macOS". You press a shortcut, small labels appear on the buttons, links and other controls on screen, and you type a label to click it. Its site shows three main features: **labels**, **search** and **scroll**.
+
+- **It's mature.** Homerow is the successor of Vimac, the free open-source keyboard navigation app. Vimac's README calls Homerow "a refined, sleeker, more performant successor".
+- **It's maintained.** The latest version is 1.5.3, released March 19, 2026, and version 1.1.0 added extra scroll-mode commands.
+- **The license is generous.** One $49.99 purchase covers all your personal Macs and all future updates, as of October 2026. There's also a student discount.
+- **You can try it first.** Homerow is free to try, with a reminder every 50 activations.
+- **It runs on older macOS.** It needs macOS 13 or later.
+
+Homerow says it works with "most native macOS apps and a growing set of non-native web-based apps". That's the honest limit of every label app: labels only appear where an app tells macOS about its buttons.
+
+#### What No Mouse Mode does differently
+
+[No Mouse Mode](https://nomousemode.com/) starts from the same idea, then tries to replace the mouse entirely. It has three shortcuts that work anywhere: `⇧⌘Space` for click labels, `⇧⌘/` for type to click and `⇧⌘J` for scroll areas. Press `⇧⌘M` to turn on No Mouse Mode itself, and the keyboard becomes a mouse.
+
+##### Click labels and type to click
+
+Every button, link, tab, menu, the menu bar and the Dock get letter labels. Hold Shift with the last letter to right-click, Command for a Command-click (new tab), Option to double-click, or Control to just move the pointer there. Press Tab to keep labels open for several clicks in a row. Labels for a window stay the same each time, so you build muscle memory. Type to click lets you type part of a button's name instead (initials work), then press Return.
+
+##### A real keyboard mouse
+
+With No Mouse Mode on, `W` `A` `S` `D` move the pointer smoothly, easing in. Hold Shift to go fast or Q for one-pixel precision. Space clicks (twice to double-click, hold to drag), Return right-clicks, M middle-clicks and [ / ] are back and forward. The arrow keys scroll in every direction. This is the part that matters when a control has no label, or when you need to drag, select text or draw.
+
+##### Getting anywhere fast
+
+Press `E` for the jump grid: a 3×3 grid labelled Q W E / A S D / Z X C that zooms in with each press, so two or three presses reach any spot on screen. Save spots with Shift+1–9 and jump back to them with 1–9, press ``` to jump back, and use Tab / Shift+Tab to move between displays.
+
+##### Help for apps that don't cooperate
+
+An optional mode reads on-screen text with Apple's on-device text recognition, so apps that don't describe their buttons to macOS can still get labels. It needs Screen Recording permission, and nothing is saved or sent. Turn it off and No Mouse Mode needs only Accessibility.
+
+##### Built to be learned
+
+A guided first-run setup, a Practice window with nine hands-on lessons, and `H` to show every key. Every key and shortcut can be remapped.
+
+#### Homerow vs No Mouse Mode at a glance
+
+"Not listed" means Homerow's website doesn't mention the feature. It doesn't prove Homerow lacks it, so check its site if that feature matters to you.
+
+|  | Homerow | No Mouse Mode |
+|---|---|---|
+| Click labels | Yes | Yes, incl. menu bar and Dock |
+| Search / type to click | Yes (search) | Yes, initials work |
+| Scrolling | Yes (scroll mode) | Yes, scroll areas plus arrow keys |
+| W A S D pointer movement | Not listed | Yes, with fast and precise modes |
+| Drag, right, middle, back/forward | Not listed | Yes |
+| Jump grid | Not listed | Yes, 3×3, works in any app |
+| Saved spots | Not listed | Yes, 1–9 |
+| Display jumps | Not listed | Yes, Tab / Shift+Tab |
+| Practice lessons | Not listed | Yes, nine lessons |
+| On-screen text recognition fallback | Not listed | Yes, optional, on-device |
+| macOS | 13 or later | 14 Sonoma or later, Apple silicon and Intel |
+| Price (Oct 2026) | $49.99 once | $19.99 once (1 Mac) |
+| Macs covered | All your personal Macs | 1 Mac; 3 for $49.99, 5 for $79.99, 20 for $299.99 |
+| Try before buying | Free to try, reminder every 50 activations | No trial; interactive demos in the browser |
+| Updates | All future updates included | Free updates, no subscription |
+| Open source | No | No |
+
+#### Price and trial, plainly
+
+As of October 2026, Homerow is **$49.99 once** and covers all your personal Macs. No Mouse Mode is **$19.99 once for one Mac**, $49.99 for three, $79.99 for five and $299.99 for twenty. Neither is a subscription, and both include updates.
+
+- **One Mac:** No Mouse Mode costs $30 less.
+- **Three Macs:** the same price.
+- **Four or more personal Macs:** Homerow is cheaper.
+
+The try-before-you-buy story is different too. Homerow lets you use the real app for free, with a reminder every 50 activations. No Mouse Mode has **no free trial**, and all sales are final. What it offers instead is the live demo on this page and on the [homepage](https://nomousemode.com/): they run in your browser and use the same keys as the app, so you can feel the labels, the grid and W A S D movement before you pay.
+
+#### The shared limit: apps have to describe their buttons
+
+Both apps find buttons through macOS accessibility information. Most Mac apps and websites provide it. Some apps don't, and there labels may be missing or incomplete. No Mouse Mode's answer is the optional text recognition mode, the jump grid and W A S D movement, which work everywhere because they don't need to know what's on screen. If you mostly live in well-behaved apps, this difference may never come up.
+
+#### Who should pick which
+
+##### Pick Homerow if…
+
+- you mainly want to click buttons and links by typing, and you're happy using a mouse or trackpad for everything else;
+- you use four or more personal Macs and want one license for all of them;
+- you want to try the real app for a while before you pay;
+- you're on macOS 13 Ventura.
+
+##### Pick No Mouse Mode if…
+
+- you want to stop reaching for the mouse altogether, including dragging, right-clicking and precise pointing;
+- you hit apps where labels don't show up and want a grid or pointer that always works;
+- you use one or two Macs and want the lower price;
+- you'd like practice lessons to get fluent quickly, for example if you're [cutting back on the mouse because of wrist pain](https://nomousemode.com/keyboard-only-mac-rsi) or your [trackpad has stopped working](https://nomousemode.com/mac-trackpad-not-working).
+
+Already using a free option? Apple's built-in tools may be enough for light use. See [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys), or the full [list of Homerow alternatives](https://nomousemode.com/homerow-alternatives), including Shortcat, Wooshy, Scoot and Mouseless.
+
+#### Can you run both?
+
+You can, but there's little reason to: their label, search and scroll shortcuts look alike. If you do, remap No Mouse Mode's shortcuts in its settings so they don't overlap. For a full walkthrough of keyboard-only use, start with [how to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse), and see [support](https://nomousemode.com/support) for setup and permissions.
+
+**Click, move and scroll without touching the mouse** No Mouse Mode is $19.99 once for one Mac, with free updates and no subscription. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### Is Homerow worth it?
+
+If you want click labels, search and scrolling and you use several Macs, Homerow is a well-maintained choice. As of October 2026 it costs $49.99 once, covers all your personal Macs and includes future updates. It's free to try, with a reminder every 50 activations, so you can find out for yourself.
+
+##### Is No Mouse Mode cheaper than Homerow?
+
+For one Mac, yes: $19.99 versus $49.99 (as of October 2026). No Mouse Mode's 3-Mac license is $49.99, the same as Homerow. For four or more Macs, Homerow's single price is cheaper, because it covers all your personal Macs. See [No Mouse Mode pricing](https://nomousemode.com/#pricing).
+
+##### Does No Mouse Mode have a free trial like Homerow?
+
+No. No Mouse Mode has no free trial and all sales are final. Instead, the website has interactive in-browser demos that use the same keys as the app, so you can try the feel before buying. Homerow is free to try, with a reminder every 50 activations.
+
+##### Do Homerow and No Mouse Mode use the same shortcuts?
+
+They look similar. Homerow's website demos show ⌘⇧Space for labels, ⌘⇧J for scroll and ⌘⇧/ for search. No Mouse Mode's defaults are ⇧⌘Space (click labels), ⇧⌘J (scroll areas) and ⇧⌘/ (type to click). Every No Mouse Mode shortcut can be remapped, so you can change them if you run both.
+
+##### Which one works in more apps?
+
+Both rely on apps describing their buttons to macOS. Homerow says it works with most native macOS apps and a growing set of web-based apps. No Mouse Mode has an optional on-device text recognition mode for apps that don't describe their buttons, plus a jump grid and W A S D movement that work in any app.
+
+##### Is Homerow the same as Vimac?
+
+Homerow is Vimac's successor. Vimac's README says "Vimac is now Homerow". The open-source Vimac hasn't been updated since 2022. If you're still on it, see [Vimac alternatives](https://nomousemode.com/vimac-alternative).
+
+##### What macOS versions do they need?
+
+Homerow needs macOS 13 or later. No Mouse Mode needs macOS 14 Sonoma or later and runs on Apple silicon and Intel Macs.
+
+#### Related
+
+- [Homerow alternatives](https://nomousemode.com/homerow-alternatives) — Seven ways to click without a mouse, compared.
+- [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat) — Search-to-click beta vs labels, pointer, grid and scroll areas.
+- [Vimac alternatives](https://nomousemode.com/vimac-alternative) — Vimac is now Homerow. What replaces it today.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+
+---
+
+### Mouse Keys on Mac: how to use it, fix it, and when to move on
+
+Source: https://nomousemode.com/no-mouse-mode-vs-mouse-keys  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+Mouse Keys is the free mouse that's already in your Mac. **It's perfect for a dead trackpad, but you can't type while it's on and it has no right-click key**, which is why people who use it daily look for an alternative.
+
+> **Short answer:** Mouse Keys is a free, built-in macOS feature: turn it on in System Settings > Accessibility > Pointer Control > Mouse Keys, then move the pointer with `7` `8` `9` `U` `O` `J` `K` `L` and click with `I`. It works with no mouse or trackpad at all, so it's the right first step when one breaks. Its limits show up with daily use: you can't type while it's on, its page lists no right-click key, and it can't click a button by name. [No Mouse Mode](https://nomousemode.com/) is the paid alternative for people who want the keyboard to be their mouse every day.
+
+#### How to turn on Mouse Keys on a Mac
+
+1. Choose **Apple menu > System Settings**, then click **Accessibility**.
+2. Click **Pointer Control** and turn on **Mouse Keys**.
+3. Click the **info button** next to Mouse Keys and turn on **Press the Option key five times to toggle Mouse Keys**. Now you can switch it on and off without opening Settings.
+4. In the same options, set **Initial delay** and **Maximum speed** to taste.
+
+No working pointer at all? Press `Option-Command-F5` (or triple-press Touch ID) to open the Accessibility Shortcuts panel, which can turn Mouse Keys on or off. The path above is the same in Apple's guides for macOS Sequoia 15 and Tahoe 26.
+
+##### The Mouse Keys keys
+
+| Action | Keyboard (no keypad) | Numeric keypad |
+|---|---|---|
+| Move the pointer | 7 8 9 U O J K L | 7 8 9 4 6 1 2 3 |
+| Click | I | 5 |
+| Press and hold (start a drag) | M | 0 |
+| Release | . | . |
+
+The movement keys sit in a ring around the click key (`I`, or keypad `5`), laid out like the numeric keypad.
+
+#### Mouse Keys not working? Check these first
+
+- **"My keyboard stopped typing."** That's Mouse Keys doing its job. Apple says: "When Mouse Keys is on, you can't use the keyboard or numeric keypad to enter text." Turn it off to type.
+- **It turned itself off (or on).** If the Option-five-times option is set, pressing `Option` repeatedly while typing can toggle it by accident. Turn it back on the same way.
+- **The arrow keys do nothing.** Mouse Keys doesn't use them. On a laptop, use `7` `8` `9` `U` `O` `J` `K` `L`.
+- **The trackpad stopped working.** Check whether **Ignore built-in trackpad when Mouse Keys is on** is turned on in the Mouse Keys options.
+- **The pointer is painfully slow.** Raise **Maximum speed** and lower **Initial delay**.
+
+If the real problem is a mouse or trackpad that stopped responding, our [Mac trackpad not working](https://nomousemode.com/mac-trackpad-not-working) guide walks through Apple's fixes, including turning Bluetooth on without a pointer.
+
+#### Where Mouse Keys falls short
+
+Mouse Keys is a good emergency tool and fine for the odd click. As a daily driver, its limits add up:
+
+- **You can't type while it's on.** Every time you want to fill in a field, you toggle it off, type, and toggle it on again.
+- **No right-click key.** Apple's Mouse Keys page lists none. For right-clicks you turn on Alternate pointer actions in the same settings pane, or use Voice Control. See [how to right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac).
+- **Fixed keys.** The options Apple lists are the Option toggle, ignoring the trackpad, initial delay and maximum speed. There's no setting to choose different movement keys.
+- **No scrolling keys, middle click or back/forward** on Apple's page.
+- **Aiming is slow.** To press a button across the screen, you steer the pointer all the way there. There are no labels and no grid.
+
+macOS has other built-ins that help: [Full Keyboard Access](https://nomousemode.com/full-keyboard-access-mac) moves between controls with Tab, and Voice Control can label buttons by voice. Each fills one gap, but none is a complete keyboard mouse.
+
+#### What No Mouse Mode does differently
+
+[No Mouse Mode](https://nomousemode.com/) starts where Mouse Keys stops:
+
+- **Click buttons without aiming.** Press `⇧⌘Space` and every button, link, tab and menu in the front window, plus the menu bar and the Dock, gets a letter label. Type it and it's clicked. Or press `⇧⌘/` and type part of the button's name.
+- **Movement that feels like a mouse.** `W` `A` `S` `D` move the cursor smoothly and speed up as you hold. Hold `Shift` to go fast or `Q` for one-pixel precision.
+- **Every button.** `Space` clicks (twice to double-click, hold to drag), `Return` right-clicks, `M` middle-clicks, `[` and `]` go back and forward.
+- **Scrolling.** Arrow keys scroll in every direction, and scroll areas (`⇧⌘J`) number each pane so you scroll the right one.
+- **Reach anywhere fast.** `E` opens a 3×3 grid that zooms in with each press; two or three presses reach any spot, in any app.
+- **Typing still works.** It also uses letter keys while it's on, but it switches itself off when you click into a text box, can stay off in apps you list, and has an optional hold-to-use mode (hold Right Command or Right Option). Shortcuts with Command, Control or Option always reach your app.
+- **Your keys, your way.** Every key and shortcut can be remapped.
+
+#### Mouse Keys vs No Mouse Mode at a glance
+
+|  | Mouse Keys | No Mouse Mode |
+|---|---|---|
+| Price | Free, built into macOS | $19.99 one time for 1 Mac (as of October 2026); no free trial |
+| Movement keys | 7 8 9 U O J K L or keypad | W A S D (remappable), fast and precise modes |
+| Click a button by label or name | No | Yes, labels and type to click |
+| Right-click key | None listed (use Alternate pointer actions) | Return |
+| Middle, back/forward | Not on Apple's page | Yes |
+| Drag | Hold with M, release with . | Hold Space and move |
+| Scrolling | Not on Apple's page | Arrow keys, numbered scroll areas |
+| Grid to reach anywhere | No | Yes, 3×3 zooming grid |
+| Typing while on | Not possible | Turns itself off in text boxes; hold-to-use option |
+| Remap keys | No setting listed | Every key and shortcut |
+| Works with no pointer device | Yes, nothing to install | Needs installing and setting up first |
+| Requirements | Built into macOS | macOS 14 Sonoma or later, Apple silicon or Intel |
+
+#### Which should you use?
+
+- **Use Mouse Keys** if your trackpad or mouse just died, if you need a few clicks until a replacement arrives, or if you don't want to install anything. It's free and it's already there.
+- **Use No Mouse Mode** if you want to work without a mouse every day, for comfort, [RSI](https://nomousemode.com/keyboard-only-mac-rsi) or speed, and you need to type, right-click and scroll without toggling things on and off.
+
+The demo on this page uses the same keys as the app, so you can try the feel right now. For more ways to steer the pointer, see [how to move the mouse with the keyboard on a Mac](https://nomousemode.com/move-mouse-with-keyboard-mac), or compare every option in [the best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac).
+
+**Mouse Keys, plus labels, right-click and a grid** No Mouse Mode moves the pointer with W A S D, clicks buttons by their labels and switches itself off when you click into a text box. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### How do I turn on Mouse Keys on a Mac?
+
+Choose Apple menu > System Settings > Accessibility > Pointer Control, then turn on Mouse Keys. To toggle it from the keyboard later, click the info button next to Mouse Keys and turn on "Press the Option key five times to toggle Mouse Keys". You can also press Option-Command-F5 to open the Accessibility Shortcuts panel.
+
+##### Which keys move the pointer with Mouse Keys?
+
+On a keyboard without a numeric keypad: 7 8 9 U O J K L move the pointer, I clicks, M presses and holds the button, and the period (.) releases it. With a keypad: 7 8 9 4 6 1 2 3 move, 5 clicks, 0 holds and . releases.
+
+##### Why can't I type after turning on Mouse Keys?
+
+That's how Mouse Keys works. Apple says that when Mouse Keys is on, you can't use the keyboard or numeric keypad to enter text. Turn it off (press Option five times if you turned that option on) to type again.
+
+##### How do I right-click with Mouse Keys?
+
+Apple's Mouse Keys page lists no right-click key. For a right-click from the keyboard, turn on Alternate pointer actions in the same Pointer Control settings, or use Voice Control. [No Mouse Mode](https://nomousemode.com/) right-clicks with Return. More options in [how to right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac).
+
+##### Why is Mouse Keys not working on my Mac?
+
+Check that it's actually on (pressing Option five times toggles it if that option is set, so it's easy to switch off by accident). On a laptop, use 7 8 9 U O J K L, not the arrow keys. If the trackpad stopped responding instead, look for "Ignore built-in trackpad when Mouse Keys is on" in its options. If the pointer feels slow, change Initial delay and Maximum speed there.
+
+##### Is No Mouse Mode a Mouse Keys app?
+
+It does what Mouse Keys does and more. No Mouse Mode moves the pointer with W A S D, with fast and one-pixel precise modes, and adds click labels, type to click, right, middle and back/forward clicks, scrolling, a jump grid and remappable keys. It costs $19.99 one time for 1 Mac and needs macOS 14 Sonoma or later. There's no free trial; the site has in-browser demos.
+
+#### Related
+
+- [Move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac) — Mouse Keys vs W A S D: exact keys and when each is enough.
+- [Trackpad not working?](https://nomousemode.com/mac-trackpad-not-working) — Keyboard-only first aid, and how to keep working until it's fixed.
+- [Right-click without a mouse](https://nomousemode.com/right-click-without-mouse-mac) — Control-click, the Contextual Menu key, Voice Control and keyboard-only ways.
+- [Full Keyboard Access on Mac](https://nomousemode.com/full-keyboard-access-mac) — Turn it on, learn the Tab, Space and Control-F keys, and know its limits.
+
+---
+
+### Shortcat vs No Mouse Mode: search to click, or the whole mouse
+
+Source: https://nomousemode.com/no-mouse-mode-vs-shortcat  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+Shortcat is a command palette for clicking: type what you want and it clicks it. **If clicking named buttons is all you need, Shortcat may be enough. If you also want to move the pointer, drag, scroll panes and reach things with no name, No Mouse Mode covers that.**
+
+> **Short answer:** Shortcat is a free-download command palette for clicking: press `⇧⌘Space`, type the name of a button, and it clicks it. It's a 0.x beta, last updated in July 2025. [No Mouse Mode](https://nomousemode.com/) ($19.99 one time, as of October 2026) also clicks by typing, either with letter labels or by name, and adds the rest of the mouse: smooth pointer movement, drag, middle and back/forward clicks, a jump grid and scroll areas. If you only click named buttons, try Shortcat first. If you want to leave the mouse in the drawer, No Mouse Mode covers more.
+
+#### Two ways to click without a mouse
+
+Both apps start from the same idea: macOS knows where the buttons are, so you shouldn't have to aim a pointer at them. They differ in how much of the mouse they replace.
+
+- **Shortcat is search to click.** You open its palette, type what you want ("ok" finds an OK button), and it clicks it. After 2 seconds (configurable) it also shows black-on-yellow labels with 1 to 3 letter shortcuts.
+- **No Mouse Mode is a keyboard mouse.** It has two ways to click by typing (labels and type to click), plus a mode where your keys *are* the mouse: `W` `A` `S` `D` move the pointer, `Space` clicks, `Return` right-clicks and the arrow keys scroll.
+
+So the question is whether you need to click things, or do everything a mouse does.
+
+#### What Shortcat does well
+
+[Shortcat](https://shortcat.app) describes itself as "the universal command palette for your Mac". From its site and docs (as of October 2026):
+
+- **Type what you see.** It indexes the interface and you search by name. That's natural if you already live in a launcher or command palette.
+- **More than a left click.** Right-click, double-click and clicks with modifier keys.
+- **Extras:** window search, menu search and an emoji mode.
+- **Broad app support:** Safari, Chrome, Firefox, some Chromium browsers and most Electron apps. Its own docs add that "effectiveness may vary depending on application's Accessibility implementation."
+- **Easy to get:** a free download, or `brew install shortcat`. The official site states no price. It needs macOS 13 or later and runs on Apple silicon and Intel.
+
+##### What to know before you rely on it
+
+Shortcat is still a 0.x beta. The latest version is v0.12.2, from July 3, 2025, and the one before it, v0.12.1, moved the beta expiry date out to 2030. There have been long gaps before: before April 2025, the previous release was in January 2023. That doesn't mean it has stopped working, and plenty of people use it happily. It just means you can't count on regular updates the way you might with a paid, actively released app.
+
+#### What No Mouse Mode adds
+
+[No Mouse Mode](https://nomousemode.com/) 2.0 is a menu bar app that turns the keyboard into a mouse. The clicking side will feel familiar to Shortcat users:
+
+- **Click labels** (`⇧⌘Space`): every button, link, tab and menu in the front window, plus the menu bar and the Dock, gets letter labels. Type one to click it. Hold `Shift` with the last letter to right-click, `Command` to Command-click, `Option` to double-click or `Control` to just move the pointer there. `Tab` keeps labels open for several clicks, and a window's labels stay the same each time, so they become muscle memory.
+- **Type to click** (`⇧⌘/`): type part of a button's or text's name. Case, spaces and accents don't matter, and initials work ("nf" finds New Folder). `Return` clicks. This is the closest match to Shortcat's search.
+
+Then it covers what search-to-click doesn't:
+
+- **A real pointer.** Press `⇧⌘M` and `W` `A` `S` `D` glide the cursor with eased movement. Hold `Shift` for speed or `Q` for one-pixel precision. That matters for things that aren't buttons: a spot on a canvas, a slider, the edge of a window.
+- **Every mouse button.** Click, double, triple, drag (hold `Space`), right, middle, and back/forward with `[` and `]`.
+- **Jump grid** (`E`): a 3×3 grid labelled Q W E / A S D / Z X C that zooms in with each press. Two or three presses reach anywhere, in any app, whether or not it describes its buttons to macOS.
+- **Scroll areas** (`⇧⌘J`): each scrollable pane gets a number. Pick one, then scroll with the arrows or `J`/`K`, page with `Space`, or jump to the top or bottom with `T`/`B`.
+- **Saved spots and display jumps.** Save up to nine cursor positions, jump back with ```, and move between displays with `Tab`.
+- **A way in for awkward apps.** Some apps don't tell macOS where their buttons are, so labels (in any app that relies on that, Shortcat included) find little. No Mouse Mode can optionally read on-screen text with Apple's on-device text recognition to label those apps too. It needs Screen Recording permission, and nothing is saved or sent. Buttons that are only icons still need the grid or W A S D.
+
+It's easy to learn: setup is guided, a Practice window has nine hands-on lessons, and `H` shows every key. Every key and shortcut can be remapped.
+
+#### Shortcat vs No Mouse Mode at a glance
+
+|  | Shortcat | No Mouse Mode |
+|---|---|---|
+| Approach | Command palette: search to click, labels after a delay | Click labels, type to click, plus a keyboard-driven pointer |
+| Default shortcut | ⇧⌘Space | ⇧⌘Space labels, ⇧⌘/ type to click, ⇧⌘J scroll areas, ⇧⌘M on/off |
+| Right, double, modifier clicks | Yes | Yes, plus triple, middle, back/forward |
+| Move the pointer freely | Not among its listed features | Yes, W A S D with fast and precise modes |
+| Drag | Not among its listed features | Yes, hold Space |
+| Grid for any spot on screen | Not among its listed features | Yes, 3×3 zooming grid |
+| Scroll a chosen pane | Not among its listed features | Yes, numbered scroll areas |
+| Window and menu search, emoji | Yes | No (labels cover the menu bar and Dock) |
+| Apps without accessibility info | "Effectiveness may vary" | Optional on-device text recognition; grid and W A S D work everywhere |
+| macOS | 13+, Apple silicon and Intel | 14 Sonoma or later, Apple silicon and Intel |
+| Latest release | v0.12.2 beta, July 2025 | 2.0.0 |
+| Price (as of October 2026) | Free download; no price on its site | $19.99 one time for 1 Mac; no free trial |
+
+#### Who should pick which
+
+##### Pick Shortcat if…
+
+- you mostly click buttons and links that have a name, and still reach for the trackpad now and then;
+- you like a search box more than labels;
+- you want window search and menu search in the same tool;
+- you'd rather not pay, and you're fine with a beta that was last updated in July 2025.
+
+##### Pick No Mouse Mode if…
+
+- you want to stop using the mouse or trackpad, not just use it less, for comfort, a [broken trackpad](https://nomousemode.com/mac-trackpad-not-working) or [RSI](https://nomousemode.com/keyboard-only-mac-rsi);
+- you need to drag, select text, hit unlabeled spots or [move the pointer with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac);
+- you scroll a lot in multi-pane apps like mail, chat or code editors;
+- you want one app with a guided setup and a practice window, and a current, maintained release.
+
+If you're still weighing up label apps, [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) and [Homerow alternatives](https://nomousemode.com/homerow-alternatives) cover Shortcat's closest neighbour.
+
+#### Can you run Shortcat and No Mouse Mode together?
+
+Yes. Some people keep Shortcat for its menu and window search and use No Mouse Mode for the pointer, grid and scrolling. The one thing to sort out is the shortcut, because **both default to `⇧⌘Space`**. (Homerow's site demos show the same combination, so this isn't unusual.) In No Mouse Mode:
+
+1. Click the No Mouse Mode icon in the menu bar and choose **Settings…**.
+2. Open the **General** tab and find **Anywhere shortcuts**.
+3. Click the **Click labels** field and press the new shortcut you want.
+
+You can also skip the global shortcut: while No Mouse Mode is on, plain `F` opens click labels and `/` opens type to click. Shortcuts that use Command, Control or Option always reach the app in front, so they keep working while No Mouse Mode is on.
+
+#### The bottom line
+
+Shortcat is a clever, free-download way to click by name, and if that's the only mouse job you want to replace, it's worth a try. No Mouse Mode is for people who want the whole mouse on the keyboard: clicking by label or name, a smooth pointer, drag, a grid for anywhere on screen and pane-by-pane scrolling. The demo on this page uses the same keys as the app, so you can feel the difference before you [buy](https://nomousemode.com/#pricing). For the full field, see the [best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac).
+
+**Click by typing, then keep going without a mouse** No Mouse Mode gives you click labels, type to click, smooth W A S D movement, a jump grid and scroll areas in one menu bar app. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### What is Shortcat for Mac?
+
+Shortcat calls itself "the universal command palette for your Mac". It indexes the buttons and other elements on screen, and you type what you want to click, such as "ok" for an OK button. It also does right-clicks, double-clicks, clicks with modifier keys, window search, menu search and an emoji mode. Its default shortcut is `⇧⌘Space`.
+
+##### Is Shortcat free?
+
+Shortcat is a free download from its site or with `brew install shortcat`, and its official site lists no price as of October 2026. It is still a 0.x beta; version 0.12.1 moved its beta expiry date to 2030.
+
+##### Is Shortcat still maintained?
+
+Its latest release is v0.12.2 from July 3, 2025, so as of October 2026 it was last updated in July 2025. Before the 2025 releases, the previous one was v0.11.4 in January 2023. It still runs on macOS 13 and later; its docs say it was tested on macOS 15.3.
+
+##### Shortcat vs Homerow: which is better?
+
+They overlap a lot: both put keyboard labels on buttons and both let you search. Homerow is $49.99 one time (as of October 2026), is free to try with a reminder every 50 activations, needs macOS 13 or later and had releases in March 2026. Shortcat is a free-download beta last updated July 2025. See [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) for how Homerow compares with us.
+
+##### Can I use Shortcat and No Mouse Mode together?
+
+Yes, but both use `⇧⌘Space` by default, so change one. In No Mouse Mode, open the menu bar icon, choose Settings…, go to General and record a new Click labels shortcut under Anywhere shortcuts. You can also press `F` for labels while No Mouse Mode is on.
+
+##### Does No Mouse Mode have a free trial?
+
+No. No Mouse Mode is $19.99 one time for 1 Mac, with free updates. Instead of a trial, the [website](https://nomousemode.com/) has interactive in-browser demos that use the same keys as the app.
+
+#### Related
+
+- [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) — Price, trial and features of two Mac click-label apps.
+- [Homerow alternatives](https://nomousemode.com/homerow-alternatives) — Seven ways to click without a mouse, compared.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+
+---
+
+### How to right-click on a Mac without a mouse
+
+Source: https://nomousemode.com/right-click-without-mouse-mac  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+**With a trackpad, hold Control and click.** With no pointer at all, use Alternate pointer actions, Voice Control, the Contextual Menu key on some Apple keyboards, or No Mouse Mode, where Return right-clicks.
+
+> **Short answer:** Apple calls a right-click a **secondary click or Control-click**. If your trackpad works, **hold Control and click**. With no working pointer, macOS offers **Alternate pointer actions** (keyboard shortcuts for right-click) and **Voice Control**, and some Apple keyboards have a **Contextual Menu key**. Mouse Keys alone has no right-click key. In [No Mouse Mode](https://nomousemode.com/), **Return** right-clicks where the pointer is, and **⇧ with a label's last letter** right-clicks that button.
+
+#### 1. Control-click (needs a trackpad or mouse)
+
+The classic. Hold `Control` and click with the trackpad or mouse, and the shortcut menu opens. It's the right answer if your trackpad works but you don't have a two-button mouse.
+
+##### Change how the trackpad right-clicks
+
+Open System Settings → **Trackpad** (or **Mouse**) and use the **Secondary click** pop-up menu to choose how a right-click works on that device. If clicks aren't registering at all, see [what to do when your Mac trackpad isn't working](https://nomousemode.com/mac-trackpad-not-working).
+
+#### 2. The Contextual Menu key
+
+On the **Magic Keyboard with Touch ID and Numeric Keypad (USB-C)**, the Contextual Menu key, below F13, opens a shortcut menu. It's the closest thing to a dedicated right-click key on an Apple keyboard.
+
+#### 3. Alternate pointer actions (built in, keyboard only)
+
+Mouse Keys moves the pointer with `7` `8` `9` `U` `O` `J` `K` `L` and clicks with `I`, but Apple's Mouse Keys page lists no right-click key. For that, turn on **Alternate pointer actions**:
+
+1. Open System Settings → **Accessibility → Pointer Control**.
+2. Turn on **Alternate pointer actions**.
+3. Assign a keyboard shortcut to right-click. It also covers left-click, double-click and drag and drop, and can use switches or facial expressions instead of keys.
+
+Pair it with Mouse Keys to get the pointer where you want it first. Remember that Mouse Keys blocks typing while it's on. More on that in [how to move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac).
+
+#### 4. Voice Control
+
+Turn on System Settings → Accessibility → **Voice Control**. Say "Show numbers" to label what's on screen, then say a command with the item's number. Apple's [Voice Control commands](https://support.apple.com/guide/mac-help/use-voice-control-commands-mh40719/mac) page lists them. For spots without a label, "Show grid" puts a numbered grid over the screen and saying a number zooms in. "Hide numbers" and "Hide grid" put them away.
+
+#### 5. No Mouse Mode: right-click from the keyboard
+
+[No Mouse Mode](https://nomousemode.com/) gives you right-click in every one of its modes, so you never have to set it up separately.
+
+- **At the pointer:** press `⇧⌘M` to turn it on, move with `W` `A` `S` `D`, and press `Return` to right-click.
+- **On a button:** press `⇧⌘Space` for click labels, then hold `⇧` while typing the label's last letter. The button is right-clicked without moving the pointer by hand.
+- **By name:** press `⇧⌘/`, type part of the button's or text's name, and press `⇧Return`.
+- **Anywhere on screen:** press `E` for the jump grid, pick cells until you're on target, then press Return.
+
+When the menu opens, the arrow keys and Return pick an item. Labels depend on apps describing their buttons to macOS, which most do. The jump grid and W A S D work in any app.
+
+#### All the ways compared
+
+| Method | Needs a pointer device? | Setup | Best for |
+|---|---|---|---|
+| Control-click | Yes | None | Working trackpad, one-button mouse |
+| Contextual Menu key | No | Needs that specific keyboard | Owners of the Magic Keyboard with Numeric Keypad (USB-C) |
+| Alternate pointer actions + Mouse Keys | No | Two settings and a shortcut | Occasional right-clicks, free |
+| Voice Control | No | Turn on, learn commands | Hands-free use |
+| No Mouse Mode | No | Install, allow Accessibility | Frequent right-clicks from the keyboard, $19.99 one time for 1 Mac (as of October 2026) |
+
+#### Which one should you use?
+
+- **Trackpad works, no second button:** Control-click. Nothing to set up.
+- **Trackpad or mouse is dead right now:** Alternate pointer actions with Mouse Keys, or Voice Control. Both are free and built in. If your Bluetooth mouse simply dropped, Apple's tip is to press `⌘Space`, type Bluetooth File Exchange, press Return, then Return again to turn Bluetooth on. More fixes in [Mac trackpad not working](https://nomousemode.com/mac-trackpad-not-working).
+- **You right-click many times a day without touching the trackpad:** a keyboard app saves the most time, because the right-click is one key and you can aim at a button by its label instead of steering.
+
+#### Other clicks you'll need
+
+Right-click is rarely the only thing a trackpad does for you. Here's how the same tools handle the rest.
+
+- **Double-click:** Alternate pointer actions has a double-click action. In No Mouse Mode, press Space twice, or hold `⌥` with a label's last letter.
+- **Drag:** in Mouse Keys, `M` presses and holds and `.` releases. In No Mouse Mode, hold Space and move with W A S D.
+- **Command-click (new tab):** in No Mouse Mode, hold `⌘` with a label's last letter.
+- **Middle click and back / forward:** No Mouse Mode uses `M`, `[` and `]`.
+
+Every No Mouse Mode key can be remapped in Settings if Return doesn't suit you as the right-click key.
+
+#### Right-click, step by step with No Mouse Mode
+
+1. Press `⇧⌘M` to turn No Mouse Mode on.
+2. Move to the item with `W` `A` `S` `D` (hold Shift for speed), or press `E` and pick grid cells.
+3. Press `Return` to right-click.
+4. Or skip the pointer: press `⇧⌘Space` and hold `⇧` as you type a label's last letter.
+5. Pick from the menu with the arrows and Return.
+
+Right-click is one piece of going mouse-free. The full picture is in [how to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse), and if you're comparing tools, see [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) or [the best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac).
+
+**Right-click any button from the keyboard** In No Mouse Mode, Return right-clicks where the pointer is, and Shift with a label's last letter right-clicks that button. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### What is the keyboard shortcut for right-click on a Mac?
+
+macOS has no single right-click key on most keyboards. Holding Control while you click does it with a trackpad or mouse. The Magic Keyboard with Touch ID and Numeric Keypad (USB-C) has a Contextual Menu key. For a keyboard shortcut you set up yourself, turn on Alternate pointer actions in System Settings → Accessibility → Pointer Control. In [No Mouse Mode](https://nomousemode.com/), Return right-clicks.
+
+##### How do I right-click on a MacBook trackpad?
+
+Hold Control and click. To choose how secondary click works on the trackpad itself, open System Settings → Trackpad and use the Secondary click pop-up menu.
+
+##### Can Mouse Keys right-click?
+
+Apple's Mouse Keys page lists no right-click key. Its keys are I to click, M to press and hold, and the period to release. For right-click, turn on Alternate pointer actions in the same Pointer Control settings.
+
+##### How do I right-click with Voice Control?
+
+Turn on Voice Control in System Settings → Accessibility → Voice Control, say "Show numbers" to label what's on screen, then give a command for the numbered item. Apple's Voice Control command list has the full set.
+
+##### How do I right-click a specific button without moving the pointer?
+
+In [No Mouse Mode](https://nomousemode.com/), press Shift-Command-Space to show click labels, then hold Shift while you type the label's last letter. In type to click (Shift-Command-/), Shift-Return right-clicks the match.
+
+#### Related
+
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+- [Move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac) — Mouse Keys vs W A S D: exact keys and when each is enough.
+- [Trackpad not working?](https://nomousemode.com/mac-trackpad-not-working) — Keyboard-only first aid, and how to keep working until it's fixed.
+- [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys) — How to use Mac Mouse Keys, its limits, and an alternative.
+
+---
+
+### Vimac alternatives: what to use now that Vimac is Homerow
+
+Source: https://nomousemode.com/vimac-alternative  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+Vimac, the free open-source app that became Homerow, hasn't been updated since 2022. **Homerow is its official successor; No Mouse Mode, Shortcat, Scoot, Wooshy and macOS's own tools are the other options.**
+
+> **Short answer:** Vimac is no longer developed. Its README says "Vimac is now Homerow", and its last code change was on December 31, 2022. If you want the direct successor, that's [Homerow](https://www.homerow.app) ($49.99 once, free to try). If you want Vimac's hint labels and scroll mode plus a full keyboard mouse, try [No Mouse Mode](https://nomousemode.com/) ($19.99 once for one Mac). Scoot is the free, open-source pick. Shortcat and Wooshy suit people who'd rather type a button's name, and macOS's built-in tools are free.
+
+#### What happened to Vimac?
+
+[Vimac](https://github.com/nchudleigh/vimac) was a free, open-source (GPL-3.0) app for "keyboard-driven navigation" on macOS, with about 3,690 GitHub stars. Its README now says:
+
+- **"Vimac is now Homerow"**, described as "a refined, sleeker, more performant successor of Vimac."
+- The **last commit was December 31, 2022**. There are no GitHub releases.
+- The repository isn't archived, but nothing has changed since. vimacapp.com didn't respond when we checked in October 2026, and we found no Homebrew cask.
+
+So if Vimac is acting up on your Mac, or you're wondering whether it's safe to keep relying on it, the honest answer is that no fixes are coming. It's time to pick a maintained replacement.
+
+#### What Vimac users miss
+
+Vimac had two modes, and most people switching want both back:
+
+##### Hint mode
+
+Hold Space (the default) and hint text appears on the elements in the frontmost window. Type a hint to click, double-click or right-click that element.
+
+##### Scroll mode
+
+A red border marks the active scroll area, and H J K L scroll it, Vim style.
+
+The rest of this page maps those two modes onto each option available today.
+
+#### How each option maps to Vimac
+
+As of October 2026. "Not listed" means the app's own site or README doesn't mention it.
+
+| App | Like hint mode | Like scroll mode | Price | Maintained? |
+|---|---|---|---|---|
+| Homerow | Labels, plus search | Scroll mode | $49.99 once, free to try | Yes, 1.5.3 (March 2026) |
+| **No Mouse Mode** | Click labels, plus type to click | Scroll areas, J/K to scroll | $19.99 once (1 Mac), no trial | Yes, 2.0.0 |
+| Shortcat | Type to search; labels after 2 seconds | Not listed | Free download (no price on site) | Last updated July 2025 (beta) |
+| Scoot | Element mode in the focused window | Can scroll | Free, open source | Yes, v1.3 (March 2026) |
+| Wooshy | Type to search and click | Not listed | Free with naps; $3.88/mo or $46.28/yr | Yes |
+| macOS built-ins | Voice Control "Show numbers" | Not a dedicated mode | Free | Part of macOS |
+
+#### Homerow: the official successor
+
+[Homerow](https://www.homerow.app) is the app Vimac's README points to. Its site shows labels, search and scroll, and version 1.1.0 added extra scroll-mode commands. It's actively maintained (1.5.3 came out in March 2026) and needs macOS 13 or later.
+
+The big change for Vimac users is price: Homerow is **$49.99 once**, covering all your personal Macs and future updates, and it isn't open source. It's free to try, with a reminder every 50 activations. If you liked Vimac and just want it modernised, this is the natural next step. Our [Homerow vs No Mouse Mode comparison](https://nomousemode.com/no-mouse-mode-vs-homerow) has the full feature table.
+
+#### No Mouse Mode: Vimac's two modes, plus a keyboard mouse
+
+[No Mouse Mode](https://nomousemode.com/) covers both Vimac modes and then fills the gaps that hint labels leave.
+
+- **Hint mode → click labels.** `⇧⌘Space` labels every button, link, tab and menu, including the menu bar and the Dock. Type the letters to click. Hold Shift with the last letter to right-click or Option to double-click, just like Vimac's hint actions, or Command for a Command-click. Labels for a window stay the same each time.
+- **Scroll mode → scroll areas.** `⇧⌘J` numbers each scrollable pane. Pick one, then J and K scroll, Space pages, and T / B jump to the top or bottom.
+- **Type to click.** `⇧⌘/` lets you type part of a button's name instead of a hint (initials work).
+
+Beyond that, press `⇧⌘M` and the keyboard becomes a mouse: W A S D move the pointer smoothly, Space clicks or drags, Return right-clicks, and the arrow keys scroll. `E` opens a 3×3 jump grid that reaches anywhere in two or three presses, even in apps with no labels. An optional on-device text recognition mode adds labels in apps that don't describe their buttons to macOS. Every key can be remapped, and a Practice window with nine lessons gets you fluent.
+
+**Trade-offs:** there's no free trial (the site has interactive demos with the same keys), all sales are final, it isn't open source, and it needs macOS 14 Sonoma or later.
+
+#### Scoot: the free, open-source option
+
+If Vimac's open-source license mattered to you, [Scoot](https://github.com/mjrusso/scoot) is the closest in spirit. It's BSD-3-Clause and updated in March 2026. `⇧⌘J` shows labels on buttons and links in the focused window, which is close to Vimac's hint mode. `⇧⌘K` adds a grid across your screens and `⇧⌘L` a freestyle mode where you nudge the cursor with macOS, Emacs or vi text shortcuts. It can move, click, drag and scroll.
+
+Its README says it runs on macOS 11 and 12 and doesn't mention newer versions, so try it on your Mac before you rely on it. Note that its `⇧⌘J` default is the same as No Mouse Mode's scroll areas shortcut; both apps let you change it.
+
+#### Shortcat and Wooshy: type the name instead
+
+If you'd rather type what you see than learn hint letters, two apps are built around search.
+
+- **[Shortcat](https://shortcat.app)** is a command palette: press `⌘⇧Space`, type "ok" to click an OK button. After two seconds it shows one- to three-letter labels, so it also works a bit like hint mode. It supports right, double and modifier clicks, and window and menu search. It's a 0.x beta, last updated July 2025, and a free download. See [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat).
+- **[Wooshy](https://wooshy.app)** searches the whole interface, including the Dock and menu bar, and clicks. The free version "takes some random naps"; a subscription ($3.88 a month or $46.28 a year) keeps it running all the time. It needs macOS 14.6.
+
+Neither lists a scroll mode, so you'd scroll with the keyboard the usual way.
+
+#### macOS built-ins: free, if slower
+
+- **Voice Control** is the closest built-in to hint mode: say "Show numbers", then "Click" and a number. "Show grid" adds a numbered grid.
+- **Full Keyboard Access** lets you Tab between controls and press Space. See our [Full Keyboard Access guide](https://nomousemode.com/full-keyboard-access-mac).
+- **Mouse Keys** moves the pointer with keys, but you can't type text while it's on. Compared in [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys).
+
+#### Which one should a Vimac user pick?
+
+- **You want Vimac, but maintained:** Homerow.
+- **You want hint and scroll modes plus pointer movement, dragging and a grid:** [No Mouse Mode](https://nomousemode.com/).
+- **You want free and open source:** Scoot.
+- **You'd rather type names than hints:** Shortcat or Wooshy.
+- **You need something right now at no cost:** Voice Control or Full Keyboard Access.
+
+Came to Vimac from the browser? Read [Vimium for the whole Mac](https://nomousemode.com/vimium-for-mac). For the full field, see [Homerow alternatives](https://nomousemode.com/homerow-alternatives).
+
+**Hint labels and scroll mode, still maintained** No Mouse Mode is $19.99 once for one Mac, with free updates and no subscription. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### Is Vimac dead?
+
+Effectively, yes. Vimac's last code change was on December 31, 2022, it has no GitHub releases, and its README says "Vimac is now Homerow". The repository isn't archived, but no one is updating it. When we checked in October 2026, vimacapp.com didn't respond.
+
+##### Why is Vimac not working on my Mac?
+
+We can't say for certain what's wrong on your Mac. What we do know is that Vimac hasn't been updated since 2022, so problems that show up on newer macOS versions won't get fixes. First check that it still has Accessibility permission in System Settings. If it still doesn't work, it's time to move to a maintained app.
+
+##### Is Homerow the same as Vimac?
+
+Homerow is Vimac's successor. Vimac's README calls it "a refined, sleeker, more performant successor of Vimac." Unlike Vimac, Homerow is a paid app ($49.99 once as of October 2026, free to try) and isn't open source.
+
+##### Is there a free, open-source Vimac alternative?
+
+Scoot is free and open source (BSD-3-Clause) and was updated in March 2026. It has a label mode for buttons in the focused window, a grid mode and a freestyle pointer mode. Its README only says it runs on macOS 11 and 12, so test it on your version.
+
+##### Which Vimac alternative has a scroll mode?
+
+Homerow has a scroll mode. [No Mouse Mode](https://nomousemode.com/) has scroll areas (`⇧⌘J`): each pane gets a number, then J/K scroll, Space pages and T/B jump to the top or bottom. Scoot can scroll too.
+
+##### Can I still download Vimac?
+
+The source code is still on GitHub under GPL-3.0, but there are no GitHub releases and we found no Homebrew cask. Because it's unmaintained, we'd suggest one of the maintained options on this page instead.
+
+#### Related
+
+- [Homerow alternatives](https://nomousemode.com/homerow-alternatives) — Seven ways to click without a mouse, compared.
+- [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow) — Price, trial and features of two Mac click-label apps.
+- [Vimium for Mac](https://nomousemode.com/vimium-for-mac) — Vimium stops at the browser tab. How to get link hints in every Mac app.
+- [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat) — Search-to-click beta vs labels, pointer, grid and scroll areas.
+
+---
+
+### Vimium for Mac: link hints for every app, not just the browser
+
+Source: https://nomousemode.com/vimium-for-mac  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+Vimium and its cousins only label links inside a web page. **To press `f`-style hints in Finder, Mail, System Settings, the menu bar and the Dock, you need a Mac app that reads buttons through macOS accessibility.** Here's what carries over and how your keys translate.
+
+> **Short answer:** **Vimium can't leave the browser.** It's a browser extension, so its `f` link hints only reach the web page in the current tab. The same goes for Vimium C, Vimari and Vimlike. To get the same "press a key, type the letters, it's clicked" feel in Finder, System Settings, the menu bar, the Dock and every other app, you need a Mac app that reads buttons through macOS accessibility. [No Mouse Mode](https://nomousemode.com/) does that with `⇧⌘Space`, and Homerow, Shortcat and Scoot are worth a look too. Keep Vimium in the browser if you love it; the two get along fine.
+
+#### Why Vimium stops at the edge of the browser
+
+[Vimium](https://github.com/philc/vimium) describes itself as "a browser extension that provides keyboard-based navigation and control of the web". That last word is the limit. A browser extension can read and label the links in a web page because the browser hands it the page. It has no view of anything outside that page: not the browser's own toolbar, not Finder, not System Settings, not the menu bar or the Dock.
+
+So when people search for "Vimium for Mac apps" or "Vimium outside the browser", what they actually want is a different kind of tool: a Mac app that asks macOS where every button is. macOS exposes that through its accessibility system, the same information screen readers use. An app with Accessibility permission can put a label on each button in the front window, the menu bar and the Dock, and click it when you type the label.
+
+#### The Vimium family on a Mac, at a glance
+
+Checked against each project's own page in October 2026:
+
+| Extension | Browsers | Hint keys | Status | Works outside web pages? |
+|---|---|---|---|---|
+| Vimium | Chrome, Edge, Firefox | f current tab, F new tab | Active (MIT) | No |
+| Vimium C | Chrome/Chromium 102+ (incl. Edge), Firefox 101+ | f / F for links and buttons | Last commit April 2025 | No |
+| Vimari | Safari | f / F | Unmaintained since 2021 | No |
+| Vimlike | Safari (Mac, iPhone, iPad, Vision Pro) | f labels links, ⇧F background tab | Active, updated October 2026 | No |
+
+All four are free. If you only ever click things inside web pages, one of these is all you need, and there's no reason to pay for anything. The rest of this guide is for when you want the same habit in every other app on your Mac.
+
+#### Your Vimium keys, Mac-wide
+
+Here's how the Vimium-family habits translate to [No Mouse Mode](https://nomousemode.com/). We've only listed extension keys that we checked in each project's own docs; other Vimium commands exist, but they live inside the browser and have no Mac-wide twin.
+
+| Vimium habit | Extension key | No Mouse Mode, in any app |
+|---|---|---|
+| Show link hints, type one to click | f (all four) | ⇧⌘Space anywhere, or F while No Mouse Mode is on |
+| Open a link in a new tab | F (Vimium), ⇧F background tab (Vimlike) | Hold ⌘ while typing the last letter (a ⌘-click, so a new tab in browsers) |
+| Click several things in a row | Show hints again | Press Tab to keep labels coming back after each click |
+| Find something by its text | (in-page search) | Type to click: ⇧⌘/, type part of a button's name ("nf" finds New Folder), Return clicks |
+| Scroll down / up | j / k (Vimlike) | Arrow keys while on, or Scroll areas ⇧⌘J, then J / K |
+| Jump to top / bottom of a page | (in-page) | In Scroll areas: T / B; Space pages down |
+| Right-click a link | none | Hold ⇧ with the last letter |
+| Double-click | none | Hold ⌥ with the last letter |
+| Click the menu bar or Dock | can't | Labels cover the menu bar and the Dock too |
+| Click something with no label | can't | Jump grid (E) or move the pointer with W A S D |
+
+Every key and shortcut in No Mouse Mode can be remapped in Settings. Shortcuts that use ⌘, ⌃ or ⌥ always reach the app you're using, so ⌘C, ⌘W and friends keep working.
+
+#### How the Mac-wide version feels
+
+##### Click labels: the `f` you already know
+
+Press `⇧⌘Space` and every button, link, tab, menu, checkbox and field in the front window gets a short letter label, along with the menu bar and the Dock. Type the letters and it's clicked. This works whether No Mouse Mode is switched on or off. Labels for a window stay the same each time, so after a few days your fingers learn them, much like Vimium regulars learn their favourite hints.
+
+##### Type to click: when you know the word, not the label
+
+Press `⇧⌘/` and type what a button says. Case, spaces and accents are ignored, and initials work. Matches are outlined, `Tab` moves between them and Return clicks. It's the closest thing to searching your way to a link, but for the whole Mac. If this is the half you care about most, also read [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat), since Shortcat is built around exactly this.
+
+##### Scroll areas: `j` and `k` for any pane
+
+A Mac window often has several scrollable panes: a sidebar, a list, a preview. `⇧⌘J` numbers each one. Pick one by number (or `Tab`), then scroll with `J`/`K` or the arrows, page with `Space`, and jump to the top or bottom with `T` and `B`. More on this in [how to move the mouse with the keyboard on a Mac](https://nomousemode.com/move-mouse-with-keyboard-mac).
+
+##### The honest catch
+
+Vimium reads the web page itself. A Mac-wide app depends on each app describing its buttons to macOS. Most Mac apps and websites do. Some games, design canvases, remote desktops and older cross-platform apps don't, and they'll show few labels. For those, No Mouse Mode can optionally read the words on screen with Apple's on-device text recognition (it needs Screen Recording permission, and nothing is saved or sent). Buttons that are only icons still need the jump grid or W A S D, which work everywhere.
+
+#### Other ways to get Vimium-style hints on the whole Mac
+
+- **[Homerow](https://www.homerow.app)**: "Keyboard shortcuts for every button in macOS". Labels, scroll and search. $49.99 one time as of October 2026, free to try with a reminder every 50 activations, macOS 13 or later. Actively maintained. Compared in [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow).
+- **[Shortcat](https://shortcat.app)**: "the universal command palette for your Mac". You type what you want to click; after a short pause it also shows letter labels. Free download, still a 0.x beta, last updated July 2025.
+- **[Vimac](https://nomousemode.com/vimac-alternative)**: the free, open-source app that became Homerow. Its Hint-mode is the most Vimium-like of the lot, but it hasn't been updated since 2022.
+- **[Scoot](https://github.com/mjrusso/scoot)**: free and open source, with element labels on `⇧⌘J`, a grid mode and a freestyle mode. Its README says it runs on macOS 11 and 12 and doesn't state newer versions.
+- **Voice Control** (built into macOS): say "Show numbers", then "Click" and the number. It labels everything, but you speak instead of type.
+
+For the full field, see [the best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) and [Homerow alternatives](https://nomousemode.com/homerow-alternatives).
+
+#### Set it up in two minutes
+
+1. **Download and open No Mouse Mode.** Get it from [the download page](https://nomousemode.com/download) and drag it into Applications.
+2. **Allow Accessibility.** The first-run setup walks you through the one permission it needs and updates by itself when it's on.
+3. **Try your new `f`.** Open Finder and press `⇧⌘Space`. Type the letters on a sidebar item.
+4. **Try the extras.** `⇧⌘/` to type a button's name, `⇧⌘J` to scroll a pane. The Practice window has nine short lessons if you want a guided tour.
+
+It needs macOS 14 Sonoma or later on Apple silicon or Intel, and costs $19.99 one time for 1 Mac ([pricing](https://nomousemode.com/#pricing)). There's no free trial, but the live demo on this page uses the same keys. Questions go to [support](https://nomousemode.com/support).
+
+**Your Vimium habit, across the whole Mac.** Press ⇧⌘Space in any app, type the letters on a button, and it's clicked: Finder, Settings, the menu bar and the Dock included. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### Does Vimium work outside the browser on a Mac?
+
+No. Vimium is a browser extension, so it can only see the web page in the current tab. It can't label buttons in Finder, System Settings, the menu bar, the Dock or any other app. The same is true of Vimium C, Vimari and Vimlike. For the rest of the Mac you need a separate app that uses macOS accessibility, such as [No Mouse Mode](https://nomousemode.com/) or [Homerow and its alternatives](https://nomousemode.com/homerow-alternatives).
+
+##### Is there a Vimium for Safari?
+
+Vimium itself lists Chrome, Edge and Firefox, not Safari. For Safari there's Vimari (a Vimium port, free on the Mac App Store but not updated since 2021) and Vimlike (free, no in-app purchases, updated October 2026). Both still only work inside web pages.
+
+##### Can I keep using Vimium alongside a Mac-wide app?
+
+Yes. Vimium works inside the page and a Mac-wide app works through macOS, so they don't need to replace each other. You can keep `f` for the browser and use `⇧⌘Space` everywhere else. No Mouse Mode's labels also work on web pages that describe their buttons to macOS, which most do, so you can use one tool in both places if you prefer.
+
+##### Why are some buttons missing labels in some apps?
+
+Click labels depend on apps describing their buttons to macOS. Most Mac apps do. Some games, design canvases, remote desktops and older cross-platform apps don't. No Mouse Mode can optionally read on-screen text with Apple's on-device text recognition (it needs Screen Recording permission; nothing is saved or sent), and the jump grid and W A S D movement work in every app.
+
+##### Is there a free Vimium-style app for the whole Mac?
+
+Yes, a few. [Scoot](https://github.com/mjrusso/scoot) is free and open source, with element labels on `⇧⌘J`, but its README only states macOS 11 and 12. [Vimac](https://nomousemode.com/vimac-alternative) is free but hasn't been updated since 2022. Shortcat is a free download, still in beta. macOS's built-in Voice Control can also number every item, though you say the number rather than type it.
+
+##### What does No Mouse Mode cost and what Mac do I need?
+
+$19.99 one time for 1 Mac, with free updates and no subscription (as of October 2026). There's no free trial, but the website has interactive demos that use the same keys. It needs macOS 14 Sonoma or later and runs on Apple silicon and Intel. See [pricing](https://nomousemode.com/#pricing).
+
+#### Related
+
+- [Homerow alternatives](https://nomousemode.com/homerow-alternatives) — Seven ways to click without a mouse, compared.
+- [Vimac alternatives](https://nomousemode.com/vimac-alternative) — Vimac is now Homerow. What replaces it today.
+- [No Mouse Mode vs Shortcat](https://nomousemode.com/no-mouse-mode-vs-shortcat) — Search-to-click beta vs labels, pointer, grid and scroll areas.
+- [How to use a Mac without a mouse](https://nomousemode.com/how-to-use-mac-without-mouse) — Every built-in method and app, compared, with a 5-minute setup.
+
+---
+
+### warpd on Mac: fixes to try, and maintained alternatives for each mode
+
+Source: https://nomousemode.com/warpd-for-mac  
+Updated: 2026-10-31 · Author: Ahmed Gagan (maker of No Mouse Mode)
+
+**warpd does have a macOS build, but the last one is v1.3.5 from November 2022 and the project hasn't changed since June 2023.** Here's what to try when it stops working, and which maintained apps cover its hint, grid and normal modes.
+
+> **Short answer:** **warpd still has a macOS build, but it's old.** The last Mac release is v1.3.5 from November 2022, the last commit was June 2023, and the README doesn't say which macOS versions it supports. If it runs for you, it's free and great. If it stops working, try resetting its Accessibility permission (below). If you'd rather have something maintained, [No Mouse Mode](https://nomousemode.com/) covers all three warpd modes: hint mode becomes click labels, grid mode becomes the jump grid, and normal mode becomes W A S D movement. Scoot is a free option with a similar three-mode design.
+
+#### What warpd does
+
+[warpd](https://github.com/rvaiya/warpd) calls itself "a modal keyboard-driven virtual pointer". It's free and open source under the MIT license, with about 3,660 stars on GitHub, and it runs on X11, Wayland (sway/wlroots only) and macOS. It has three modes. In its docs, `A-M` means Alt+Meta, and Meta is Command on macOS, so `A-M-x` is `⌥⌘X`.
+
+- **Hint mode** (`⌥⌘X`): shows hints on screen; type one and the pointer warps there.
+- **Grid mode** (`⌥⌘G`): pick quadrants over and over with `u`/`i`/`j`/`k` until you're on target; `m`, `,` and `.` click left, middle and right.
+- **Normal mode** (`⌥⌘C`): move with `h` `j` `k` `l`, click with `m`/`,`/`.`, drag with `v`, quit with `Esc`.
+
+On a Mac you install it from a prebuilt v1.3.5 tarball plus `launchctl`, or build it from source with the Xcode command line tools.
+
+#### Is warpd still maintained?
+
+Here's what its GitHub repository shows as of October 2026:
+
+| Item | warpd |
+|---|---|
+| Last commit | June 3, 2023 |
+| Last macOS release | v1.3.5, November 5, 2022 |
+| Last release overall | v1.3.7-windows-alpha, April 26, 2023 |
+| Open issues | 90 |
+| Archived | No |
+| Minimum macOS | Not stated |
+
+So the fair summary is "not updated since 2023". That doesn't mean it's broken: plenty of finished tools keep working for years. It does mean that if a future macOS change breaks it, nobody is shipping a fix right now, and we can't promise either way how it behaves on the macOS you're running.
+
+#### warpd not working? Things to try
+
+1. **Check the Accessibility permission.** Open System Settings > Privacy & Security > Accessibility and make sure warpd is switched on. Tools that move the pointer need this.
+2. **Reset the permission after an upgrade.** warpd's README says upgrading may need `sudo tccutil reset Accessibility`. Be aware this clears the whole Accessibility list, so you may have to re-allow other apps afterwards. Then allow warpd again.
+3. **Expect the pointer-hiding quirk.** The README notes that warpd's trick for hiding the pointer doesn't work in some programs, iTerm being the example. That's a known limitation, not a broken install.
+4. **Check the open issues.** With 90 open issues on [GitHub](https://github.com/rvaiya/warpd/issues), someone may already have hit your problem and posted a workaround.
+
+If none of that helps, it may be time for something that's still being updated.
+
+#### Each warpd mode, mapped to No Mouse Mode
+
+[No Mouse Mode](https://nomousemode.com/) is a menu bar app with the same three ideas, plus a few warpd doesn't have. Every key can be remapped, so these are just the defaults.
+
+| warpd | warpd key | No Mouse Mode |
+|---|---|---|
+| Hint mode | ⌥⌘X, type a hint | Click labels: ⇧⌘Space anywhere (or F while on), type a label and it's clicked |
+| Grid mode | ⌥⌘G, quadrants on u i j k | Jump grid: E, a 3×3 grid on Q W E / A S D / Z X C that zooms with each press |
+| Normal mode | ⌥⌘C, move with h j k l | ⇧⌘M turns it on; move with W A S D (smooth, eases in) |
+| Left / middle / right click | m / , / . | Space / M / Return |
+| Drag | v | Hold Space and move |
+| Quit the mode | Esc | ⇧⌘M (or let it switch off when you click into a text box) |
+| Speed control | n/a here | Hold Shift for fast, Q for one-pixel precise |
+| Scrolling | n/a here | Arrow keys; Scroll areas ⇧⌘J numbers each pane |
+| Click by name | none | Type to click: ⇧⌘/, type part of a button's name |
+
+##### Hint mode → click labels
+
+This is the biggest difference. warpd's README describes its hints as positions on the screen; it doesn't say they come from buttons. No Mouse Mode's labels are put on real buttons, links, tabs, menus, the menu bar and the Dock, using what apps tell macOS about themselves, so typing a label clicks that item. Hold `⇧` with the last letter to right-click, `⌘` to ⌘-click, `⌥` to double-click or `⌃` to just move the pointer there. The trade-off: apps that don't describe their buttons show few labels. For those you can turn on on-device text recognition (it needs Screen Recording permission; nothing is saved or sent), or use the grid.
+
+##### Grid mode → jump grid
+
+warpd splits into four quadrants per press; No Mouse Mode splits into nine, laid out like the `Q`–`C` block under your left hand, so two or three presses reach anywhere. `Space` clicks, `Return` right-clicks, `Delete` goes back a level and `Tab` moves the grid to the next display. Like warpd's grid, it works in any app because it doesn't need to know what's on screen. The [keynav for Mac](https://nomousemode.com/keynav-for-mac) guide compares every keyboard grid on macOS.
+
+##### Normal mode → W A S D
+
+Instead of `h` `j` `k` `l`, movement defaults to `W` `A` `S` `D`, and it eases in so short taps are small and holding goes further. Shortcuts with ⌘, ⌃ or ⌥ still reach your apps while it's on. You also get back/forward buttons (`[` / `]`), saved spots (`Shift+1`–`9` to save, `1`–`9` to jump) and ``` to jump back. More in [how to move the mouse with the keyboard on a Mac](https://nomousemode.com/move-mouse-with-keyboard-mac).
+
+#### Other maintained options
+
+- **[Scoot](https://github.com/mjrusso/scoot)** (free, BSD-3, v1.3 in March 2026): the closest free match to warpd's shape, with element labels (`⇧⌘J`), a grid (`⇧⌘K`) and a freestyle mode that nudges the pointer with macOS, Emacs or vi keys (`⇧⌘L`). Its README says it runs on macOS 11 and 12 and doesn't mention newer versions.
+- **[Mouseless](https://mouseless.click)** (closed source, 14-day trial, prices not published on its site, v1.1.0 in October 2026): a grid mode on Left Command and a free-movement mode on Left Option with I/J/K/L.
+- **[Homerow](https://www.homerow.app)** ($49.99 one time as of October 2026, macOS 13 or later): labels, scroll and search. See [No Mouse Mode vs Homerow](https://nomousemode.com/no-mouse-mode-vs-homerow).
+- **Mouse Keys** (built in, free): fixed-pace pointer movement with `7` `8` `9` `U` `O` `J` `K` `L`. Compared in [No Mouse Mode vs Mouse Keys](https://nomousemode.com/no-mouse-mode-vs-mouse-keys).
+
+#### Which should you use?
+
+- **warpd still runs for you:** keep it. It's free and does the job.
+- **You want free and open source:** try Scoot, checking it on your macOS version first.
+- **You want all three modes plus type to click and scroll areas, maintained, with a guided setup:** [No Mouse Mode](https://nomousemode.com/), $19.99 one time for 1 Mac ([pricing](https://nomousemode.com/#pricing)), macOS 14 Sonoma or later on Apple silicon and Intel. No free trial, but the live demo on this page uses the same keys.
+
+The full field is in [the best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac).
+
+**warpd's three modes, in a maintained Mac app.** Click labels, a 3×3 jump grid and smooth W A S D movement, on macOS 14 Sonoma or later. Price and checkout: https://nomousemode.com/#pricing ($19.99 one-time for 1 Mac, free updates; macOS 14+ on Apple silicon and Intel).
+
+#### FAQ
+
+##### Does warpd work on macOS?
+
+warpd lists macOS as a supported platform, with a prebuilt v1.3.5 download or a source build using the Xcode command line tools. That macOS build is from November 2022, the last commit was June 2023, and the README doesn't state a minimum macOS version, so we can't tell you whether it works on yours. The only way to know is to try it.
+
+##### warpd stopped working after I upgraded it. What do I do?
+
+warpd's README notes that upgrading may need `sudo tccutil reset Accessibility`, so macOS asks for the Accessibility permission again. That command resets the Accessibility list, so other apps there may need to be allowed again too. Then re-allow warpd in System Settings > Privacy & Security > Accessibility.
+
+##### Is warpd abandoned?
+
+We'd say "not updated since 2023". The repository isn't archived and has 90 open issues, but the last commit was June 3, 2023 and the last macOS release was v1.3.5 on November 5, 2022. It's free and MIT-licensed, so it may still suit you if it runs on your Mac.
+
+##### What's the closest maintained alternative to warpd on a Mac?
+
+If you want free and open source with the same three-mode shape, look at [Scoot](https://github.com/mjrusso/scoot) (element, grid and freestyle modes, v1.3 in March 2026), though its README only states macOS 11 and 12. [No Mouse Mode](https://nomousemode.com/) covers all three warpd modes plus type to click and scroll areas, for $19.99 one time on macOS 14 or later.
+
+##### Are No Mouse Mode's click labels the same as warpd's hints?
+
+Not quite. warpd's README describes its hints as positions on the screen. No Mouse Mode's labels sit on real buttons, links, tabs and menus that apps describe to macOS, so typing one clicks that item. For apps that don't describe their buttons, it can optionally read on-screen text, and the jump grid and W A S D work everywhere.
+
+##### Can I use hjkl in No Mouse Mode like warpd's normal mode?
+
+The defaults are W A S D, but every key and shortcut can be remapped in Settings, so you can set movement to the keys your fingers already know.
+
+#### Related
+
+- [keynav for Mac](https://nomousemode.com/keynav-for-mac) — keynav is X11-only. The closest keyboard-grid options on macOS.
+- [Vimac alternatives](https://nomousemode.com/vimac-alternative) — Vimac is now Homerow. What replaces it today.
+- [Move the mouse with the keyboard](https://nomousemode.com/move-mouse-with-keyboard-mac) — Mouse Keys vs W A S D: exact keys and when each is enough.
+- [Best keyboard mouse apps for Mac](https://nomousemode.com/best-keyboard-mouse-apps-for-mac) — Twelve mouseless tools ranked by use case, with prices and status.
+

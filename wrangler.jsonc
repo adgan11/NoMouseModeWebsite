@@ -10,9 +10,13 @@
     "directory": "./",
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
     // The worker sees every request first, so the old address and www. redirect on every path.
     "run_worker_first": true
   },
+  // DataCheap analytics (datacheap.js). Secret: npx wrangler secret put DATACHEAP_TOKEN
+  "vars": { "DATACHEAP_SITE_ID": "dc_hq8y5egjussrn5", "DATACHEAP_DOMAIN": "nomousemode.com" },
+  "services": [{ "binding": "DATACHEAP", "service": "datacheap" }],
   "routes": [
     { "pattern": "nomousemode.com", "custom_domain": true },
     { "pattern": "www.nomousemode.com", "custom_domain": true },

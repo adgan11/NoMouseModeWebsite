@@ -1,0 +1,97 @@
+<!--meta
+{
+  "slug": "vimium-for-mac",
+  "title": "Vimium for Mac (2026): Link Hints in Every App, Not Just Chrome",
+  "description": "Vimium only works inside web pages. To get Vimium-style link hints in Finder, System Settings, the menu bar and every Mac app, you need an accessibility-based app.",
+  "og_description": "Vimium, Vimium C, Vimari and Vimlike stop at the browser tab. Here's how to get the same link-hint feel across your whole Mac, with a key-by-key map.",
+  "crumb": "Vimium for Mac",
+  "h1": "Vimium for Mac: link hints for every app, not just the browser",
+  "dek": "Vimium and its cousins only label links inside a web page. <strong>To press <kbd>f</kbd>-style hints in Finder, Mail, System Settings, the menu bar and the Dock, you need a Mac app that reads buttons through macOS accessibility.</strong> Here's what carries over and how your keys translate.",
+  "read": "7 min read",
+  "published": "2026-10-31",
+  "modified": "2026-10-31",
+  "headline": "Vimium for Mac: how to get Vimium-style link hints in every macOS app, with a key mapping table",
+  "cta": {
+    "title": "Your Vimium habit, across the whole Mac.",
+    "text": "Press ⇧⌘Space in any app, type the letters on a button, and it's clicked: Finder, Settings, the menu bar and the Dock included."
+  },
+  "faq": [
+    {"q": "Does Vimium work outside the browser on a Mac?", "a": "<p>No. Vimium is a browser extension, so it can only see the web page in the current tab. It can't label buttons in Finder, System Settings, the menu bar, the Dock or any other app. The same is true of Vimium C, Vimari and Vimlike. For the rest of the Mac you need a separate app that uses macOS accessibility, such as <a href=\"/\">No Mouse Mode</a> or <a href=\"homerow-alternatives\">Homerow and its alternatives</a>.</p>"},
+    {"q": "Is there a Vimium for Safari?", "a": "<p>Vimium itself lists Chrome, Edge and Firefox, not Safari. For Safari there's Vimari (a Vimium port, free on the Mac App Store but not updated since 2021) and Vimlike (free, no in-app purchases, updated October 2026). Both still only work inside web pages.</p>"},
+    {"q": "Can I keep using Vimium alongside a Mac-wide app?", "a": "<p>Yes. Vimium works inside the page and a Mac-wide app works through macOS, so they don't need to replace each other. You can keep <kbd>f</kbd> for the browser and use <kbd>⇧⌘Space</kbd> everywhere else. No Mouse Mode's labels also work on web pages that describe their buttons to macOS, which most do, so you can use one tool in both places if you prefer.</p>"},
+    {"q": "Why are some buttons missing labels in some apps?", "a": "<p>Click labels depend on apps describing their buttons to macOS. Most Mac apps do. Some games, design canvases, remote desktops and older cross-platform apps don't. No Mouse Mode can optionally read on-screen text with Apple's on-device text recognition (it needs Screen Recording permission; nothing is saved or sent), and the jump grid and W A S D movement work in every app.</p>"},
+    {"q": "Is there a free Vimium-style app for the whole Mac?", "a": "<p>Yes, a few. <a href=\"https://github.com/mjrusso/scoot\">Scoot</a> is free and open source, with element labels on <kbd>⇧⌘J</kbd>, but its README only states macOS 11 and 12. <a href=\"vimac-alternative\">Vimac</a> is free but hasn't been updated since 2022. Shortcat is a free download, still in beta. macOS's built-in Voice Control can also number every item, though you say the number rather than type it.</p>"},
+    {"q": "What does No Mouse Mode cost and what Mac do I need?", "a": "<p>$19.99 one time for 1 Mac, with free updates and no subscription (as of October 2026). There's no free trial, but the website has interactive demos that use the same keys. It needs macOS 14 Sonoma or later and runs on Apple silicon and Intel. See <a href=\"/#pricing\">pricing</a>.</p>"}
+  ],
+  "related": ["homerow-alternatives", "vimac-alternative", "no-mouse-mode-vs-shortcat", "how-to-use-mac-without-mouse"],
+  "card": {"title": "Vimium for Mac", "blurb": "Vimium stops at the browser tab. How to get link hints in every Mac app."},
+  "llm_q": "Is there a Vimium for the whole Mac / Vimium for macOS apps outside the browser?",
+  "priority": 0.7,
+  "mentions": [["Vimium", "https://github.com/philc/vimium"], ["Vimium C", "https://github.com/gdh1995/vimium-c"], ["Vimari", "https://github.com/televator-apps/vimari"], ["Homerow", "https://www.homerow.app"], ["Shortcat", "https://shortcat.app"], ["Scoot", "https://github.com/mjrusso/scoot"]]
+}
+-->
+<div class="verdict">
+  <span class="verdict-label">Short answer</span>
+  <p><strong>Vimium can't leave the browser.</strong> It's a browser extension, so its <kbd>f</kbd> link hints only reach the web page in the current tab. The same goes for Vimium C, Vimari and Vimlike. To get the same "press a key, type the letters, it's clicked" feel in Finder, System Settings, the menu bar, the Dock and every other app, you need a Mac app that reads buttons through macOS accessibility. <a href="/">No Mouse Mode</a> does that with <kbd>⇧⌘Space</kbd>, and Homerow, Shortcat and Scoot are worth a look too. Keep Vimium in the browser if you love it; the two get along fine.</p>
+</div>
+
+<h2>Why Vimium stops at the edge of the browser</h2>
+<p><a href="https://github.com/philc/vimium">Vimium</a> describes itself as "a browser extension that provides keyboard-based navigation and control of the web". That last word is the limit. A browser extension can read and label the links in a web page because the browser hands it the page. It has no view of anything outside that page: not the browser's own toolbar, not Finder, not System Settings, not the menu bar or the Dock.</p>
+<p>So when people search for "Vimium for Mac apps" or "Vimium outside the browser", what they actually want is a different kind of tool: a Mac app that asks macOS where every button is. macOS exposes that through its accessibility system, the same information screen readers use. An app with Accessibility permission can put a label on each button in the front window, the menu bar and the Dock, and click it when you type the label.</p>
+
+<h2>The Vimium family on a Mac, at a glance</h2>
+<p>Checked against each project's own page in October 2026:</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th>Extension</th><th>Browsers</th><th>Hint keys</th><th>Status</th><th>Works outside web pages?</th></tr>
+  <tr><td><a href="https://github.com/philc/vimium">Vimium</a></td><td>Chrome, Edge, Firefox</td><td><kbd>f</kbd> current tab, <kbd>F</kbd> new tab</td><td>Active (MIT)</td><td><span class="no">No</span></td></tr>
+  <tr><td><a href="https://github.com/gdh1995/vimium-c">Vimium C</a></td><td>Chrome/Chromium 102+ (incl. Edge), Firefox 101+</td><td><kbd>f</kbd> / <kbd>F</kbd> for links and buttons</td><td>Last commit April 2025</td><td><span class="no">No</span></td></tr>
+  <tr><td><a href="https://github.com/televator-apps/vimari">Vimari</a></td><td>Safari</td><td><kbd>f</kbd> / <kbd>F</kbd></td><td>Unmaintained since 2021</td><td><span class="no">No</span></td></tr>
+  <tr><td>Vimlike</td><td>Safari (Mac, iPhone, iPad, Vision Pro)</td><td><kbd>f</kbd> labels links, <kbd>⇧F</kbd> background tab</td><td>Active, updated October 2026</td><td><span class="no">No</span></td></tr>
+</table></div>
+<p>All four are free. If you only ever click things inside web pages, one of these is all you need, and there's no reason to pay for anything. The rest of this guide is for when you want the same habit in every other app on your Mac.</p>
+
+<h2>Your Vimium keys, Mac-wide</h2>
+<p>Here's how the Vimium-family habits translate to <a href="/">No Mouse Mode</a>. We've only listed extension keys that we checked in each project's own docs; other Vimium commands exist, but they live inside the browser and have no Mac-wide twin.</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th>Vimium habit</th><th>Extension key</th><th class="hero-col">No Mouse Mode, in any app</th></tr>
+  <tr><td>Show link hints, type one to click</td><td><kbd>f</kbd> (all four)</td><td class="hero-col"><kbd>⇧⌘Space</kbd> anywhere, or <kbd>F</kbd> while No Mouse Mode is on</td></tr>
+  <tr><td>Open a link in a new tab</td><td><kbd>F</kbd> (Vimium), <kbd>⇧F</kbd> background tab (Vimlike)</td><td class="hero-col">Hold <kbd>⌘</kbd> while typing the last letter (a ⌘-click, so a new tab in browsers)</td></tr>
+  <tr><td>Click several things in a row</td><td>Show hints again</td><td class="hero-col">Press <kbd>Tab</kbd> to keep labels coming back after each click</td></tr>
+  <tr><td>Find something by its text</td><td>(in-page search)</td><td class="hero-col">Type to click: <kbd>⇧⌘/</kbd>, type part of a button's name ("nf" finds New Folder), Return clicks</td></tr>
+  <tr><td>Scroll down / up</td><td><kbd>j</kbd> / <kbd>k</kbd> (Vimlike)</td><td class="hero-col">Arrow keys while on, or Scroll areas <kbd>⇧⌘J</kbd>, then <kbd>J</kbd> / <kbd>K</kbd></td></tr>
+  <tr><td>Jump to top / bottom of a page</td><td>(in-page)</td><td class="hero-col">In Scroll areas: <kbd>T</kbd> / <kbd>B</kbd>; <kbd>Space</kbd> pages down</td></tr>
+  <tr><td>Right-click a link</td><td>none</td><td class="hero-col">Hold <kbd>⇧</kbd> with the last letter</td></tr>
+  <tr><td>Double-click</td><td>none</td><td class="hero-col">Hold <kbd>⌥</kbd> with the last letter</td></tr>
+  <tr><td>Click the menu bar or Dock</td><td>can't</td><td class="hero-col">Labels cover the menu bar and the Dock too</td></tr>
+  <tr><td>Click something with no label</td><td>can't</td><td class="hero-col">Jump grid (<kbd>E</kbd>) or move the pointer with <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd></td></tr>
+</table></div>
+<p class="note">Every key and shortcut in No Mouse Mode can be remapped in Settings. Shortcuts that use ⌘, ⌃ or ⌥ always reach the app you're using, so ⌘C, ⌘W and friends keep working.</p>
+
+<h2>How the Mac-wide version feels</h2>
+<h3>Click labels: the <kbd>f</kbd> you already know</h3>
+<p>Press <kbd>⇧⌘Space</kbd> and every button, link, tab, menu, checkbox and field in the front window gets a short letter label, along with the menu bar and the Dock. Type the letters and it's clicked. This works whether No Mouse Mode is switched on or off. Labels for a window stay the same each time, so after a few days your fingers learn them, much like Vimium regulars learn their favourite hints.</p>
+<h3>Type to click: when you know the word, not the label</h3>
+<p>Press <kbd>⇧⌘/</kbd> and type what a button says. Case, spaces and accents are ignored, and initials work. Matches are outlined, <kbd>Tab</kbd> moves between them and Return clicks. It's the closest thing to searching your way to a link, but for the whole Mac. If this is the half you care about most, also read <a href="no-mouse-mode-vs-shortcat">No Mouse Mode vs Shortcat</a>, since Shortcat is built around exactly this.</p>
+<h3>Scroll areas: <kbd>j</kbd> and <kbd>k</kbd> for any pane</h3>
+<p>A Mac window often has several scrollable panes: a sidebar, a list, a preview. <kbd>⇧⌘J</kbd> numbers each one. Pick one by number (or <kbd>Tab</kbd>), then scroll with <kbd>J</kbd>/<kbd>K</kbd> or the arrows, page with <kbd>Space</kbd>, and jump to the top or bottom with <kbd>T</kbd> and <kbd>B</kbd>. More on this in <a href="move-mouse-with-keyboard-mac">how to move the mouse with the keyboard on a Mac</a>.</p>
+<h3>The honest catch</h3>
+<p>Vimium reads the web page itself. A Mac-wide app depends on each app describing its buttons to macOS. Most Mac apps and websites do. Some games, design canvases, remote desktops and older cross-platform apps don't, and they'll show few labels. For those, No Mouse Mode can optionally read the words on screen with Apple's on-device text recognition (it needs Screen Recording permission, and nothing is saved or sent). Buttons that are only icons still need the jump grid or W A S D, which work everywhere.</p>
+
+<h2>Other ways to get Vimium-style hints on the whole Mac</h2>
+<ul>
+  <li><strong><a href="https://www.homerow.app">Homerow</a></strong>: "Keyboard shortcuts for every button in macOS". Labels, scroll and search. $49.99 one time as of October 2026, free to try with a reminder every 50 activations, macOS 13 or later. Actively maintained. Compared in <a href="no-mouse-mode-vs-homerow">No Mouse Mode vs Homerow</a>.</li>
+  <li><strong><a href="https://shortcat.app">Shortcat</a></strong>: "the universal command palette for your Mac". You type what you want to click; after a short pause it also shows letter labels. Free download, still a 0.x beta, last updated July 2025.</li>
+  <li><strong><a href="vimac-alternative">Vimac</a></strong>: the free, open-source app that became Homerow. Its Hint-mode is the most Vimium-like of the lot, but it hasn't been updated since 2022.</li>
+  <li><strong><a href="https://github.com/mjrusso/scoot">Scoot</a></strong>: free and open source, with element labels on <kbd>⇧⌘J</kbd>, a grid mode and a freestyle mode. Its README says it runs on macOS 11 and 12 and doesn't state newer versions.</li>
+  <li><strong>Voice Control</strong> (built into macOS): say "Show numbers", then "Click" and the number. It labels everything, but you speak instead of type.</li>
+</ul>
+<p>For the full field, see <a href="best-keyboard-mouse-apps-for-mac">the best keyboard mouse apps for Mac</a> and <a href="homerow-alternatives">Homerow alternatives</a>.</p>
+
+<h2>Set it up in two minutes</h2>
+<ol class="steps">
+  <li><strong>Download and open No Mouse Mode.</strong> Get it from <a href="/download">the download page</a> and drag it into Applications.</li>
+  <li><strong>Allow Accessibility.</strong> The first-run setup walks you through the one permission it needs and updates by itself when it's on.</li>
+  <li><strong>Try your new <kbd>f</kbd>.</strong> Open Finder and press <kbd>⇧⌘Space</kbd>. Type the letters on a sidebar item.</li>
+  <li><strong>Try the extras.</strong> <kbd>⇧⌘/</kbd> to type a button's name, <kbd>⇧⌘J</kbd> to scroll a pane. The Practice window has nine short lessons if you want a guided tour.</li>
+</ol>
+<p>It needs macOS 14 Sonoma or later on Apple silicon or Intel, and costs $19.99 one time for 1 Mac (<a href="/#pricing">pricing</a>). There's no free trial, but the live demo on this page uses the same keys. Questions go to <a href="/support">support</a>.</p>

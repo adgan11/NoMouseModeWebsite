@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>warpd on Mac (2026): Not Working? Fixes and Maintained Options</title>
+  <meta name="description" content="warpd still installs on macOS, but its last Mac release was November 2022 and it hasn&#x27;t changed since June 2023. Fixes, plus maintained apps for each warpd mode.">
+  <meta name="author" content="Ahmed Gagan">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://nomousemode.com/warpd-for-mac">
+  <link rel="alternate" type="text/markdown" href="https://nomousemode.com/warpd-for-mac.md" title="warpd on Mac (2026): Not Working? Fixes and Maintained Options (Markdown)">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="No Mouse Mode">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="warpd on Mac (2026): Not Working? Fixes and Maintained Options">
+  <meta property="og:description" content="warpd&#x27;s hint, grid and normal modes on macOS: what to try when it stops working, and the maintained Mac apps that cover each mode.">
+  <meta property="og:url" content="https://nomousemode.com/warpd-for-mac">
+  <meta property="og:image" content="https://nomousemode.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="No Mouse Mode: your keyboard is the mouse">
+  <meta property="article:published_time" content="2026-10-31">
+  <meta property="article:modified_time" content="2026-10-31">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@ahmedgagan11">
+  <meta name="twitter:title" content="warpd on Mac (2026): Not Working? Fixes and Maintained Options">
+  <meta name="twitter:description" content="warpd&#x27;s hint, grid and normal modes on macOS: what to try when it stops working, and the maintained Mac apps that cover each mode.">
+  <meta name="twitter:image" content="https://nomousemode.com/og-image.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=20261031">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://nomousemode.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "warpd for Mac",
+      "item": "https://nomousemode.com/warpd-for-mac"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://nomousemode.com/warpd-for-mac#article",
+  "headline": "warpd on macOS: troubleshooting, maintenance status and maintained alternatives for hint, grid and normal mode",
+  "description": "warpd still installs on macOS, but its last Mac release was November 2022 and it hasn't changed since June 2023. Fixes, plus maintained apps for each warpd mode.",
+  "image": "https://nomousemode.com/og-image.png",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "name": "Ahmed Gagan",
+    "url": "https://x.com/ahmedgagan11"
+  },
+  "publisher": {
+    "@id": "https://nomousemode.com/#org"
+  },
+  "mainEntityOfPage": "https://nomousemode.com/warpd-for-mac",
+  "about": {
+    "@id": "https://nomousemode.com/#app"
+  },
+  "mentions": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "warpd",
+      "url": "https://github.com/rvaiya/warpd"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Scoot",
+      "url": "https://github.com/mjrusso/scoot"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Homerow",
+      "url": "https://www.homerow.app"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Mouseless",
+      "url": "https://mouseless.click"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does warpd work on macOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "warpd lists macOS as a supported platform, with a prebuilt v1.3.5 download or a source build using the Xcode command line tools. That macOS build is from November 2022, the last commit was June 2023, and the README doesn't state a minimum macOS version, so we can't tell you whether it works on yours. The only way to know is to try it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "warpd stopped working after I upgraded it. What do I do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "warpd's README notes that upgrading may need sudo tccutil reset Accessibility, so macOS asks for the Accessibility permission again. That command resets the Accessibility list, so other apps there may need to be allowed again too. Then re-allow warpd in System Settings > Privacy & Security > Accessibility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is warpd abandoned?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We'd say \"not updated since 2023\". The repository isn't archived and has 90 open issues, but the last commit was June 3, 2023 and the last macOS release was v1.3.5 on November 5, 2022. It's free and MIT-licensed, so it may still suit you if it runs on your Mac."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the closest maintained alternative to warpd on a Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you want free and open source with the same three-mode shape, look at Scoot (element, grid and freestyle modes, v1.3 in March 2026), though its README only states macOS 11 and 12. No Mouse Mode covers all three warpd modes plus type to click and scroll areas, for $19.99 one time on macOS 14 or later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are No Mouse Mode's click labels the same as warpd's hints?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not quite. warpd's README describes its hints as positions on the screen. No Mouse Mode's labels sit on real buttons, links, tabs and menus that apps describe to macOS, so typing one clicks that item. For apps that don't describe their buttons, it can optionally read on-screen text, and the jump grid and W A S D work everywhere."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use hjkl in No Mouse Mode like warpd's normal mode?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The defaults are W A S D, but every key and shortcut can be remapped in Settings, so you can set movement to the keys your fingers already know."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="No Mouse Mode home"><img src="/icon-sm.png" alt="" width="28" height="28"><span>No Mouse Mode</span></a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="/#demo">Demo</a><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="/how-to-use-mac-without-mouse">Guides</a><a href="/support">Support</a>
+    </nav>
+    <a class="btn btn-dark btn-sm" href="/buy/1">Buy — $19.99</a>
+  </div>
+</header>
+
+<main id="main" class="article">
+  <div class="wrap-article">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a><span class="sep">›</span><span>warpd for Mac</span>
+    </nav>
+
+    <header class="article-head">
+      <h1 class="display">warpd on Mac: fixes to try, and maintained alternatives for each mode</h1>
+      <p class="article-dek"><strong>warpd does have a macOS build, but the last one is v1.3.5 from November 2022 and the project hasn't changed since June 2023.</strong> Here's what to try when it stops working, and which maintained apps cover its hint, grid and normal modes.</p>
+      <p class="article-meta">Updated October 2026 · 7 min read · by <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a>, maker of No Mouse Mode</p>
+    </header>
+
+    <div class="article-body">
+<div class="verdict">
+  <span class="verdict-label">Short answer</span>
+  <p><strong>warpd still has a macOS build, but it's old.</strong> The last Mac release is v1.3.5 from November 2022, the last commit was June 2023, and the README doesn't say which macOS versions it supports. If it runs for you, it's free and great. If it stops working, try resetting its Accessibility permission (below). If you'd rather have something maintained, <a href="/">No Mouse Mode</a> covers all three warpd modes: hint mode becomes click labels, grid mode becomes the jump grid, and normal mode becomes W A S D movement. Scoot is a free option with a similar three-mode design.</p>
+</div>
+    </div>
+    <div class="article-demo-wrap">
+      <p class="article-demo-label">Try it right here: this is a working model of No Mouse Mode, not a video. Click it, then use the keys.</p>
+<section class="demo-section article-demo" id="demo" aria-labelledby="demo-title">
+      <h2 class="sr-only" id="demo-title">Interactive demo</h2>
+      <div class="demo-layout">
+        <div class="demo-main">
+        <div class="mac" id="hero-stage" aria-label="A pretend Mac desktop. Click it, then use W A S D to move, Space to click, F for click labels, / to type to click and E for the jump grid.">
+          <div class="mac-menubar">
+            <svg class="mb-apple" viewBox="0 0 17 20" aria-hidden="true"><path d="M13.6 10.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8C3.6 5.1 2 6.1 1.2 7.6c-1.7 2.9-.4 7.3 1.2 9.7.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.4-3.9zM11.2 3.4c.7-.8 1.1-1.9 1-3-.9 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3z"/></svg>
+            <b class="mb-app">Finder</b>
+            <span class="mb-item" data-click data-menu="File">File</span>
+            <span class="mb-item" data-click data-menu="Edit">Edit</span>
+            <span class="mb-item" data-click data-menu="View">View</span>
+            <span class="mb-item hide-sm" data-click data-menu="Go">Go</span>
+            <span class="mb-item hide-sm" data-click data-menu="Window">Window</span>
+            <span class="mb-spacer"></span>
+            <span class="mb-status" aria-hidden="true">
+              <svg viewBox="0 0 26 13"><rect x=".5" y=".5" width="22" height="12" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2.2" y="2.2" width="15" height="8.6" rx="1.8"/><path d="M24 4.5v4c.9-.3 1.5-1 1.5-2s-.6-1.7-1.5-2z" opacity=".45"/></svg>
+              <svg viewBox="0 0 18 13"><path d="M9 12.4 6.6 9.8a3.4 3.4 0 0 1 4.8 0zM4.3 7.5a6.6 6.6 0 0 1 9.4 0l1.6-1.7a9 9 0 0 0-12.6 0zM1.6 4.6a10.4 10.4 0 0 1 14.8 0L18 3A12.7 12.7 0 0 0 0 3z"/></svg>
+              <svg viewBox="0 0 14 14"><circle cx="5.8" cy="5.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m9.2 9.2 3.8 3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <svg viewBox="0 0 16 14"><rect x=".8" y=".8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12.4" cy="3.5" r="1.6"/><rect x=".8" y="7.8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="3.6" cy="10.5" r="1.6"/></svg>
+            </span>
+            <span class="mb-nmm" title="No Mouse Mode"><img src="/icon-sm.png" alt="" width="14" height="14"></span>
+            <span class="mb-clock">Tue 22 Oct&nbsp;&nbsp;9:41</span>
+          </div>
+
+          <div class="desk">
+            <div class="desk-icon" data-drag data-click data-file="report" style="left:62%;top:9%">
+              <img class="ico-img" src="/img/icons/pdf.svg" alt="" draggable="false"><span class="ico-label">Report.pdf</span>
+            </div>
+            <div class="desk-icon" data-drop data-click data-folder="projects" style="left:80%;top:9%">
+              <img class="ico-img" src="/img/icons/folder.svg" alt="" draggable="false"><span class="ico-label">Projects</span>
+            </div>
+            <div class="desk-icon" data-click data-app="notes" style="left:80%;top:37%">
+              <img class="ico-img" src="/img/icons/notes.svg" alt="" draggable="false"><span class="ico-label">Notes</span>
+            </div>
+            <div class="desk-icon" data-click data-file="photo" style="left:62%;top:37%">
+              <img class="ico-img" src="/img/icons/photo.svg" alt="" draggable="false"><span class="ico-label">Sunset.png</span>
+            </div>
+            <button class="grid-target" type="button" data-click data-target style="left:16%;top:80%" aria-label="Target"><span></span></button>
+
+            <article class="win win-guide" data-win="guide" style="left:3%;top:6%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Field Guide</span></header>
+              <div class="win-body guide-body" data-scrollbox="guide">
+                <p class="kicker">Field guide</p>
+                <h3>Working without a mouse</h3>
+                <p>Point at this window, then hold <kbd>↓</kbd> to scroll. The photos below scroll sideways with <kbd>←</kbd> and <kbd>→</kbd>.</p>
+                <div class="strip" data-scrollbox="strip">
+                  <div class="photo p1">Coast</div><div class="photo p2">Dunes</div><div class="photo p3">Forest</div>
+                  <div class="photo p4">Lake</div><div class="photo p5">Canyon</div><div class="photo p6">Glacier</div>
+                </div>
+                <p>Hold <kbd>Shift</kbd> to cross the screen fast. Hold <kbd>Q</kbd> to move one pixel per tap.</p>
+                <p>Tap <kbd>Space</kbd> twice to double-click. Hold it and move to drag, let go to drop.</p>
+                <p><kbd>E</kbd> splits the screen into nine cells named after the keys under your left hand. Press one and the pointer jumps there.</p>
+                <p><kbd>F</kbd> puts a little letter on every button in the front window. Type it and that button is clicked.</p>
+                <p><kbd>/</kbd> lets you type a button’s name instead. <kbd>H</kbd> shows every key.</p>
+                <p class="guide-end">You reached the end. Nice scrolling.</p>
+              </div>
+            </article>
+
+            <article class="win win-notes" data-win="notes" hidden style="left:47%;top:34%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Notes</span></header>
+              <div class="notes-toolbar">
+                <span class="tb-btn" data-click data-action="new">New</span>
+                <span class="tb-btn" data-click data-action="bold"><b>B</b></span>
+                <span class="tb-btn" data-click data-action="list">List</span>
+                <span class="tb-btn" data-click data-action="share">Share</span>
+                <span class="tb-btn tb-primary" data-click data-action="save">Save</span>
+              </div>
+              <div class="win-body notes-body">
+                <p class="notes-title">Groceries</p>
+                <p>Oats, coffee, lemons. Click <b>Save</b> without touching the trackpad: press <kbd>F</kbd> and type its letters.</p>
+              </div>
+            </article>
+
+            <div class="ctx-menu" hidden data-ctx>
+              <span class="ctx-item" data-click data-ctx-item="folder">New Folder</span>
+              <span class="ctx-item" data-click data-ctx-item="info">Get Info</span>
+              <span class="ctx-sep"></span>
+              <span class="ctx-item" data-click data-ctx-item="wallpaper">Change Wallpaper…</span>
+            </div>
+
+            <div class="dock" data-dock>
+              <span class="dock-app running" data-click data-dock-app="Finder" title="Finder"><img src="/img/icons/finder.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Safari" title="Safari"><img src="/img/icons/safari.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Mail" title="Mail"><img src="/img/icons/mail.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Messages" title="Messages"><img src="/img/icons/messages.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Photos" title="Photos"><img src="/img/icons/photos.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Notes" title="Notes"><img src="/img/icons/notes.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Music" title="Music"><img src="/img/icons/music.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Calendar" title="Calendar"><img src="/img/icons/calendar.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="System Settings" title="System Settings"><img src="/img/icons/settings.svg" alt="" draggable="false"></span>
+              <span class="dock-sep"></span>
+              <span class="dock-app" data-click data-dock-app="Trash" title="Trash"><img src="/img/icons/trash.svg" alt="" draggable="false"></span>
+            </div>
+          </div>
+
+          <div class="nm-on-badge" aria-hidden="true">No Mouse ON</div>
+          <div class="toast" role="status" aria-live="polite"></div>
+          <div class="cover" data-cover>
+            <button class="btn btn-accent cover-btn" type="button">Try it yourself</button>
+            <p>Then use your keyboard. <kbd>Esc</kbd> lets go.</p>
+          </div>
+        </div>
+      <div class="keypad" data-nm-keypad="hero-stage" aria-label="On-screen keys">
+          <div class="kp-group kp-letters">
+            <button type="button" data-key="KeyQ">Q</button><button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyE">E</button><button type="button" data-key="KeyF">F</button>
+            <button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button><button type="button" data-key="ShiftLeft" data-latch>⇧</button>
+          </div>
+          <div class="kp-group kp-arrows">
+            <button type="button" data-key="ArrowUp" class="kp-up">↑</button>
+            <button type="button" data-key="ArrowLeft">←</button><button type="button" data-key="ArrowDown">↓</button><button type="button" data-key="ArrowRight">→</button>
+          </div>
+          <div class="kp-group kp-actions">
+            <button type="button" data-key="Escape">esc</button><button type="button" data-key="Backspace">⌫</button>
+            <button type="button" data-key="Space" class="kp-space">space</button><button type="button" data-key="Enter">return</button>
+            <button type="button" data-key="KeyH">H</button><button type="button" data-key="Slash" data-char="/">/</button>
+          </div>
+        </div>
+        </div>
+
+        <aside class="challenges" aria-label="Challenges">
+          <div class="ch-head"><h3>Challenges</h3><span class="ch-count"><b data-ch-count>0</b> of 8</span></div>
+          <ol class="ch-list">
+            <li data-ch="move">Move the pointer with <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></li>
+            <li data-ch="open">Double-click <b>Notes</b>: <kbd>Space</kbd> twice</li>
+            <li data-ch="drag">Drag <b>Report.pdf</b> into <b>Projects</b>: hold <kbd>Space</kbd> and move</li>
+            <li data-ch="scroll">Scroll the Field Guide down <kbd>↓</kbd> and sideways <kbd>→</kbd></li>
+            <li data-ch="grid">Press <kbd>E</kbd>, jump onto the <b>target</b>, then <kbd>Space</kbd></li>
+            <li data-ch="hint">Press <kbd>F</kbd> and click <b>Save</b> in Notes by its letters</li>
+            <li data-ch="search">Press <kbd>/</kbd>, type <b>music</b>, press <kbd>Return</kbd></li>
+            <li data-ch="menu">Right-click the desktop with <kbd>Return</kbd>, pick <b>New Folder</b></li>
+          </ol>
+          <p class="ch-tip">Hold <kbd>Shift</kbd> for fast, <kbd>Q</kbd> for precise. Lost? Press <kbd>H</kbd>.</p>
+          <button class="link-btn" type="button" data-reset>Reset demo</button>
+          <div class="ch-done" hidden>
+            <p><b>You've got it.</b> That's the whole app — on your real Mac it works in every app.</p>
+            <a class="btn btn-accent btn-sm" href="#pricing">Get No Mouse Mode</a>
+          </div>
+        </aside>
+      </div>
+
+    </section>
+    </div>
+    <div class="article-body after-demo">
+<h2>What warpd does</h2>
+<p><a href="https://github.com/rvaiya/warpd">warpd</a> calls itself "a modal keyboard-driven virtual pointer". It's free and open source under the MIT license, with about 3,660 stars on GitHub, and it runs on X11, Wayland (sway/wlroots only) and macOS. It has three modes. In its docs, <code>A-M</code> means Alt+Meta, and Meta is Command on macOS, so <code>A-M-x</code> is <kbd>⌥⌘X</kbd>.</p>
+<ul>
+  <li><strong>Hint mode</strong> (<kbd>⌥⌘X</kbd>): shows hints on screen; type one and the pointer warps there.</li>
+  <li><strong>Grid mode</strong> (<kbd>⌥⌘G</kbd>): pick quadrants over and over with <kbd>u</kbd>/<kbd>i</kbd>/<kbd>j</kbd>/<kbd>k</kbd> until you're on target; <kbd>m</kbd>, <kbd>,</kbd> and <kbd>.</kbd> click left, middle and right.</li>
+  <li><strong>Normal mode</strong> (<kbd>⌥⌘C</kbd>): move with <kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd>, click with <kbd>m</kbd>/<kbd>,</kbd>/<kbd>.</kbd>, drag with <kbd>v</kbd>, quit with <kbd>Esc</kbd>.</li>
+</ul>
+<p>On a Mac you install it from a prebuilt v1.3.5 tarball plus <code>launchctl</code>, or build it from source with the Xcode command line tools.</p>
+
+<h2>Is warpd still maintained?</h2>
+<p>Here's what its GitHub repository shows as of October 2026:</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th>Item</th><th>warpd</th></tr>
+  <tr><td>Last commit</td><td>June 3, 2023</td></tr>
+  <tr><td>Last macOS release</td><td>v1.3.5, November 5, 2022</td></tr>
+  <tr><td>Last release overall</td><td>v1.3.7-windows-alpha, April 26, 2023</td></tr>
+  <tr><td>Open issues</td><td>90</td></tr>
+  <tr><td>Archived</td><td>No</td></tr>
+  <tr><td>Minimum macOS</td><td>Not stated</td></tr>
+</table></div>
+<p>So the fair summary is "not updated since 2023". That doesn't mean it's broken: plenty of finished tools keep working for years. It does mean that if a future macOS change breaks it, nobody is shipping a fix right now, and we can't promise either way how it behaves on the macOS you're running.</p>
+
+<h2>warpd not working? Things to try</h2>
+<ol class="steps">
+  <li><strong>Check the Accessibility permission.</strong> Open System Settings &gt; Privacy &amp; Security &gt; Accessibility and make sure warpd is switched on. Tools that move the pointer need this.</li>
+  <li><strong>Reset the permission after an upgrade.</strong> warpd's README says upgrading may need <code>sudo tccutil reset Accessibility</code>. Be aware this clears the whole Accessibility list, so you may have to re-allow other apps afterwards. Then allow warpd again.</li>
+  <li><strong>Expect the pointer-hiding quirk.</strong> The README notes that warpd's trick for hiding the pointer doesn't work in some programs, iTerm being the example. That's a known limitation, not a broken install.</li>
+  <li><strong>Check the open issues.</strong> With 90 open issues on <a href="https://github.com/rvaiya/warpd/issues">GitHub</a>, someone may already have hit your problem and posted a workaround.</li>
+</ol>
+<p>If none of that helps, it may be time for something that's still being updated.</p>
+
+<h2>Each warpd mode, mapped to No Mouse Mode</h2>
+<p><a href="/">No Mouse Mode</a> is a menu bar app with the same three ideas, plus a few warpd doesn't have. Every key can be remapped, so these are just the defaults.</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th>warpd</th><th>warpd key</th><th class="hero-col">No Mouse Mode</th></tr>
+  <tr><td>Hint mode</td><td><kbd>⌥⌘X</kbd>, type a hint</td><td class="hero-col">Click labels: <kbd>⇧⌘Space</kbd> anywhere (or <kbd>F</kbd> while on), type a label and it's clicked</td></tr>
+  <tr><td>Grid mode</td><td><kbd>⌥⌘G</kbd>, quadrants on <kbd>u</kbd> <kbd>i</kbd> <kbd>j</kbd> <kbd>k</kbd></td><td class="hero-col">Jump grid: <kbd>E</kbd>, a 3×3 grid on <kbd>Q</kbd> <kbd>W</kbd> <kbd>E</kbd> / <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Z</kbd> <kbd>X</kbd> <kbd>C</kbd> that zooms with each press</td></tr>
+  <tr><td>Normal mode</td><td><kbd>⌥⌘C</kbd>, move with <kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd></td><td class="hero-col"><kbd>⇧⌘M</kbd> turns it on; move with <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> (smooth, eases in)</td></tr>
+  <tr><td>Left / middle / right click</td><td><kbd>m</kbd> / <kbd>,</kbd> / <kbd>.</kbd></td><td class="hero-col"><kbd>Space</kbd> / <kbd>M</kbd> / <kbd>Return</kbd></td></tr>
+  <tr><td>Drag</td><td><kbd>v</kbd></td><td class="hero-col">Hold <kbd>Space</kbd> and move</td></tr>
+  <tr><td>Quit the mode</td><td><kbd>Esc</kbd></td><td class="hero-col"><kbd>⇧⌘M</kbd> (or let it switch off when you click into a text box)</td></tr>
+  <tr><td>Speed control</td><td>n/a here</td><td class="hero-col">Hold <kbd>Shift</kbd> for fast, <kbd>Q</kbd> for one-pixel precise</td></tr>
+  <tr><td>Scrolling</td><td>n/a here</td><td class="hero-col">Arrow keys; Scroll areas <kbd>⇧⌘J</kbd> numbers each pane</td></tr>
+  <tr><td>Click by name</td><td>none</td><td class="hero-col">Type to click: <kbd>⇧⌘/</kbd>, type part of a button's name</td></tr>
+</table></div>
+
+<h3>Hint mode → click labels</h3>
+<p>This is the biggest difference. warpd's README describes its hints as positions on the screen; it doesn't say they come from buttons. No Mouse Mode's labels are put on real buttons, links, tabs, menus, the menu bar and the Dock, using what apps tell macOS about themselves, so typing a label clicks that item. Hold <kbd>⇧</kbd> with the last letter to right-click, <kbd>⌘</kbd> to ⌘-click, <kbd>⌥</kbd> to double-click or <kbd>⌃</kbd> to just move the pointer there. The trade-off: apps that don't describe their buttons show few labels. For those you can turn on on-device text recognition (it needs Screen Recording permission; nothing is saved or sent), or use the grid.</p>
+<h3>Grid mode → jump grid</h3>
+<p>warpd splits into four quadrants per press; No Mouse Mode splits into nine, laid out like the <kbd>Q</kbd>–<kbd>C</kbd> block under your left hand, so two or three presses reach anywhere. <kbd>Space</kbd> clicks, <kbd>Return</kbd> right-clicks, <kbd>Delete</kbd> goes back a level and <kbd>Tab</kbd> moves the grid to the next display. Like warpd's grid, it works in any app because it doesn't need to know what's on screen. The <a href="keynav-for-mac">keynav for Mac</a> guide compares every keyboard grid on macOS.</p>
+<h3>Normal mode → W A S D</h3>
+<p>Instead of <kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd>, movement defaults to <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>, and it eases in so short taps are small and holding goes further. Shortcuts with ⌘, ⌃ or ⌥ still reach your apps while it's on. You also get back/forward buttons (<kbd>[</kbd> / <kbd>]</kbd>), saved spots (<kbd>Shift+1</kbd>–<kbd>9</kbd> to save, <kbd>1</kbd>–<kbd>9</kbd> to jump) and <kbd>`</kbd> to jump back. More in <a href="move-mouse-with-keyboard-mac">how to move the mouse with the keyboard on a Mac</a>.</p>
+
+<h2>Other maintained options</h2>
+<ul>
+  <li><strong><a href="https://github.com/mjrusso/scoot">Scoot</a></strong> (free, BSD-3, v1.3 in March 2026): the closest free match to warpd's shape, with element labels (<kbd>⇧⌘J</kbd>), a grid (<kbd>⇧⌘K</kbd>) and a freestyle mode that nudges the pointer with macOS, Emacs or vi keys (<kbd>⇧⌘L</kbd>). Its README says it runs on macOS 11 and 12 and doesn't mention newer versions.</li>
+  <li><strong><a href="https://mouseless.click">Mouseless</a></strong> (closed source, 14-day trial, prices not published on its site, v1.1.0 in October 2026): a grid mode on Left Command and a free-movement mode on Left Option with I/J/K/L.</li>
+  <li><strong><a href="https://www.homerow.app">Homerow</a></strong> ($49.99 one time as of October 2026, macOS 13 or later): labels, scroll and search. See <a href="no-mouse-mode-vs-homerow">No Mouse Mode vs Homerow</a>.</li>
+  <li><strong>Mouse Keys</strong> (built in, free): fixed-pace pointer movement with <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>U</kbd> <kbd>O</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>. Compared in <a href="no-mouse-mode-vs-mouse-keys">No Mouse Mode vs Mouse Keys</a>.</li>
+</ul>
+
+<h2>Which should you use?</h2>
+<ul>
+  <li><strong>warpd still runs for you:</strong> keep it. It's free and does the job.</li>
+  <li><strong>You want free and open source:</strong> try Scoot, checking it on your macOS version first.</li>
+  <li><strong>You want all three modes plus type to click and scroll areas, maintained, with a guided setup:</strong> <a href="/">No Mouse Mode</a>, $19.99 one time for 1 Mac (<a href="/#pricing">pricing</a>), macOS 14 Sonoma or later on Apple silicon and Intel. No free trial, but the live demo on this page uses the same keys.</li>
+</ul>
+<p>The full field is in <a href="best-keyboard-mouse-apps-for-mac">the best keyboard mouse apps for Mac</a>.</p>
+
+      <div class="cta-banner">
+        <img src="/icon-sm.png" alt="" width="56" height="56">
+        <h3>warpd's three modes, in a maintained Mac app.</h3>
+        <p>Click labels, a 3×3 jump grid and smooth W A S D movement, on macOS 14 Sonoma or later.</p>
+        <a href="/buy/1" class="btn btn-accent btn-lg">Buy No Mouse Mode — $19.99</a>
+        <span class="cta-note">one-time purchase · free updates · macOS 14+ on Apple silicon and Intel</span>
+      </div>
+
+      <h2>FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Does warpd work on macOS?</summary>
+          <div class="faq-a"><p>warpd lists macOS as a supported platform, with a prebuilt v1.3.5 download or a source build using the Xcode command line tools. That macOS build is from November 2022, the last commit was June 2023, and the README doesn't state a minimum macOS version, so we can't tell you whether it works on yours. The only way to know is to try it.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>warpd stopped working after I upgraded it. What do I do?</summary>
+          <div class="faq-a"><p>warpd's README notes that upgrading may need <code>sudo tccutil reset Accessibility</code>, so macOS asks for the Accessibility permission again. That command resets the Accessibility list, so other apps there may need to be allowed again too. Then re-allow warpd in System Settings &gt; Privacy &amp; Security &gt; Accessibility.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is warpd abandoned?</summary>
+          <div class="faq-a"><p>We'd say "not updated since 2023". The repository isn't archived and has 90 open issues, but the last commit was June 3, 2023 and the last macOS release was v1.3.5 on November 5, 2022. It's free and MIT-licensed, so it may still suit you if it runs on your Mac.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What&#x27;s the closest maintained alternative to warpd on a Mac?</summary>
+          <div class="faq-a"><p>If you want free and open source with the same three-mode shape, look at <a href="https://github.com/mjrusso/scoot">Scoot</a> (element, grid and freestyle modes, v1.3 in March 2026), though its README only states macOS 11 and 12. <a href="/">No Mouse Mode</a> covers all three warpd modes plus type to click and scroll areas, for $19.99 one time on macOS 14 or later.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Are No Mouse Mode&#x27;s click labels the same as warpd&#x27;s hints?</summary>
+          <div class="faq-a"><p>Not quite. warpd's README describes its hints as positions on the screen. No Mouse Mode's labels sit on real buttons, links, tabs and menus that apps describe to macOS, so typing one clicks that item. For apps that don't describe their buttons, it can optionally read on-screen text, and the jump grid and W A S D work everywhere.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I use hjkl in No Mouse Mode like warpd&#x27;s normal mode?</summary>
+          <div class="faq-a"><p>The defaults are W A S D, but every key and shortcut can be remapped in Settings, so you can set movement to the keys your fingers already know.</p></div>
+        </details>
+      </div>
+
+      <div class="related">
+        <h2>Keep reading</h2>
+        <div class="related-grid">
+          <a class="related-card" href="/keynav-for-mac"><b>keynav for Mac</b><span>keynav is X11-only. The closest keyboard-grid options on macOS.</span></a>
+          <a class="related-card" href="/vimac-alternative"><b>Vimac alternatives</b><span>Vimac is now Homerow. What replaces it today.</span></a>
+          <a class="related-card" href="/move-mouse-with-keyboard-mac"><b>Move the mouse with the keyboard</b><span>Mouse Keys vs W A S D: exact keys and when each is enough.</span></a>
+          <a class="related-card" href="/best-keyboard-mouse-apps-for-mac"><b>Best keyboard mouse apps for Mac</b><span>Twelve mouseless tools ranked by use case, with prices and status.</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/"><img src="/icon-sm.png" alt="" width="24" height="24"><span>No Mouse Mode</span></a>
+        <p>Your keyboard is the mouse. Click anything on your Mac by typing, glide the pointer with W A S D, scroll and jump anywhere.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#demo">Demo</a></li>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#keys">Keys</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/changelog">Changelog</a></li>
+          <li><a href="/download">Download</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Compare</h4>
+        <ul>
+          <li><a href="/no-mouse-mode-vs-homerow">vs Homerow</a></li>
+          <li><a href="/no-mouse-mode-vs-shortcat">vs Shortcat</a></li>
+          <li><a href="/no-mouse-mode-vs-mouse-keys">vs Mouse Keys</a></li>
+          <li><a href="/homerow-alternatives">Homerow alternatives</a></li>
+          <li><a href="/vimac-alternative">Vimac alternatives</a></li>
+          <li><a href="/best-keyboard-mouse-apps-for-mac">Best keyboard-mouse apps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Coming from</h4>
+        <ul>
+          <li><a href="/vimium-for-mac">Vimium</a></li>
+          <li><a href="/keynav-for-mac">keynav</a></li>
+          <li><a href="/warpd-for-mac">warpd</a></li>
+          <li><a href="/full-keyboard-access-mac">Full Keyboard Access</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="/how-to-use-mac-without-mouse">Use a Mac without a mouse</a></li>
+          <li><a href="/move-mouse-with-keyboard-mac">Move the pointer with keys</a></li>
+          <li><a href="/right-click-without-mouse-mac">Right-click without a mouse</a></li>
+          <li><a href="/mac-trackpad-not-working">Trackpad not working</a></li>
+          <li><a href="/keyboard-only-mac-rsi">Wrist pain and RSI</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="/support">Support</a></li>
+          <li><a href="mailto:adgan.business@gmail.com">Email support</a></li>
+          <li><a href="/privacy">Privacy policy</a></li>
+          <li><a href="/terms">Terms of use</a></li>
+          <li><a href="https://x.com/ahmedgagan11" rel="me">X / Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>&copy; 2026 No Mouse Mode &middot; made by <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a> &middot; Mac is a trademark of Apple Inc.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/engine.js?v=20261031" defer></script>
+<script src="/js/site.js?v=20261031" defer></script>
+</body>
+</html>

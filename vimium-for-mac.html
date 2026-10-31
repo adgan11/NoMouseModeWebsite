@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vimium for Mac (2026): Link Hints in Every App, Not Just Chrome</title>
+  <meta name="description" content="Vimium only works inside web pages. To get Vimium-style link hints in Finder, System Settings, the menu bar and every Mac app, you need an accessibility-based app.">
+  <meta name="author" content="Ahmed Gagan">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://nomousemode.com/vimium-for-mac">
+  <link rel="alternate" type="text/markdown" href="https://nomousemode.com/vimium-for-mac.md" title="Vimium for Mac (2026): Link Hints in Every App, Not Just Chrome (Markdown)">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="No Mouse Mode">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Vimium for Mac (2026): Link Hints in Every App, Not Just Chrome">
+  <meta property="og:description" content="Vimium, Vimium C, Vimari and Vimlike stop at the browser tab. Here&#x27;s how to get the same link-hint feel across your whole Mac, with a key-by-key map.">
+  <meta property="og:url" content="https://nomousemode.com/vimium-for-mac">
+  <meta property="og:image" content="https://nomousemode.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="No Mouse Mode: your keyboard is the mouse">
+  <meta property="article:published_time" content="2026-10-31">
+  <meta property="article:modified_time" content="2026-10-31">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@ahmedgagan11">
+  <meta name="twitter:title" content="Vimium for Mac (2026): Link Hints in Every App, Not Just Chrome">
+  <meta name="twitter:description" content="Vimium, Vimium C, Vimari and Vimlike stop at the browser tab. Here&#x27;s how to get the same link-hint feel across your whole Mac, with a key-by-key map.">
+  <meta name="twitter:image" content="https://nomousemode.com/og-image.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=20261031">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://nomousemode.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Vimium for Mac",
+      "item": "https://nomousemode.com/vimium-for-mac"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://nomousemode.com/vimium-for-mac#article",
+  "headline": "Vimium for Mac: how to get Vimium-style link hints in every macOS app, with a key mapping table",
+  "description": "Vimium only works inside web pages. To get Vimium-style link hints in Finder, System Settings, the menu bar and every Mac app, you need an accessibility-based app.",
+  "image": "https://nomousemode.com/og-image.png",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "name": "Ahmed Gagan",
+    "url": "https://x.com/ahmedgagan11"
+  },
+  "publisher": {
+    "@id": "https://nomousemode.com/#org"
+  },
+  "mainEntityOfPage": "https://nomousemode.com/vimium-for-mac",
+  "about": {
+    "@id": "https://nomousemode.com/#app"
+  },
+  "mentions": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Vimium",
+      "url": "https://github.com/philc/vimium"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Vimium C",
+      "url": "https://github.com/gdh1995/vimium-c"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Vimari",
+      "url": "https://github.com/televator-apps/vimari"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Homerow",
+      "url": "https://www.homerow.app"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Shortcat",
+      "url": "https://shortcat.app"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Scoot",
+      "url": "https://github.com/mjrusso/scoot"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Vimium work outside the browser on a Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Vimium is a browser extension, so it can only see the web page in the current tab. It can't label buttons in Finder, System Settings, the menu bar, the Dock or any other app. The same is true of Vimium C, Vimari and Vimlike. For the rest of the Mac you need a separate app that uses macOS accessibility, such as No Mouse Mode or Homerow and its alternatives."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a Vimium for Safari?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vimium itself lists Chrome, Edge and Firefox, not Safari. For Safari there's Vimari (a Vimium port, free on the Mac App Store but not updated since 2021) and Vimlike (free, no in-app purchases, updated October 2026). Both still only work inside web pages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I keep using Vimium alongside a Mac-wide app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Vimium works inside the page and a Mac-wide app works through macOS, so they don't need to replace each other. You can keep f for the browser and use ⇧⌘Space everywhere else. No Mouse Mode's labels also work on web pages that describe their buttons to macOS, which most do, so you can use one tool in both places if you prefer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are some buttons missing labels in some apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click labels depend on apps describing their buttons to macOS. Most Mac apps do. Some games, design canvases, remote desktops and older cross-platform apps don't. No Mouse Mode can optionally read on-screen text with Apple's on-device text recognition (it needs Screen Recording permission; nothing is saved or sent), and the jump grid and W A S D movement work in every app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a free Vimium-style app for the whole Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a few. Scoot is free and open source, with element labels on ⇧⌘J, but its README only states macOS 11 and 12. Vimac is free but hasn't been updated since 2022. Shortcat is a free download, still in beta. macOS's built-in Voice Control can also number every item, though you say the number rather than type it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does No Mouse Mode cost and what Mac do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "$19.99 one time for 1 Mac, with free updates and no subscription (as of October 2026). There's no free trial, but the website has interactive demos that use the same keys. It needs macOS 14 Sonoma or later and runs on Apple silicon and Intel. See pricing."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="No Mouse Mode home"><img src="/icon-sm.png" alt="" width="28" height="28"><span>No Mouse Mode</span></a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="/#demo">Demo</a><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="/how-to-use-mac-without-mouse">Guides</a><a href="/support">Support</a>
+    </nav>
+    <a class="btn btn-dark btn-sm" href="/buy/1">Buy — $19.99</a>
+  </div>
+</header>
+
+<main id="main" class="article">
+  <div class="wrap-article">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a><span class="sep">›</span><span>Vimium for Mac</span>
+    </nav>
+
+    <header class="article-head">
+      <h1 class="display">Vimium for Mac: link hints for every app, not just the browser</h1>
+      <p class="article-dek">Vimium and its cousins only label links inside a web page. <strong>To press <kbd>f</kbd>-style hints in Finder, Mail, System Settings, the menu bar and the Dock, you need a Mac app that reads buttons through macOS accessibility.</strong> Here's what carries over and how your keys translate.</p>
+      <p class="article-meta">Updated October 2026 · 7 min read · by <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a>, maker of No Mouse Mode</p>
+    </header>
+
+    <div class="article-body">
+<div class="verdict">
+  <span class="verdict-label">Short answer</span>
+  <p><strong>Vimium can't leave the browser.</strong> It's a browser extension, so its <kbd>f</kbd> link hints only reach the web page in the current tab. The same goes for Vimium C, Vimari and Vimlike. To get the same "press a key, type the letters, it's clicked" feel in Finder, System Settings, the menu bar, the Dock and every other app, you need a Mac app that reads buttons through macOS accessibility. <a href="/">No Mouse Mode</a> does that with <kbd>⇧⌘Space</kbd>, and Homerow, Shortcat and Scoot are worth a look too. Keep Vimium in the browser if you love it; the two get along fine.</p>
+</div>
+    </div>
+    <div class="article-demo-wrap">
+      <p class="article-demo-label">Try it right here: this is a working model of No Mouse Mode, not a video. Click it, then use the keys.</p>
+<section class="demo-section article-demo" id="demo" aria-labelledby="demo-title">
+      <h2 class="sr-only" id="demo-title">Interactive demo</h2>
+      <div class="demo-layout">
+        <div class="demo-main">
+        <div class="mac" id="hero-stage" aria-label="A pretend Mac desktop. Click it, then use W A S D to move, Space to click, F for click labels, / to type to click and E for the jump grid.">
+          <div class="mac-menubar">
+            <svg class="mb-apple" viewBox="0 0 17 20" aria-hidden="true"><path d="M13.6 10.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8C3.6 5.1 2 6.1 1.2 7.6c-1.7 2.9-.4 7.3 1.2 9.7.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.4-3.9zM11.2 3.4c.7-.8 1.1-1.9 1-3-.9 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3z"/></svg>
+            <b class="mb-app">Finder</b>
+            <span class="mb-item" data-click data-menu="File">File</span>
+            <span class="mb-item" data-click data-menu="Edit">Edit</span>
+            <span class="mb-item" data-click data-menu="View">View</span>
+            <span class="mb-item hide-sm" data-click data-menu="Go">Go</span>
+            <span class="mb-item hide-sm" data-click data-menu="Window">Window</span>
+            <span class="mb-spacer"></span>
+            <span class="mb-status" aria-hidden="true">
+              <svg viewBox="0 0 26 13"><rect x=".5" y=".5" width="22" height="12" rx="3.2" fill="none" stroke="currentColor" opacity=".45"/><rect x="2.2" y="2.2" width="15" height="8.6" rx="1.8"/><path d="M24 4.5v4c.9-.3 1.5-1 1.5-2s-.6-1.7-1.5-2z" opacity=".45"/></svg>
+              <svg viewBox="0 0 18 13"><path d="M9 12.4 6.6 9.8a3.4 3.4 0 0 1 4.8 0zM4.3 7.5a6.6 6.6 0 0 1 9.4 0l1.6-1.7a9 9 0 0 0-12.6 0zM1.6 4.6a10.4 10.4 0 0 1 14.8 0L18 3A12.7 12.7 0 0 0 0 3z"/></svg>
+              <svg viewBox="0 0 14 14"><circle cx="5.8" cy="5.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m9.2 9.2 3.8 3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <svg viewBox="0 0 16 14"><rect x=".8" y=".8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12.4" cy="3.5" r="1.6"/><rect x=".8" y="7.8" width="14.4" height="5.4" rx="2.7" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="3.6" cy="10.5" r="1.6"/></svg>
+            </span>
+            <span class="mb-nmm" title="No Mouse Mode"><img src="/icon-sm.png" alt="" width="14" height="14"></span>
+            <span class="mb-clock">Tue 22 Oct&nbsp;&nbsp;9:41</span>
+          </div>
+
+          <div class="desk">
+            <div class="desk-icon" data-drag data-click data-file="report" style="left:62%;top:9%">
+              <img class="ico-img" src="/img/icons/pdf.svg" alt="" draggable="false"><span class="ico-label">Report.pdf</span>
+            </div>
+            <div class="desk-icon" data-drop data-click data-folder="projects" style="left:80%;top:9%">
+              <img class="ico-img" src="/img/icons/folder.svg" alt="" draggable="false"><span class="ico-label">Projects</span>
+            </div>
+            <div class="desk-icon" data-click data-app="notes" style="left:80%;top:37%">
+              <img class="ico-img" src="/img/icons/notes.svg" alt="" draggable="false"><span class="ico-label">Notes</span>
+            </div>
+            <div class="desk-icon" data-click data-file="photo" style="left:62%;top:37%">
+              <img class="ico-img" src="/img/icons/photo.svg" alt="" draggable="false"><span class="ico-label">Sunset.png</span>
+            </div>
+            <button class="grid-target" type="button" data-click data-target style="left:16%;top:80%" aria-label="Target"><span></span></button>
+
+            <article class="win win-guide" data-win="guide" style="left:3%;top:6%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Field Guide</span></header>
+              <div class="win-body guide-body" data-scrollbox="guide">
+                <p class="kicker">Field guide</p>
+                <h3>Working without a mouse</h3>
+                <p>Point at this window, then hold <kbd>↓</kbd> to scroll. The photos below scroll sideways with <kbd>←</kbd> and <kbd>→</kbd>.</p>
+                <div class="strip" data-scrollbox="strip">
+                  <div class="photo p1">Coast</div><div class="photo p2">Dunes</div><div class="photo p3">Forest</div>
+                  <div class="photo p4">Lake</div><div class="photo p5">Canyon</div><div class="photo p6">Glacier</div>
+                </div>
+                <p>Hold <kbd>Shift</kbd> to cross the screen fast. Hold <kbd>Q</kbd> to move one pixel per tap.</p>
+                <p>Tap <kbd>Space</kbd> twice to double-click. Hold it and move to drag, let go to drop.</p>
+                <p><kbd>E</kbd> splits the screen into nine cells named after the keys under your left hand. Press one and the pointer jumps there.</p>
+                <p><kbd>F</kbd> puts a little letter on every button in the front window. Type it and that button is clicked.</p>
+                <p><kbd>/</kbd> lets you type a button’s name instead. <kbd>H</kbd> shows every key.</p>
+                <p class="guide-end">You reached the end. Nice scrolling.</p>
+              </div>
+            </article>
+
+            <article class="win win-notes" data-win="notes" hidden style="left:47%;top:34%">
+              <header class="win-bar"><span class="lights"><i></i><i></i><i></i></span><span class="win-title">Notes</span></header>
+              <div class="notes-toolbar">
+                <span class="tb-btn" data-click data-action="new">New</span>
+                <span class="tb-btn" data-click data-action="bold"><b>B</b></span>
+                <span class="tb-btn" data-click data-action="list">List</span>
+                <span class="tb-btn" data-click data-action="share">Share</span>
+                <span class="tb-btn tb-primary" data-click data-action="save">Save</span>
+              </div>
+              <div class="win-body notes-body">
+                <p class="notes-title">Groceries</p>
+                <p>Oats, coffee, lemons. Click <b>Save</b> without touching the trackpad: press <kbd>F</kbd> and type its letters.</p>
+              </div>
+            </article>
+
+            <div class="ctx-menu" hidden data-ctx>
+              <span class="ctx-item" data-click data-ctx-item="folder">New Folder</span>
+              <span class="ctx-item" data-click data-ctx-item="info">Get Info</span>
+              <span class="ctx-sep"></span>
+              <span class="ctx-item" data-click data-ctx-item="wallpaper">Change Wallpaper…</span>
+            </div>
+
+            <div class="dock" data-dock>
+              <span class="dock-app running" data-click data-dock-app="Finder" title="Finder"><img src="/img/icons/finder.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Safari" title="Safari"><img src="/img/icons/safari.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Mail" title="Mail"><img src="/img/icons/mail.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Messages" title="Messages"><img src="/img/icons/messages.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Photos" title="Photos"><img src="/img/icons/photos.svg" alt="" draggable="false"></span>
+              <span class="dock-app running" data-click data-dock-app="Notes" title="Notes"><img src="/img/icons/notes.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Music" title="Music"><img src="/img/icons/music.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="Calendar" title="Calendar"><img src="/img/icons/calendar.svg" alt="" draggable="false"></span>
+              <span class="dock-app" data-click data-dock-app="System Settings" title="System Settings"><img src="/img/icons/settings.svg" alt="" draggable="false"></span>
+              <span class="dock-sep"></span>
+              <span class="dock-app" data-click data-dock-app="Trash" title="Trash"><img src="/img/icons/trash.svg" alt="" draggable="false"></span>
+            </div>
+          </div>
+
+          <div class="nm-on-badge" aria-hidden="true">No Mouse ON</div>
+          <div class="toast" role="status" aria-live="polite"></div>
+          <div class="cover" data-cover>
+            <button class="btn btn-accent cover-btn" type="button">Try it yourself</button>
+            <p>Then use your keyboard. <kbd>Esc</kbd> lets go.</p>
+          </div>
+        </div>
+      <div class="keypad" data-nm-keypad="hero-stage" aria-label="On-screen keys">
+          <div class="kp-group kp-letters">
+            <button type="button" data-key="KeyQ">Q</button><button type="button" data-key="KeyW">W</button><button type="button" data-key="KeyE">E</button><button type="button" data-key="KeyF">F</button>
+            <button type="button" data-key="KeyA">A</button><button type="button" data-key="KeyS">S</button><button type="button" data-key="KeyD">D</button><button type="button" data-key="ShiftLeft" data-latch>⇧</button>
+          </div>
+          <div class="kp-group kp-arrows">
+            <button type="button" data-key="ArrowUp" class="kp-up">↑</button>
+            <button type="button" data-key="ArrowLeft">←</button><button type="button" data-key="ArrowDown">↓</button><button type="button" data-key="ArrowRight">→</button>
+          </div>
+          <div class="kp-group kp-actions">
+            <button type="button" data-key="Escape">esc</button><button type="button" data-key="Backspace">⌫</button>
+            <button type="button" data-key="Space" class="kp-space">space</button><button type="button" data-key="Enter">return</button>
+            <button type="button" data-key="KeyH">H</button><button type="button" data-key="Slash" data-char="/">/</button>
+          </div>
+        </div>
+        </div>
+
+        <aside class="challenges" aria-label="Challenges">
+          <div class="ch-head"><h3>Challenges</h3><span class="ch-count"><b data-ch-count>0</b> of 8</span></div>
+          <ol class="ch-list">
+            <li data-ch="move">Move the pointer with <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></li>
+            <li data-ch="open">Double-click <b>Notes</b>: <kbd>Space</kbd> twice</li>
+            <li data-ch="drag">Drag <b>Report.pdf</b> into <b>Projects</b>: hold <kbd>Space</kbd> and move</li>
+            <li data-ch="scroll">Scroll the Field Guide down <kbd>↓</kbd> and sideways <kbd>→</kbd></li>
+            <li data-ch="grid">Press <kbd>E</kbd>, jump onto the <b>target</b>, then <kbd>Space</kbd></li>
+            <li data-ch="hint">Press <kbd>F</kbd> and click <b>Save</b> in Notes by its letters</li>
+            <li data-ch="search">Press <kbd>/</kbd>, type <b>music</b>, press <kbd>Return</kbd></li>
+            <li data-ch="menu">Right-click the desktop with <kbd>Return</kbd>, pick <b>New Folder</b></li>
+          </ol>
+          <p class="ch-tip">Hold <kbd>Shift</kbd> for fast, <kbd>Q</kbd> for precise. Lost? Press <kbd>H</kbd>.</p>
+          <button class="link-btn" type="button" data-reset>Reset demo</button>
+          <div class="ch-done" hidden>
+            <p><b>You've got it.</b> That's the whole app — on your real Mac it works in every app.</p>
+            <a class="btn btn-accent btn-sm" href="#pricing">Get No Mouse Mode</a>
+          </div>
+        </aside>
+      </div>
+
+    </section>
+    </div>
+    <div class="article-body after-demo">
+<h2>Why Vimium stops at the edge of the browser</h2>
+<p><a href="https://github.com/philc/vimium">Vimium</a> describes itself as "a browser extension that provides keyboard-based navigation and control of the web". That last word is the limit. A browser extension can read and label the links in a web page because the browser hands it the page. It has no view of anything outside that page: not the browser's own toolbar, not Finder, not System Settings, not the menu bar or the Dock.</p>
+<p>So when people search for "Vimium for Mac apps" or "Vimium outside the browser", what they actually want is a different kind of tool: a Mac app that asks macOS where every button is. macOS exposes that through its accessibility system, the same information screen readers use. An app with Accessibility permission can put a label on each button in the front window, the menu bar and the Dock, and click it when you type the label.</p>
+
+<h2>The Vimium family on a Mac, at a glance</h2>
+<p>Checked against each project's own page in October 2026:</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th>Extension</th><th>Browsers</th><th>Hint keys</th><th>Status</th><th>Works outside web pages?</th></tr>
+  <tr><td><a href="https://github.com/philc/vimium">Vimium</a></td><td>Chrome, Edge, Firefox</td><td><kbd>f</kbd> current tab, <kbd>F</kbd> new tab</td><td>Active (MIT)</td><td><span class="no">No</span></td></tr>
+  <tr><td><a href="https://github.com/gdh1995/vimium-c">Vimium C</a></td><td>Chrome/Chromium 102+ (incl. Edge), Firefox 101+</td><td><kbd>f</kbd> / <kbd>F</kbd> for links and buttons</td><td>Last commit April 2025</td><td><span class="no">No</span></td></tr>
+  <tr><td><a href="https://github.com/televator-apps/vimari">Vimari</a></td><td>Safari</td><td><kbd>f</kbd> / <kbd>F</kbd></td><td>Unmaintained since 2021</td><td><span class="no">No</span></td></tr>
+  <tr><td>Vimlike</td><td>Safari (Mac, iPhone, iPad, Vision Pro)</td><td><kbd>f</kbd> labels links, <kbd>⇧F</kbd> background tab</td><td>Active, updated October 2026</td><td><span class="no">No</span></td></tr>
+</table></div>
+<p>All four are free. If you only ever click things inside web pages, one of these is all you need, and there's no reason to pay for anything. The rest of this guide is for when you want the same habit in every other app on your Mac.</p>
+
+<h2>Your Vimium keys, Mac-wide</h2>
+<p>Here's how the Vimium-family habits translate to <a href="/">No Mouse Mode</a>. We've only listed extension keys that we checked in each project's own docs; other Vimium commands exist, but they live inside the browser and have no Mac-wide twin.</p>
+<div class="table-wrap"><table class="comp-table">
+  <tr><th>Vimium habit</th><th>Extension key</th><th class="hero-col">No Mouse Mode, in any app</th></tr>
+  <tr><td>Show link hints, type one to click</td><td><kbd>f</kbd> (all four)</td><td class="hero-col"><kbd>⇧⌘Space</kbd> anywhere, or <kbd>F</kbd> while No Mouse Mode is on</td></tr>
+  <tr><td>Open a link in a new tab</td><td><kbd>F</kbd> (Vimium), <kbd>⇧F</kbd> background tab (Vimlike)</td><td class="hero-col">Hold <kbd>⌘</kbd> while typing the last letter (a ⌘-click, so a new tab in browsers)</td></tr>
+  <tr><td>Click several things in a row</td><td>Show hints again</td><td class="hero-col">Press <kbd>Tab</kbd> to keep labels coming back after each click</td></tr>
+  <tr><td>Find something by its text</td><td>(in-page search)</td><td class="hero-col">Type to click: <kbd>⇧⌘/</kbd>, type part of a button's name ("nf" finds New Folder), Return clicks</td></tr>
+  <tr><td>Scroll down / up</td><td><kbd>j</kbd> / <kbd>k</kbd> (Vimlike)</td><td class="hero-col">Arrow keys while on, or Scroll areas <kbd>⇧⌘J</kbd>, then <kbd>J</kbd> / <kbd>K</kbd></td></tr>
+  <tr><td>Jump to top / bottom of a page</td><td>(in-page)</td><td class="hero-col">In Scroll areas: <kbd>T</kbd> / <kbd>B</kbd>; <kbd>Space</kbd> pages down</td></tr>
+  <tr><td>Right-click a link</td><td>none</td><td class="hero-col">Hold <kbd>⇧</kbd> with the last letter</td></tr>
+  <tr><td>Double-click</td><td>none</td><td class="hero-col">Hold <kbd>⌥</kbd> with the last letter</td></tr>
+  <tr><td>Click the menu bar or Dock</td><td>can't</td><td class="hero-col">Labels cover the menu bar and the Dock too</td></tr>
+  <tr><td>Click something with no label</td><td>can't</td><td class="hero-col">Jump grid (<kbd>E</kbd>) or move the pointer with <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd></td></tr>
+</table></div>
+<p class="note">Every key and shortcut in No Mouse Mode can be remapped in Settings. Shortcuts that use ⌘, ⌃ or ⌥ always reach the app you're using, so ⌘C, ⌘W and friends keep working.</p>
+
+<h2>How the Mac-wide version feels</h2>
+<h3>Click labels: the <kbd>f</kbd> you already know</h3>
+<p>Press <kbd>⇧⌘Space</kbd> and every button, link, tab, menu, checkbox and field in the front window gets a short letter label, along with the menu bar and the Dock. Type the letters and it's clicked. This works whether No Mouse Mode is switched on or off. Labels for a window stay the same each time, so after a few days your fingers learn them, much like Vimium regulars learn their favourite hints.</p>
+<h3>Type to click: when you know the word, not the label</h3>
+<p>Press <kbd>⇧⌘/</kbd> and type what a button says. Case, spaces and accents are ignored, and initials work. Matches are outlined, <kbd>Tab</kbd> moves between them and Return clicks. It's the closest thing to searching your way to a link, but for the whole Mac. If this is the half you care about most, also read <a href="no-mouse-mode-vs-shortcat">No Mouse Mode vs Shortcat</a>, since Shortcat is built around exactly this.</p>
+<h3>Scroll areas: <kbd>j</kbd> and <kbd>k</kbd> for any pane</h3>
+<p>A Mac window often has several scrollable panes: a sidebar, a list, a preview. <kbd>⇧⌘J</kbd> numbers each one. Pick one by number (or <kbd>Tab</kbd>), then scroll with <kbd>J</kbd>/<kbd>K</kbd> or the arrows, page with <kbd>Space</kbd>, and jump to the top or bottom with <kbd>T</kbd> and <kbd>B</kbd>. More on this in <a href="move-mouse-with-keyboard-mac">how to move the mouse with the keyboard on a Mac</a>.</p>
+<h3>The honest catch</h3>
+<p>Vimium reads the web page itself. A Mac-wide app depends on each app describing its buttons to macOS. Most Mac apps and websites do. Some games, design canvases, remote desktops and older cross-platform apps don't, and they'll show few labels. For those, No Mouse Mode can optionally read the words on screen with Apple's on-device text recognition (it needs Screen Recording permission, and nothing is saved or sent). Buttons that are only icons still need the jump grid or W A S D, which work everywhere.</p>
+
+<h2>Other ways to get Vimium-style hints on the whole Mac</h2>
+<ul>
+  <li><strong><a href="https://www.homerow.app">Homerow</a></strong>: "Keyboard shortcuts for every button in macOS". Labels, scroll and search. $49.99 one time as of October 2026, free to try with a reminder every 50 activations, macOS 13 or later. Actively maintained. Compared in <a href="no-mouse-mode-vs-homerow">No Mouse Mode vs Homerow</a>.</li>
+  <li><strong><a href="https://shortcat.app">Shortcat</a></strong>: "the universal command palette for your Mac". You type what you want to click; after a short pause it also shows letter labels. Free download, still a 0.x beta, last updated July 2025.</li>
+  <li><strong><a href="vimac-alternative">Vimac</a></strong>: the free, open-source app that became Homerow. Its Hint-mode is the most Vimium-like of the lot, but it hasn't been updated since 2022.</li>
+  <li><strong><a href="https://github.com/mjrusso/scoot">Scoot</a></strong>: free and open source, with element labels on <kbd>⇧⌘J</kbd>, a grid mode and a freestyle mode. Its README says it runs on macOS 11 and 12 and doesn't state newer versions.</li>
+  <li><strong>Voice Control</strong> (built into macOS): say "Show numbers", then "Click" and the number. It labels everything, but you speak instead of type.</li>
+</ul>
+<p>For the full field, see <a href="best-keyboard-mouse-apps-for-mac">the best keyboard mouse apps for Mac</a> and <a href="homerow-alternatives">Homerow alternatives</a>.</p>
+
+<h2>Set it up in two minutes</h2>
+<ol class="steps">
+  <li><strong>Download and open No Mouse Mode.</strong> Get it from <a href="/download">the download page</a> and drag it into Applications.</li>
+  <li><strong>Allow Accessibility.</strong> The first-run setup walks you through the one permission it needs and updates by itself when it's on.</li>
+  <li><strong>Try your new <kbd>f</kbd>.</strong> Open Finder and press <kbd>⇧⌘Space</kbd>. Type the letters on a sidebar item.</li>
+  <li><strong>Try the extras.</strong> <kbd>⇧⌘/</kbd> to type a button's name, <kbd>⇧⌘J</kbd> to scroll a pane. The Practice window has nine short lessons if you want a guided tour.</li>
+</ol>
+<p>It needs macOS 14 Sonoma or later on Apple silicon or Intel, and costs $19.99 one time for 1 Mac (<a href="/#pricing">pricing</a>). There's no free trial, but the live demo on this page uses the same keys. Questions go to <a href="/support">support</a>.</p>
+
+      <div class="cta-banner">
+        <img src="/icon-sm.png" alt="" width="56" height="56">
+        <h3>Your Vimium habit, across the whole Mac.</h3>
+        <p>Press ⇧⌘Space in any app, type the letters on a button, and it's clicked: Finder, Settings, the menu bar and the Dock included.</p>
+        <a href="/buy/1" class="btn btn-accent btn-lg">Buy No Mouse Mode — $19.99</a>
+        <span class="cta-note">one-time purchase · free updates · macOS 14+ on Apple silicon and Intel</span>
+      </div>
+
+      <h2>FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Does Vimium work outside the browser on a Mac?</summary>
+          <div class="faq-a"><p>No. Vimium is a browser extension, so it can only see the web page in the current tab. It can't label buttons in Finder, System Settings, the menu bar, the Dock or any other app. The same is true of Vimium C, Vimari and Vimlike. For the rest of the Mac you need a separate app that uses macOS accessibility, such as <a href="/">No Mouse Mode</a> or <a href="homerow-alternatives">Homerow and its alternatives</a>.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is there a Vimium for Safari?</summary>
+          <div class="faq-a"><p>Vimium itself lists Chrome, Edge and Firefox, not Safari. For Safari there's Vimari (a Vimium port, free on the Mac App Store but not updated since 2021) and Vimlike (free, no in-app purchases, updated October 2026). Both still only work inside web pages.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I keep using Vimium alongside a Mac-wide app?</summary>
+          <div class="faq-a"><p>Yes. Vimium works inside the page and a Mac-wide app works through macOS, so they don't need to replace each other. You can keep <kbd>f</kbd> for the browser and use <kbd>⇧⌘Space</kbd> everywhere else. No Mouse Mode's labels also work on web pages that describe their buttons to macOS, which most do, so you can use one tool in both places if you prefer.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Why are some buttons missing labels in some apps?</summary>
+          <div class="faq-a"><p>Click labels depend on apps describing their buttons to macOS. Most Mac apps do. Some games, design canvases, remote desktops and older cross-platform apps don't. No Mouse Mode can optionally read on-screen text with Apple's on-device text recognition (it needs Screen Recording permission; nothing is saved or sent), and the jump grid and W A S D movement work in every app.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is there a free Vimium-style app for the whole Mac?</summary>
+          <div class="faq-a"><p>Yes, a few. <a href="https://github.com/mjrusso/scoot">Scoot</a> is free and open source, with element labels on <kbd>⇧⌘J</kbd>, but its README only states macOS 11 and 12. <a href="vimac-alternative">Vimac</a> is free but hasn't been updated since 2022. Shortcat is a free download, still in beta. macOS's built-in Voice Control can also number every item, though you say the number rather than type it.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What does No Mouse Mode cost and what Mac do I need?</summary>
+          <div class="faq-a"><p>$19.99 one time for 1 Mac, with free updates and no subscription (as of October 2026). There's no free trial, but the website has interactive demos that use the same keys. It needs macOS 14 Sonoma or later and runs on Apple silicon and Intel. See <a href="/#pricing">pricing</a>.</p></div>
+        </details>
+      </div>
+
+      <div class="related">
+        <h2>Keep reading</h2>
+        <div class="related-grid">
+          <a class="related-card" href="/homerow-alternatives"><b>Homerow alternatives</b><span>Seven ways to click without a mouse, compared.</span></a>
+          <a class="related-card" href="/vimac-alternative"><b>Vimac alternatives</b><span>Vimac is now Homerow. What replaces it today.</span></a>
+          <a class="related-card" href="/no-mouse-mode-vs-shortcat"><b>No Mouse Mode vs Shortcat</b><span>Search-to-click beta vs labels, pointer, grid and scroll areas.</span></a>
+          <a class="related-card" href="/how-to-use-mac-without-mouse"><b>How to use a Mac without a mouse</b><span>Every built-in method and app, compared, with a 5-minute setup.</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/"><img src="/icon-sm.png" alt="" width="24" height="24"><span>No Mouse Mode</span></a>
+        <p>Your keyboard is the mouse. Click anything on your Mac by typing, glide the pointer with W A S D, scroll and jump anywhere.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#demo">Demo</a></li>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#keys">Keys</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/changelog">Changelog</a></li>
+          <li><a href="/download">Download</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Compare</h4>
+        <ul>
+          <li><a href="/no-mouse-mode-vs-homerow">vs Homerow</a></li>
+          <li><a href="/no-mouse-mode-vs-shortcat">vs Shortcat</a></li>
+          <li><a href="/no-mouse-mode-vs-mouse-keys">vs Mouse Keys</a></li>
+          <li><a href="/homerow-alternatives">Homerow alternatives</a></li>
+          <li><a href="/vimac-alternative">Vimac alternatives</a></li>
+          <li><a href="/best-keyboard-mouse-apps-for-mac">Best keyboard-mouse apps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Coming from</h4>
+        <ul>
+          <li><a href="/vimium-for-mac">Vimium</a></li>
+          <li><a href="/keynav-for-mac">keynav</a></li>
+          <li><a href="/warpd-for-mac">warpd</a></li>
+          <li><a href="/full-keyboard-access-mac">Full Keyboard Access</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="/how-to-use-mac-without-mouse">Use a Mac without a mouse</a></li>
+          <li><a href="/move-mouse-with-keyboard-mac">Move the pointer with keys</a></li>
+          <li><a href="/right-click-without-mouse-mac">Right-click without a mouse</a></li>
+          <li><a href="/mac-trackpad-not-working">Trackpad not working</a></li>
+          <li><a href="/keyboard-only-mac-rsi">Wrist pain and RSI</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="/support">Support</a></li>
+          <li><a href="mailto:adgan.business@gmail.com">Email support</a></li>
+          <li><a href="/privacy">Privacy policy</a></li>
+          <li><a href="/terms">Terms of use</a></li>
+          <li><a href="https://x.com/ahmedgagan11" rel="me">X / Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>&copy; 2026 No Mouse Mode &middot; made by <a href="https://x.com/ahmedgagan11">Ahmed Gagan</a> &middot; Mac is a trademark of Apple Inc.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/engine.js?v=20261031" defer></script>
+<script src="/js/site.js?v=20261031" defer></script>
+</body>
+</html>

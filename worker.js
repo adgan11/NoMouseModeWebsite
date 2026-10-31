@@ -1,6 +1,8 @@
 // nomousemode.com — one canonical host for search engines.
 // The old address (nomousemode.ahmedgagan.in) and www. answer with a permanent redirect to the same
 // path on https://nomousemode.com, so links and rankings carry over. Everything else is the static site.
+import { datacheapProxy, withTracker } from './datacheap.js';
+
 const CANONICAL = 'nomousemode.com';
 const MOVED = new Set(['www.nomousemode.com', 'nomousemode.ahmedgagan.in']);
 
@@ -15,6 +17,9 @@ export default {
       url.port = '';
       return Response.redirect(url.toString(), 301);
     }
-    return env.ASSETS.fetch(request);
+    // DataCheap analytics: first-party tracker + proxy (buy links get the visitor id automatically).
+    const analytics = await datacheapProxy(request, env);
+    if (analytics) return analytics;
+    return withTracker(await env.ASSETS.fetch(request), env, request);
   },
 };
