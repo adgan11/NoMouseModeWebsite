@@ -1040,3 +1040,95 @@
 
   NM.bindKeypads();
 })();
+
+/* ---------- Black Friday sale ----------
+   Shown only between START and END (UTC), so nothing has to be deployed on
+   the day. ?sale=preview shows it early, on localhost only. Same window as
+   sale.js (the checkout) and ChainYourMac's sale. */
+(function () {
+  'use strict';
+  var START = Date.UTC(2026, 10, 23, 0, 0);   // Mon 23 Nov 2026, 00:00 UTC
+  var END = Date.UTC(2026, 11, 1, 7, 59);     // Mon 30 Nov 2026, 23:59 Pacific
+  var OFF = 0.30;
+  var CODE = 'BLACKFRIDAY30';
+  var local = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+  var now = Date.now();
+  if (!(now >= START && now < END) && !(local && /[?&]sale=preview\b/.test(location.search))) return;
+
+  var lang = (document.documentElement.lang || 'en').slice(0, 2);
+  var T = {
+    en: { bar: function (p) { return '<b>Black Friday:</b> ' + p + '% off every No Mouse Mode license, until Cyber Monday.'; },
+          code: 'Code', applied: 'applied at checkout', left: function (t) { return 'Ends in ' + t; }, off: function (p) { return p + '% off'; } },
+    ja: { bar: function (p) { return '<b>ブラックフライデー：</b>No Mouse Mode の全ライセンスが' + p + '%オフ（サイバーマンデーまで）'; },
+          code: 'コード', applied: 'チェックアウトで自動適用', left: function (t) { return '終了まで ' + t; }, off: function (p) { return p + '%オフ'; } },
+    zh: { bar: function (p) { return '<b>黑色星期五：</b>No Mouse Mode 全部许可证 ' + p + '% 折扣，截至网络星期一。'; },
+          code: '优惠码', applied: '结账时自动生效', left: function (t) { return '剩余 ' + t; }, off: function (p) { return '减 ' + p + '%'; } }
+  }[lang] || null;
+  if (!T) return;
+  var pct = Math.round(OFF * 100);
+  var sale = function (v) { return (Math.round(v * (1 - OFF) * 100 - 0.5) / 100).toFixed(2); };
+
+  var css = document.createElement('style');
+  css.textContent =
+    '.sale-bar{display:flex;align-items:center;justify-content:center;gap:14px;min-height:40px;padding:8px 16px;' +
+    'background:#1d1d1f;color:#fff;font-size:14px;line-height:1.3;text-align:center;position:relative;z-index:51}' +
+    ':root[data-theme="dark"] .sale-bar{background:#1c1c1e;border-bottom:1px solid rgba(255,255,255,.1)}' +
+    '@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sale-bar{background:#1c1c1e;border-bottom:1px solid rgba(255,255,255,.1)}}' +
+    '.sale-bar b{color:#ffcf3d;font-weight:650}.sale-bar .sale-code{padding:3px 8px;border-radius:6px;background:rgba(255,255,255,.12);' +
+    'font-family:var(--mono);font-size:12.5px;white-space:nowrap}.sale-bar .sale-left{color:#ffcf3d;white-space:nowrap}' +
+    '.price-was{display:flex;align-items:center;justify-content:center;gap:10px;margin:10px 0 -6px;color:var(--muted);font-size:17px}' +
+    '.price-off{display:inline-block;padding:3px 10px;border-radius:999px;background:#ffcf3d;color:#1d1d1f;font-size:13px;font-weight:650}' +
+    '.tier-price s{margin-left:6px;color:var(--muted);font-weight:400;font-size:.85em}' +
+    '@media (max-width:640px){.sale-bar{flex-wrap:wrap;gap:4px 10px;padding:7px 12px;font-size:13px}.sale-bar .sale-code{display:none}.nav .btn s{display:none}}';
+  document.head.appendChild(css);
+
+  var bar = document.createElement('div');
+  bar.className = 'sale-bar';
+  bar.setAttribute('role', 'region');
+  bar.setAttribute('aria-label', 'Black Friday');
+  bar.innerHTML = '<span>' + T.bar(pct) + '</span><span class="sale-code">' + T.code + ' ' + CODE + ' · ' + T.applied + '</span><span class="sale-left" hidden></span>';
+  document.body.insertBefore(bar, document.body.firstChild);
+
+  // The last 24 hours count down.
+  var left = bar.querySelector('.sale-left');
+  var tick = function () {
+    var ms = END - Date.now();
+    if (ms <= 0) { location.reload(); return; }
+    if (ms > 864e5 && !(local && /[?&]countdown\b/.test(location.search))) return;
+    var h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60, d = Math.floor(ms / 864e5);
+    left.textContent = T.left((d ? d + 'd ' : '') + h + 'h ' + (m < 10 ? '0' : '') + m + 'm');
+    left.hidden = false;
+  };
+  tick(); setInterval(tick, 30000);
+
+  // Prices: the price card, the tier list, buttons and the guides' buy boxes get
+  // the sale price, the old one struck through. Body copy (FAQ, guides) and the
+  // JSON-LD offers keep the regular prices on purpose.
+  var REG = /\$(19\.99|49\.99|79\.99|299\.99)/g;
+  var main = document.querySelector('.price-card .price');
+  if (main) {
+    var p = sale(19.99).split('.');
+    main.innerHTML = '<span class="cur">$</span>' + p[0] + '<span class="cents">.' + p[1] + '</span>';
+    var was = document.createElement('p');
+    was.className = 'price-was';
+    was.innerHTML = '<s>$19.99</s><span class="price-off">' + T.off(pct) + '</span>';
+    main.parentNode.insertBefore(was, main);
+  }
+  document.querySelectorAll('.tier-price b').forEach(function (b) {
+    var m = /\$(\d+\.\d\d)/.exec(b.textContent);
+    if (m) b.parentNode.innerHTML = '<b>$' + sale(+m[1]) + '</b><s>$' + m[1] + '</s>';
+  });
+  // Swap the amount in each text node, wherever it sits (next to an icon,
+  // inside a span). Collected once: a button inside a buy box is also inside the box.
+  var nodes = [];
+  document.querySelectorAll('.btn, .cta-banner').forEach(function (root) {
+    var walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT), n;
+    while ((n = walk.nextNode())) if (/\$(19|49|79|299)\.99/.test(n.nodeValue) && nodes.indexOf(n) < 0) nodes.push(n);
+  });
+  nodes.forEach(function (node) {
+    var span = document.createElement('span');
+    span.innerHTML = node.nodeValue.replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(REG, function (_, v) { return '$' + sale(+v) + ' <s style="opacity:.6">$' + v + '</s>'; });
+    node.parentNode.replaceChild(span, node);
+  });
+})();
