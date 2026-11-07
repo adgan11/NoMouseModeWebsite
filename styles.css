@@ -552,6 +552,15 @@ kbd {
 .footer { border-top: 1px solid var(--line); padding: 56px 0 44px; font-size: 14px; color: var(--muted); }
 .footer-grid { display: grid; grid-template-columns: 1.6fr repeat(5, 1fr); gap: 32px; }
 .footer-brand p { margin: 14px 0 0; max-width: 280px; line-height: 1.55; }
+.footer-badge { display: inline-block; margin-top: 18px; }
+.footer-badge img { display: block; height: 72px; width: auto; }
+.footer-badge .badge-dark { display: none; }
+:root[data-theme="dark"] .footer-badge .badge-light { display: none; }
+:root[data-theme="dark"] .footer-badge .badge-dark { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .footer-badge .badge-light { display: none; }
+  :root:not([data-theme="light"]) .footer-badge .badge-dark { display: block; }
+}
 .footer h4 { margin: 2px 0 12px; font-size: 13px; font-weight: 600; color: var(--text); }
 .footer ul { list-style: none; margin: 0; padding: 0; }
 .footer li { margin: 0 0 9px; }
