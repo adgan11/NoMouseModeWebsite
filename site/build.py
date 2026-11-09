@@ -32,11 +32,20 @@ SRC = WEB / "site" / "pages"
 APP_CHANGELOG = WEB.parent / "NoMouseMode" / "CHANGELOG.md"
 CHANGELOG = WEB / "site" / "CHANGELOG.md"
 SITE = "https://nomousemode.com"
-ASSET_V = "20261107"
+ASSET_V = "20261109"
 BUY = "/buy/1"
 EMAIL = "adgan.business@gmail.com"
 X_URL = "https://x.com/ahmedgagan11"
 OG_IMAGE = f"{SITE}/og-image.png"
+# The studio behind the app. Its Organization goes in every page's <head>; the app's node points to it.
+STUDIO = "https://snugbits.com"
+STUDIO_ORG = {
+    "@context": "https://schema.org",
+    "@graph": [{
+        "@type": "Organization", "@id": f"{STUDIO}/#organization", "name": "Snugbits", "url": STUDIO,
+        "logo": f"{STUDIO}/icon.png", "email": "support@snugbits.com",
+    }],
+}
 
 # Footer columns: (heading, [(slug, label)]). Slugs without a source page are skipped.
 FOOTER = [
@@ -84,6 +93,7 @@ UI = {
         "product": ["Product", "Demo", "Features", "Keys", "Pricing", "FAQ", "Changelog", "Download"],
         "support": ["Help", "Support", "Email support", "Privacy policy", "Terms of use"],
         "made": "made by", "tagline": "Mac is a trademark of Apple Inc.",
+        "studio": ("Made by Snugbits.", "Small native Mac apps, crafted with care.", "More Mac apps from Snugbits →"),
         "headings": {}, "labels": {},
     },
     "ja": {
@@ -99,6 +109,7 @@ UI = {
         "product": ["製品", "デモ", "機能", "キー", "価格", "よくある質問", "更新履歴", "ダウンロード"],
         "support": ["ヘルプ", "サポート", "メールサポート", "プライバシーポリシー", "利用規約"],
         "made": "制作", "tagline": "MacはApple Inc.の商標です。",
+        "studio": ("Made by Snugbits.", "丁寧につくる、小さなネイティブ Mac アプリ。", "Snugbits のほかの Mac アプリ →"),
         "headings": {"Compare": "比較", "Coming from": "乗り換え", "Learn": "使い方"},
         "labels": {
             "homerow-alternatives": "Homerowの代替", "vimac-alternative": "Vimacの代替",
@@ -123,6 +134,7 @@ UI = {
         "product": ["产品", "演示", "功能", "按键", "价格", "常见问题", "更新日志", "下载"],
         "support": ["帮助", "支持", "邮件支持", "隐私政策", "使用条款"],
         "made": "开发者", "tagline": "Mac 是 Apple Inc. 的商标。",
+        "studio": ("Made by Snugbits.", "用心打造的小巧原生 Mac 应用。", "更多 Snugbits 出品的 Mac 应用 →"),
         "headings": {"Compare": "对比", "Coming from": "迁移", "Learn": "使用方法"},
         "labels": {
             "homerow-alternatives": "Homerow 替代品", "vimac-alternative": "Vimac 替代品",
@@ -256,14 +268,21 @@ def head_common(lang="en"):
     return f"""  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preload" href="/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/styles.css?v={ASSET_V}">"""
+  <link rel="stylesheet" href="/styles.css?v={ASSET_V}">
+  {studio_ld()}"""
+
+
+def studio_ld():
+    """The Snugbits Organization, one block per page (id'd so hand-written pages can be re-synced)."""
+    return ('<script type="application/ld+json" id="studio-org">\n'
+            + json.dumps(STUDIO_ORG, indent=2, ensure_ascii=False) + "\n  </script>")
 
 
 def footer_html(pages, lang="en", switch="", local=()):
     """Site footer. Translated pages get translated chrome; `local` slugs link to their translation."""
     ui = UI[lang]
     home = path_for("", lang)
-    pr, sp = ui["product"], ui["support"]
+    pr, sp, st = ui["product"], ui["support"], ui["studio"]
     cols = []
     for heading, items in FOOTER:
         lis = "".join(
@@ -311,8 +330,12 @@ def footer_html(pages, lang="en", switch="", local=()):
         </ul>
       </div>
     </div>
+    <div class="studio-card">
+      <a class="studio-sig" href="{STUDIO}"><img src="{STUDIO}/icon.png" alt="Snugbits" width="28" height="28" loading="lazy"><span><b>{st[0]}</b> {st[1]}</span></a>
+      <a class="studio-more" href="{STUDIO}/">{st[2]}</a>
+    </div>
     <div class="footer-base">
-      <p>&copy; 2026 No Mouse Mode &middot; {ui["made"]} <a href="{X_URL}">Ahmed Gagan</a> &middot; {ui["tagline"]}</p>{switch}
+      <p>&copy; 2026 Snugbits &middot; {ui["made"]} <a href="{X_URL}">Ahmed Gagan</a> &middot; {ui["tagline"]}</p>{switch}
     </div>
   </div>
 </footer>"""
@@ -773,6 +796,18 @@ def sync_footer(path, pages, lang="en", switch="", local=()):
         path.write_text(new)
 
 
+def sync_studio_ld(path):
+    """Add (or refresh) the Snugbits Organization block at the end of a hand-written page's <head>."""
+    t = path.read_text()
+    block = studio_ld()
+    if 'id="studio-org"' in t:
+        new = re.sub(r'<script type="application/ld\+json" id="studio-org">.*?</script>', lambda _: block, t, count=1, flags=re.S)
+    else:
+        new = t.replace("</head>", f"  {block}\n</head>", 1)
+    if new != t:
+        path.write_text(new)
+
+
 def sync_home_faq(path):
     """The homepage's FAQPage schema is rebuilt from its visible FAQ, so the two always match."""
     t = path.read_text()
@@ -918,12 +953,16 @@ def main():
     for name in ("support.html", "privacy.html", "terms.html", "404.html"):
         if (WEB / name).exists():
             sync_footer(WEB / name, pages)
+    for name in ("index.html", "support.html", "privacy.html", "terms.html", "404.html", "thanks.html"):
+        if (WEB / name).exists():
+            sync_studio_ld(WEB / name)
     for lang, d in LANGS.items():
         home = WEB / d / "index.html"
         if home.exists():
             local = [s for s, by in trans.items() if lang in by]
             sync_home_faq(home)
             sync_footer(home, pages, lang, lang_switch("", LANGS, lang), local)
+            sync_studio_ld(home)
     print(f"built {len(pages)} pages + {sum(len(by) for by in trans.values())} translations")
 
 
