@@ -32,7 +32,7 @@ SRC = WEB / "site" / "pages"
 APP_CHANGELOG = WEB.parent / "NoMouseMode" / "CHANGELOG.md"
 CHANGELOG = WEB / "site" / "CHANGELOG.md"
 SITE = "https://nomousemode.com"
-ASSET_V = "20261109"
+ASSET_V = "20261110"
 BUY = "/buy/1"
 EMAIL = "adgan.business@gmail.com"
 X_URL = "https://x.com/ahmedgagan11"
@@ -301,10 +301,15 @@ def footer_html(pages, lang="en", switch="", local=()):
       <div class="footer-brand">
         <a class="brand" href="{home}"><img src="/icon-sm.png" alt="" width="24" height="24"><span>No Mouse Mode</span></a>
         <p>{ui["blurb"]}</p>
-        <a class="footer-badge" href="https://macbase.app/apps/no-mouse-mode?ref=badge" target="_blank" rel="noopener">
-          <img class="badge-light" src="https://macbase.app/badge/featured-on-macbase.svg" alt="No Mouse Mode is featured on MacBase" width="225" height="72" loading="lazy">
-          <img class="badge-dark" src="https://macbase.app/badge/featured-on-macbase-dark.svg" alt="No Mouse Mode is featured on MacBase" width="225" height="72" loading="lazy">
-        </a>
+        <div class="footer-badges">
+          <a class="footer-badge" href="https://macbase.app/apps/no-mouse-mode?ref=badge" target="_blank" rel="noopener">
+            <img class="badge-light" src="https://macbase.app/badge/featured-on-macbase.svg" alt="No Mouse Mode is featured on MacBase" width="225" height="72" loading="lazy">
+            <img class="badge-dark" src="https://macbase.app/badge/featured-on-macbase-dark.svg" alt="No Mouse Mode is featured on MacBase" width="225" height="72" loading="lazy">
+          </a>
+          <a class="footer-badge" href="https://www.trymacapps.com" target="_blank" rel="noopener">
+            <img class="badge-invert" src="https://www.trymacapps.com/badge.png" alt="Featured on TryMacApps" width="200" height="67" loading="lazy">
+          </a>
+        </div>
       </div>
       <div>
         <h4>{pr[0]}</h4>

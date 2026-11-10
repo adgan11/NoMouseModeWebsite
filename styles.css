@@ -555,8 +555,12 @@ kbd {
 .footer { border-top: 1px solid var(--line); padding: 56px 0 44px; font-size: 14px; color: var(--muted); }
 .footer-grid { display: grid; grid-template-columns: 1.6fr repeat(5, 1fr); gap: 32px; }
 .footer-brand p { margin: 14px 0 0; max-width: 280px; line-height: 1.55; }
-.footer-badge { display: inline-block; margin-top: 18px; }
+.footer-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 18px; margin-top: 18px; }
+.footer-badge { display: inline-block; }
 .footer-badge img { display: block; height: 72px; width: auto; }
+.footer-badge .badge-invert { height: 60px; }
+:root[data-theme="dark"] .footer-badge .badge-invert { filter: invert(1); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .footer-badge .badge-invert { filter: invert(1); } }
 .footer-badge .badge-dark { display: none; }
 :root[data-theme="dark"] .footer-badge .badge-light { display: none; }
 :root[data-theme="dark"] .footer-badge .badge-dark { display: block; }
