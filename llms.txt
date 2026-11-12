@@ -16,7 +16,7 @@ No Mouse Mode is a macOS menu bar app that turns the keyboard into a mouse. Clic
 ## Key Information
 
 - **Product Name**: No Mouse Mode
-- **Version**: 2.0.0
+- **Version**: 2.0.1
 - **Category**: macOS Utility / Accessibility App
 - **Platform**: macOS 14.0 (Sonoma) or later, Apple Silicon and Intel
 - **Price**: one-time purchase (no subscription), free updates. $19.99 for 1 Mac, $49.99 for 3 Macs, $79.99 for 5 Macs, $299.99 for 20 Macs
@@ -78,7 +78,7 @@ Every key and shortcut is remappable. Shortcuts that use Command, Control or Opt
 8. **Saved spots, jump back and display jumps**
 9. **Stays out of the way**: turns itself off in apps you list and when you click into a text box
 10. **Easy to learn**: guided first-run setup, a Practice window with nine hands-on lessons, and H shows every key
-11. **Hold-to-use (optional)**, label colors, launch at login, automatic updates
+11. **Hold-to-use (optional)**, label colors and sizes, launch at login, automatic updates
 12. **Private**: keystrokes are never stored or sent. The app only goes online to activate/re-check the license and to check for updates
 
 ## Common Questions

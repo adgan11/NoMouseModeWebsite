@@ -2,6 +2,10 @@
 
 Release notes for every version of No Mouse Mode, newest first. HTML version: https://nomousemode.com/changelog
 
+## 2.0.1 (2026-11-12)
+
+- Label size: make click labels and scroll-area numbers bigger or smaller in Settings → Clicking (Small, Default, Large or Extra Large), so they're easy to read on a laptop screen.
+
 ## 2.0.0 (2026-10-22)
 
 - Click labels, anywhere: press ⇧⌘Space in any app (No Mouse Mode on or off) and type the letters on any button, link, tab, menu, menu bar item or Dock icon. Hold ⇧ to right-click, ⌘ to ⌘-click, ⌥ to double-click or ⌃ to just move there. Tab keeps the labels open for several clicks. Labels for a window stay the same each time.

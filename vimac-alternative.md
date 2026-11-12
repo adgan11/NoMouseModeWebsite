@@ -38,7 +38,7 @@ As of October 2026. "Not listed" means the app's own site or README doesn't ment
 | App | Like hint mode | Like scroll mode | Price | Maintained? |
 |---|---|---|---|---|
 | Homerow | Labels, plus search | Scroll mode | $49.99 once, free to try | Yes, 1.5.3 (March 2026) |
-| **No Mouse Mode** | Click labels, plus type to click | Scroll areas, J/K to scroll | $19.99 once (1 Mac), no trial | Yes, 2.0.0 |
+| **No Mouse Mode** | Click labels, plus type to click | Scroll areas, J/K to scroll | $19.99 once (1 Mac), no trial | Yes, 2.0.1 |
 | Shortcat | Type to search; labels after 2 seconds | Not listed | Free download (no price on site) | Last updated July 2025 (beta) |
 | Scoot | Element mode in the focused window | Can scroll | Free, open source | Yes, v1.3 (March 2026) |
 | Wooshy | Type to search and click | Not listed | Free with naps; $3.88/mo or $46.28/yr | Yes |

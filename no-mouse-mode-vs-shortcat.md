@@ -62,7 +62,7 @@ It's easy to learn: setup is guided, a Practice window has nine hands-on lessons
 | Window and menu search, emoji | Yes | No (labels cover the menu bar and Dock) |
 | Apps without accessibility info | "Effectiveness may vary" | Optional on-device text recognition; grid and W A S D work everywhere |
 | macOS | 13+, Apple silicon and Intel | 14 Sonoma or later, Apple silicon and Intel |
-| Latest release | v0.12.2 beta, July 2025 | 2.0.0 |
+| Latest release | v0.12.2 beta, July 2025 | 2.0.1 |
 | Price (as of October 2026) | Free download; no price on its site | $19.99 one time for 1 Mac; no free trial |
 
 ## Who should pick which

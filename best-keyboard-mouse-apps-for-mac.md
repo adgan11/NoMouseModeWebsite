@@ -24,7 +24,7 @@ Labels and search depend on apps describing their buttons to macOS through acces
 
 | App | Price (as of Oct 2026) | Approach | Moves pointer | Grid | Maintained | macOS |
 |---|---|---|---|---|---|---|
-| No Mouse Mode | $19.99 one time (1 Mac); no trial | Labels, type to click, scroll areas | Yes, W A S D | Yes, 3×3 zooming | Yes, 2.0.0 | 14+ |
+| No Mouse Mode | $19.99 one time (1 Mac); no trial | Labels, type to click, scroll areas | Yes, W A S D | Yes, 3×3 zooming | Yes, 2.0.1 | 14+ |
 | Homerow | $49.99 one time; free to try with a reminder every 50 activations | Labels, scroll, search | Not shown on its site | Not shown on its site | Yes, 1.5.3 (Mar 2026) | 13+ |
 | Shortcat | Free download; no price on its site | Search to click, labels | Not listed | Not listed | Last update Jul 2025 (v0.12.2 beta) | 13+ |
 | Wooshy | Free with "naps", or $3.88/mo / $46.28/yr | Search to click (incl. Dock, menu bar) | No mode documented | Not documented | Yes | 14.6+ (older builds for Ventura, Monterey) |

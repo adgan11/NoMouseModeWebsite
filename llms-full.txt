@@ -244,7 +244,7 @@ Labels and search depend on apps describing their buttons to macOS through acces
 
 | App | Price (as of Oct 2026) | Approach | Moves pointer | Grid | Maintained | macOS |
 |---|---|---|---|---|---|---|
-| No Mouse Mode | $19.99 one time (1 Mac); no trial | Labels, type to click, scroll areas | Yes, W A S D | Yes, 3×3 zooming | Yes, 2.0.0 | 14+ |
+| No Mouse Mode | $19.99 one time (1 Mac); no trial | Labels, type to click, scroll areas | Yes, W A S D | Yes, 3×3 zooming | Yes, 2.0.1 | 14+ |
 | Homerow | $49.99 one time; free to try with a reminder every 50 activations | Labels, scroll, search | Not shown on its site | Not shown on its site | Yes, 1.5.3 (Mar 2026) | 13+ |
 | Shortcat | Free download; no price on its site | Search to click, labels | Not listed | Not listed | Last update Jul 2025 (v0.12.2 beta) | 13+ |
 | Wooshy | Free with "naps", or $3.88/mo / $46.28/yr | Search to click (incl. Dock, menu bar) | No mode documented | Not documented | Yes | 14.6+ (older builds for Ventura, Monterey) |
@@ -527,7 +527,7 @@ Prices and versions as of October 2026.
 
 | App | Price | Platform | Maintained? | Approach |
 |---|---|---|---|---|
-| **No Mouse Mode** | $19.99 once (1 Mac) | macOS 14+, Apple silicon and Intel | Yes, version 2.0.0 | Labels, type to click, WASD pointer, jump grid |
+| **No Mouse Mode** | $19.99 once (1 Mac) | macOS 14+, Apple silicon and Intel | Yes, version 2.0.1 | Labels, type to click, WASD pointer, jump grid |
 | Shortcat | Free download (no price on site) | macOS 13+ | Last updated July 2025 (0.x beta) | Type to search, then labels |
 | Wooshy | Free with naps; $3.88/mo or $46.28/yr | macOS 14.6+ (older builds offered) | Yes | Type to search and click |
 | Scoot | Free, open source | macOS (README: 11 and 12) | Yes, v1.3 (March 2026) | Labels, grid, freestyle pointer |
@@ -982,7 +982,7 @@ Checked against each tool's own docs in October 2026:
 | Open it | E while No Mouse Mode is on | ⌥⌘G (A-M-g) | "Show grid" | Accessibility setting |
 | Click | Space click, Return right-click | m left, , middle, . right | By voice | I click (no right-click key) |
 | Works in any app | Yes | Yes | Yes | Yes |
-| Maintained | Yes (2.0.0) | Not updated since 2023 | Built into macOS | Built into macOS |
+| Maintained | Yes (2.0.1) | Not updated since 2023 | Built into macOS | Built into macOS |
 | Price | $19.99 one time, 1 Mac | Free, MIT | Free | Free |
 
 #### No Mouse Mode's jump grid
@@ -1666,7 +1666,7 @@ It's easy to learn: setup is guided, a Practice window has nine hands-on lessons
 | Window and menu search, emoji | Yes | No (labels cover the menu bar and Dock) |
 | Apps without accessibility info | "Effectiveness may vary" | Optional on-device text recognition; grid and W A S D work everywhere |
 | macOS | 13+, Apple silicon and Intel | 14 Sonoma or later, Apple silicon and Intel |
-| Latest release | v0.12.2 beta, July 2025 | 2.0.0 |
+| Latest release | v0.12.2 beta, July 2025 | 2.0.1 |
 | Price (as of October 2026) | Free download; no price on its site | $19.99 one time for 1 Mac; no free trial |
 
 #### Who should pick which
@@ -1894,7 +1894,7 @@ As of October 2026. "Not listed" means the app's own site or README doesn't ment
 | App | Like hint mode | Like scroll mode | Price | Maintained? |
 |---|---|---|---|---|
 | Homerow | Labels, plus search | Scroll mode | $49.99 once, free to try | Yes, 1.5.3 (March 2026) |
-| **No Mouse Mode** | Click labels, plus type to click | Scroll areas, J/K to scroll | $19.99 once (1 Mac), no trial | Yes, 2.0.0 |
+| **No Mouse Mode** | Click labels, plus type to click | Scroll areas, J/K to scroll | $19.99 once (1 Mac), no trial | Yes, 2.0.1 |
 | Shortcat | Type to search; labels after 2 seconds | Not listed | Free download (no price on site) | Last updated July 2025 (beta) |
 | Scoot | Element mode in the focused window | Can scroll | Free, open source | Yes, v1.3 (March 2026) |
 | Wooshy | Type to search and click | Not listed | Free with naps; $3.88/mo or $46.28/yr | Yes |

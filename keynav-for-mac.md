@@ -32,7 +32,7 @@ Checked against each tool's own docs in October 2026:
 | Open it | E while No Mouse Mode is on | ⌥⌘G (A-M-g) | "Show grid" | Accessibility setting |
 | Click | Space click, Return right-click | m left, , middle, . right | By voice | I click (no right-click key) |
 | Works in any app | Yes | Yes | Yes | Yes |
-| Maintained | Yes (2.0.0) | Not updated since 2023 | Built into macOS | Built into macOS |
+| Maintained | Yes (2.0.1) | Not updated since 2023 | Built into macOS | Built into macOS |
 | Price | $19.99 one time, 1 Mac | Free, MIT | Free | Free |
 
 ## No Mouse Mode's jump grid

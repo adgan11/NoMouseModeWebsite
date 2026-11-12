@@ -3,6 +3,23 @@
     <channel>
         <title>NoMouseMode</title>
         <item>
+            <title>2.0.1</title>
+            <pubDate>Thu, 12 Nov 2026 21:30:54 +0530</pubDate>
+            <link>https://nomousemode.com</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>No Mouse Mode 2.0.1</h2>
+<ul>
+<li>Label size: make click labels and scroll-area numbers bigger or smaller in Settings → Clicking (Small, Default, Large or Extra Large), so they&#x27;re easy to read on a laptop screen.</li>
+</ul>
+]]></description>
+            <enclosure url="https://nomousemode.com/downloads/NoMouseMode-2.0.1.dmg" length="3178271" type="application/octet-stream" sparkle:edSignature="ldIXEAWQ8LU1/fzj59W/At4N5G717pYTvWqb3e3uWcG5tFw1Bd/3hdTLdXb3h3ffrSSGZTgIWXitMMgxRImRCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://nomousemode.com/downloads/NoMouseMode6-5.delta" sparkle:deltaFrom="5" length="292590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cO5fJCoEaBOjc4E5dJ3F4RnlhSLW0UTVxR7tpO46NDBgtCxpKXq/S5IUwxAMZysiDBoBeupPcRB+V5hXNpGjAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.0</title>
             <pubDate>Wed, 21 Oct 2026 15:29:25 +0530</pubDate>
             <link>https://nomousemode.com</link>

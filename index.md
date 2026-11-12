@@ -10,6 +10,7 @@ No Mouse Mode lets you use your Mac without reaching for the mouse or trackpad. 
 - **Click labels (⇧⌘Space):** works in any app, even with No Mouse Mode off. Every button, link, tab, menu, menu bar item and Dock icon gets a small label; type it and it's clicked. Hold ⇧ with the last letter to right-click, ⌘ to ⌘-click (new tab), ⌥ to double-click, ⌃ to just move the pointer there. Tab keeps the labels coming back for several clicks. Labels for a window stay the same each time.
 - **Type to click (⇧⌘/):** type part of a button's or text's name (case, spaces and accents ignored; initials work) and press Return.
 - **Labels in every app (optional):** for apps that don't describe their buttons to macOS, No Mouse Mode can read on-screen text with Apple's on-device text recognition. Needs Screen Recording; nothing is saved or sent.
+- **Labels your way:** yellow, black or white, in four sizes from Small to Extra Large (Settings → Clicking), so they're easy to read on a laptop screen.
 
 ## Steer the pointer (⇧⌘M turns No Mouse Mode on)
 

@@ -19,7 +19,7 @@ Prices and versions as of October 2026.
 
 | App | Price | Platform | Maintained? | Approach |
 |---|---|---|---|---|
-| **No Mouse Mode** | $19.99 once (1 Mac) | macOS 14+, Apple silicon and Intel | Yes, version 2.0.0 | Labels, type to click, WASD pointer, jump grid |
+| **No Mouse Mode** | $19.99 once (1 Mac) | macOS 14+, Apple silicon and Intel | Yes, version 2.0.1 | Labels, type to click, WASD pointer, jump grid |
 | Shortcat | Free download (no price on site) | macOS 13+ | Last updated July 2025 (0.x beta) | Type to search, then labels |
 | Wooshy | Free with naps; $3.88/mo or $46.28/yr | macOS 14.6+ (older builds offered) | Yes | Type to search and click |
 | Scoot | Free, open source | macOS (README: 11 and 12) | Yes, v1.3 (March 2026) | Labels, grid, freestyle pointer |
